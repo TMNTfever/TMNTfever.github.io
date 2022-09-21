@@ -1,59 +1,68 @@
-=#wrapper {
-  overflow-x: hidden;
+/*---------------------------
+--- Menu Buttons
+---------------------------*/
+
+.menu-button {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  z-index: 9;
+  color: #FFCC66;
+  border: 1px solid #FFFFFF;
 }
 
-#sidebar-wrapper {
+.menu-button:hover {
+  background-color: #FFCC66;
+}
+
+.sidebar .closebtn {
+  font-size: 36px;
+  text-align: center;
+}
+
+/*---------------------------
+--- Sidebar 
+---------------------------*/
+
+.sidebar {
   min-height: 100vh;
-  margin-left: -11rem;
+  overflow-x: hidden;
+  width: 0;
+  position: fixed;
 }
 
-#sidebar-wrapper .sidebar-heading {
+.sidebar .sidebar-heading {
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-#sidebar-wrapper .list-group {
-  width: 11rem;
-  font-size: 1.3rem
-}
-
-#pg {
-  min-width: 650px;
-}
-
-.pg {
-  display: none;
-}
-
-#wrapper.toggled #sidebar-wrapper {
-  margin-left: 0;
-}
-
-@media (min-width: 768px) {
-  #sidebar-wrapper {
-    margin-left: 0;
-  }
-
-  #page-content-wrapper {
-    min-width: 0;
-    width: 100%;
-  }
-
-  #wrapper.toggled #sidebar-wrapper {
-    margin-left: -11rem;
-  }
-}
-
 .sidebar-logo img {
   width: 140px;
-  height: 140px
+  height: 140px;
+}
+
+.sidebar .list-group {
+  width: 11rem;
+  font-size: 1.3rem
 }
 
 .list-group img {
   width: 25px;
   height: 25px;
+}
+
+/*---------------------------
+--- Body
+---------------------------*/
+#wrapper {
+  transition: margin-left .5s;
+}
+
+.pg {
+  width: 100%;
+  display: none;
 }
 
 .pg header {
@@ -69,24 +78,37 @@
   color: #FFCC66;
 }
 
-#pg4 a {
-  color: #FFFFFF;
-  font-size: 1.2rem;
-  text-decoration: none;
-}
+/*---------------------------
+--- Pg.0 - Home
+---------------------------*/
 
-#pg4 p {
-  text-align: center;
-}
-
-.headshot {
+#pg0 {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  height: 25%;
-  border: 2px solid #FFFFFF;
 }
+
+/*---------------------------
+--- Pg.1 - Ukulele
+---------------------------*/
+
+#pg1 table {
+  width: 100%;
+}
+
+table.sortable td {
+  border: none;
+}
+
+table.sortable thead tr {
+  background: #121820;
+}
+
+/*---------------------------
+--- Pg.2 - Fightstick
+---------------------------*/
+
+/*---------------------------
+--- Pg.3 - Resume
+---------------------------*/
 
 .flex-container {
   display: flex;
@@ -99,11 +121,59 @@
   margin: 5px;
 }
 
-table.sortable td {
-  border: none;
+/*---------------------------
+--- Pg.4 - Contact
+---------------------------*/
+
+#pg {
+  width: 100%;
 }
 
-table.sortable thead tr {
-  background: #121820;
+#pg4 a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
+#pg4 p {
+  text-align: center;
+}
+
+.headshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 25%;
+  max-width: 25%;
+  border: 2px solid #FFFFFF;
+}
+
+/*---------------------------
+--- Pg.5 - Sheet
+---------------------------*/
+
+#pg5 p {
+  font-family: Courier, sans-serif;
+}
+
+/*---------------------------
+--- Resolution Options
+---------------------------*/
+
+@media (min-width: 450px) {
+  #sidebar {
+    margin-left: 0;
+  }
+
+  #page-content {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar {
+    margin-left: -11rem;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  #sidebar {display: none;}
+}
