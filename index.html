@@ -16,6 +16,7 @@
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="src/papaparse/papaparse.min.js"></script>
   <script src="src/sorttable.js"></script>
+  <script src="src/d3.v3.min.js"></script>
 </head>
 
 <!-- Sidebar -->
@@ -30,7 +31,7 @@
     <a href="#" onclick="return toggle('pg2')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-fightstick.png" alt="Fightstick"> Fightstick</a>
     <a href="#" onclick="return toggle('pg3')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-resume.png" alt="Resume"> Resume</a>
     <a href="#" onclick="return toggle('pg4')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-contact.png" alt="Contact"> Contact</a>
-    <a href="javascript:void(0)" onclick="closeNav()" class="closebtn list-group-item list-group-item-action bg-dark text-light">&times;</a>
+    <a href="javascript:void(0)" onclick="closeNav()" class="closebtn list-group-item list-group-item-action bg-dark text-light">&#10006;</a>
   </div>
 </div>
 <!-- /#sidebar-wrapper -->
@@ -41,7 +42,7 @@
 <!-- Wrapper -->
 <div id="wrapper" class="d-inline-flex">
   <div id="menu-button" class="menu-button">
-    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    <button class="btn btn-outline-light" onclick="openNav()">&#9776;</button>
   </div>
 
   <!-- Page Content -->
@@ -49,12 +50,12 @@
     <!-- Home Page -->
     <div id="pg0" class="pg">
       <header>
-        <h1 class="mt-2">TMNTfever &#187; HOME</h1>
+        <h1 class="mt-2">HOME</h1>
       </header>
       <p>Welcome to my website. I wasn't satisfied with what other websites were providing me in terms of storing ukulele chord sheets, so I wanted to make a space where I could customize the functionality. Enjoy and please credit me if you use my arrangements.</p>
-      <iframe width="100%" height="38" style="border: none;" src="https://free.timeanddate.com/clock/i8hv56om/n179/fn8/fs16/fcffdf00/tc343a40/pct/ftb/bas2/bacfff/pa8/tt0/th1/ta1"></iframe><br>
-      <iframe width="100%" height="400" style="border: none;" src="https://embed.windy.com/embed2.html?lat=28.206&lon=-80.687&detailLat=28.206&detailLon=-80.687&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"></iframe><br>
-      <iframe width="100%" height="400" style="border: none;" src="https://www.youtube.com/embed/videoseries?list=PLDHLbb1WuxUBf4p4hi6smedrilPEYRcMg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="100%" height="38" style="border: none; align: center;" src="https://free.timeanddate.com/clock/i8iiy5c3/n179/fs16/fcfc6/tc343a40/pct/ftb/bas2/bacfff/pa8/tt0/tw1/tm1/th1/ta1/tb1"></iframe>
+      <iframe width="600" height="450" class="responsive-iframe" src="https://embed.windy.com/embed2.html?lat=28.206&lon=-80.687&detailLat=28.206&detailLon=-80.687&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"></iframe><br>
+      <iframe width="600" height="450" class="responsive-iframe" src="https://www.youtube.com/embed/videoseries?list=PLDHLbb1WuxUBf4p4hi6smedrilPEYRcMg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     
     <!-- Ukulele Page -->
@@ -87,9 +88,9 @@
       
       <h3>Street Fighter 15th Anniversary - Pi Arcade</h3>
       <img width="100%" src="assets/fightstick-sf15.jpg" alt="Street Fighter 15th Anniversary">
-      <p>A much more involved project. This is the first fightstick that I bought with my own money. The original PCB was compatible with only PS2 and Xbox, so I replaced it with a Zero Delay PCB. The parts were all soldered and glued in, so I had to use some elbow greese to remove them. I kept the original art (which is beautiful), but it was such a pain removing it to swap out the lever. I'm just lucky the art wasn't damaged since this was fighstick was stored in a hot garage for over a decade.</p>
+      <p>A much more involved project. This is the first fightstick that I bought with my own money. The original PCB was compatible with only PS2 and Xbox, so I replaced it with a Zero Delay PCB. The parts were all soldered and glued in, so I had to use some elbow greese to remove them. I kept the original art (which is beautiful), but it was such a pain removing it to swap out the lever. I'm just lucky the art wasn't damaged since this fightstick was stored in a hot garage for over a decade.</p>
       <p>The buttons were worn out and getting stuck, and the stick springs had become too loose. I replaced all of the buttons and lever with Suzo-Happ parts, purchased through <a href="https://focusattack.com">Focus Attack</a>. And since I gutted the original PS2/Xbox components, I repurposed the Xbox memory card slot to house a USB hub. This hub plugs into a battery-powered Raspberry Pi 3B, which the fightstick is also connected to.</p>
-      <p>There are two outputs from the chastise, one is an HDMI and the other is USB. Plugging in the USB to PC, you can use the fightstick to play games normally. Plugging in the HDMI to a TV and turning on the Raspberry Pi will turn the box into a portable arcade machine, with up to 4 players. And one last QOL improvement was adding some soft-grip material to the bottom and removing the rubber feet. Now it's much more comfortable to use on my lap.</p>
+      <p>There are two outputs from the chastise, one is an HDMI and the other is USB. Plugging in the USB to PC, you can use the fightstick to play games normally. Plugging in the HDMI to a TV and turning on the Raspberry Pi will turn the box into a portable arcade machine, with up to 4 players. And one last QOL improvement was adding some soft-grip material to the bottom and removing the rubber feet. Now it's much more comfortable to use on my lap, and lower-profiled on tabletop.</p>
       <br>
     
       <h3>Etokki Omni - Black and Gold</h3>
@@ -100,25 +101,97 @@
     <!-- Resume Page -->
     <div id="pg3" class="pg">
       <header>
-        <h1 class="mt-2">JULIAN-CHRIS D. REYES</h1>
+        <h1 class="mt-2">RESUME</h1>
       </header>
       
-      <div class="flex-container">
-        <div class="flex-item">Item 1</div>
-        <div class="flex-item">Item 2</div>
-        <div class="flex-item">Item 3</div>
-        <div class="flex-item">Item 4</div>
-      </div>
+      <br><img class="headshot" src="assets/headshot.jpg" alt="JC Reyes"><br>
+      <h3>Julian-Chris Reyes</h3>
+      <p>I am a Sr. Principal Software Quality Engineer looking to support cross-discipline in the Aeronautical industry. As a programmer, I bring a deep level of understanding software development. I also bring automation expertise which has improved the productivity, accuracy, and consistency of several quality organizations across multiple flight programs.</p>
       
-      <p>I am a Sr. Principal Software Quality Engineer looking to support cross-discipline in the Aeronautical industry. As a programmer, I bring a deep level of understanding software development. I also bring automation expertise which has improved the productivity and consistency of several quality organizations across multiple flight programs.</p>
       <h3>Work Experience</h3>
-      <p></p>
+      <p>
+        <b>Northrop Grumman - Aeronautical Systems</b><br>
+        Title: Sr. Principal Software Quality Assurance Engineer<br>
+        Active: October 2014 - Present<br>
+        Location: Melbourne, FL<br>
+        Manager: Travis Yarbrough, (321)306-8723, travis.yarbrough@ngc.com<br><br>
+        <b>Responsibilities:</b>
+        <ul>
+          <li>Conduct peer reviews on technical documents, software and test designs, source code, requirements and software diagrams.</li>
+          <ul>
+            <li>Act as Reviewer or Moderator in Crucible/Fisheye code peer reviews</li>
+            <li>Review Software Test Designs on Confluence.</li>
+            <li>Track Jira story closure for every sprint.</li>
+            <li>Ensure full traceability between Epics, Sprints, Stories, Designs, Technical Reviews, and Requirements.</li>
+            <li>Develop/maintain tools that automate portions of the review processes for Version Description Documents (VDD), Verification Cross-Reference Matrix (VCRM), Software Requirement Specifications (SRS), and Software Test Plans/Procedures (STP).</li>
+          </ul>
+          <li>Conduct product reviews on contractual documentation and supplier deliverables</li>
+          <li>Conduct audits on internal program management, suppliers, and sub-contractors.</li>
+          <ul>
+            <li>Create audit checklists, organizing meetings, and tracking findings to closure.</li>
+          </ul>
+          <li>Validate formal test qualification for Integrated Functional Capability (IFC), Hardware Software Compatibility (HSC), and Requirements Verification Test (RVT).</li>
+          <ul>
+            <li>Develop/maintain tools and processes to efficiently test witness and log data.</li>
+            <li>Develop/maintain tool to automate test data auditing for certification.</li>
+            <li>Develop/maintain a scheduling tool that coordinates both SQA and test teams.</li>
+          </ul>
+          <li>Verify lab configuration for controlled test environments.</li>
+          <ul>
+            <li>Ensure Software Load ID and Checksums match IFC/HSC Configuration.</li>
+            <li>Ensure lab is equipped with approved hardware via the Configuration and Compatibility Document (CCD).</li>
+            <li>Develop/maintain tool to automate the verification of lab hardware.</li>
+            <li>Create processes and forms used to verify SW/HW configuration.</li>
+            <li>Validate software loads and hardware sanitization.</li>
+          </ul>
+          <li>Conduct Root-Cause Corrective Anaylsis (RCCA) for both internal and external Corrective Action Requests (CAR).</li>
+          <ul>
+            <li>Lead discussion and track RCCA artifacts on the Corrective Plan & Action Tracking System (CPATS).</li>
+            <li>Perform any CPATS role: Initiator, Acknowledger, or Performer.</li>
+            <li>Present Corrective Action (CA) status at Mission Assurance Review Board (MARB).</li>
+            <li>Interface with Defense Contractor Management Agency (DCMA) during the Verification of Corrective Action (VCA) process.</li>
+          </ul>
+          <li>Verify IFC milestone inputs and outputs. Milestone examples: IFC kickoff, Build Readiness Assessment (BRA), Test Readiness Review (TRR), delta Functional Capability Audit (dFCA), Post Test Review (PTR), and Certification.</li>
+          <li>Generate metrics, analyze trends, and present results at Preventative andCorrective Action Board (PCAB) meetings.</li>
+          <ul>
+            <li>Develop/maintain scripts to obtain metrics on test data, process and supplier audits, requirements verification, and software quality.</li>
+          </ul>
+          <li>Perform managerial tasks when an SQA Manager DOA is required.</li>
+          <li>Coordinate the Quality Symposium for the OKC site.</li>
+          <li>Perform tasks on multiple programs with no loss in work quality.</li>
+          <li>Maintain good rapport with coworkers, management, SPO, DCMA, and suppliers.</li>
+        </ul>
+      </p>
+      
       <h3>Education</h3>
-      <p></p>
+      <p>
+        <b>Bachelor of Computer Science</b><br>
+        College: Cal Poly University<br>
+        Location: Pomona, California<br>
+        Degree Obtained: March 2014<br>
+      </p>
+      
       <h3>Security Clearance</h3>
-      <p></p>
-      <h3>Technical Skills</h3>
-      <p></p>
+      <p>
+        DoD Top Secret (Feb 2019 - Present)<br>
+        DoD Secret (Apr 2015 - Present)<br>
+        B-2 Strike PAR<br>
+        B-21 Strike PART<br>
+      </p>
+      
+      <h3>Technical Proficiencies</h3>
+      <p>
+        Programming Languages:
+        <ul><li>C, C++, HTML/CSS, Java, JavaScript, PHP, Python, Regex, SQL, Shell, Visual Basic (VBA/VBS)</li></ul>
+        Frameworks, Libraries, and APIs:
+        <ul><li>Apache, BootStrap, Crafty, Crypto, Django, DOORS, Git, Google Test, Google Web Toolkit, Hadoop, Java Cryptology Architecture, JQuery, Junit, MangoDB, Pandas, Qt, Rest, Selenium, Swing, Unity</li></ul>
+        Operating Systems:
+        <ul><li>GNU/Linux, (CentOS, Fedora, Mint, Ubuntu), OSX, Raspbian, UNIX, Windows XP/7/8/10</li></ul>
+        Software Development Environments:
+        <ul><li>Aptana Studio, Atlassian Suite (Jira, Confluence, Fisheye, Crucible, Bamboo, Bitbucket, Tableu, Jazz) Eclipse, JGrasp,  Microsoft Visual Studio, Netbeans, Notepad++, Putty, PCSPim, QtSpim, SeleniumIDE, UNIX VIM, EMACS</li></ul>
+        Computer Science Concepts:
+        <ul><li>Object-oriented programming. Software design patterns. Quality assurance analysis. Agile development. Unix and cmd scripting. Unit and flow test design and scripting. Compiler development and analysis. Database development, query, and analysis. Algorithm design and optimization. Machine learning / artificial intelligence (AI). GUI and video game development.</li></ul>
+      </p>
     </div>
     
     <!-- Contact Page -->
@@ -127,14 +200,14 @@
         <h1 class="mt-2">CONTACT</h1>
       </header><br>
       
-      <img class="headshot" src="assets/headshot.jpg" alt="JC Reyes"><br>
+      <img class="contact-logo" src="assets/TMNTfever.png" alt="TMNTfever"><br>
       <p><img width=40 src="assets/contact-phone.png" alt="Phone Number"><a href="tel:7602173491"> (760) 217-3491</a></p>
       <p><img width=40 src="assets/contact-email.png" alt="Email Address"><a href="mailto:julianchris.reyes@gmail.com"> julianchris.reyes@gmail.com</a></p>
-      <p><img width=40 src="assets/contact-youtube.png" alt="YouTube"><a href="https://www.youtube.com/frostyminiwheats"> https://www.youtube.com/frostyminiwheats</a></p>
-      <p><img width=40 src="assets/contact-twitter.png" alt="Twitter"><a href="https://twitter.com/tmntfever"> https://www.twitter.com/TMNTfever</a></p>
-      <p><img width=40 src="assets/contact-facebook.png" alt="Facebook"><a href="https://www.facebook.com/julianchris.reyes/"> https://www.facebook.com/julianchris.reyes/</a></p>
-      <p><img width=40 src="assets/contact-reddit.webp" alt="YouTube"><a href="https://reddit.com/u/tmntfever"> https://www.reddit.com/u/tmntfever</a></p>
-      <p><img width=40 src="assets/contact-steam.png" alt="Steam"><a href="https://steamcommunity.com/id/tmntfever/"> https://steamcommunity.com/id/tmntfever/</a></p>
+      <p><img width=40 src="assets/contact-youtube.png" alt="YouTube"><a href="https://www.youtube.com/frostyminiwheats"> youtube.com/frostyminiwheats</a></p>
+      <p><img width=40 src="assets/contact-twitter.png" alt="Twitter"><a href="https://twitter.com/tmntfever"> twitter.com/TMNTfever</a></p>
+      <p><img width=40 src="assets/contact-facebook.png" alt="Facebook"><a href="https://www.facebook.com/julianchris.reyes/"> facebook.com/julianchris.reyes</a></p>
+      <p><img width=40 src="assets/contact-reddit.webp" alt="YouTube"><a href="https://reddit.com/u/tmntfever"> www.reddit.com/u/tmntfever</a></p>
+      <p><img width=40 src="assets/contact-steam.png" alt="Steam"><a href="https://steamcommunity.com/id/tmntfever/"> steamcommunity.com/id/tmntfever</a></p>
       <p><img width=40 src="assets/contact-discord.png" alt="Discord"><a href="#"> KaosMonkey#1365</a></p>
       <p><img width=40 src="assets/contact-bnet.png" alt="Battle.net"><a href="#"> JCR#1383</a></p>
     </div>
