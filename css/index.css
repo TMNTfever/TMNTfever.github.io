@@ -4,20 +4,14 @@
 
 .menu-button {
   position: absolute;
-  right: 1rem;
-  top: 1rem;
+  right: 0.8rem;
+  top: 0.8rem;
   z-index: 9;
-  color: #FFCC66;
-  border: 1px solid #FFFFFF;
-}
-
-.menu-button:hover {
-  background-color: #FFCC66;
 }
 
 .sidebar .closebtn {
-  font-size: 36px;
   text-align: center;
+  font-size: 1.3rem;
 }
 
 /*---------------------------
@@ -58,6 +52,7 @@
 ---------------------------*/
 #wrapper {
   transition: margin-left .5s;
+  min-width: 100%;
 }
 
 .pg {
@@ -82,8 +77,11 @@
 --- Pg.0 - Home
 ---------------------------*/
 
-#pg0 {
-  display: block;
+.responsive-iframe {
+  aspect-ratio: 4 / 3;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
 
 /*---------------------------
@@ -110,24 +108,24 @@ table.sortable thead tr {
 --- Pg.3 - Resume
 ---------------------------*/
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
+#pg3 {
+  display: block;
 }
-.flex-item {
-  flex: 1rem;
-  padding: 10px;
-  margin: 5px;
+
+.headshot {
+  display: block;
+  margin: auto;
+  border: 2px solid #FFFFFF;
+  max-width: 200px;
+}
+
+#pg3 h3 {
+  color: #FFCC66;
 }
 
 /*---------------------------
 --- Pg.4 - Contact
 ---------------------------*/
-
-#pg {
-  width: 100%;
-}
 
 #pg4 a {
   color: #FFFFFF;
@@ -138,13 +136,13 @@ table.sortable thead tr {
   text-align: center;
 }
 
-.headshot {
+.contact-logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  min-width: 25%;
-  max-width: 25%;
-  border: 2px solid #FFFFFF;
+  min-width: 10%;
+  max-width: 200px;
+  border: none;
 }
 
 /*---------------------------
