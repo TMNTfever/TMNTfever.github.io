@@ -10,13 +10,14 @@
 
   <title>TMNTfever</title>
 
+  <link rel="icon" href="assets/TMNTfever.png">
   <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
   <script src="src/jquery/jquery.min.js"></script>
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="src/papaparse/papaparse.min.js"></script>
-  <script src="src/sorttable.js"></script>
-  <script src="src/d3.v3.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
 </head>
 
 <!-- Sidebar -->
@@ -64,6 +65,26 @@
         <h1 class="mt-2">UKULELE</h1>
       </header>
       
+      <table id="table_id" class="display">
+        <thead>
+          <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Row 1 Data 1</td>
+            <td>Row 1 Data 2</td>
+          </tr>
+          <tr>
+            <td>Row 2 Data 1</td>
+            <td>Row 2 Data 2</td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <!--
       <table class="table table-dark table-striped table-hover sortable">
         <thead>
           <tr id="tableHeader">
@@ -71,7 +92,7 @@
         </thead>
         <tbody id="tableBody">
         </tbody>
-      </table>
+      </table> -->
     </div>
     
     <!-- Fightstick Page -->
@@ -106,7 +127,7 @@
       
       <br><img class="headshot" src="assets/headshot.jpg" alt="JC Reyes"><br>
       <h3>Julian-Chris Reyes</h3>
-      <p>I am a Sr. Principal Software Quality Engineer looking to support cross-discipline in the Aeronautical industry. As a programmer, I bring a deep level of understanding software development. I also bring automation expertise which has improved the productivity, accuracy, and consistency of several quality organizations across multiple flight programs.</p>
+      <p>I am a Sr. Principal Software Quality Engineer looking to support cross-discipline in the Aeronautical industry. As a programmer, I bring a deep level of understanding for software development. I also bring automation expertise which has improved the productivity, accuracy, and consistency of several quality organizations across multiple flight programs. And with a long Quality Assurance background, I understand the importance of following processes, and optimizing them as well.</p>
       
       <h3>Work Experience</h3>
       <p>
@@ -203,6 +224,7 @@
       <img class="contact-logo" src="assets/TMNTfever.png" alt="TMNTfever"><br>
       <p><img width=40 src="assets/contact-phone.png" alt="Phone Number"><a href="tel:7602173491"> (760) 217-3491</a></p>
       <p><img width=40 src="assets/contact-email.png" alt="Email Address"><a href="mailto:julianchris.reyes@gmail.com"> julianchris.reyes@gmail.com</a></p>
+      <p><img width=40 src="assets/contact-github.png" alt="Github"><a href="https://github.com/TMNTfever"> github.com/TMNTfever</a></p>
       <p><img width=40 src="assets/contact-youtube.png" alt="YouTube"><a href="https://www.youtube.com/frostyminiwheats"> youtube.com/frostyminiwheats</a></p>
       <p><img width=40 src="assets/contact-twitter.png" alt="Twitter"><a href="https://twitter.com/tmntfever"> twitter.com/TMNTfever</a></p>
       <p><img width=40 src="assets/contact-facebook.png" alt="Facebook"><a href="https://www.facebook.com/julianchris.reyes/"> facebook.com/julianchris.reyes</a></p>
@@ -238,29 +260,6 @@ function toggle(IDS) {
     return false;
 }
 
-function createDataElement(htmlTag, innerText, idParent) {
-  let node = document.createElement(htmlTag);
-  let textnode = document.createTextNode(innerText);
-  node.appendChild(textnode);
-  document.getElementById(idParent).appendChild(node);
-}
-
-function createHeaderElement(columnText) {
-  createDataElement("th", columnText, "tableHeader");
-}
-
-function createCellData(rowIndex, dataIndex, cellText) {
-  if(dataIndex === 0) {
-    let node = document.createElement("tr");
-    node.setAttribute("id", "row" + rowIndex);
-    document.getElementById("tableBody").appendChild(node);
-
-    createDataElement("td", cellText, "row" + rowIndex);
-  } else {
-    createDataElement("td", cellText, "row" + rowIndex);
-  }
-}
-
 function openNav() {
   document.getElementById("sidebar").style.width = "11rem";
   document.getElementById("wrapper").style.marginLeft = "11rem";
@@ -271,24 +270,9 @@ function closeNav() {
   document.getElementById("wrapper").style.marginLeft = "0";
 }
 
-var csvString = "Restaurant, Cheese, Mushrooms, Size by Inch, Extra Spicy, Price (€)\nA, yes, yes, 12, no, 6\nB, no, yes, 15, yes, 8\nC, no, no, 9, no, 5\nD, yes, no, 12, yes, 7\nE, yes, no, 12, yes, 7.5\nF, no, yes, 15, yes, 9";
-
-Papa.parse(csvString, {
-  complete: function(results) {
-    for(let i = 0; i < results.data.length; i++) {
-      if(i === 0) {
-        for(let j = 0; j < results.data[i].length; j++) {
-          createHeaderElement(results.data[i][j]);
-        }
-      }
-      if(i > 0) {
-        for(let j = 0; j < results.data[i].length; j++) {
-          createCellData(i, j, results.data[i][j]);
-        }
-      }
-    }
-  }
-});
+$(document).ready( function () {
+    $('#table_id').DataTable();
+} );
 
 </script>
 </body>
