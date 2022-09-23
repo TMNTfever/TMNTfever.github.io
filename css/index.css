@@ -80,6 +80,8 @@
 
 #pgX {
   display: block;
+  margin: auto;
+  max-width: 350px;
 }
 
 /*---------------------------
