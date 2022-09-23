@@ -80,6 +80,10 @@
 
 #pgX {
   display: block;
+}
+
+.coa {
+  display: block;
   margin: auto;
   max-width: 350px;
 }
