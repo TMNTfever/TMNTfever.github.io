@@ -80,6 +80,7 @@
 
 #pgX {
   display: flex;
+  height: 100vh;
 }
 
 .coa {
