@@ -83,8 +83,7 @@
 }
 
 .coa {
-  display: block;
-  position: absolute;
+  position: relative;
   margin: auto;
   max-width: 350px;
   top: 0;
