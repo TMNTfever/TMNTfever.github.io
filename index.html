@@ -7,17 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="A home for what I love.">
   <meta name="author" content="J.C. Reyes">
-
   <title>TMNTfever</title>
-
   <link rel="icon" href="assets/TMNTfever.png">
   <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/index.css" rel="stylesheet">
+  <link href="index.css" rel="stylesheet">
   <script src="src/jquery/jquery.min.js"></script>
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
-  
-  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
-  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
 </head>
 
 <!-- Sidebar -->
@@ -32,7 +27,7 @@
     <a href="#" onclick="return toggle('pg2')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-fightstick.png" alt="Fightstick"> Fightstick</a>
     <a href="#" onclick="return toggle('pg3')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-resume.png" alt="Resume"> Resume</a>
     <a href="#" onclick="return toggle('pg4')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-contact.png" alt="Contact"> Contact</a>
-    <a href="javascript:void(0)" onclick="closeNav()" class="closebtn list-group-item list-group-item-action bg-dark text-light"><b>X</b></a>
+    <a href="javascript:void(0)" onclick="closeNav()" class="closebtn list-group-item list-group-item-action bg-dark text-light"><b>x</b></a>
   </div>
 </div>
 <!-- /#sidebar-wrapper -->
@@ -50,7 +45,7 @@
   <div id="pg" class="container-fluid text-light">
     <!-- Initial Page -->
     <div id="pgX" class="pg">
-      <img class="coa" src="assets/coa-tmntfever.png" alt="TMNTfever Coat of Arms">
+      <a class="coa" href="#" onclick="return toggle('pg0')"><img class="coa" src="assets/coa-tmntfever.png" alt="TMNTfever Coat of Arms"></a>
     </div>
     
     <!-- Home Page -->
@@ -69,25 +64,6 @@
       <header>
         <h1 class="mt-2">UKULELE</h1>
       </header>
-      
-      <table id="table_id" class="display">
-        <thead>
-          <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Row 1 Data 1</td>
-            <td>Row 1 Data 2</td>
-          </tr>
-          <tr>
-            <td>Row 2 Data 1</td>
-            <td>Row 2 Data 2</td>
-          </tr>
-        </tbody>
-      </table>
     </div>
     
     <!-- Fightstick Page -->
@@ -263,10 +239,6 @@ function closeNav() {
   document.getElementById("sidebar").style.width = "0";
   document.getElementById("wrapper").style.marginLeft = "0";
 }
-
-$(document).ready( function () {
-    $('#table_id').DataTable();
-} );
 
 </script>
 </body>
