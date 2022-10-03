@@ -1,0 +1,199 @@
+/*---------------------------
+--- Menu Buttons
+---------------------------*/
+
+.menu-button {
+  position: absolute;
+  right: 0.8rem;
+  top: 0.8rem;
+  z-index: 9;
+}
+
+.sidebar .closebtn {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+/*---------------------------
+--- Sidebar 
+---------------------------*/
+
+.sidebar {
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 0;
+  position: fixed;
+}
+
+.sidebar .sidebar-heading {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.sidebar-logo img {
+  width: 140px;
+  height: 140px;
+}
+
+.sidebar .list-group {
+  width: 11rem;
+  font-size: 1.3rem
+}
+
+.list-group img {
+  width: 25px;
+  height: 25px;
+}
+
+/*---------------------------
+--- Body
+---------------------------*/
+#wrapper {
+  transition: margin-left .5s;
+  min-width: 100%;
+}
+
+.pg {
+  width: 100%;
+  display: none;
+}
+
+.pg header {
+  background-image: linear-gradient(to right, rgba(255,204,102,1), rgba(0,0,0,0));   
+}
+
+.pg h1 {
+  font-family: Copperplate, fantasy;
+  color: #212529;
+}
+
+.pg a {
+  color: #FFCC66;
+}
+
+
+/*---------------------------
+--- Pg.X - Initial
+---------------------------*/
+
+#pgX {
+  display: flex;
+  height: 96vh;
+  width: auto;
+}
+
+.coa {
+  margin: auto;
+  max-width: 350px;
+}
+
+/*---------------------------
+--- Pg.0 - Home
+---------------------------*/
+
+.responsive-iframe {
+  aspect-ratio: 4 / 3;
+  display: block;
+  border: none;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+/*---------------------------
+--- Pg.1 - Ukulele
+---------------------------*/
+
+#pg1 table {
+  display: block;
+  width: 90%;
+  border: none;
+}
+
+/*---------------------------
+--- Pg.2 - Fightstick
+---------------------------*/
+
+#pg2 h3 {
+  color: #FFCC66;
+}
+
+.fs-img {
+  display: block;
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  padding: 10px;
+}
+
+/*---------------------------
+--- Pg.3 - Resume
+---------------------------*/
+
+.headshot {
+  display: block;
+  margin: auto;
+  border: 2px solid #FFFFFF;
+  max-width: 200px;
+}
+
+#pg3 h3 {
+  color: #FFCC66;
+}
+
+/*---------------------------
+--- Pg.4 - Contact
+---------------------------*/
+
+#pg4 a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#pg4 p {
+  text-align: center;
+}
+
+.contact-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 10%;
+  max-width: 250px;
+  border: none;
+}
+
+/*---------------------------
+--- Pg.5 - Sheet
+---------------------------*/
+
+#pg5 p {
+  font-family: Courier, sans-serif;
+}
+
+/*---------------------------
+--- Resolution Options
+---------------------------*/
+
+@media (min-width: 450px) {
+  #sidebar {
+    margin-left: 0;
+  }
+
+  #page-content {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar {
+    margin-left: -11rem;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  #sidebar {display: none;}
+}
