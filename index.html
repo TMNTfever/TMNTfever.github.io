@@ -15,59 +15,60 @@
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<!-- Sidebar -->
-<div id="sidebar" class="bg-dark text-light sidebar">
-  <div class="sidebar-heading">
-    <a class="sidebar-logo" href="#"><img src="assets/TMNTfever.png" alt="TMNTfever"></a>
-  </div>
-  
-  <div class="list-group list-group-flush">
-    <a href="#" onclick="return toggle('pg0')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-home.png" alt="Home"> Home</a>
-    <a href="#" onclick="return toggle('pg1')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-ukie.png" alt="Ukulele"> Ukulele</a>
-    <a href="#" onclick="return toggle('pg2')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-fightstick.png" alt="Fightstick"> Fightstick</a>
-    <a href="#" onclick="return toggle('pg3')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-resume.png" alt="Resume"> Resume</a>
-    <a href="#" onclick="return toggle('pg4')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-contact.png" alt="Contact"> Contact</a>
-    <a href="javascript:void(0)" onclick="closeNav()" class="closebtn list-group-item list-group-item-action bg-dark text-light"><b>x</b></a>
-  </div>
-</div>
-<!-- /#sidebar-wrapper -->
-
 <!-- Body -->
 <body style="background-color:#212529">
 
 <!-- Wrapper -->
-<div id="wrapper" class="d-inline-flex">
+<div id="wrapper" class="">
   <div id="menu-button" class="menu-button">
     <button class="btn btn-outline-light" onclick="openNav()">&#9776;</button>
   </div>
 
+  <!-- Sidebar -->
+  <div id="sidebar" class="bg-dark text-light sidebar">
+    <div class="sidebar-heading">
+      <a class="sidebar-logo" href="#"><img src="assets/TMNTfever.png" alt="TMNTfever"></a>
+    </div>
+    
+    <div class="list-group list-group-flush">
+      <a href="#home" onclick="return toggle('pg-home')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-home.png" alt="Home"> Home</a>
+      <a href="#ukulele" onclick="return toggle('pg-ukulele')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-ukie.png" alt="Ukulele"> Ukulele</a>
+      <a href="#fightstick" onclick="return toggle('pg-fightstick')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-fightstick.png" alt="Fightstick"> Fightstick</a>
+      <a href="#weather" onclick="return toggle('pg-weather')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-weather.png" alt="Weather"> Weather</a>
+      <a href="#resume" onclick="return toggle('pg-resume')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-resume.png" alt="Resume"> Resume</a>
+      <a href="#contact" onclick="return toggle('pg-contact')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-contact.png" alt="Contact"> Contact</a>
+      <a href="javascript:void(0)" onclick="closeNav()" class="closebtn list-group-item list-group-item-action bg-dark text-light"><b>x</b></a>
+    </div>
+  </div>
+  <!-- /#sidebar-wrapper -->
+
   <!-- Page Content -->
   <div id="pg" class="container-fluid text-light">
     <!-- Initial Page -->
-    <div id="pgX" class="pg">
-      <a class="coa" href="#" onclick="return toggle('pg0')"><img class="coa" src="assets/coa-tmntfever.png" alt="TMNTfever Coat of Arms"></a>
+    <div id="pg-open" name="coa" class="pg">
+      <a class="coa" href="#" onclick="return toggle('pg-home')"><img class="coa" src="assets/coa-tmntfever.png" alt="TMNTfever Coat of Arms"></a>
     </div>
     
     <!-- Home Page -->
-    <div id="pg0" class="pg">
+    <div id="pg-home" name="home" class="pg">
       <header>
         <h1 class="mt-2">HOME</h1>
       </header>
-      <p>Welcome to my website. I wasn't satisfied with what other websites were providing me in terms of storing ukulele chord sheets, so I wanted to make a space where I could customize the functionality. Enjoy and please credit me if you use my arrangements.</p>
-      <iframe width="90%" height="38" style="display:block; border:none; margin:auto; max-width:600px;" src="https://free.timeanddate.com/clock/i8iiy5c3/n179/fs16/fcfc6/tc343a40/pct/ftb/bas2/bacfff/pa8/tt0/tw1/tm1/th1/ta1/tb1"></iframe><br>
-      <iframe width="600" height="450" class="responsive-iframe" src="https://embed.windy.com/embed2.html?lat=28.206&lon=-80.687&detailLat=28.206&detailLon=-80.687&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"></iframe><br>
+      
+      <br><img class="profile" src="assets/profile.jpg" alt="JC Reyes"><br>
+      <p>Hello, my name is JC Reyes. I am a husband, father, software developer, singer, musician, songwriter, fightstick builder and collector, fighting game competitor, and Chinese lion dancing sifu. Welcome to my website. Feel free to use any of my content, but please give me credit.</p><br>
       <iframe width="600" height="450" class="responsive-iframe" src="https://www.youtube.com/embed/videoseries?list=PLDHLbb1WuxUBf4p4hi6smedrilPEYRcMg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
     </div>
     
     <!-- Ukulele Page -->
-    <div id="pg1" class="pg text-light">
+    <div id="pg-ukulele" name="ukulele" class="pg text-light">
       <header>
         <h1 class="mt-2">UKULELE</h1>
       </header>
     </div>
     
     <!-- Fightstick Page -->
-    <div id="pg2" class="pg">
+    <div id="pg-fightstick" name="fightstick" class="pg">
       <header>
         <h1 class="mt-2">FIGHTSTICK</h1>
       </header>
@@ -90,15 +91,26 @@
       <br>
     </div>
     
+    <div id="pg-weather" name="weather" class="pg">
+      <header>
+        <h1 class="mt-2">WEATHER</h1>
+      </header>
+      
+      <br><iframe width="90%" height="38" style="display:block; border:none; margin:auto; max-width:600px;" src="https://free.timeanddate.com/clock/i8iiy5c3/n179/fs16/fcfc6/tc343a40/pct/ftb/bas2/bacfff/pa8/tt0/tw1/tm1/th1/ta1/tb1"></iframe><br>
+      <iframe class="responsive-iframe" src="https://www.meteoblue.com/en/weather/widget/three/melbourne_united-states_4163971?geoloc=fixed&nocurrent=0&noforecast=0&days=5&tempunit=FAHRENHEIT&windunit=MILE_PER_HOUR&layout=image"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 575px; height: 608px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/week/melbourne_united-states_4163971?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener">meteoblue</a></div><br>
+      <iframe class="responsive-iframe" src="https://www.meteoblue.com/en/weather/widget/three/orlando_united-states_4167147?geoloc=fixed&nocurrent=0&noforecast=0&days=5&tempunit=FAHRENHEIT&windunit=MILE_PER_HOUR&layout=image"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 575px; height: 608px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/en/weather/week/orlando_united-states_4167147?utm_source=weather_widget&utm_medium=linkus&utm_content=three&utm_campaign=Weather%2BWidget" target="_blank" rel="noopener">meteoblue</a></div><br>
+      <iframe width="600" height="450" class="responsive-iframe" src="https://embed.windy.com/embed2.html?lat=28.206&lon=-80.687&detailLat=28.206&detailLon=-80.687&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1"></iframe><br>
+    </div>
+    
     <!-- Resume Page -->
-    <div id="pg3" class="pg">
+    <div id="pg-resume" name="resume" class="pg">
       <header>
         <h1 class="mt-2">RESUME</h1>
       </header>
       
       <br><img class="headshot" src="assets/headshot.jpg" alt="JC Reyes"><br>
       <h3>Julian-Chris Reyes</h3>
-      <p>I am a Sr. Principal Software Quality Engineer looking to support cross-discipline in the Aeronautical industry. As a programmer, I bring a deep level of understanding for software development. I also bring automation expertise which has improved the productivity, accuracy, and consistency of several quality organizations across multiple flight programs. And with a long Quality Assurance background, I understand the importance of following processes, and optimizing them as well.</p>
+      <p>I am a Sr. Principal Software Quality Engineer looking to support cross-discipline in the Aeronautical industry. As a programmer, I bring a deep level of understanding for software development. I also bring automation expertise which has improved the productivity, accuracy, and consistency of several quality organizations across multiple flight programs. And with a long Quality Assurance background, I understand the importance of following processes, and optimizing them as well.</p><br>
       
       <h3>Work Experience</h3>
       <p>
@@ -153,7 +165,7 @@
           <li>Perform tasks on multiple programs with no loss in work quality.</li>
           <li>Maintain good rapport with coworkers, management, SPO, DCMA, and suppliers.</li>
         </ul>
-      </p>
+      </p><br>
       
       <h3>Education</h3>
       <p>
@@ -161,32 +173,31 @@
         College: Cal Poly University<br>
         Location: Pomona, California<br>
         Degree Obtained: March 2014<br>
-      </p>
+      </p><br>
       
       <h3>Security Clearance</h3>
       <p>
         DoD Top Secret (Feb 2019 - Present)<br>
         DoD Secret (Apr 2015 - Present)<br>
         Northrop Grumman Strike Special Access Program (SAP) (Oct 2014 - Present)<br>
-      </p>
+      </p><br>
       
       <h3>Technical Proficiencies</h3>
-      <p>
-        Programming Languages:
-        <ul><li>C, C++, HTML/CSS, Java, JavaScript, PHP, Python, Regex, SQL, Shell, Visual Basic (VBA/VBS).</li></ul>
-        Frameworks, Libraries, and APIs:
-        <ul><li>Apache, BootStrap, Crafty, Crypto, Django, DOORS, Git, Google Test, Google Web Toolkit, Hadoop, Java Cryptology Architecture, JQuery, Junit, MangoDB, Pandas, Qt, Rest, Selenium, Swing, Unity.</li></ul>
-        Operating Systems:
-        <ul><li>GNU/Linux, (CentOS, Fedora, Mint, Ubuntu), OSX, Raspbian, UNIX, Windows XP/7/8/10.</li></ul>
-        Software Development Environments:
-        <ul><li>Aptana Studio, Atlassian Suite (Jira, Confluence, Fisheye, Crucible, Bamboo, Bitbucket, Tableu, Jazz) Eclipse, JGrasp,  Microsoft Visual Studio, Netbeans, Notepad++, Putty, PCSPim, QtSpim, SeleniumIDE, UNIX VIM, EMACS.</li></ul>
-        Computer Science Concepts:
-        <ul><li>Object-oriented programming. Software design patterns. Quality assurance analysis. Agile development. Unix and cmd scripting. Unit and flow test design and scripting. Compiler development and analysis. Database development, query, and analysis. Algorithm design and optimization. Machine learning / artificial intelligence (AI). GUI and video game development.</li></ul>
-      </p>
+      <p>Programming Languages:</p>
+      <ul><li>C, C++, HTML/CSS, Java, JavaScript, PHP, Python, Regex, SQL, Shell, Visual Basic (VBA/VBS).</li></ul>
+      <p>Frameworks, Libraries, and APIs:</p>
+      <ul><li>Apache, BootStrap, Crafty, Crypto, Django, DOORS, Git, Google Test, Google Web Toolkit, Hadoop, Java Cryptology Architecture, JQuery, Junit, MangoDB, Pandas, Qt, Rest, Selenium, Swing, Unity.</li></ul>
+      <p>Operating Systems:</p>
+      <ul><li>GNU/Linux, (CentOS, Fedora, Mint, Ubuntu), OSX, Raspbian, UNIX, Windows XP/7/8/10.</li></ul>
+      <p>Software Development Environments:</p>
+      <ul><li>Aptana Studio, Atlassian Suite (Jira, Confluence, Fisheye, Crucible, Bamboo, Bitbucket, Tableu, Jazz) Eclipse, JGrasp,  Microsoft Visual Studio, Netbeans, Notepad++, Putty, PCSPim, QtSpim, SeleniumIDE, UNIX VIM, EMACS.</li></ul>
+      <p>Computer Science Concepts:</p>
+      <ul><li>Object-oriented programming. Software design patterns. Quality assurance analysis. Agile development. Unix and cmd scripting. Unit and flow test design and scripting. Compiler development and analysis. Database development, query, and analysis. Algorithm design and optimization. Machine learning / artificial intelligence (AI). GUI and video game development.</li></ul>
+      <br>
     </div>
     
     <!-- Contact Page -->
-    <div id="pg4" class="pg">
+    <div id="pg-contact" name="contact" class="pg">
       <header>
         <h1 class="mt-2">CONTACT</h1>
       </header><br>
@@ -205,7 +216,7 @@
     </div>
     
     <!-- Sheet Page -->
-    <div id="pg5" class="pg">
+    <div id="pg-sheet" class="pg">
       <header>
         <h1 class="mt-2">Song Title</h1>
       </header>
@@ -232,12 +243,11 @@ function toggle(IDS) {
 
 function openNav() {
   document.getElementById("sidebar").style.width = "11rem";
-  document.getElementById("wrapper").style.marginLeft = "11rem";
+  
 }
 
 function closeNav() {
   document.getElementById("sidebar").style.width = "0";
-  document.getElementById("wrapper").style.marginLeft = "0";
 }
 
 </script>

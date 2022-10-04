@@ -19,10 +19,12 @@
 ---------------------------*/
 
 .sidebar {
-  min-height: 100vh;
+  transition: .5s;
+  height: 100%;
   overflow-x: hidden;
-  width: 0;
+  width: 11rem;
   position: fixed;
+  top: 0;
 }
 
 .sidebar .sidebar-heading {
@@ -51,13 +53,14 @@
 --- Body
 ---------------------------*/
 #wrapper {
-  transition: margin-left .5s;
-  min-width: 100%;
+  width: 100%;
 }
 
 .pg {
   width: 100%;
+  max-width: 750px;
   display: none;
+  margin-left: 11rem;
 }
 
 .pg header {
@@ -69,16 +72,25 @@
   color: #212529;
 }
 
+.pg h3 {
+  margin-left: 4rem;
+  color: #FFCC66;
+}
+
+.pg p, ul {
+  width: 80%;
+  margin: auto;
+}
+
 .pg a {
   color: #FFCC66;
 }
 
-
 /*---------------------------
---- Pg.X - Initial
+--- Open
 ---------------------------*/
 
-#pgX {
+#pg-open {
   display: flex;
   height: 96vh;
   width: auto;
@@ -90,37 +102,34 @@
 }
 
 /*---------------------------
---- Pg.0 - Home
+--- Home
 ---------------------------*/
 
-.responsive-iframe {
-  aspect-ratio: 4 / 3;
-  display: block;
-  border: none;
-  margin: auto;
-  width: 90%;
-  height: 90%;
-  max-width: 600px;
-  max-height: 600px;
-}
-
-/*---------------------------
---- Pg.1 - Ukulele
----------------------------*/
-
-#pg1 table {
-  display: block;
-  width: 90%;
-  border: none;
-}
-
-/*---------------------------
---- Pg.2 - Fightstick
----------------------------*/
-
-#pg2 h3 {
+#pg-home h3 {
   color: #FFCC66;
 }
+
+.profile {
+  display: block;
+  margin: auto;
+  border: 2px solid #FFFFFF;
+  width: 90%;
+  max-width: 400px;
+}
+
+/*---------------------------
+--- Ukulele
+---------------------------*/
+
+#pg-ukulele table {
+  display: block;
+  width: 90%;
+  border: none;
+}
+
+/*---------------------------
+--- Fightstick
+---------------------------*/
 
 .fs-img {
   display: block;
@@ -131,7 +140,21 @@
 }
 
 /*---------------------------
---- Pg.3 - Resume
+--- Weather
+---------------------------*/
+
+.responsive-iframe {
+  aspect-ratio: 4 / 3;
+  display: block;
+  border: none;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  max-width: 600px;
+}
+
+/*---------------------------
+--- Resume
 ---------------------------*/
 
 .headshot {
@@ -141,20 +164,16 @@
   max-width: 200px;
 }
 
-#pg3 h3 {
-  color: #FFCC66;
-}
-
 /*---------------------------
---- Pg.4 - Contact
+--- Contact
 ---------------------------*/
 
-#pg4 a {
+#pg-contact a {
   color: #FFFFFF;
   text-decoration: none;
 }
 
-#pg4 p {
+#pg-contact p {
   text-align: center;
 }
 
@@ -163,37 +182,30 @@
   margin-left: auto;
   margin-right: auto;
   min-width: 10%;
-  max-width: 250px;
+  max-width: 200px;
   border: none;
 }
 
 /*---------------------------
---- Pg.5 - Sheet
+--- Sheet
 ---------------------------*/
 
-#pg5 p {
+#pg-sheet p {
   font-family: Courier, sans-serif;
 }
 
 /*---------------------------
---- Resolution Options
+--- Mobile Resolution Options
 ---------------------------*/
 
-@media (min-width: 450px) {
-  #sidebar {
-    margin-left: 0;
-  }
-
-  #page-content {
-    min-width: 0;
-    width: 100%;
-  }
-
-  #wrapper.toggled #sidebar {
-    margin-left: -11rem;
-  }
+@media screen and (max-width: 750px) {
+  .sidebar {width: 0;}
+  .pg {margin-left:0;}
+  .closebtn {visibility:visible;}
+  .pg p, ul {width: 100%;}
+  .pg h3 {margin-left: 0px;}
 }
 
-@media screen and (max-height: 450px) {
-  #sidebar {display: none;}
+@media screen and (min-width: 750px) {
+  .closebtn {visibility:hidden;}
 }
