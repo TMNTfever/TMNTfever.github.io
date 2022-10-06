@@ -73,6 +73,7 @@
 }
 
 .pg h1 {
+  padding-left: 0.7rem;
   font-family: Copperplate, fantasy;
   color: #212529;
 }
@@ -109,10 +110,6 @@
 /*---------------------------
 --- Home
 ---------------------------*/
-
-#pg-home h3 {
-  color: #FFCC66;
-}
 
 .profile {
   display: block;
