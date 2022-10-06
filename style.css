@@ -210,4 +210,5 @@
 
 @media screen and (min-width: 750px) {
   .closebtn {visibility:hidden;}
+  .menu-button {visibility:hidden;}
 }
