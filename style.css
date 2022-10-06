@@ -211,11 +211,13 @@ src:
   .sidebar {width: 0;}
   .pg {margin-left:0;}
   .closebtn {visibility:visible;}
+  .menu-button {visibility:visible;}
   .pg p, ul {width: 100%;}
   .pg h3 {margin-left: 0px;}
 }
 
 @media screen and (min-width: 750px) {
+  .sidebar {width: 11rem;}
   .closebtn {visibility:hidden;}
   .menu-button {visibility:hidden;}
 }
