@@ -1,3 +1,10 @@
+@font-face {
+font-family: 'BebasNeue';
+src:
+    local('BebasNeue-Regular'),
+    url('BebasNeue-Regular.ttf');
+}
+
 /*---------------------------
 --- Menu Buttons
 ---------------------------*/
@@ -74,7 +81,7 @@
 
 .pg h1 {
   padding-left: 0.7rem;
-  font-family: Copperplate, fantasy;
+  font-family: BebasNeue;
   color: #212529;
 }
 
