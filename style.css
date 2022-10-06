@@ -1,8 +1,8 @@
 @font-face {
 font-family: 'BebasNeue';
 src:
-    local('BebasNeue-Regular'),
-    url('BebasNeue-Regular.ttf');
+    local('BebasNeue'),
+    url('BebasNeue.ttf');
 }
 
 /*---------------------------
