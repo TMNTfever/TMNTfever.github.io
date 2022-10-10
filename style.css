@@ -95,6 +95,11 @@ src:
   color: #FFCC66;
 }
 
+.pg a:hover {
+  color: #DDAA44;
+  text-decoration: none;
+}
+
 /*---------------------------
 --- Open
 ---------------------------*/
