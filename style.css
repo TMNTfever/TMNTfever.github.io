@@ -14,11 +14,7 @@ src:
   right: 0.8rem;
   top: 0.8rem;
   z-index: 9;
-}
-
-.sidebar .closebtn {
-  text-align: center;
-  font-size: 1.3rem;
+  display: none;
 }
 
 /*---------------------------
@@ -208,16 +204,16 @@ src:
 ---------------------------*/
 
 @media screen and (max-width: 750px) {
+  #open-button {display:block;}
+  #close-button {display:none;}
   .sidebar {width: 0;}
   .pg {margin-left:0;}
-  .closebtn {visibility:visible;}
-  .menu-button {visibility:visible;}
   .pg p, ul {width: 100%;}
   .pg h3 {margin-left: 0px;}
 }
 
 @media screen and (min-width: 750px) {
-  .sidebar {width: 11rem;}
-  .closebtn {visibility:hidden;}
-  .menu-button {visibility:hidden;}
+  #open-button {display:none;}
+  #close-button {display:none;}
+  #sidebar {width: 11rem;}
 }
