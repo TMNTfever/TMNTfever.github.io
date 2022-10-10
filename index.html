@@ -20,8 +20,12 @@
 
 <!-- Wrapper -->
 <div id="wrapper" class="">
-  <div id="menu-button" class="menu-button">
+  <div id="open-button" class="menu-button">
     <button class="btn btn-outline-light" onclick="openNav()">&#9776;</button>
+  </div>
+  
+  <div id="close-button" class="menu-button">
+    <button class="btn btn-outline-light" onclick="closeNav()">&#9776;</button>
   </div>
 
   <!-- Sidebar -->
@@ -37,7 +41,6 @@
       <a href="#weather" onclick="return toggle('pg-weather')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-weather.png" alt="Weather"> Weather</a>
       <a href="#resume" onclick="return toggle('pg-resume')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-resume.png" alt="Resume"> Resume</a>
       <a href="#contact" onclick="return toggle('pg-contact')" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-contact.png" alt="Contact"> Contact</a>
-      <a href="javascript:void(0)" onclick="closeNav()" class="closebtn list-group-item list-group-item-action bg-dark text-light"><b>x</b></a>
     </div>
   </div>
   <!-- /#sidebar-wrapper -->
@@ -245,11 +248,15 @@ function toggle(IDS) {
 
 function openNav() {
   document.getElementById("sidebar").style.width = "11rem";
+  document.getElementById("close-button").style.display = "block";
+  document.getElementById("open-button").style.display = "none";
   
 }
 
 function closeNav() {
   document.getElementById("sidebar").style.width = "0";
+  document.getElementById("close-button").style.display = "none";
+  document.getElementById("open-button").style.display = "block";
 }
 
 </script>
