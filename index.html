@@ -68,6 +68,24 @@
       <header>
         <h1>UKULELE</h1>
       </header>
+      
+      <br><input id="search-bar" class="searchInput form-control" data-table-id="ukulele-table" type="search" placeholder="Search" aria-label="Search" aria-target="ukulele-table"><br>
+
+      <table id="ukulele-table" class="sortTable">
+        <thead>
+          <tr>
+          <th scope="col">Song Title</th>
+          <th scope="col">Artists</th>
+          <th scope="col">Genres</th>
+          <th scope="col">Difficulty</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Drinking Problem</td><td>Ekolu, Midland</td><td>Jawaiian, Country</td><td>Beginner</td></tr>
+          <tr><td>Love Me</td><td>Fia</td><td>Jawaiian</td><td>Novice</td></tr>
+          <tr><td><a href="#sheet" onclick="return toggle('pg-sheet')">That's All</a></td><td>Eddie Adams, Michael Buble</td><td>Jazz, Ballad</td><td>Expert</td></tr>
+        </tbody>
+      </table> 
     </div>
     
     <!-- Sheet Page -->
@@ -76,7 +94,9 @@
         <h1>Song Title</h1>
       </header>
       
-      <p>Placeholder Text</p>
+      <p><a href="#ukulele" onclick="return toggle('pg-ukulele')">Return to Song List</a></p>
+
+      <iframe id="ukulele-sheet" src="sheets/That's All.html"></iframe>
     </div>
     
     <!-- Fightstick Page -->
@@ -258,7 +278,9 @@ function closeNav() {
   document.getElementById("close-button").style.display = "none";
   document.getElementById("open-button").style.display = "block";
 }
-
 </script>
+<script src="src/SortTable/scripts/searchTable.js"></script>
+<script src="src/SortTable/scripts/sortTable.js"></script>
+ 
 </body>
 </html>
