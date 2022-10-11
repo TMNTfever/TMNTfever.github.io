@@ -138,6 +138,10 @@ src:
   max-width: 750px;
 }
 
+#ukulele-table > tbody tr:nth-child(odd) {
+  background-color: #101418;
+}
+
 /*---------------------------
 --- Sheet
 ---------------------------*/
