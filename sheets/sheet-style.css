@@ -1,6 +1,6 @@
 html, body {
-  font-family: ui-monospace, SFMono-Regular, "SF Mono,Menlo", Consolas, "Liberation Mono", monospace;
-  line-height: 1.4em;
+  font-family: Monaco, Consolas, monospace;
+  line-height: 1.4rem;
   font-size: 0.9rem;
   white-space: pre;
   color: white;
