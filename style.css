@@ -11,8 +11,8 @@ src:
 
 .menu-button {
   position: absolute;
-  right: 0.8rem;
-  top: 0.8rem;
+  right: 0.3rem;
+  top: 0.3rem;
   z-index: 9;
   display: none;
 }
@@ -57,7 +57,7 @@ src:
 ---------------------------*/
 
 .body {
-  background-color:#212529;
+  background-color: #212529;
 }
 
 #wrapper {
@@ -65,14 +65,14 @@ src:
 }
 
 .pg {
+  display: none;
   width: 100%;
   max-width: 750px;
-  display: none;
   margin-left: 11rem;
 }
 
 .pg header {
-  background-image: linear-gradient(to right, rgba(255,204,102,1), rgba(0,0,0,0));   
+  background-image: linear-gradient(to right, #FFCC66, transparent);
 }
 
 .pg h1 {
@@ -132,8 +132,27 @@ src:
 ---------------------------*/
 
 #pg-ukulele table {
-  display: block;
+  margin: auto;
+  border: none;
   width: 90%;
+  max-width: 750px;
+}
+
+/*---------------------------
+--- Sheet
+---------------------------*/
+
+#search-bar {
+  width: 90%;
+  margin: auto;
+}
+
+#ukulele-sheet {
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  width: 90%;
+  height: 90vh;
   border: none;
 }
 
@@ -194,14 +213,6 @@ src:
   min-width: 10%;
   max-width: 200px;
   border: none;
-}
-
-/*---------------------------
---- Sheet
----------------------------*/
-
-#pg-sheet p {
-  font-family: Courier, sans-serif;
 }
 
 /*---------------------------
