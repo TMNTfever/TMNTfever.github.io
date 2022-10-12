@@ -1,0 +1,6 @@
+html, body {
+  font-family: Monaco, Consolas, monospace;
+  line-height: 1.5rem;
+  white-space: pre;
+  color: white;
+}

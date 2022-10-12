@@ -65,7 +65,7 @@ src:
 }
 
 .pg {
-  display: none;
+  display: block;
   width: 100%;
   max-width: 750px;
   margin-left: 11rem;
@@ -119,6 +119,10 @@ src:
 --- Home
 ---------------------------*/
 
+#pg-home {
+  display: none;
+}
+
 .profile {
   display: block;
   margin: auto;
@@ -143,7 +147,7 @@ src:
 }
 
 /*---------------------------
---- Sheet
+--- Song
 ---------------------------*/
 
 #search-bar {
@@ -151,12 +155,12 @@ src:
   margin: auto;
 }
 
-#ukulele-sheet {
+#ukulele-song {
   display: block;
   margin: auto;
   overflow: hidden;
   width: 90%;
-  height: 90vh;
+  height: 90vw;
   border: none;
 }
 

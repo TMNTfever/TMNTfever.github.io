@@ -7,12 +7,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="A home for what I love.">
   <meta name="author" content="J.C. Reyes">
-  <title>TMNTfever</title>
+  <title>TMNTfever - Song</title>
   <link rel="icon" href="assets/icon-tmntfever.png">
   <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
   <script src="src/jquery/jquery.min.js"></script>
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script>
+    window.onload = function() {
+      var songID = document.location.href.split('=').pop();
+      var query = "songs/" + songID + ".html";
+      document.getElementById("ukulele-song").src = query;
+    }
+  </script>
 </head>
 
 <!-- Body -->
@@ -47,38 +54,23 @@
 
   <!-- Page Content -->
   <div id="pg" class="text-light">
-    <!-- Initial Page -->
-    <div id="pg-open" name="coa" class="pg">
-      <a class="coa" href="#" onclick="return toggle('pg-home')"><img class="coa" src="assets/coa-tmntfever.png" alt="TMNTfever Coat of Arms"></a>
-    </div>
-    
-    <!-- Home Page -->
-    <div id="pg-home" class="pg">
+    <!-- Song Page -->
+    <div id="pg-song" class="pg">
       <header>
-        <h1>HOME</h1>
+        <h1>UKULELE</h1>
       </header>
       
-      <br><img class="profile" src="assets/profile.jpg" alt="JC Reyes"><br>
-      <p>Aloha and mabuhay! Welcome to my website. My name is JC Reyes. I am a husband, father, software developer, singer, musician, songwriter, fightstick builder and collector, fighting game competitor, and Chinese lion dancing sifu. Feel free to use any of the content you see here, but please give me credit if used externally.</p><br>
-      <iframe width="600" height="450" class="responsive-iframe" src="https://www.youtube.com/embed/videoseries?list=PLDHLbb1WuxUBf4p4hi6smedrilPEYRcMg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+      <p><br><a href="ukulele.html">Return to Song List</a></p><br>
+      
+      <iframe id="ukulele-song" width="100%" src=""></iframe>
     </div>
+  </div>
   <!-- /#page-content-wrapper -->
 </div>
 <!-- /#wrapper -->
 
 <!-- Custom Scripts -->
 <script>
-function toggle(IDS) {
-    var sel = document.getElementById('pg').getElementsByTagName('div');
-    for (var i=0; i<sel.length; i++) { 
-      if (sel[i].id != IDS) { sel[i].style.display = 'none'; }
-    }
-    var status = document.getElementById(IDS).style.display;
-    if (status == 'block') { document.getElementById(IDS).style.display = 'none'; }
-                      else { document.getElementById(IDS).style.display = 'block'; }
-    return false;
-}
-
 function openNav() {
   document.getElementById("sidebar").style.width = "11rem";
   document.getElementById("close-button").style.display = "block";
