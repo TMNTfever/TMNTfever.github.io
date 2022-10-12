@@ -160,7 +160,7 @@ src:
   margin: auto;
   overflow: hidden;
   width: 90%;
-  height: 90vw;
+  height: 90vh;
   border: none;
 }
 
@@ -230,6 +230,8 @@ src:
 @media screen and (max-width: 750px) {
   #open-button {display:block;}
   #close-button {display:none;}
+  #pg-ukulele table {width: 100%;}
+  #ukulele-song {width: 100%;}
   .sidebar {width: 0;}
   .pg {margin-left:0;}
   .pg p, ul {width: 100%;}
