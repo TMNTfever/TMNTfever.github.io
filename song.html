@@ -15,7 +15,7 @@
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script>
     window.onload = function() {
-      var songID = document.location.href.split('=').pop();
+      var songID = document.location.href.split('?').pop();
       var query = "songs/" + songID + ".html";
       document.getElementById("ukulele-song").src = query;
     }
