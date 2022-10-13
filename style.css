@@ -142,6 +142,10 @@ src:
   max-width: 750px;
 }
 
+#pg-ukulele th, td {
+  padding: 0.3rem;
+}
+
 #ukulele-table > tbody tr:nth-child(odd) {
   background-color: #101418;
 }
