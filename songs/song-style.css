@@ -4,3 +4,7 @@ html, body {
   white-space: pre;
   color: white;
 }
+
+h2 {
+  font-size: 3rem;
+}
