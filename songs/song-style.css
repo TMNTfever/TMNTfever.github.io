@@ -5,6 +5,6 @@ html, body {
   color: white;
 }
 
-h2 {
+body h2 {
   font-size: 3rem;
 }
