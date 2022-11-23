@@ -140,11 +140,14 @@ src:
   border: none;
   width: 90%;
   max-width: 750px;
-  padding-bottom: 2rem;
 }
 
 #pg-ukulele th, td {
   padding: 0.3rem;
+}
+
+#ukulele-table {
+  padding-bottom: 20px;
 }
 
 #ukulele-table > tbody tr:nth-child(odd) {
