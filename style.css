@@ -144,7 +144,7 @@ src:
   border: none;
   width: 90%;
   max-width: 750px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 #ukulele-table > tbody tr:nth-child(odd) {
