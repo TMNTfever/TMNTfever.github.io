@@ -135,19 +135,16 @@ src:
 --- Ukulele
 ---------------------------*/
 
-#pg-ukulele table {
-  margin: auto;
-  border: none;
-  width: 90%;
-  max-width: 750px;
-}
-
 #pg-ukulele th, td {
   padding: 0.3rem;
 }
 
 #ukulele-table {
-  padding-bottom: 20px;
+  margin: auto;
+  border: none;
+  width: 90%;
+  max-width: 750px;
+  margin-bottom: 50px;
 }
 
 #ukulele-table > tbody tr:nth-child(odd) {
