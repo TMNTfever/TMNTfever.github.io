@@ -250,14 +250,25 @@ src:
 }
 
 @media print {
-  body * {
-    visibility: hidden;
-  }
-  
-  #ukulele-song, #ukulele-song *{
-    visibility: absolute;
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
+    #ukulele-song {
+        width: 100%;
+        height: 100%;
+    }
+    .visible-print{
+        display: block;
+        width: auto;
+        height: auto;
+        overflow: visible;  
+    }
+    
+    #pg-song {
+        width: 100%;
+        height: 100%;
+    }
+    .visible-print{
+        display: block;
+        width: auto;
+        height: auto;
+        overflow: visible;  
+    }
 }
