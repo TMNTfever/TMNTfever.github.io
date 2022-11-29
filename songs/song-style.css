@@ -1,6 +1,7 @@
 html, body {
   font-family: Monaco, Consolas, monospace;
-  line-height: 1.5rem;
+  line-height: 1rem;
+  font-size: 0.7rem;
   white-space: pre;
   color: white;
 }
