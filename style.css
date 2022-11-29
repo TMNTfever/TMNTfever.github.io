@@ -248,3 +248,16 @@ src:
   #close-button {display:none;}
   #sidebar {width: 11rem;}
 }
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  
+  #ukulele-song, #ukulele-song *{
+    visibility: absolute;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
