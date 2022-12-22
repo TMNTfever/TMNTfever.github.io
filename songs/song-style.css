@@ -13,3 +13,11 @@ h2 {
 span {
   color: #FFCC66;
 }
+
+c- { /*Chords*/
+  color: white;
+}
+
+l- { /*Lyrics*/
+  color: #DDDDDD;
+}
