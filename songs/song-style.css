@@ -3,7 +3,7 @@ html, body {
   font-size: 0.9rem;
   line-height: 1.1rem;
   white-space: pre;
-  color: white;
+  color: #FFFFFF;
 }
 
 h2 {
@@ -15,9 +15,19 @@ span {
 }
 
 c- { /*Chords*/
-  color: white;
+  color: #FFFFFF;
 }
 
 l- { /*Lyrics*/
   color: #DDDDDD;
+}
+
+@media print {
+  c- { /*Chords*/
+    color: #333333;
+  }
+  
+  l- { /*Lyrics*/
+    color: #000000;
+  }
 }
