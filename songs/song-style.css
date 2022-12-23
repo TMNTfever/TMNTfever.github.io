@@ -23,11 +23,9 @@ l- { /*Lyrics*/
 }
 
 @media print {
-  c- { /*Chords*/
-    color: #333333;
-  }
-  
-  l- { /*Lyrics*/
-    color: #000000;
-  }
+  html, body {color: #000000;}
+  h2 {color: #FFCC66;}
+  span {color: #FFCC66;}
+  c- {color: #444444;}
+  l- {color: #000000;}
 }
