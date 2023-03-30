@@ -1,8 +1,8 @@
 @font-face {
 font-family: 'BebasNeue';
 src:
-    local('BebasNeue'),
-    url('BebasNeue.ttf');
+  local('BebasNeue'),
+  url('BebasNeue.ttf');
 }
 
 /*---------------------------
@@ -224,7 +224,8 @@ src:
 }
 
 #pg-contact table {
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact-logo {
