@@ -190,6 +190,20 @@ src:
 }
 
 /*---------------------------
+--- Resume
+---------------------------*/
+
+.calpolylion {
+  display: block;
+  margin: auto;
+  max-width: 200px;
+}
+
+#pg-liondance p {
+  padding-top: 10px;
+}
+
+/*---------------------------
 --- Weather
 ---------------------------*/
 
