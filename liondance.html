@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A home for what I love.">
+  <meta name="author" content="J.C. Reyes">
+  <title>TMNTfever - Resume</title>
+  <link rel="icon" href="assets/icon-tmntfever.png">
+  <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="src/jquery/jquery.min.js"></script>
+  <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<!-- Body -->
+<body class="body">
+
+<!-- Wrapper -->
+<div id="wrapper" class="">
+  <div id="open-button" class="menu-button">
+    <button class="btn btn-outline-light" onclick="openNav()">&#9776;</button>
+  </div>
+  
+  <div id="close-button" class="menu-button">
+    <button class="btn btn-outline-light" onclick="closeNav()">&#9776;</button>
+  </div>
+
+  <!-- Sidebar -->
+  <div id="sidebar" class="bg-dark sidebar">
+    <div class="sidebar-heading">
+      <a class="sidebar-logo" href="#"><img src="assets/TMNTfever.png" alt="TMNTfever"></a>
+    </div>
+    
+    <div class="list-group list-group-flush">
+      <a href="index.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-home.png" alt="Home"> Home</a>
+      <a href="ukulele.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-ukie.png" alt="Ukulele"> Ukulele</a>
+      <a href="fightstick.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-fightstick.png" alt="Fightstick"> Fightstick</a>
+      <a href="liondance.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-liondance.png" alt="Lion Dance"> Lion Dance</a>
+      <a href="https://tmntfever.tumblr.com" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-tumblr.png" alt="Tumblr"> TMNT Blog</a>
+      <a href="resume.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-resume.png" alt="Resume"> Resume</a>
+      <a href="contact.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-contact.png" alt="Contact"> Contact</a>
+    </div>
+  </div>
+  <!-- /#sidebar-wrapper -->
+
+  <!-- Page Content -->
+  <div id="pg" class="text-light">
+    <!-- Resume Page -->
+    <div id="pg-liondance" class="pg">
+      <header>
+        <h1>RESUME</h1>
+      </header>
+      
+      <br><img class="headshot" src="assets/calpolyliondance.png" alt="Cal Poly Lion Dance"><br>
+      <h3>My Lion Dance History</h3>
+      <p>I first learned lion dancing in 2007 while attending Cal Poly San Luis Obispo. I joined the school's <a href="https://www.calpolyldt.com/">Lion Dance Team</a>, which is Chinese Student Association</p>
+      
+      <h3>Beginning Lion Dance</h3>
+      <p>If you are interested in lion dancing, then you should first check for existing teams near you. Some lion dance teams are territorial.</p>
+    </div>
+  </div>
+  <!-- /#page-content-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+<!-- Custom Scripts -->
+<script>
+function openNav() {
+  document.getElementById("sidebar").style.width = "11rem";
+  document.getElementById("close-button").style.display = "block";
+  document.getElementById("open-button").style.display = "none";
+  
+}
+
+function closeNav() {
+  document.getElementById("sidebar").style.width = "0";
+  document.getElementById("close-button").style.display = "none";
+  document.getElementById("open-button").style.display = "block";
+}
+</script>
+</body>
+</html>
