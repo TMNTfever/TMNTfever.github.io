@@ -89,6 +89,7 @@ src:
 .pg p, ul {
   width: 90%;
   margin: auto;
+  padding-top: 10px;
 }
 
 .pg a {
@@ -190,7 +191,7 @@ src:
 }
 
 /*---------------------------
---- Resume
+--- Lion Dance
 ---------------------------*/
 
 .calpolylion {
@@ -199,8 +200,11 @@ src:
   max-width: 200px;
 }
 
-#pg-liondance p {
-  padding-top: 10px;
+#pg-liondance table {
+  margin: auto;
+  border: none;
+  width: 90%;
+  max-width: 750px;
 }
 
 /*---------------------------
@@ -259,6 +263,7 @@ src:
   #open-button {display:block;}
   #close-button {display:none;}
   #pg-ukulele table {width: 98%;}
+  #pg-liondance table {width: 98%;}
   #song-nav {width: 100%;}
   #ukulele-song {width: 100%;}
   .sidebar {width: 0;}
