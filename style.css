@@ -92,7 +92,7 @@ src:
   padding-top: 10px;
 }
 
-.pg a {
+.pg a, span {
   color: #FFCC66;
 }
 
