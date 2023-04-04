@@ -208,10 +208,8 @@ src:
 }
 
 .stance {
-  max-height: 300px;
-  max-width: 200px;
-  margin: auto;
-  /* border: 2px solid #FFFFFF;*/
+  width: 15vw;
+  border: 2px solid #FFFFFF;
 }
 
 /*---------------------------
