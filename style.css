@@ -212,6 +212,19 @@ src:
   border: 2px solid #FFCC66;
 }
 
+#toc_container {
+    background: #343a40 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    margin: auto;
+    padding: 10px;
+    width: auto;
+}
+
+#toc_container ul li {
+    list-style: outside none none !important;
+}
+
 /*---------------------------
 --- Weather
 ---------------------------*/
@@ -249,6 +262,7 @@ src:
 #pg-contact table {
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
 }
 
 .contact-logo {
