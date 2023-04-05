@@ -101,6 +101,15 @@ src:
   text-decoration: none;
 }
 
+.pg hr {
+  width: 50%;
+  color: #343a40;
+  size: 10px;
+  align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /*---------------------------
 --- Open
 ---------------------------*/
@@ -211,8 +220,8 @@ src:
 #ld-band {
   display: block;
   margin: auto;
-  width: 90vw;
-  height: 50vh;
+  width: 90%;
+  height: 70vh;
   background: #343a40;
 }
 
@@ -222,17 +231,17 @@ src:
 }
 
 #toc_container {
-    background: #343a40 none repeat scroll 0 0;
-    border: 1px solid #ffffff;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 90%;
+  background: #343a40 none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90%;
 }
 
 .toc_title {
-    font-weight: bold;
-    text-align: center;
+  font-weight: bold;
+  text-align: center;
 }
 
 /*---------------------------
@@ -295,7 +304,7 @@ src:
   #song-nav {width: 100%;}
   #ukulele-song {width: 100%;}
   #toc_container {width: 98%}
-  #ld-band {width: 98vw;}
+  #ld-band {width: 98%;}
   
   .stance {width: 20vw;}
   .sidebar {width: 0;}
