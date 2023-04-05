@@ -200,29 +200,36 @@ src:
   max-width: 200px;
 }
 
+.ld-band {
+  height: 50vw;
+  width: 90%;
+}
+
 #pg-liondance table {
   margin: auto;
   border: none;
   width: 90%;
   max-width: 750px;
+  padding-top: 10px;
 }
 
 .stance {
   width: 15vw;
-  border: 2px solid #FFCC66;
+  border: 1px solid #FFCC66;
 }
 
 #toc_container {
     background: #343a40 none repeat scroll 0 0;
-    border: 1px solid #aaa;
-    display: table;
+    border: 1px solid #ffffff;
     margin: auto;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     width: auto;
 }
 
-#toc_container ul li {
-    list-style: outside none none !important;
+.toc_title {
+    font-weight: bold;
+    text-align: center;
 }
 
 /*---------------------------
@@ -262,7 +269,6 @@ src:
 #pg-contact table {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 10px;
 }
 
 .contact-logo {
@@ -285,6 +291,9 @@ src:
   #pg-liondance table {width: 98%;}
   #song-nav {width: 100%;}
   #ukulele-song {width: 100%;}
+  
+  .stance {width: 20vw;}
+  .ld-band {width: 98%;}
   .sidebar {width: 0;}
   .pg {margin-left:0;}
   .pg p, ul {width: 98%;}
