@@ -200,11 +200,6 @@ src:
   max-width: 200px;
 }
 
-.ld-band {
-  height: 50vw;
-  width: 90%;
-}
-
 #pg-liondance table {
   margin: auto;
   border: none;
@@ -224,7 +219,7 @@ src:
     margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: auto;
+    width: 90%;
 }
 
 .toc_title {
@@ -291,6 +286,7 @@ src:
   #pg-liondance table {width: 98%;}
   #song-nav {width: 100%;}
   #ukulele-song {width: 100%;}
+  #toc_container {width: 98%}
   
   .stance {width: 20vw;}
   .ld-band {width: 98%;}
