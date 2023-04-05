@@ -208,6 +208,14 @@ src:
   padding-top: 10px;
 }
 
+#ld-band {
+  display: block;
+  margin: auto;
+  width: 90vw;
+  height: 50vh;
+  background: #343a40;
+}
+
 .stance {
   width: 15vw;
   border: 1px solid #FFCC66;
@@ -287,9 +295,9 @@ src:
   #song-nav {width: 100%;}
   #ukulele-song {width: 100%;}
   #toc_container {width: 98%}
+  #ld-band {width: 98vw;}
   
   .stance {width: 20vw;}
-  .ld-band {width: 98%;}
   .sidebar {width: 0;}
   .pg {margin-left:0;}
   .pg p, ul {width: 98%;}
