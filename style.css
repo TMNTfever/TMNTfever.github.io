@@ -106,7 +106,8 @@ src:
   width: 50%;
   height: auto;
   align: center;
-  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 /*---------------------------
