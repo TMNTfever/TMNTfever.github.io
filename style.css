@@ -102,13 +102,11 @@ src:
 }
 
 .pg hr {
-  border: 1px solid #343a40;
-  height: 1px;
-  background: #343a40;
+  border-bottom: 10px solid #343a40;
   width: 50%;
   align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 /*---------------------------
