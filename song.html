@@ -96,6 +96,16 @@ function printFrame(id) {
   frm.print();
   return false;
 }
+
+function resize_iframe( iFrame ) {
+    iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
+    iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+}
+
+window.addEventListener('DOMContentLoaded', function(e) {
+    var iFrame = document.getElementById('ukulele-song');
+    resize_iframe(iFrame);
+} );
 </script>
 </body>
 </html>
