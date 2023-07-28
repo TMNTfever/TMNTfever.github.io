@@ -19,16 +19,6 @@
       var query = "songs/" + songID + ".html";
       document.getElementById("ukulele-song").src = query;
     }
-
-    window.addEventListener('DOMContentLoaded', function(e) {
-      var iFrame = document.getElementById('ukulele-song');
-      resize_iframe(iFrame);
-    } );
-
-    function resize_iframe(iFrame) {
-      iFrame.width  = iFrame.contentWindow.document.body.scrollWidth + 10;
-      iFrame.height = iFrame.contentWindow.document.body.scrollHeight + 10;
-    }
   </script>
 </head>
 
@@ -91,7 +81,6 @@ function openNav() {
   document.getElementById("sidebar").style.width = "11rem";
   document.getElementById("close-button").style.display = "block";
   document.getElementById("open-button").style.display = "none";
-  
 }
 
 function closeNav() {
@@ -106,6 +95,17 @@ function printFrame(id) {
   frm.print();
   return false;
 }
+
+function resize_iframe(iFrame) {
+  iFrame.width  = iFrame.contentWindow.document.body.scrollWidth + 10;
+  iFrame.height = iFrame.contentWindow.document.body.scrollHeight + 10;
+}
+
+window.addEventListener('DOMContentLoaded', function(e) {
+  var iFrame = document.getElementById('ukulele-song');
+  resize_iframe(iFrame);
+} );
+
 </script>
 </body>
 </html>
