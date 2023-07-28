@@ -13,28 +13,45 @@
   <link href="style.css" rel="stylesheet">
   <script src="src/jquery/jquery.min.js"></script>
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script type="application/javascript">
+  <!--<script type="application/javascript">
     window.onload = function() {
       var songID = document.location.href.split('?').pop();
       var query = "songs/" + songID + ".html";
       document.getElementById("ukulele-song").src = query;
     }
-  </script>
+  </script>-->
   <script type='text/javascript'>
+    
     $(function(){
-      var iFrame = document.getElementById('ukulele-song');
-    	function iResize() {iFrame.style.height = iFrame.contentWindow.document.body.offsetHeight + 'px';}
+    
+        var iFrames = $('iframe');
       
-      if ($.browser.safari || $.browser.opera) { 
-        iFrame.load(function(){setTimeout(iResize, 0);});
-        var iSource = iFrame.src;
-        iFrames[i].src = '';
-        iFrames[i].src = iSource;
-      } 
-      else {
-        iFrame.load(function() {this.style.height = this.contentWindow.document.body.offsetHeight + 'px';});
-      }
-    });
+    	function iResize() {
+    	
+    		for (var i = 0, j = iFrames.length; i < j; i++) {
+    		  iFrames[i].style.height = iFrames[i].contentWindow.document.body.offsetHeight + 'px';}
+    	    }
+    	    
+        	if ($.browser.safari || $.browser.opera) { 
+        	
+        	   iFrames.load(function(){
+        	       setTimeout(iResize, 0);
+               });
+            
+        	   for (var i = 0, j = iFrames.length; i < j; i++) {
+        			var iSource = iFrames[i].src;
+        			iFrames[i].src = '';
+        			iFrames[i].src = iSource;
+               }
+               
+        	} else {
+        	   iFrames.load(function() { 
+        	       this.style.height = this.contentWindow.document.body.offsetHeight + 'px';
+        	   });
+        	}
+        
+        });
+
   </script>
 </head>
 
@@ -84,7 +101,7 @@
         </tr>
       </table>
       
-      <iframe id="ukulele-song" src="" scrolling="no" frameborder="0"></iframe>
+      <iframe id="ukulele-song" class="iframe" src="songs/waiting-in-vain.html" scrolling="no" frameborder="0"></iframe>
     </div>
   </div>
   <!-- /#page-content-wrapper -->
