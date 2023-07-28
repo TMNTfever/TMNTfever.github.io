@@ -20,6 +20,22 @@
       document.getElementById("ukulele-song").src = query;
     }
   </script>
+  <script type='text/javascript'>
+    $(function(){
+      var iFrame = document.getElementById('ukulele-song');
+    	function iResize() {iFrame.style.height = iFrame.contentWindow.document.body.offsetHeight + 'px';}
+      
+      if ($.browser.safari || $.browser.opera) { 
+        iFrame.load(function(){setTimeout(iResize, 0);});
+        var iSource = iFrame.src;
+        iFrames[i].src = '';
+        iFrames[i].src = iSource;
+      } 
+      else {
+        iFrame.load(function() {this.style.height = this.contentWindow.document.body.offsetHeight + 'px';});
+      }
+    });
+  </script>
 </head>
 
 <!-- Body -->
@@ -68,7 +84,7 @@
         </tr>
       </table>
       
-      <iframe id="ukulele-song" width="100%" src=""></iframe>
+      <iframe id="ukulele-song" src="" scrolling="no" frameborder="0"></iframe>
     </div>
   </div>
   <!-- /#page-content-wrapper -->
@@ -95,16 +111,6 @@ function printFrame(id) {
   frm.print();
   return false;
 }
-
-function resize_iframe(iFrame) {
-  iFrame.width  = iFrame.contentWindow.document.body.scrollWidth + 10;
-  iFrame.height = iFrame.contentWindow.document.body.scrollHeight + 10;
-}
-
-window.addEventListener('DOMContentLoaded', function(e) {
-  var iFrame = document.getElementById('ukulele-song');
-  resize_iframe(iFrame);
-} );
 
 </script>
 </body>
