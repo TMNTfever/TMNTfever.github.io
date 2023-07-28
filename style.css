@@ -173,9 +173,9 @@ src:
 #ukulele-song {
   display: block;
   margin: auto;
-/*  overflow: hidden;
+  overflow: hidden;
   width: 90%;
-  height: 90vh;*/
+  height: 90vh;
   border: none;
 }
 
