@@ -16,7 +16,19 @@
   <script type="application/javascript">
     window.onload = function() {
       var songID = document.location.href.split('?').pop();
-      var query = "songs/" + songID + ".html";
+
+      /* For future song directory re-org
+      var firstChar = songID.charAt(0)
+      var query = "songs/"
+
+      if isNaN(firstChar) {
+        query = query + firstChar + "/" + songID + ".html";
+      } else {
+        query = query + "0-9/" + songID + ".html";
+      }
+      */
+      
+      var query = "songs/" + songID + ".html"; // Remove after re-org
       document.getElementById("ukulele-song").src = query;
     }
   </script>
