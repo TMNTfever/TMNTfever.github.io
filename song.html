@@ -24,8 +24,18 @@
       } else {
         query = query + "0-9/" + songID + ".html";
       }
-      
+
       document.getElementById("ukulele-song").src = query;
+
+      // Update page title to song title
+      var songIdArr = songID.split("-");
+
+      for (var i = 0; i < songIdArr.length; i++) {
+        songIdArr[i] = songIdArr[i].charAt(0).toUpperCase() + songIdArr[i].slice(1);
+      }
+      
+      var songIdCap = songIdArr.join(" ");
+      document.title = "TMNTfever - " + songIdCap;
     }
   </script>
 </head>
