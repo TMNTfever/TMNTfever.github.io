@@ -19,7 +19,7 @@
       var firstChar = songID.charAt(0);
       var query = "songs/";
       
-      if isNaN(firstChar) {
+      if (isNaN(firstChar)) { // Requires parenthesis around isNaN for some reason
         query = query + firstChar + "/" + songID + ".html";
       } else {
         query = query + "0-9/" + songID + ".html";
