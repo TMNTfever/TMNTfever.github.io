@@ -19,10 +19,10 @@
       var firstChar = songID.charAt(0);
       var query = "songs/";
       
-      if (/[a-zA-Z]/).test(firstChar) {
-        query = query + "0-9/" + songID + ".html";
-      } else {
+      if isNaN(firstChar) {
         query = query + firstChar + "/" + songID + ".html";
+      } else {
+        query = query + "0-9/" + songID + ".html";
       }
 
 window.alert(songID + ", " + firstChar + ", " + query);
