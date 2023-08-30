@@ -35,7 +35,8 @@
       }
       
       var songIdCap = songIdArr.join(" ");
-      document.title = "TMNTfever - " + songIdCap;
+      document.title = songIdCap;
+      this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove();
     }
   </script>
 </head>
