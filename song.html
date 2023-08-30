@@ -26,8 +26,8 @@
       }
 
       document.getElementById("ukulele-song").src = query;
-      document.getElementById("ukulele-song").before((document.getElementById("ukulele-song").contentDocument.body||document.getElementById("ukulele-song").contentDocument).children[0]);
-      document.getElementById("ukulele-song").remove();
+      //document.getElementById("ukulele-song").before((document.getElementById("ukulele-song").contentDocument.body||document.getElementById("ukulele-song").contentDocument).children[0]);
+      //document.getElementById("ukulele-song").remove();
 
       // Update page title to song title
       var songIdArr = songID.split("-");
@@ -88,7 +88,7 @@
         </tr>
       </table>
       
-      <iframe id="ukulele-song" class="iframe" src="" style="border:0" scrolling="no"></iframe>
+      <iframe id="ukulele-song" class="iframe" src="songs/s/something-stupid.html" style="border:0" scrolling="no" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
     </div>
   </div>
   <!-- /#page-content-wrapper -->
