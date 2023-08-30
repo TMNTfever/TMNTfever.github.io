@@ -26,8 +26,7 @@
       }
 
       document.getElementById("ukulele-song").src = query;
-      this.before((this.contentDocument.body||this.contentDocument).children[0]);
-      this.remove();
+      
 
       // Update page title to song title
       var songIdArr = songID.split("-");
@@ -38,7 +37,10 @@
       
       var songIdCap = songIdArr.join(" ");
       document.title = songIdCap;
-    }
+    };
+    
+    this.before((this.contentDocument.body||this.contentDocument).children[0]);
+    this.remove();
   </script>
 </head>
 
