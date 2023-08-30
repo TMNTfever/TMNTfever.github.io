@@ -17,15 +17,15 @@
     window.onload = function() {
       var songID = document.location.href.split('?').pop();
       var firstChar = songID.charAt(0)
-      var query = "songs/"
-
+      var query = "songs/";
+      
       if (/[a-zA-Z]/).test(firstChar) {
         query = query + "0-9/" + songID + ".html";
       } else {
         query = query + firstChar + "/" + songID + ".html";
       }
 
-alert(songID + ", " + firstChar + ", " + query);
+window.alert(songID + ", " + firstChar + ", " + query);
       
       document.getElementById("ukulele-song").src = query;
     }
