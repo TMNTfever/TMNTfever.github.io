@@ -18,7 +18,8 @@
       var songID = document.location.href.split('?').pop();
       var firstChar = songID.charAt(0);
       var query = "songs/";
-      
+
+      // Determine subfolder based on first character of songID
       if (isNaN(firstChar)) { // Requires parenthesis around isNaN for some reason
         query = query + firstChar + "/" + songID + ".html";
       } else {
@@ -26,6 +27,8 @@
       }
 
       document.getElementById("ukulele-song").src = query;
+      document.getElementById("ukulele-song").title = songID;
+      // 
       //document.getElementById("ukulele-song").before((document.getElementById("ukulele-song").contentDocument.body||document.getElementById("ukulele-song").contentDocument).children[0]);
       //document.getElementById("ukulele-song").remove();
 
@@ -88,7 +91,7 @@
         </tr>
       </table>
       
-      <iframe id="ukulele-song" class="iframe" src="" style="border:0"></iframe>
+      <iframe id="ukulele-song" class="iframe" src="" title="" style="border:0"></iframe>
     </div>
   </div>
   <!-- /#page-content-wrapper -->
