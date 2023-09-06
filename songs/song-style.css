@@ -22,10 +22,15 @@ l- { /*Lyrics*/
   color: #DDDDDD;
 }
 
+r- { /*Repeated Chorus*/
+  color: #D85B5F;
+}
+
 @media print {
   html, body {color: #000000;}
   h2 {color: #FFCC66;}
   span {color: #FFCC66;}
   c- {color: #000000;}
   l- {color: #333333;}
+  r- {color: #D85B5F;}
 }
