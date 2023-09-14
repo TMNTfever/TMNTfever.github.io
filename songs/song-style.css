@@ -7,11 +7,16 @@ html, body {
 }
 
 h2 {
+  color: #FFFFFF;
   font-size: 2rem;
 }
 
-span {
+s- { /*Section*/
   color: #FFCC66;
+}
+
+r- { /*Repeated Chorus or Section*/
+  color: #D85B5F;
 }
 
 c- { /*Chords*/
@@ -22,15 +27,11 @@ l- { /*Lyrics*/
   color: #DDDDDD;
 }
 
-r- { /*Repeated Chorus*/
-  color: #D85B5F;
-}
-
 @media print {
   html, body {color: #000000;}
   h2 {color: #FFCC66;}
-  span {color: #FFCC66;}
+  s- {color: #FFCC66;}
+  r- {color: #D85B5F;}
   c- {color: #000000;}
   l- {color: #333333;}
-  r- {color: #D85B5F;}
 }
