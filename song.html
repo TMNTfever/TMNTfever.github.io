@@ -26,13 +26,7 @@
         query = query + "0-9/" + songID + ".html";
       }
 
-      //document.getElementById("ukulele-song").src = query;
-      //document.getElementById("ukulele-song").title = songID;
-      
       $("#ukulele-song").load(query);
-      
-      //document.getElementById("ukulele-song").before((document.getElementById("ukulele-song").contentDocument.body||document.getElementById("ukulele-song").contentDocument).children[0]);
-      //document.getElementById("ukulele-song").remove();
 
       // Update page title to song title
       var songIdArr = songID.split("-");
@@ -89,13 +83,10 @@
       <table id="song-nav">
         <tr>
           <td align="left"><a style="color: #D85B5F" href="ukulele.html">Return to Song List</a></td>
-          <td align="right"><a style="color: #D85B5F" href="javascript:void(0);" onclick="printFrame('ukulele-song')">Print Sheet</a></td>
+          <td align="right"><a style="color: #D85B5F" href="javascript:void(0);" onclick="printDiv('ukulele-song')">Print Sheet</a></td>
         </tr>
       </table>
       
-      <!-- REMOVE THIS SECTION IF DIV IMPORT WORKS
-      <iframe id="ukulele-song" class="iframe" src="" title="" style="border:0"></iframe>
-      -->
       <div id="ukulele-song"></div>
     </div>
   </div>
@@ -117,10 +108,10 @@ function closeNav() {
   document.getElementById("open-button").style.display = "block";
 }
 
-function printFrame(id) {
-  var frm = document.getElementById(id).contentWindow;
-  frm.focus();
-  frm.print();
+function printDiv(id) {
+  var ukeDiv = document.getElementById(id).innerHTML;
+  ukeDiv.focus();
+  ukeDiv.print();
   return false;
 }
 
