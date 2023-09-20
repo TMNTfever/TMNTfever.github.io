@@ -13,6 +13,7 @@
   <link href="style.css" rel="stylesheet">
   <script src="src/jquery/jquery.min.js"></script>
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="src/printThis/printThis.js"></script>
   <script type="application/javascript">
     window.onload = function() {
       var songID = document.location.href.split('?').pop();
@@ -26,6 +27,7 @@
         query = query + "0-9/" + songID + ".html";
       }
 
+      // Load HTML into the div
       $("#ukulele-song").load(query);
 
       // Update page title to song title
@@ -83,7 +85,7 @@
       <table id="song-nav">
         <tr>
           <td align="left"><a style="color: #D85B5F" href="ukulele.html">Return to Song List</a></td>
-          <td align="right"><a style="color: #D85B5F" href="javascript:void(0);" onclick="printDiv('ukulele-song')">Print Sheet</a></td>
+          <td align="right"><a style="color: #D85B5F" href="javascript:void(0);" onclick="printDiv()">Print Sheet</a></td>
         </tr>
       </table>
       
@@ -108,11 +110,8 @@ function closeNav() {
   document.getElementById("open-button").style.display = "block";
 }
 
-function printDiv(id) {
-  var ukeDiv = document.getElementById(id).innerHTML;
-  ukeDiv.focus();
-  ukeDiv.print();
-  return false;
+function printDiv() {
+  $("#ukulele-song").printThis();
 }
 
 </script>
