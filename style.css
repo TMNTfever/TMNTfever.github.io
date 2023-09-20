@@ -1,3 +1,7 @@
+/*---------------------------
+--- Global variables
+---------------------------*/
+
 @font-face {
 font-family: 'BebasNeue';
 src:
@@ -170,14 +174,23 @@ src:
   margin: auto;
 }
 
+#song-nav {
+  margin: auto;
+  border: none;
+  width: 90%;
+  max-width: 750px;
+  padding: 8px;
+}
+
 #ukulele-song {
   white-space: pre;
   display: block;
   margin: auto;
   overflow: visible;
-  height: 90vh;
-  width: 90%;
+  height: auto;
+  width: auto;
   border: none;
+  padding-bottom: 50px;
   font-family: Monaco, Consolas, monospace;
   font-size: 0.9rem;
   line-height: 1.1rem;
@@ -204,14 +217,6 @@ src:
 
 #ukulele-song l- { /*Lyrics*/
   color: #DDDDDD;
-}
-
-#song-nav {
-  margin: auto;
-  border: none;
-  width: 90%;
-  max-width: 750px;
-  padding: 8px;
 }
 
 /*---------------------------
