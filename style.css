@@ -171,12 +171,17 @@ src:
 }
 
 #ukulele-song {
+  white-space: pre;
   display: block;
   margin: auto;
   overflow: visible;
   height: 90vh;
   width: 90%;
   border: none;
+  font-family: Monaco, Consolas, monospace;
+  font-size: 0.9rem;
+  line-height: 1.1rem;
+  color: #FFFFFF;
 }
 
 #song-nav {
@@ -185,6 +190,27 @@ src:
   width: 90%;
   max-width: 750px;
   padding: 8px;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+s- { /*Section*/
+  color: #FFCC66;
+}
+
+r- { /*Repeated Chorus or Section*/
+  color: #D85B5F;
+}
+
+c- { /*Chords*/
+  color: #FFFFFF;
+}
+
+l- { /*Lyrics*/
+  color: #DDDDDD;
 }
 
 /*---------------------------
@@ -317,4 +343,13 @@ src:
   #open-button {display:none;}
   #close-button {display:none;}
   #sidebar {width: 11rem;}
+}
+
+@media print {
+  html, body {color: #000000;}
+  h2 {color: #FFCC66;}
+  s- {color: #FFCC66;}
+  r- {color: #D85B5F;}
+  c- {color: #000000;}
+  l- {color: #333333;}
 }
