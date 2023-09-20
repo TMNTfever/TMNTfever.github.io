@@ -329,7 +329,7 @@ src:
 --- Mobile Resolution Options
 ---------------------------*/
 
-@media screen and (max-width: 750px;) {
+@media screen and (max-width: 750px) {
   #open-button {display:block;}
   #close-button {display:none;}
   #pg-ukulele table {width: 98%;}
