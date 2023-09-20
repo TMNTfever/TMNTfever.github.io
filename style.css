@@ -185,8 +185,8 @@ src:
 #ukulele-song {
   white-space: pre;
   display: block;
-  margin-left: 5%;
-  margin-top: 5%;
+  margin-left: 4%;
+  margin-top: 2%;
   padding-bottom: 50px;
   overflow: visible;
   height: auto;
@@ -329,13 +329,13 @@ src:
 --- Mobile Resolution Options
 ---------------------------*/
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px;) {
   #open-button {display:block;}
   #close-button {display:none;}
   #pg-ukulele table {width: 98%;}
   #pg-liondance table {width: 98%;}
   #song-nav {width: 100%;}
-  #ukulele-song {width: 100%;}
+  #ukulele-song {width: 100%; margin-left: auto;}
   #toc_container {width: 98%}
   #ld-band {width: 98%;}
   
