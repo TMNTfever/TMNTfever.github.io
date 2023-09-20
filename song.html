@@ -26,9 +26,11 @@
         query = query + "0-9/" + songID + ".html";
       }
 
-      document.getElementById("ukulele-song").src = query;
-      document.getElementById("ukulele-song").title = songID;
-      // 
+      //document.getElementById("ukulele-song").src = query;
+      //document.getElementById("ukulele-song").title = songID;
+      
+      $("#ukulele-song").load(query);
+      
       //document.getElementById("ukulele-song").before((document.getElementById("ukulele-song").contentDocument.body||document.getElementById("ukulele-song").contentDocument).children[0]);
       //document.getElementById("ukulele-song").remove();
 
@@ -91,7 +93,10 @@
         </tr>
       </table>
       
+      <!-- REMOVE THIS SECTION IF DIV IMPORT WORKS
       <iframe id="ukulele-song" class="iframe" src="" title="" style="border:0"></iframe>
+      -->
+      <div id="ukulele-song"></div>
     </div>
   </div>
   <!-- /#page-content-wrapper -->
