@@ -353,7 +353,7 @@ src:
 }
 
 @media print {
-  #ukulele-song html, body {color: #000000;}
+  #ukulele-song {color: #000000;}
   #ukulele-song h2 {color: #FFCC66;}
   #ukulele-song s- {color: #FFCC66;}
   #ukulele-song r- {color: #D85B5F;}
