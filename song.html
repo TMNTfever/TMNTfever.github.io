@@ -27,7 +27,8 @@
         query = query + "0-9/" + songID + ".html";
       }
 
-      // Load HTML into the div
+      // Load HTML into divs
+      $("#sidebar-wrapper").load("sidebar.html");
       $("#ukulele-song").load(query);
 
       // Update page title to song title
@@ -48,31 +49,8 @@
 
 <!-- Wrapper -->
 <div id="wrapper" class="">
-  <div id="open-button" class="menu-button">
-    <button class="btn btn-outline-light" onclick="openNav()">&#9776;</button>
-  </div>
-  
-  <div id="close-button" class="menu-button">
-    <button class="btn btn-outline-light" onclick="closeNav()">&#9776;</button>
-  </div>
-
-  <!-- Sidebar -->
-  <div id="sidebar" class="bg-dark sidebar">
-    <div class="sidebar-heading">
-      <a class="sidebar-logo" href="#"><img src="assets/TMNTfever.png" alt="TMNTfever"></a>
-    </div>
-    
-    <div class="list-group list-group-flush">
-      <a href="index.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-home.png" alt="Home"> Home</a>
-      <a href="ukulele.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-ukie.png" alt="Ukulele"> Ukulele</a>
-      <a href="fightstick.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-fightstick.png" alt="Fightstick"> Fightstick</a>
-      <a href="liondance.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-liondance.png" alt="Lion Dance"> Lion Dance</a>
-      <a href="https://tmntfever.tumblr.com" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-tumblr.png" alt="Tumblr"> TMNT Blog</a>
-      <a href="resume.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-resume.png" alt="Resume"> Resume</a>
-      <a href="contact.html" class="list-group-item list-group-item-action bg-dark text-light"><img src="assets/icon-contact.png" alt="Contact"> Contact</a>
-    </div>
-  </div>
-  <!-- /#sidebar-wrapper -->
+  <!-- Sidebar Wrapper -->
+  <div id="sidebar-wrapper"></div>
 
   <!-- Page Content -->
   <div id="pg" class="text-light">
@@ -98,22 +76,9 @@
 
 <!-- Custom Scripts -->
 <script type="application/javascript">
-function openNav() {
-  document.getElementById("sidebar").style.width = "11rem";
-  document.getElementById("close-button").style.display = "block";
-  document.getElementById("open-button").style.display = "none";
-}
-
-function closeNav() {
-  document.getElementById("sidebar").style.width = "0";
-  document.getElementById("close-button").style.display = "none";
-  document.getElementById("open-button").style.display = "block";
-}
-
 function printDiv() {
   $("#ukulele-song").printThis();
 }
-
 </script>
 </body>
 </html>
