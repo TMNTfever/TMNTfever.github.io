@@ -166,7 +166,7 @@ src:
 }
 
 /*---------------------------
---- Song
+--- Chords
 ---------------------------*/
 
 #search-bar {
@@ -182,7 +182,7 @@ src:
   padding: 8px;
 }
 
-#ukulele-song {
+#ukulele-chords {
   white-space: pre;
   display: block;
   margin-left: 4%;
@@ -198,25 +198,25 @@ src:
   color: #FFFFFF;
 }
 
-#ukulele-song h2 {
+#ukulele-chords h2 {
   margin-bottom: 0px;
   color: #FFFFFF;
   font-size: 2rem;
 }
 
-#ukulele-song s- { /*Section*/
+#ukulele-chords s- { /*Section*/
   color: #FFCC66;
 }
 
-#ukulele-song r- { /*Repeated Chorus or Section*/
+#ukulele-chords r- { /*Repeated Chorus or Section*/
   color: #D85B5F;
 }
 
-#ukulele-song c- { /*Chords*/
+#ukulele-chords c- { /*Chords*/
   color: #FFFFFF;
 }
 
-#ukulele-song l- { /*Lyrics*/
+#ukulele-chords l- { /*Lyrics*/
   color: #DDDDDD;
 }
 
@@ -335,7 +335,7 @@ src:
   #pg-ukulele table {width: 98%;}
   #pg-liondance table {width: 98%;}
   #song-nav {width: 100%;}
-  #ukulele-song {margin-left: 1%;}
+  #ukulele-chords {margin-left: 1%;}
   #toc_container {width: 98%}
   #ld-band {width: 98%;}
   
@@ -353,10 +353,10 @@ src:
 }
 
 @media print {
-  #ukulele-song {color: #000000;}
-  #ukulele-song h2 {color: #FFCC66;}
-  #ukulele-song s- {color: #FFCC66;}
-  #ukulele-song r- {color: #D85B5F;}
-  #ukulele-song c- {color: #000000;}
-  #ukulele-song l- {color: #333333;}
+  #ukulele-chords {color: #000000;}
+  #ukulele-chords h2 {color: #FFCC66;}
+  #ukulele-chords s- {color: #FFCC66;}
+  #ukulele-chords r- {color: #D85B5F;}
+  #ukulele-chords c- {color: #000000;}
+  #ukulele-chords l- {color: #333333;}
 }
