@@ -58,6 +58,10 @@ src:
   height: 25px;
 }
 
+#list-group-item {
+  background-color: #121E30;
+}
+
 /*---------------------------
 --- Body
 ---------------------------*/
