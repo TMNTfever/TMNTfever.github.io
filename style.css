@@ -26,6 +26,8 @@ src:
 ---------------------------*/
 
 .sidebar {
+  /*old color #343A40*/
+  background-color: #121E30;
   transition: .5s;
   height: 100%;
   overflow-x: hidden;
@@ -61,7 +63,8 @@ src:
 ---------------------------*/
 
 .body {
-  background-color: #212529;
+  /*old color #212529*/
+  background-color: #0C141E;
 }
 
 #wrapper {
@@ -82,7 +85,8 @@ src:
 .pg h1 {
   padding-left: 0.7rem;
   font-family: BebasNeue;
-  color: #212529;
+  /*old color #212529*/
+  color: #0C141E;
 }
 
 .pg h3 {
@@ -106,7 +110,8 @@ src:
 }
 
 .pg hr {
-  border-bottom: 5px solid #343a40;
+  /*old color #343A40*/
+  border-bottom: 5px solid #121E30;
   width: 50%;
   height: auto;
   align: center;
@@ -162,7 +167,8 @@ src:
 }
 
 #ukulele-table > tbody tr:nth-child(odd) {
-  background-color: #101418;
+  /*old color 101418*/
+  background-color: #0F121C;
 }
 
 /*---------------------------
@@ -255,7 +261,8 @@ src:
   margin: auto;
   width: 90%;
   height: 70vh;
-  background: #343a40;
+  /*old color #343A40*/
+  background: #121E30;
 }
 
 .stance {
@@ -264,7 +271,8 @@ src:
 }
 
 #toc_container {
-  background: #343a40 none repeat scroll 0 0;
+  /*old color #343A40*/
+  background: #121E30 none repeat scroll 0 0;
   border: 1px solid #ffffff;
   margin: auto;
   padding-top: 10px;
