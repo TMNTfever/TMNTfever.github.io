@@ -58,7 +58,7 @@ src:
   height: 25px;
 }
 
-#list-group-item {
+.list-group-item {
   background-color: #121E30;
 }
 
@@ -172,7 +172,7 @@ src:
 
 #ukulele-table > tbody tr:nth-child(odd) {
   /*old color 101418*/
-  background-color: #0F121C;
+  background-color: #080c0f;
 }
 
 /*---------------------------
