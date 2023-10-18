@@ -59,7 +59,13 @@ src:
 }
 
 .list-group-item {
+  /*old color #343A40*/
   background-color: #121E30;
+}
+
+.list-group-item:hover {
+  /*old color #212529*/
+  background-color: #0C141E;
 }
 
 /*---------------------------
