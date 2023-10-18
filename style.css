@@ -27,7 +27,7 @@ src:
 
 .sidebar {
   /*old color #343A40*/
-  background-color: #121E30;
+  background-color: #0C141E;
   transition: .5s;
   height: 100%;
   overflow-x: hidden;
@@ -60,12 +60,12 @@ src:
 
 .list-group-item {
   /*old color #343A40*/
-  background-color: #121E30;
+  background-color: #0C141E;
 }
 
 .list-group-item:hover {
   /*old color #212529*/
-  background-color: #0C141E;
+  background-color: #080C0F;
 }
 
 /*---------------------------
@@ -74,7 +74,7 @@ src:
 
 .body {
   /*old color #212529*/
-  background-color: #0C141E;
+  background-color: #080C0F;
 }
 
 #wrapper {
@@ -96,7 +96,7 @@ src:
   padding-left: 0.7rem;
   font-family: BebasNeue;
   /*old color #212529*/
-  color: #0C141E;
+  color: #080C0F;
 }
 
 .pg h3 {
@@ -121,7 +121,7 @@ src:
 
 .pg hr {
   /*old color #343A40*/
-  border-bottom: 5px solid #121E30;
+  border-bottom: 5px solid #0C141E;
   width: 50%;
   height: auto;
   align: center;
@@ -178,7 +178,7 @@ src:
 
 #ukulele-table > tbody tr:nth-child(odd) {
   /*old color 101418*/
-  background-color: #080c0f;
+  background-color: #040408;
 }
 
 /*---------------------------
@@ -272,7 +272,7 @@ src:
   width: 90%;
   height: 70vh;
   /*old color #343A40*/
-  background: #121E30;
+  background: #0C141E;
 }
 
 .stance {
@@ -282,7 +282,7 @@ src:
 
 #toc_container {
   /*old color #343A40*/
-  background: #121E30 none repeat scroll 0 0;
+  background: #0C141E none repeat scroll 0 0;
   border: 1px solid #ffffff;
   margin: auto;
   padding-top: 10px;
