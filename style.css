@@ -326,6 +326,15 @@ src:
 }
 
 /*---------------------------
+--- Flexbox
+---------------------------*/
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/*---------------------------
 --- Mobile Resolution Options
 ---------------------------*/
 
@@ -344,6 +353,7 @@ src:
   .pg {margin-left:0;}
   .pg p, ul {width: 98%;}
   .pg h3 {margin-left: 0px;}
+  .flex-container {flex-direction: column;}
 }
 
 @media screen and (min-width: 750px) {
