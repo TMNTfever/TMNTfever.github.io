@@ -355,7 +355,8 @@ src:
 }
 
 #pg-sunset select {
-  text-align: center;
+  display: block;
+  margin: auto;
   background-color: #223037;
   color: #FFFFFF;
   width: 50%;
