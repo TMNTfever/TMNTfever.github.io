@@ -355,12 +355,14 @@ src:
 }
 
 #pg-sunset select {
+  margin: 0 auto;
   background-color: #223037;
   color: #FFFFFF;
-  width: 70%;
+  width: 50%;
 }
 
 #song-player {
+  margin: 0 auto;
   width: 90%;
   height: 200px;
   border: none;
@@ -370,7 +372,7 @@ src:
 #sunset-calendar {
   aspect-ratio: 4 / 3;
   border: none;
-  margin: auto;
+  margin: 0 auto;
   width: 90%;
   height: 90%;
   max-width: 600px;
