@@ -344,12 +344,36 @@ src:
 }
 
 /*---------------------------
---- Flexbox
+--- Sunset Sound
 ---------------------------*/
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
+.album {
+  display: block;
+  margin: auto;
+  border: 2px solid #FFFFFF;
+  max-width: 350px;
+}
+
+#pg-sunset select {
+  background-color: #223037;
+  color: #FFFFFF;
+  width: 70%;
+}
+
+#song-player {
+  width: 90%;
+  height: 200px;
+  border: none;
+  overflow: hidden;
+}
+
+#sunset-calendar {
+  aspect-ratio: 4 / 3;
+  border: none;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  max-width: 600px;
 }
 
 /*---------------------------
@@ -365,13 +389,13 @@ src:
   #ukulele-chords {margin-left: 1%;}
   #toc_container {width: 98%}
   #ld-band {width: 98%;}
-  
+  #sunset-calendar {max-width: 400px;}
+
   .stance {width: 20vw;}
   .sidebar {width: 0;}
   .pg {margin-left:0;}
   .pg p, ul {width: 98%;}
   .pg h3 {margin-left: 0px;}
-  .flex-container {flex-direction: column;}
 }
 
 @media screen and (min-width: 750px) {
