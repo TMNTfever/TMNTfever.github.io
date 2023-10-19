@@ -351,6 +351,7 @@ src:
   display: block;
   margin: auto;
   border: 2px solid #FFFFFF;
+  width: 60%;
   max-width: 350px;
 }
 
