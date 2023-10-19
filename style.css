@@ -367,6 +367,7 @@ src:
   margin: auto;
   width: 90%;
   height: 200px;
+  max-width: 600px;
   border: none;
   overflow: hidden;
 }
