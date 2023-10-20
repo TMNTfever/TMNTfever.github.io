@@ -369,7 +369,7 @@ src:
   width: 90%;
   height: 200px;
   max-width: 600px;
-  border: none;
+  border: 2px solid #FFFFFF;
   overflow: hidden;
 }
 
