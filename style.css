@@ -358,6 +358,9 @@ src:
 #pg-sunset table {
   margin: auto;
   width: 100%;
+  table-layout: fixed;
+  border-bottom: 2px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
 }
 
 .band-member {
