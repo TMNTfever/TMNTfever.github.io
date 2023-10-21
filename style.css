@@ -359,12 +359,16 @@ src:
   margin: auto;
   width: 100%;
   table-layout: fixed;
-  border-bottom: 2px solid #FFFFFF;
-  border-top: 2px solid #FFFFFF;
 }
 
 .band-member {
   width: 70%;
+  border-bottom: 2px solid #FFFFFF;
+  border-top: 2px solid #FFFFFF;
+}
+
+.instrument {
+   width: 25%;
 }
 
 #sunset-calendar {
