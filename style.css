@@ -355,6 +355,15 @@ src:
   overflow: hidden;
 }
 
+#pg-sunset table {
+  margin: auto;
+  width: 100%;
+}
+
+#band-member {
+  width: 25%;
+}
+
 #sunset-calendar {
   display: block;
   margin: auto;
