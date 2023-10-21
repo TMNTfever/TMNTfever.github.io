@@ -347,27 +347,11 @@ src:
 --- Sunset Sound
 ---------------------------*/
 
-.album {
-  display: block;
-  margin: auto;
-  border: 2px solid #223037;
-  width: 60%;
-  max-width: 350px;
-}
-
-#pg-sunset select {
-  display: block;
-  margin: auto;
-  background-color: #223037;
-  color: #FFFFFF;
-  width: 50%;
-}
-
 #song-player {
   display: block;
   margin: auto;
-  width: 50%;
-  height: 100px;
+  width: 90%;
+  height: 500px;
   overflow: hidden;
 }
 
