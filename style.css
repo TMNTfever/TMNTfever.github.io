@@ -357,7 +357,7 @@ src:
 
 #pg-sunset table {
   margin: auto;
-  width: 100%;
+  width: 90%;
   table-layout: fixed;
 }
 
@@ -393,6 +393,7 @@ src:
   #ukulele-chords {margin-left: 1%;}
   #toc_container {width: 98%}
   #ld-band {width: 98%;}
+  #pg-sunset table {width: 98%;}
   #sunset-calendar {max-width: 400px;}
 
   .stance {width: 20vw;}
