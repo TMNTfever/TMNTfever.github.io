@@ -361,7 +361,7 @@ src:
 }
 
 .band-member {
-  width: 25%;
+  width: 70%;
 }
 
 #sunset-calendar {
@@ -393,6 +393,7 @@ src:
   .pg {margin-left:0;}
   .pg p, ul {width: 98%;}
   .pg h3 {margin-left: 0px;}
+  .band-member {width: 90%;}
 }
 
 @media screen and (min-width: 750px) {
