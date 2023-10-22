@@ -381,7 +381,7 @@ src:
 #song-player-bar {
   position: absolute;
   top: 0;
-  left: 0;
+  margin:auto;
   width: 90%;
   height: 4px;
   background-color: #FFFFFF;
