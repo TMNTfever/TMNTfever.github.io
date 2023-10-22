@@ -353,8 +353,7 @@ src:
   width: 90%;
   height: 500px;
   overflow: hidden;
-  border-top: 8px solid #FFFFFF;
-  outline-offset: -8px;
+  border: none;
 }
 
 #pg-sunset table {
