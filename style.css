@@ -349,8 +349,8 @@ src:
 
 .band-member {
   width: 70%;
-  border-bottom: 2px solid #FFFFFF;
-  border-top: 2px solid #FFFFFF;
+  border-bottom: 4px solid #FFFFFF;
+  border-top: 4px solid #FFFFFF;
 }
 
 #pg-sunset table {
