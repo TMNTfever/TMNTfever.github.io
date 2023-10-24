@@ -214,6 +214,11 @@ src:
   color: #FFFFFF;
 }
 
+#ukulele-chords table {
+  width: 100%;
+  table-layout: fixed;
+}
+
 #ukulele-chords h2 {
   margin-bottom: 0px;
   color: #FFFFFF;
@@ -234,6 +239,10 @@ src:
 
 #ukulele-chords l- { /*Lyrics*/
   color: #DDDDDD;
+}
+
+#ukulele-chords f- { /*Chord Fingering*/
+  color: #7A9CAB;
 }
 
 /*---------------------------
