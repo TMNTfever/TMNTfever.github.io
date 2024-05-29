@@ -245,6 +245,9 @@ src:
 
 .focus {
   background: #121E23;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #121E23;
   border-radius: 10px;
   padding: 10px;
 }
