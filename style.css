@@ -180,10 +180,6 @@ src:
   background-color: #121A1E;
 }
 
-/*---------------------------
---- Chords
----------------------------*/
-
 #search-bar {
   width: 90%;
   margin: auto;
@@ -195,6 +191,10 @@ src:
   width: 94%;
   padding: 8px;
 }
+
+/*---------------------------
+--- Chords
+---------------------------*/
 
 #ukulele-chords {
   white-space: pre;
@@ -241,6 +241,10 @@ src:
 
 #ukulele-chords f- { /*Chord Fingering*/
   color: #7A9CAB;
+}
+
+#ukulele-chords highlight {
+  background-color: #172328;
 }
 
 /*---------------------------
@@ -441,4 +445,6 @@ src:
   #ukulele-chords r- {color: #D85B5F;}
   #ukulele-chords c- {color: #000000;}
   #ukulele-chords l- {color: #333333;}
+  #ukulele-chords highlight {background-color: #F5F5F5;}
+}
 }
