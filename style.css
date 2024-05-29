@@ -433,7 +433,7 @@ src:
   .stance {width: 20vw;}
   .sidebar {width: 0;}
   .pg {margin-left:0;}
-  .pg ul {width: 98%;}
+  .pg p, ul {width: 98%;}
   .pg h3 {margin-left: 0px;}
   .band-member {width: 90%;}
 }
