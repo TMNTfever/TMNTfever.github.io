@@ -243,9 +243,9 @@ src:
   color: #7A9CAB;
 }
 
-#ukulele-chords highlight {
-  background: #172328;
-  border-radius: 25px;
+.focus {
+  background: #121E23;
+  border-radius: 10px;
   padding: 10px;
 }
 
