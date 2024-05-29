@@ -104,7 +104,7 @@ src:
   color: #FFCC66;
 }
 
-.pg p, ul {
+.pg ul {
   width: 90%;
   margin: auto;
   padding-top: 10px;
