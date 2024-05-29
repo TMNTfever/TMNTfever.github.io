@@ -104,11 +104,7 @@ src:
   color: #FFCC66;
 }
 
-.pg p- {
-  margin-left: 5%;
-}
-
-.pg ul {
+.pg p, ul {
   width: 90%;
   margin: auto;
   padding-top: 10px;
@@ -254,7 +250,7 @@ src:
   border-color: #121E23;
   border-radius: 10px;
   padding: 10px;
-  margin: 0px;
+  margin: unset;
 }
 
 /*---------------------------
