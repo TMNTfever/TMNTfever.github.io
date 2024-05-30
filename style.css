@@ -110,7 +110,7 @@ src:
   padding-top: 10px;
 }
 
-.pg a, span {
+.pg a {
   color: #FFCC66;
 }
 
@@ -219,7 +219,7 @@ src:
 
 #ukulele-chords h2 {
   margin-bottom: 0px;
-  color: #FFFFFF;
+  color: #FFCC66;
   font-size: 2rem;
 }
 
@@ -243,8 +243,14 @@ src:
   color: #7A9CAB;
 }
 
-#ukulele-chords highlight {
-  background-color: #172328;
+.focus {
+  background: #121E23;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #121E23;
+  border-radius: 10px;
+  margin-left: -8px;
+  padding: 5px;
 }
 
 /*---------------------------
