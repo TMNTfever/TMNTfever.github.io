@@ -251,6 +251,7 @@ src:
   border-radius: 10px;
   margin-left: -8px;
   padding: 5px;
+  width: fit-content;
 }
 
 /*---------------------------
