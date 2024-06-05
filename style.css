@@ -44,8 +44,9 @@ src:
 }
 
 .sidebar-logo img {
-  width: 140px;
-  height: 140px;
+  margin: auto;
+  width: 120px;
+  height: 120px;
 }
 
 .sidebar .list-group {
