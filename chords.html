@@ -73,12 +73,17 @@
   </div>
   <!-- /#page-content-wrapper -->
 </div>
+<a onclick="transposeUp()">Test Button</a>
 <!-- /#wrapper -->
 
 <!-- Custom Scripts -->
 <script type="application/javascript">
 function printDiv() {
   $("#ukulele-chords").printThis();
+
+function transposeUp() {
+  var allChords = getElementById("ukulele-chords").getElementsByTagName("c-");
+  alert(allChords);
 }
 </script>
 </body>
