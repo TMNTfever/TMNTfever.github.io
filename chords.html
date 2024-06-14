@@ -88,7 +88,7 @@ function transposeUp() {
   // Retrieve HTMLCollection of <k-> tag
   // Assign songKey variable and locate within key tables
   // Retrieve HTMLCollection of <c-> tags
-  var allChords = getElementById("ukulele-chords").getElementsByTagName("c-");
+  var allChords = document.getElementById("ukulele-chords").getElementsByTagName("c-");
   // Tokenize collections with 3 columns, 1-abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
   // Populate collection with correct chords
   // Transpose, account for table overflow, and write to collection
