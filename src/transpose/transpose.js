@@ -44,11 +44,31 @@ const minFlat = [
   ["Ab", "A" , "Bb", "B" , "C" , "Db", "D" , "Eb", "E" , "F" , "Gb", "G" ]
 ];
 
-function transposeUp() {
+function transpose(isUp) {
+  // Determine the song's key, and whether it's major or minor
   var songKey = document.getElementById("ukulele-chords").getElementsByTageName("k-")[0].innerHTML;
-  // Assign songKey variable and locate within key tables
+  let isMaj;
+  
+  if(songKey.includes("m")) {
+    isMaj = false;
+    songKey = songKey.substring(0, str.length - 1);
+  } else {
+    isMIn = true;
+  }
+  
+  // Determine the correct table to use and assign to new variable for manipulation
+  let keyTable;
+  
+  switch(songKey) {
+    case "":
+    case "":
+    case "":
+      break;
+  }
+  
   // Retrieve HTMLCollection of <c-> tags
   var allChords = document.getElementById("ukulele-chords").getElementsByTagName("c-");
+
   // Tokenize collections with 3 columns, 1-abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
   // Populate collection with correct chords
   // Transpose, account for table overflow, and write to collection
