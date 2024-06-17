@@ -1,3 +1,19 @@
+/*
+============================================================================
+File:      transpose.js
+Desc:      Transposes a song's chords up or down in a Chords page.
+Called by: main/chords.html
+Calls:     abstractChords()
+Arguments: isUp - Boolean value that says whether user wants to transpose
+                  up or down.
+Comments:  N/A
+---------------------------------------------------------------------------
+Date         Programmer    Change
+2024-06-17   JC Reyes      Written
+============================================================================
+*/
+var chordMap = undefined; // Maps abstract IDs to chord for specific key
+
 const majSharp = [
   ["|1", ">1", "|2", ">2", "|3", "|4", ">4", "|5", ">5", "|6", ">6", "|7"],
   ["C" , "C#", "D" , "D#", "E" , "F" , "F#", "G" , "G#", "A" , "A#", "B" ],
@@ -44,11 +60,58 @@ const minFlat = [
   ["Ab", "A" , "Bb", "B" , "C" , "Db", "D" , "Eb", "E" , "F" , "Gb", "G" ]
 ];
 
+/*
+============================================================================
+Program:   transpose()
+Desc:      Main function to transpose chords.
+Called by: main/chords.html
+Calls:     abstractChords()
+Arguments: isUp - Boolean value that says whether user wants to transpose
+                  up or down.
+Comments:  N/A
+---------------------------------------------------------------------------
+Date         Programmer    Change
+2019-12-19   JC reyes      Written in .vba
+2024-06-17   JC Reyes      Converted into .js
+============================================================================
+*/
 function transpose(isUp) {
+  abstractChords();
+  
+  // Transpose, account for table index out-of-bounds, and write to collection
+  // Rebuild chord lines, including whitespace
+  // Rebuild entire chord file and replace id="ukulele-chords"
+
+  if(isUP) {
+  
+  } else {
+  }
+}
+
+/*
+============================================================================
+Program:   abstractChords()
+Desc:      Turns a list of chords into a generalized form so they can be
+           transposed.
+Called by: transpose()
+Calls:     ***AbstractSingle, PopulateKey, CalcIsEntire, CalcChordNum,
+           CalcDifficulty***
+Arguments: N/A
+Comments:  N/A
+---------------------------------------------------------------------------
+Date         Programmer    Change
+2019-12-19   JC Reyes      Written in .vba
+2024-06-17   JC Reyes      Converted into .js
+============================================================================
+*/
+function abstractChords() {
+  var chord;
+  var abChord;
+
   // Determine the song's key, and whether it's major or minor
   var songKey = document.getElementById("ukulele-chords").getElementsByTagName("k-")[0].innerHTML;
   //var songKey = songKeyCollection[0].innerHTML;
-  let isMaj;
+  var isMaj;
 console.log("key: " + songKey + ", majFlat: " + majFlat[1][0]);
   if(songKey.includes("m")) {
     isMaj = false;
@@ -58,7 +121,7 @@ console.log("key: " + songKey + ", majFlat: " + majFlat[1][0]);
   }
   
   // Determine the correct table to use and assign to new variable for manipulation
-  let keyTable;
+  var keyTable;
   
   switch(songKey) {
     case "":
@@ -72,7 +135,4 @@ console.log("key: " + songKey + ", majFlat: " + majFlat[1][0]);
 
   // Tokenize collections with 3 columns, 1-abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
   // Populate collection with correct chords
-  // Transpose, account for table overflow, and write to collection
-  // Rebuild chord lines, including whitespace
-  // Rebuild entire chord file and replace id="ukulele-chords"
 }
