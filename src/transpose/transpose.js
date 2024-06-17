@@ -101,7 +101,7 @@ function transpose(isUp) {
   for(x = 0; x < 12; x++) {
     abMap.set(keyTable[0][x], keyTable[keyRow][x]);
   }
-console.log(keyTable);
+console.log(keyTable.toString());
   // Retrieve HTMLCollection of <c-> tags
   var allChords = document.getElementById("ukulele-chords").getElementsByTagName("c-");
   
@@ -114,8 +114,8 @@ console.log(keyTable);
     } else {
       keyRow = keyRow + 1;
     }
-  } else {
-    (keyRow = 1) {
+  } else if
+    if(keyRow = 1) {
       keyRow = 13;
     } else {
       keyRow = keyRow - 1;
