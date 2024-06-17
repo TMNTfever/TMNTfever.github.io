@@ -48,7 +48,7 @@ function transpose(isUp) {
   // Determine the song's key, and whether it's major or minor
   var songKey = document.getElementById("ukulele-chords").getElementsByTageName("k-")[0].innerHTML;
   let isMaj;
-  
+console.log("key: " + songKey + ", majFlat: " + majFlat[1][0]);
   if(songKey.includes("m")) {
     isMaj = false;
     songKey = songKey.substring(0, str.length - 1);
@@ -74,6 +74,4 @@ function transpose(isUp) {
   // Transpose, account for table overflow, and write to collection
   // Rebuild chord lines, including whitespace
   // Rebuild entire chord file and replace id="ukulele-chords"
-  
-  console.log("Number of elements: " + allChords.length + ", first element: " + allChords[0].innerHTML);
 }
