@@ -114,7 +114,7 @@ console.log(keyTable.toString());
     } else {
       keyRow = keyRow + 1;
     }
-  } else if
+  } else {
     if(keyRow = 1) {
       keyRow = 13;
     } else {
