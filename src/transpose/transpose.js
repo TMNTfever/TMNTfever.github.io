@@ -46,8 +46,8 @@ const minFlat = [
 
 function transpose(isUp) {
   // Determine the song's key, and whether it's major or minor
-  var songKeyCollection = document.getElementById("ukulele-chords").getElementsByTageName("k-");
-  var songKey = songKeyCollection[0].innerHTML;
+  var songKey = document.getElementById("ukulele-chords").getElementsByTagName("k-")[0].innerHTML;
+  //var songKey = songKeyCollection[0].innerHTML;
   let isMaj;
 console.log("key: " + songKey + ", majFlat: " + majFlat[1][0]);
   if(songKey.includes("m")) {
