@@ -86,14 +86,14 @@ function transpose(isUp) {
   var keyRow = 0;
   
   for(x = 1; x < keyTable.length; x++) {
-    if(keyTable[x][0] = songKey) {
+    if(keyTable[x][0] == songKey) {
       keyRow = x;
-console.log("Success: " + keyRow);
+console.log("Success - Row: " + keyRow + ", " + keyTable[x][0] + " = " + songKey);
     }
   }
   
   // Key was invalid, could be a sharp/flat key that is unrepresented ****DO SOMETHING ABOUT IT???****
-  if(keyRow = 0) {
+  if(keyRow == 0) {
     console.log("Invalid Key: " + songKey);
     return;
   }
@@ -122,13 +122,13 @@ console.log(keyTable[0][x] + " : " + keyTable[keyRow][x]);
   
   // Change abMap depending on transposing direction
   if(isUp) {
-    if(keyRow = 13) {
+    if(keyRow == 13) {
       keyRow = 1;
     } else {
       keyRow = keyRow + 1;
     }
   } else {
-    if(keyRow = 1) {
+    if(keyRow == 1) {
       keyRow = 13;
     } else {
       keyRow = keyRow - 1;
