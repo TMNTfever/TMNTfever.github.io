@@ -64,7 +64,6 @@ Date         Programmer    Change
 function transpose(isUp) {
   // Determine the song's key, and whether it's major or minor
   var songKey = document.getElementById("ukulele-chords").getElementsByTagName("k-")[0].innerHTML;
-  //var songKey = songKeyCollection[0].innerHTML;
   var isMaj;
 
   if(songKey.includes("m")) {
@@ -89,6 +88,7 @@ function transpose(isUp) {
   for(x = 1; x < keyTable.length; x++) {
     if(keyTable[x][0] = songKey) {
       keyRow = x;
+console.log("Success: " + keyRow);
     }
   }
   
