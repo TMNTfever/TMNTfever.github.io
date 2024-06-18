@@ -92,26 +92,26 @@ function transpose(isUp) {
     }
   }
   
-  // Key was not valid, could be a sharp/flat key that is unrepresented  
+  // Key was invalid, could be a sharp/flat key that is unrepresented ****DO SOMETHING ABOUT IT???****
   if(keyRow = 0) {
     console.log("Invalid Key: " + songKey);
     return;
   }
-
+  
   // Populate abMap
   abMap = new Map();
   
   for(x = 0; x < 12; x++) {
     abMap.set(keyTable[0][x], keyTable[keyRow][x]);
   }
-console.log(keyTable.toString());
+  
   // Retrieve HTMLCollection of <c-> tags
   var allChords = document.getElementById("ukulele-chords").getElementsByTagName("c-");
   
   // Tokenize collections with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
-
+  
   // Change abMap depending on transposing direction
-  if(isUP) {
+  if(isUp) {
     if(keyRow = 13) {
       keyRow = 1;
     } else {
@@ -128,7 +128,7 @@ console.log(keyTable.toString());
   for(x = 0; x < 12; x++) {
     abMap.set(keyTable[0][x], keyTable[keyRow][x]);
   }
-  
+console.log(abMap.toString());
   // Populate collection with correct chords  
   // Transpose, account for table index out-of-bounds, and write to collection
   // Rebuild chord lines, including whitespace
