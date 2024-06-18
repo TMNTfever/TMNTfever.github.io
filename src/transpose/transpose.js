@@ -86,7 +86,7 @@ function transpose(isUp) {
   // Determine which row the current key is on in keyTable
   var keyRow = 0;
   
-  for(x = 1; x < 13; x++) {
+  for(x = 1; x < keyTable.length; x++) {
     if(keyTable[x][0] = songKey) {
       keyRow = x;
     }
@@ -106,9 +106,19 @@ function transpose(isUp) {
   }
   
   // Retrieve HTMLCollection of <c-> tags
-  var allChords = document.getElementById("ukulele-chords").getElementsByTagName("c-");
+  var allLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
+  var allChords = [];
   
   // Tokenize collections with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
+  for(i = 0; i < allLines.length; i++) {
+    
+  }
+
+  // Populate abMap with current key
+  for(x = 0; x < keyTable[keyRow].length; x++) {
+    abMap.set(keyTable[0][x], keyTable[keyRow][x]);
+console.log(keyTable[0][x] + " : " + keyTable[keyRow][x]);
+  }
   
   // Change abMap depending on transposing direction
   if(isUp) {
@@ -124,11 +134,12 @@ function transpose(isUp) {
       keyRow = keyRow - 1;
     }
   }
-  
-  for(x = 0; x < 12; x++) {
+
+  abMap = new Map();
+  for(x = 0; x < keyTable[keyRow].length; x++) {
     abMap.set(keyTable[0][x], keyTable[keyRow][x]);
   }
-console.log(abMap.toString());
+
   // Populate collection with correct chords  
   // Transpose, account for table index out-of-bounds, and write to collection
   // Rebuild chord lines, including whitespace
