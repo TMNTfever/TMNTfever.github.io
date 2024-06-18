@@ -63,7 +63,15 @@ Date         Programmer    Change
 */
 function transpose(isUp) {
   // Determine the song's key, and whether it's major or minor
-  var songKey = document.getElementById("ukulele-chords").getElementsByTagName("k-")[0].innerHTML;
+  var songKey;
+
+  try {
+    songKey = document.getElementById("ukulele-chords").getElementsByTagName("k-")[0].innerHTML;
+  } catch {
+    console.log("Chord chart does not contain the <k-> tag.");
+    return;
+  }
+  
   var isMaj;
 
   if(songKey.includes("m")) {
@@ -120,7 +128,7 @@ function transpose(isUp) {
     tLine = allLines[x];
     allTokens[tokenIndex] = "<c->";
     tokenIndex += 1;
-    
+console.log(">>> " + tLine);
     for(y = 0; y < tLine.length; y++) {
       tChar = tLine.charAt(y);
       
@@ -141,6 +149,7 @@ function transpose(isUp) {
       }
 
       allTokens[tokenIndex] = tChord; ////////////////////////// Change to abstract chord and split to multi-array
+      tChord = "";
       tokenIndex += 1;
     }
     
