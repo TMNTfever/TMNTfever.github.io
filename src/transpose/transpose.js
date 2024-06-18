@@ -64,6 +64,10 @@ Date         Programmer    Change
 function transpose(isUp) {
   // Determine the song's key, and whether it's major or minor
   var songKey;
+  var isMaj;
+  var keyTable;
+  var keyRow = 0;
+  abMap = new Map();
 
   try {
     songKey = document.getElementById("ukulele-chords").getElementsByTagName("k-")[0].innerHTML;
@@ -72,8 +76,6 @@ function transpose(isUp) {
     return;
   }
   
-  var isMaj;
-
   if(songKey.includes("m")) {
     isMaj = false;
     songKey = songKey.substring(0, str.length - 1);
@@ -81,9 +83,7 @@ function transpose(isUp) {
     isMaj = true;
   }
   
-  // Assign keyTable to the major or minor table
-  var keyTable;
-  
+  // Assign keyTable to the major or minor table  
   if(isMaj) {
     keyTable = majTable;
   } else {
@@ -91,8 +91,6 @@ function transpose(isUp) {
   }
   
   // Determine which row the current key is on in keyTable
-  var keyRow = 0;
-  
   for(x = 1; x < keyTable.length; x++) {
     if(keyTable[x][0] == songKey) {
       keyRow = x;
@@ -106,8 +104,6 @@ function transpose(isUp) {
   }
   
   // Populate abMap with current key
-  abMap = new Map();
-  
   for(x = 0; x < keyTable[keyRow].length; x++) {
     abMap.set(keyTable[0][x], keyTable[keyRow][x]);
   }
@@ -125,7 +121,7 @@ function transpose(isUp) {
   var tokenIndex = 0;
   
   for(x = 0; x < allLines.length; x++) {
-    tLine = allLines[x];
+    tLine = allLines[x].innerHTML;
     allTokens[tokenIndex] = "<c->";
     tokenIndex += 1;
 console.log(">>> " + tLine);
