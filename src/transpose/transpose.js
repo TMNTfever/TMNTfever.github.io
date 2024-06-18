@@ -92,11 +92,14 @@ function transpose(isUp) {
     }
   }
   
-  // Key was not valid, could be a sharp/flat key that is unrepresented
+  // Key was not valid, could be a sharp/flat key that is unrepresented  
   if(keyRow = 0) {
     console.log("Invalid Key: " + songKey);
     return;
   }
+
+  // Populate abMap
+  abMap = new Map();
   
   for(x = 0; x < 12; x++) {
     abMap.set(keyTable[0][x], keyTable[keyRow][x]);
