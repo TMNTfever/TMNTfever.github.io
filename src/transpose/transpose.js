@@ -122,6 +122,7 @@ function transpose(isUp) {
   
   for(x = 0; x < allLines.length; x++) {
     tLine = allLines[x].innerHTML;
+console.log("'" + tLine + "'");
     allTokens[tokenIndex] = "<c->";
     tokenIndex = tokenIndex + 1;
 
@@ -131,9 +132,9 @@ function transpose(isUp) {
       } else {
         tSpace = tSpace + " ";
       }
-console.log("'" + tChar + "'");
+
       while(tChar === " " && y < tLine.Length) {
-        tSpace = tSpace + tChar;
+        tSpace = tSpace + " ";
         y = y + 1;
         tChar = String(tLine.charAt(y));
       }
