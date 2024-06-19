@@ -127,34 +127,30 @@ function transpose(isUp) {
 console.log(">>> " + tLine);
     for(y = 0; y < tLine.length; y++) {
       if(y == 0) {
-        tChar = tLine.charAt(y);
+        tChar = String(tLine.charAt(y));
       } else {
-        tSpace += ' ';
+        tSpace += " ";
       }
       
-      while(tChar == ' ' && y < tLine.Length) {
+      while(tChar == " " && y < tLine.Length) {
         tSpace += tChar;
         y++;
-        tChar = tLine.charAt(y);
+        tChar = String(tLine.charAt(y));
       }
-console.log("flag 1 - '" + tSpace + "', y=" + y)
+
       allTokens[tokenIndex] = tSpace;
       tSpace = "";
       tokenIndex++;
 
-      while(tChar != ' ' && y < tLine.length) {
+      while(tChar != " " && y < tLine.length) {
         tChord += tChar;
         y++;
-        tChar = tLine.charAt(y);
+        tChar = String(tLine.charAt(y));
       }
-console.log("flag 2 - '" + tChord + "', y=" + y)
+
       allTokens[tokenIndex] = tChord; ////////////////////////// Change to abstract chord and split to multi-array
       tChord = "";
       tokenIndex++;
-
-     // if(tChar == ' ' && y < tLine.length-1) {
-     //   y--;
-     // }
     }
     
     allTokens[tokenIndex] = "</c->";
@@ -180,7 +176,6 @@ console.log(allTokens.toString());
   
   for(x = 0; x < keyTable[keyRow].length; x++) {
     abMap.set(keyTable[0][x], keyTable[keyRow][x]);
-console.log(keyTable[0][x] + " : " + keyTable[keyRow][x]);
   }
 
   // Populate collection with correct chords  
