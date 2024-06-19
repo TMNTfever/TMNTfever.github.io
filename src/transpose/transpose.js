@@ -12,7 +12,7 @@ Date         Programmer    Change
 2024-06-17   JC Reyes      Written
 ============================================================================
 */
-var transposeMap = undefined; // Maps abstract IDs to chord for specific key
+var chordMap = undefined; // Maps abstract IDs to chord for specific key
 
 const majTable = [
   ["|1", ">1", "|2", ">2", "|3", "|4", ">4", "|5", ">5", "|6", ">6", "|7"],
@@ -29,7 +29,6 @@ const majTable = [
   ["G" , "G#", "A" , "A#", "B" , "C" , "C#", "D" , "D#", "E" , "E#", "F#"],
   ["Ab", "A" , "Bb", "Cb", "C" , "Db", "D" , "Eb", "Fb", "F" , "Gb", "G" ]
 ];
-
 const minTable = [
   ["|1", ">1", "|2", "|3", ">3", "|4", ">4", "|5", "|6", ">6", "|7", ">7"],
   ["A" , "A#", "B" , "C" , "C#", "D" , "D#", "E" , "F" , "F#", "G" , "G#"],
@@ -45,7 +44,6 @@ const minTable = [
   ["G" , "Ab", "A" , "Bb", "B" , "C" , "Db", "D" , "Eb", "E" , "F" , "Gb"],
   ["G#", "A" , "A#", "B" , "B#", "C#", "D" , "D#", "E" , "E#", "F#", "G" ]
 ];
-
 /*
 ============================================================================
 Program:   transpose()
@@ -67,7 +65,7 @@ function transpose(isUp) {
   var isMaj;
   var keyTable;
   var keyRow = 0;
-  var transposeRow = 0;
+  chordMap = new Map();
 
   try {
     songKey = document.getElementById("ukulele-chords").getElementsByTagName("k-")[0].innerHTML;
@@ -102,7 +100,12 @@ function transpose(isUp) {
     console.log("Invalid Key: " + songKey);
     return;
   }
-  
+
+  // Populate chordMap with current key
+  for(x = 0; x < keyTable[keyRow].length; x++) {
+    chordMap.set(keyTable[0][x], keyTable[keyRow][x]);
+  }
+
   // Retrieve HTMLCollection of <c-> tags
   // Tokenize allLines into allTokens with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
   var allLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
@@ -123,52 +126,48 @@ console.log("'" + tLine + "'");
     
     while(y < tLine.length) {
       tChar = tLine.charAt(y);
-
       if(tChar === " ") {
         if(prevChar !== " " && y > 0) {
           allTokens.push(tChord);
+console.log("'" + tChord + "'");
           tChord = "";
         }
         tSpace += tChar;
       } else {
         if(prevChar === " " && y > 0) {
           allTokens.push(tSpace);
+console.log("'" + tSpace + "'");
           tSpace = "";
         }
         tChord += tChar;
       }
 
-      if(y = allLines.length - 1 && tChord !== "") {
-        allTokens.push(tChord);
-        tChord = "";
-      }
-
       prevChar = tChar;
       y++;
     }
-    
+
     //allTokens.push("</c->");
   }
 console.log(allTokens.toString());
-  // Populate transposeMap, where key = old chord, and ID = new chord
+  // Re-populate chordMap with new key depending on transpose direction
   if(isUp) {
     if(keyRow == 13) {
-      transposeRow = 1;
+      keyRow = 1;
     } else {
-      transposeRow = keyRow + 1;
+      keyRow = keyRow + 1;
     }
   } else {
     if(keyRow == 1) {
-      transposeRow = 13;
+      keyRow = 13;
     } else {
-      transposeRow = keyRow - 1;
+      keyRow = keyRow - 1;
     }
   }
-  
-  transposeMap = new Map();
-  
+
+  chordMap = new Map();
+
   for(x = 0; x < keyTable[keyRow].length; x++) {
-    transposeMap.set(keyTable[keyRow][x], keyTable[transposeRow][x]);
+    chordMap.set(keyTable[0][x], keyTable[keyRow][x]);
   }
 
   // Populate collection with correct chords  
