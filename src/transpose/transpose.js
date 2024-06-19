@@ -135,6 +135,11 @@ function transpose(isUp) {
         tChord += tChar;
       }
 
+      if(y = allLines.length - 1 && tChord !== "") {
+        allTokens.push(tChord);
+        tChord = "";
+      }
+  
       prevChar = tChar;
       y++;
     }
@@ -161,6 +166,7 @@ console.log(allTokens.toString());
 
   for(x = 0; x < keyTable[keyRow].length; x++) {
     chordMap.set(keyTable[keyRow][x], keyTable[newRow][x]);
+console.log(keyTable[keyRow][x] + " : " + chordMap.get(keyTable[keyRow][x]);
   }
 console.log(chordMap.toString());
   // Populate collection with correct chords  
