@@ -135,14 +135,14 @@ console.log("'" + tLine + "'");
 console.log("'" + tChord + "'");
           tChord = "";
         }
-        tSpace.concat(tChar);
+        tSpace += tChar;
       } else {
         if(prevChar === " " && y > 0) {
           allTokens.push(tSpace);
 console.log("'" + tSpace + "'");
           tSpace = "";
         }
-        tChord.concat(tChar);
+        tChord += tChar;
       }
 
       prevChar = tChar;
