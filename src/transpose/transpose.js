@@ -166,7 +166,7 @@ console.log(allTokens.toString());
 
   for(x = 0; x < keyTable[keyRow].length; x++) {
     chordMap.set(keyTable[keyRow][x], keyTable[newRow][x]);
-console.log(keyTable[keyRow][x] + " : " + chordMap.get(keyTable[keyRow][x]);
+console.log(keyTable[keyRow][x] + " : " + chordMap.get(keyTable[keyRow][x]));
   }
 console.log(chordMap.toString());
   // Populate collection with correct chords  
