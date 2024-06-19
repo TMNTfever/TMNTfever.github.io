@@ -128,6 +128,8 @@ console.log(">>> " + tLine);
     for(y = 0; y < tLine.length; y++) {
       if(y == 0) {
         tChar = tLine.charAt(y);
+      } else {
+        tSpace += ' ';
       }
       
       while(tChar == ' ' && y < tLine.Length) {
@@ -150,9 +152,9 @@ console.log("flag 2 - '" + tChord + "', y=" + y)
       tChord = "";
       tokenIndex++;
 
-      if(tChar == ' ' && y < tLine.length-1) {
-        y--;
-      }
+     // if(tChar == ' ' && y < tLine.length-1) {
+     //   y--;
+     // }
     }
     
     allTokens[tokenIndex] = "</c->";
