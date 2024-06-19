@@ -133,7 +133,7 @@ console.log(">>> " + tLine);
         y++;
         tChar = tLine.charAt(y);
       }
-
+console.log("flag 1 - '" + tSpace + "', y=" + y)
       allTokens[tokenIndex] = tSpace;
       tSpace = "";
       tokenIndex += 1;
@@ -143,7 +143,7 @@ console.log(">>> " + tLine);
         y++;
         tChar = tLine.charAt(y);
       }
-
+console.log("flag 2 - '" + tChord + "', y=" + y)
       allTokens[tokenIndex] = tChord; ////////////////////////// Change to abstract chord and split to multi-array
       tChord = "";
       tokenIndex += 1;
