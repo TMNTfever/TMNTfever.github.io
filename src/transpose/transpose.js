@@ -65,6 +65,7 @@ function transpose(isUp) {
   var isMaj;
   var keyTable;
   var keyRow = 0;
+  var newRow = 0;
   chordMap = new Map();
 
   try {
@@ -101,11 +102,6 @@ function transpose(isUp) {
     return;
   }
 
-  // Populate chordMap with current key
-  for(x = 0; x < keyTable[keyRow].length; x++) {
-    chordMap.set(keyTable[0][x], keyTable[keyRow][x]);
-  }
-
   // Retrieve HTMLCollection of <c-> tags
   // Tokenize allLines into allTokens with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
   var allLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
@@ -120,8 +116,7 @@ function transpose(isUp) {
   
   for(x = 0; x < allLines.length; x++) {
     tLine = allLines[x].innerHTML;
-console.log("'" + tLine + "'");
-    //allTokens.push("<c->");
+    allTokens.push("<c->");
     y = 0;
     
     while(y < tLine.length) {
@@ -129,14 +124,12 @@ console.log("'" + tLine + "'");
       if(tChar === " ") {
         if(prevChar !== " " && y > 0) {
           allTokens.push(tChord);
-console.log("'" + tChord + "'");
           tChord = "";
         }
         tSpace += tChar;
       } else {
         if(prevChar === " " && y > 0) {
           allTokens.push(tSpace);
-console.log("'" + tSpace + "'");
           tSpace = "";
         }
         tChord += tChar;
@@ -152,24 +145,24 @@ console.log(allTokens.toString());
   // Re-populate chordMap with new key depending on transpose direction
   if(isUp) {
     if(keyRow == 13) {
-      keyRow = 1;
+      newRow = 1;
     } else {
-      keyRow = keyRow + 1;
+      newRow = keyRow + 1;
     }
   } else {
     if(keyRow == 1) {
-      keyRow = 13;
+      newRow = 13;
     } else {
-      keyRow = keyRow - 1;
+      newRow = keyRow - 1;
     }
   }
 
   chordMap = new Map();
 
   for(x = 0; x < keyTable[keyRow].length; x++) {
-    chordMap.set(keyTable[0][x], keyTable[keyRow][x]);
+    chordMap.set(keyTable[keyRow][x], keyTable[newRow][x]);
   }
-
+console.log(chordMap.toString());
   // Populate collection with correct chords  
   // Transpose, account for table index out-of-bounds, and write to collection
   // Rebuild chord lines, including whitespace
