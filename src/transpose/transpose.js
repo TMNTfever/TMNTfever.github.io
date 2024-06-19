@@ -123,15 +123,18 @@ function transpose(isUp) {
   for(x = 0; x < allLines.length; x++) {
     tLine = allLines[x].innerHTML;
 console.log("'" + tLine + "'");
-    allTokens[tokenIndex] = "<c->";
-    tokenIndex = tokenIndex + 1;
+    //allTokens[tokenIndex] = "<c->";
+    //tokenIndex = tokenIndex + 1;
     y = 0;
-
+    
     while(y < tLine.length) {
+      console.log("'" + tLine.charAt(y)+ "'");
+      y++;
+/*
       if(y == 0) {
         tChar = String(tLine.charAt(y));
       } else {
-        tSpace = tSpace + " ";
+        tSpace.concat(tChar);
       }
 
       while((tChar === " ") && (y < tLine.Length)) {
@@ -144,19 +147,21 @@ console.log("'" + tLine + "'");
       tSpace = "";
       tokenIndex = tokenIndex + 1;
 
-      while(tChar !== " " && y < tLine.length) {
+      while((tChar !== " ") && (y < tLine.length)) {
         tChord = tChord + tChar;
         y = y + 1;
         tChar = String(tLine.charAt(y));
       }
 
-      allTokens[tokenIndex] = tChord; ////////////////////////// Change to abstract chord and split to multi-array
+      allTokens[tokenIndex] = tChord;
+      ////////////////////////// Change to abstract chord and split to multi-array
       tChord = "";
       tokenIndex = tokenIndex + 1;
+*/
     }
     
-    allTokens[tokenIndex] = "</c->";
-    tokenIndex = tokenIndex + 1;
+    //allTokens[tokenIndex] = "</c->";
+    //tokenIndex = tokenIndex + 1;
   }
 console.log(allTokens.toString());
   // Re-populate abMap with new key depending on transpose direction
