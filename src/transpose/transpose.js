@@ -111,12 +111,12 @@ function transpose(isUp) {
   // Retrieve HTMLCollection of <c-> tags
   // Tokenize allLines into allTokens with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
   var allLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
-  var allTokens = [];
+  var allTokens = new Array();
   var tLine = "";
   var tChar = "";
   var prevChar = "";
-  var tChord = "";
   var tSpace = "";
+  var tChord = "";
   var tFlavor = "";
   var tAbstract = "";
   
