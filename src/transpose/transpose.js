@@ -114,21 +114,36 @@ function transpose(isUp) {
   var allTokens = [];
   var tLine = "";
   var tChar = "";
+  var prevChar = "";
   var tChord = "";
   var tSpace = "";
   var tFlavor = "";
   var tAbstract = "";
-  var tokenIndex = 0;
   
   for(x = 0; x < allLines.length; x++) {
     tLine = allLines[x].innerHTML;
 console.log("'" + tLine + "'");
-    //allTokens[tokenIndex] = "<c->";
-    //tokenIndex = tokenIndex + 1;
+    //allTokens.push("<c->");
     y = 0;
     
     while(y < tLine.length) {
-      console.log("'" + tLine.charAt(y)+ "'");
+      tChar = tLine.charAt(y);
+
+      if(tChar === " ") {
+        if(prevChar !== " " && y > 0) {
+          allTokens.push(tChord);
+          tChord = "";
+        }
+          tSpace.concat(tChar);
+      } else {
+        if(prevChar === " " && y > 0) {
+          allTokens.push(tSpace);
+          tSpace = "";
+        }
+        tChord.concat(tChar);
+      }
+
+      prevChar = tChar;
       y++;
 /*
       if(y == 0) {
@@ -160,8 +175,7 @@ console.log("'" + tLine + "'");
 */
     }
     
-    //allTokens[tokenIndex] = "</c->";
-    //tokenIndex = tokenIndex + 1;
+    //allTokens.push("</c->");
   }
 console.log(allTokens.toString());
   // Re-populate abMap with new key depending on transpose direction
