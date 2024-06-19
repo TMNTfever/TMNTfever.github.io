@@ -125,15 +125,16 @@ function transpose(isUp) {
 console.log("'" + tLine + "'");
     allTokens[tokenIndex] = "<c->";
     tokenIndex = tokenIndex + 1;
+    y = 0;
 
-    for(y = 0; y < tLine.length; y++) {
+    while(y < tLine.length) {
       if(y == 0) {
         tChar = String(tLine.charAt(y));
       } else {
         tSpace = tSpace + " ";
       }
 
-      while(tChar === " " && y < tLine.Length) {
+      while((tChar === " ") && (y < tLine.Length)) {
         tSpace = tSpace + " ";
         y = y + 1;
         tChar = String(tLine.charAt(y));
