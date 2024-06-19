@@ -12,7 +12,7 @@ Date         Programmer    Change
 2024-06-17   JC Reyes      Written
 ============================================================================
 */
-var abMap = undefined; // Maps abstract IDs to chord for specific key
+var transposeMap = undefined; // Maps abstract IDs to chord for specific key
 
 const majTable = [
   ["|1", ">1", "|2", ">2", "|3", "|4", ">4", "|5", ">5", "|6", ">6", "|7"],
@@ -67,7 +67,7 @@ function transpose(isUp) {
   var isMaj;
   var keyTable;
   var keyRow = 0;
-  abMap = new Map();
+  var transposeRow = 0;
 
   try {
     songKey = document.getElementById("ukulele-chords").getElementsByTagName("k-")[0].innerHTML;
@@ -103,11 +103,6 @@ function transpose(isUp) {
     return;
   }
   
-  // Populate abMap with current key
-  for(x = 0; x < keyTable[keyRow].length; x++) {
-    abMap.set(keyTable[0][x], keyTable[keyRow][x]);
-  }
-  
   // Retrieve HTMLCollection of <c-> tags
   // Tokenize allLines into allTokens with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
   var allLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
@@ -132,73 +127,48 @@ console.log("'" + tLine + "'");
       if(tChar === " ") {
         if(prevChar !== " " && y > 0) {
           allTokens.push(tChord);
-console.log("'" + tChord + "'");
           tChord = "";
         }
         tSpace += tChar;
       } else {
         if(prevChar === " " && y > 0) {
           allTokens.push(tSpace);
-console.log("'" + tSpace + "'");
           tSpace = "";
         }
         tChord += tChar;
       }
 
+      if(y = allLines.length - 1 && tChord !== "") {
+        allTokens.push(tChord);
+        tChord = "";
+      }
+
       prevChar = tChar;
       y++;
-/*
-      if(y == 0) {
-        tChar = String(tLine.charAt(y));
-      } else {
-        tSpace.concat(tChar);
-      }
-
-      while((tChar === " ") && (y < tLine.Length)) {
-        tSpace = tSpace + " ";
-        y = y + 1;
-        tChar = String(tLine.charAt(y));
-      }
-
-      allTokens[tokenIndex] = tSpace;
-      tSpace = "";
-      tokenIndex = tokenIndex + 1;
-
-      while((tChar !== " ") && (y < tLine.length)) {
-        tChord = tChord + tChar;
-        y = y + 1;
-        tChar = String(tLine.charAt(y));
-      }
-
-      allTokens[tokenIndex] = tChord;
-      ////////////////////////// Change to abstract chord and split to multi-array
-      tChord = "";
-      tokenIndex = tokenIndex + 1;
-*/
     }
     
     //allTokens.push("</c->");
   }
 console.log(allTokens.toString());
-  // Re-populate abMap with new key depending on transpose direction
+  // Populate transposeMap, where key = old chord, and ID = new chord
   if(isUp) {
     if(keyRow == 13) {
-      keyRow = 1;
+      transposeRow = 1;
     } else {
-      keyRow = keyRow + 1;
+      transposeRow = keyRow + 1;
     }
   } else {
     if(keyRow == 1) {
-      keyRow = 13;
+      transposeRow = 13;
     } else {
-      keyRow = keyRow - 1;
+      transposeRow = keyRow - 1;
     }
   }
   
-  abMap = new Map();
+  transposeMap = new Map();
   
   for(x = 0; x < keyTable[keyRow].length; x++) {
-    abMap.set(keyTable[0][x], keyTable[keyRow][x]);
+    transposeMap.set(keyTable[keyRow][x], keyTable[transposeRow][x]);
   }
 
   // Populate collection with correct chords  
