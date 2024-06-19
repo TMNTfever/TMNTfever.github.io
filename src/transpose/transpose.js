@@ -132,12 +132,14 @@ console.log("'" + tLine + "'");
       if(tChar === " ") {
         if(prevChar !== " " && y > 0) {
           allTokens.push(tChord);
+console.log(tChord);
           tChord = "";
         }
           tSpace.concat(tChar);
       } else {
         if(prevChar === " " && y > 0) {
           allTokens.push(tSpace);
+console.log(tSpace);
           tSpace = "";
         }
         tChord.concat(tChar);
