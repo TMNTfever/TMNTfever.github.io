@@ -92,7 +92,7 @@ function transpose(isUp) {
   
   // Determine which row the current key is on in keyTable
   for(x = 1; x < keyTable.length; x++) {
-    if(keyTable[x][0] == songKey) {
+    if(keyTable[x][0] === songKey) {
       keyRow = x;
     }
   }
@@ -112,8 +112,8 @@ function transpose(isUp) {
   // Tokenize allLines into allTokens with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
   var allLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
   var allTokens = [];
-  var tLine;
-  var tChar;
+  var tLine = "";
+  var tChar = "";
   var tChord = "";
   var tSpace = "";
   var tFlavor = "";
@@ -132,7 +132,7 @@ function transpose(isUp) {
         tSpace = tSpace + " ";
       }
 console.log("'" + tChar + "'");
-      while(tChar == " " && y < tLine.Length) {
+      while(tChar === " " && y < tLine.Length) {
         tSpace = tSpace + tChar;
         y = y + 1;
         tChar = String(tLine.charAt(y));
@@ -142,7 +142,7 @@ console.log("'" + tChar + "'");
       tSpace = "";
       tokenIndex = tokenIndex + 1;
 
-      while(tChar != " " && y < tLine.length) {
+      while(tChar !== " " && y < tLine.length) {
         tChord = tChord + tChar;
         y = y + 1;
         tChar = String(tLine.charAt(y));
