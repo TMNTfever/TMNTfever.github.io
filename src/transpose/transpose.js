@@ -124,33 +124,33 @@ function transpose(isUp) {
     tLine = allLines[x].innerHTML;
     allTokens[tokenIndex] = "<c->";
     tokenIndex = tokenIndex + 1;
-console.log(">>> " + tLine);
+
     for(y = 0; y < tLine.length; y++) {
       if(y == 0) {
         tChar = String(tLine.charAt(y));
       } else {
         tSpace = tSpace + " ";
       }
-      
+console.log("'" + tChar + "'");
       while(tChar == " " && y < tLine.Length) {
         tSpace = tSpace + tChar;
-        y++;
+        y = y + 1;
         tChar = String(tLine.charAt(y));
       }
 
       allTokens[tokenIndex] = tSpace;
       tSpace = "";
-      tokenIndex++;
+      tokenIndex = tokenIndex + 1;
 
       while(tChar != " " && y < tLine.length) {
         tChord = tChord + tChar;
-        y++;
+        y = y + 1;
         tChar = String(tLine.charAt(y));
       }
 
       allTokens[tokenIndex] = tChord; ////////////////////////// Change to abstract chord and split to multi-array
       tChord = "";
-      tokenIndex++;
+      tokenIndex = tokenIndex + 1;
     }
     
     allTokens[tokenIndex] = "</c->";
