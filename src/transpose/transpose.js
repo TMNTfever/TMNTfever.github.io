@@ -126,7 +126,11 @@ function transpose(isUp) {
     tokenIndex += 1;
 console.log(">>> " + tLine);
     for(y = 0; y < tLine.length; y++) {
-      tChar = tLine.charAt(y);
+      if(y == 0) {
+        tChar = tLine.charAt(y);
+      } else {
+        y--;
+      }
       
       while(tChar == " " && y < tLine.Length) {
         tSpace += tChar;
@@ -147,10 +151,6 @@ console.log("flag 2 - '" + tChord + "', y=" + y)
       allTokens[tokenIndex] = tChord; ////////////////////////// Change to abstract chord and split to multi-array
       tChord = "";
       tokenIndex += 1;
-
-      if(tChar == " ") {
-        tSpace += tChar;
-      }
     }
     
     allTokens[tokenIndex] = "</c->";
