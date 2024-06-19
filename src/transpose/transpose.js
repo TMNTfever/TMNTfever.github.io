@@ -128,7 +128,7 @@ console.log(">>> " + tLine);
     for(y = 0; y < tLine.length; y++) {
       tChar = tLine.charAt(y);
       
-      while(tChar == " ") {
+      while(tChar == " " && y < tLine.Length) {
         tSpace += tChar;
         y++;
         tChar = tLine.charAt(y);
@@ -138,7 +138,7 @@ console.log("flag 1 - '" + tSpace + "', y=" + y)
       tSpace = "";
       tokenIndex += 1;
 
-      while(tChar != " ") {
+      while(tChar != " " && y < tLine.length) {
         tChord += tChar;
         y++;
         tChar = tLine.charAt(y);
@@ -147,6 +147,10 @@ console.log("flag 2 - '" + tChord + "', y=" + y)
       allTokens[tokenIndex] = tChord; ////////////////////////// Change to abstract chord and split to multi-array
       tChord = "";
       tokenIndex += 1;
+
+      if(tChar == " ") {
+        tSpace += tChar;
+      }
     }
     
     allTokens[tokenIndex] = "</c->";
