@@ -123,17 +123,17 @@ function transpose(isUp) {
   for(x = 0; x < allLines.length; x++) {
     tLine = allLines[x].innerHTML;
     allTokens[tokenIndex] = "<c->";
-    tokenIndex += 1;
+    tokenIndex = tokenIndex + 1;
 console.log(">>> " + tLine);
     for(y = 0; y < tLine.length; y++) {
       if(y == 0) {
         tChar = String(tLine.charAt(y));
       } else {
-        tSpace += " ";
+        tSpace = tSpace + " ";
       }
       
       while(tChar == " " && y < tLine.Length) {
-        tSpace += tChar;
+        tSpace = tSpace + tChar;
         y++;
         tChar = String(tLine.charAt(y));
       }
@@ -143,7 +143,7 @@ console.log(">>> " + tLine);
       tokenIndex++;
 
       while(tChar != " " && y < tLine.length) {
-        tChord += tChar;
+        tChord = tChord + tChar;
         y++;
         tChar = String(tLine.charAt(y));
       }
@@ -154,7 +154,7 @@ console.log(">>> " + tLine);
     }
     
     allTokens[tokenIndex] = "</c->";
-    tokenIndex += 1;
+    tokenIndex = tokenIndex + 1;
   }
 console.log(allTokens.toString());
   // Re-populate abMap with new key depending on transpose direction
