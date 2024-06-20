@@ -3,9 +3,6 @@
 File:      transpose.js
 Desc:      Transposes a song's chords up or down in a Chords page.
 Called by: main/chords.html
-Calls:     N/A
-Arguments: isUp - Boolean value that says whether user wants to transpose
-                  up or down.
 Comments:  N/A
 ---------------------------------------------------------------------------
 Date         Programmer    Change
@@ -55,8 +52,7 @@ Arguments: isUp - Boolean value that says whether user wants to transpose
 Comments:  N/A
 ---------------------------------------------------------------------------
 Date         Programmer    Change
-2019-12-19   JC reyes      Written in .vba
-2024-06-17   JC Reyes      Converted into .js
+2024-06-17   JC Reyes      Written
 ============================================================================
 */
 function transpose(isUp) {
@@ -142,8 +138,8 @@ function transpose(isUp) {
     while(y < tLine.length) {
       tChar = tLine.charAt(y);
       
-      if(tChar === " ") { // tChar is a space
-        if(prevChar !== " " && y > 0) {
+      if(isSpecial(tChar)) { // tChar is a special character
+        if(!isSpecial(prevChar) && y > 0) {
           // Replace chord with transposed chord
           if(tChord.length == 1) { // Single major chord
             allTokens.push(chordMap.get(tChord));
@@ -163,7 +159,7 @@ function transpose(isUp) {
         }
         tSpace += tChar;
       } else { // tChar is a chord
-        if(prevChar === " " && y > 0) {
+        if(isSpecial(prevChar) && y > 0) {
           allTokens.push(tSpace);
           tSpace = "";
         }
@@ -201,4 +197,27 @@ console.log(allTokens.toString());
   var wholeFile = document.getElementById("ukulele-chords").innerHTML;
   var allLines = wholeFile.split(/\r?\n|\r|\n/g);
 console.log(allLines.toString());
+}
+
+/*
+============================================================================
+Program:   isSpecial()
+Desc:      Determines if a character is a space, hyphen, pipe, greater-than,
+           or parenthesis.
+Called by: transpose()
+Calls:     N/A
+Arguments: char - the character that is being checked
+Comments:  N/A
+---------------------------------------------------------------------------
+Date         Programmer    Change
+2024-06-20   JC reyes      Written
+============================================================================
+*/
+function isSpecial(char){
+  switch(char){
+    case " ": case "-": case "/": case "|": case ">": case "(": case ")":
+      return true;
+    default:
+      return false;
+  }
 }
