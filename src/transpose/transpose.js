@@ -188,7 +188,7 @@ function transpose(isUp) {
   }
 console.log(allTokens.toString());
   
-  // Transpose, account for table index out-of-bounds, and write to collection
-  // Rebuild chord lines, including whitespace
-  // Rebuild entire chord file and replace id="ukulele-chords"
+  // Replace <c-> lines ukulele-chords
+  var wholeFile = document.getElementById("ukulele-chords").innerHTML;
+console.log(wholeFile);
 }
