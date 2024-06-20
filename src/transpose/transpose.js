@@ -203,21 +203,19 @@ console.log(allTokens.toString());
   for(x = 0; x < allLines.length; x++) {
     if(allLines[x].length > 1) {
       if(allLines[x].includes("<c->")) {
-        newFile += "\n";
         do {
           tLine += allTokens[tokenIndex];
           tokenIndex++;
         } while(allTokens[tokenIndex] !== "</c->");
 
         // Write to newFile to replace ukulele-chords
-        newFile += tLine + "\n";
+        newFile += tLine;
         tLine = "";
       } else {
         newFile += allLines[x];
       }
-    } else {
-      newFile += "\n";
     }
+    newFile += "\n";
   }
 console.log(newFile);
 }
