@@ -216,6 +216,7 @@ console.log(allTokens.toString());
       }
     } else {
       newFile += "\n";
+    }
   }
 console.log(newFile);
 }
@@ -234,7 +235,7 @@ Date         Programmer    Change
 2024-06-20   JC reyes      Written
 ============================================================================
 */
-function isSpecial(char){
+function isSpecial(char) {
   switch(char){
     case " ": case "-": case "/": case "|": case ">": case "(": case ")":
       return true;
