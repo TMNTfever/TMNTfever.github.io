@@ -66,8 +66,9 @@ function transpose(isUp) {
 
   try {
     songKey = document.getElementById("ukulele-chords").getElementsByTagName("k-")[0].innerHTML;
-  } catch {
+  } catch(error) {
     console.log("Chord chart does not contain the <k-> tag.");
+    console.error(error);
     return;
   }
   
@@ -245,7 +246,7 @@ Date         Programmer    Change
 */
 function isSpecial(char) {
   switch(char){
-    case " ": case "-": case "/": case "|": case ">": case "&gt;" case "(": case ")":
+    case " ": case "-": case "/": case "|": case ">": case "&gt;": case "(": case ")":
       return true;
     default:
       return false;
