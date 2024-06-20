@@ -135,7 +135,7 @@ function transpose(isUp) {
         tChord += tChar;
       }
 
-      if(y = allLines.length - 1 && tChord !== "") {
+      if(y === allLines.length - 1 && tChord !== "") {
         allTokens.push(tChord);
         tChord = "";
       }
