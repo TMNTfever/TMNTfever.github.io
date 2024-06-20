@@ -166,9 +166,10 @@ function transpose(isUp) {
         tChord += tChar;
       }
 
-      // Accounts for the last chord in a line
-      if(y === tLine.length - 1 && tChord !== "") {
-        if(tChord.length == 1) { // Single major chord
+      // Accounts for the last token in a line
+      if(y === tLine.length - 1) {
+        if(tChord !== "") { // Token is a chord
+          if(tChord.length == 1) { // Single major chord
             allTokens.push(chordMap.get(tChord));
           } else { // Chord contains a flat, sharp, and/or flavor
             // Check for flat or sharp
@@ -182,7 +183,11 @@ function transpose(isUp) {
               allTokens.push(chordMap.get(tChord.substr(0, 1)) + tChord.substring(1));
             }
           }
-        tChord = "";
+          tChord = "";
+        } else if(tSpace !== "") { // Token is a special character
+          allTokens.push(tSpace);
+          tSpace = "";
+        }
       }
   
       prevChar = tChar;
