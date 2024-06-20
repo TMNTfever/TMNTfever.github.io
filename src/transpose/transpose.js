@@ -224,7 +224,7 @@ console.log(allLines.toString());
   }
 console.log(newFile)
   // Replace ukulele-chords with newFile
-  //document.getElementById("ukulele-chords").innerHTML = newFile;
+  document.getElementById("ukulele-chords").innerHTML = newFile;
 
   // Find a way to replace the <k-> key
 }
