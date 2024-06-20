@@ -153,9 +153,13 @@ function transpose(isUp) {
           } else { // Chord contains a flat, sharp, and/or flavor
             // Check for flat or sharp
             if(tChord.charAt(1) === "b" || tChord.charAt(1) === "#") {
-              allTokens.push(chordMap.get(tChord.substr(0, 2)));
-            } else { // Flavors detected
-              allTokens.push(chordMap.get(tChord.substr(0, 1)));
+              if(tChord.length == 2) { // No flavors
+                allTokens.push(chordMap.get(tChord.substr(0, 2)));
+              } else { // Flat/sharp with flavors
+                allTokens.push(chordMap.get(tChord.substr(0, 2)) + tChord.substring(2));
+              }
+            } else { // No flat/sharp detected
+              allTokens.push(chordMap.get(tChord.substr(0, 1)) + tChord.substring(1));
             }
           }
           
