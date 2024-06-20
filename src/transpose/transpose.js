@@ -124,8 +124,8 @@ function transpose(isUp) {
   }
   
   // Retrieve HTMLCollection of <c-> tags
-  // Tokenize allLines into allTokens with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
-  var allLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
+  // Tokenize chordLines into allTokens with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
+  var chordLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
   var allTokens = new Array();
   var tLine = "";
   var tChar = "";
@@ -136,8 +136,8 @@ function transpose(isUp) {
   var tAbstract = "";
 
   // Iterate through each line of chords
-  for(x = 0; x < allLines.length; x++) {
-    tLine = allLines[x].innerHTML;
+  for(x = 0; x < chordLines.length; x++) {
+    tLine = chordLines[x].innerHTML;
     allTokens.push("<c->");
     y = 0;
 
@@ -190,5 +190,6 @@ console.log(allTokens.toString());
   
   // Replace <c-> lines ukulele-chords
   var wholeFile = document.getElementById("ukulele-chords").innerHTML;
-console.log(wholeFile);
+  var allLines = wholeFile.split(/\r?\n|\r|\n/g);
+console.log(allLines);
 }
