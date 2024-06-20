@@ -191,5 +191,5 @@ console.log(allTokens.toString());
   // Replace <c-> lines ukulele-chords
   var wholeFile = document.getElementById("ukulele-chords").innerHTML;
   var allLines = wholeFile.split(/\r?\n|\r|\n/g);
-console.log(allLines);
+console.log(allLines.toString());
 }
