@@ -209,7 +209,8 @@ console.log(allTokens.toString());
         } while(allTokens[tokenIndex] !== "</c->");
 
         // Write to newFile to replace ukulele-chords
-        newFile += tLine;
+        newFile += tLine + "</c->";
+        tokenIndext++;
         tLine = "";
       } else {
         newFile += allLines[x];
@@ -217,7 +218,9 @@ console.log(allTokens.toString());
     }
     newFile += "\n";
   }
-console.log(newFile);
+console.log(newFile)
+  // Replace ukulele-chords with newFile
+  document.getElementById("ukulele-chords").innerHTML = newFile;
 }
 
 /*
