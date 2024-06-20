@@ -57,7 +57,7 @@ Date         Programmer    Change
 */
 function transpose(isUp) {
   // Determine the song's key, and whether it's major or minor
-  var songKey;
+  var songKey = "";
   var isMaj;
   var keyTable;
   var keyRow = 0;
@@ -138,7 +138,7 @@ function transpose(isUp) {
     // Iterate through each character of the line
     while(y < tLine.length) {
       tChar = tLine.charAt(y);
-      
+console.log("'" + tChar + "'");
       if(isSpecial(tChar)) { // tChar is a special character
         if(!isSpecial(prevChar) && y > 0) {
           // Replace chord with transposed chord
@@ -204,7 +204,7 @@ console.log(allTokens.toString());
   var tLine = "";
   var tokenIndex = 0;
   var newFile = "";
-console.log(allLines.toString());
+
   for(x = 0; x < allLines.length; x++) {
     if(allLines[x].length > 1) {
       if(allLines[x].includes("<c->")) {
@@ -223,7 +223,7 @@ console.log(allLines.toString());
     }
     newFile += "\n";
   }
-console.log(newFile);
+
   // Replace ukulele-chords with newFile
   document.getElementById("ukulele-chords").innerHTML = newFile;
 
