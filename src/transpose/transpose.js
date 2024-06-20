@@ -100,14 +100,14 @@ function transpose(isUp) {
 
   // Populate chordMap with key = old note, and value = new note (in transposed key)
   if(isUp) {
-    if(keyRow == 13) {
+    if(keyRow == 12) {
       newRow = 1;
     } else {
       newRow = keyRow + 1;
     }
   } else {
     if(keyRow == 1) {
-      newRow = 13;
+      newRow = 12;
     } else {
       newRow = keyRow - 1;
     }
