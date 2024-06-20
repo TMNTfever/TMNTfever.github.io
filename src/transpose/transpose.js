@@ -135,7 +135,7 @@ function transpose(isUp) {
         tChord += tChar;
       }
 
-      if(y === allLines.length - 1 && tChord !== "") {
+      if(y === tLine.length - 1 && tChord !== "") {
         allTokens.push(tChord);
         tChord = "";
       }
@@ -144,7 +144,7 @@ function transpose(isUp) {
       y++;
     }
 
-    //allTokens.push("</c->");
+    allTokens.push("</c->");
   }
 console.log(allTokens.toString());
   // Re-populate chordMap with new key depending on transpose direction
@@ -168,7 +168,7 @@ console.log(allTokens.toString());
     chordMap.set(keyTable[keyRow][x], keyTable[newRow][x]);
 console.log(keyTable[keyRow][x] + " : " + chordMap.get(keyTable[keyRow][x]));
   }
-console.log(chordMap.toString());
+  
   // Populate collection with correct chords  
   // Transpose, account for table index out-of-bounds, and write to collection
   // Rebuild chord lines, including whitespace
