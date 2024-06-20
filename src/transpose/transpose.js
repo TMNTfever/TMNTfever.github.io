@@ -3,7 +3,7 @@
 File:      transpose.js
 Desc:      Transposes a song's chords up or down in a Chords page.
 Called by: main/chords.html
-Calls:     abstractChords()
+Calls:     N/A
 Arguments: isUp - Boolean value that says whether user wants to transpose
                   up or down.
 Comments:  N/A
@@ -12,7 +12,7 @@ Date         Programmer    Change
 2024-06-17   JC Reyes      Written
 ============================================================================
 */
-var chordMap = undefined; // Maps abstract IDs to chord for specific key
+var chordMap = undefined; // Maps the original-key to the new-key
 
 const majTable = [
   ["|1", ">1", "|2", ">2", "|3", "|4", ">4", "|5", ">5", "|6", ">6", "|7"],
@@ -123,8 +123,7 @@ function transpose(isUp) {
     chordMap.set(keyTable[keyRow][x], keyTable[newRow][x]);
   }
   
-  // Retrieve HTMLCollection of <c-> tags
-  // Tokenize chordLines into allTokens with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
+  // Retrieve HTMLCollection of <c-> tagged lines
   var chordLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
   var allTokens = new Array();
   var tLine = "";
@@ -132,8 +131,6 @@ function transpose(isUp) {
   var prevChar = "";
   var tSpace = "";
   var tChord = "";
-  var tFlavor = "";
-  var tAbstract = "";
 
   // Iterate through each line of chords
   for(x = 0; x < chordLines.length; x++) {
@@ -162,7 +159,6 @@ function transpose(isUp) {
               allTokens.push(chordMap.get(tChord.substr(0, 1)) + tChord.substring(1));
             }
           }
-          
           tChord = "";
         }
         tSpace += tChar;
@@ -176,7 +172,20 @@ function transpose(isUp) {
 
       // Accounts for the last chord in a line
       if(y === tLine.length - 1 && tChord !== "") {
-        allTokens.push(tChord);
+        if(tChord.length == 1) { // Single major chord
+            allTokens.push(chordMap.get(tChord));
+          } else { // Chord contains a flat, sharp, and/or flavor
+            // Check for flat or sharp
+            if(tChord.charAt(1) === "b" || tChord.charAt(1) === "#") {
+              if(tChord.length == 2) { // No flavors
+                allTokens.push(chordMap.get(tChord.substr(0, 2)));
+              } else { // Flat/sharp with flavors
+                allTokens.push(chordMap.get(tChord.substr(0, 2)) + tChord.substring(2));
+              }
+            } else { // No flat/sharp detected
+              allTokens.push(chordMap.get(tChord.substr(0, 1)) + tChord.substring(1));
+            }
+          }
         tChord = "";
       }
   
