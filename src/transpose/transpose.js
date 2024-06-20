@@ -102,52 +102,7 @@ function transpose(isUp) {
     return;
   }
 
-  // Retrieve HTMLCollection of <c-> tags
-  // Tokenize allLines into allTokens with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
-  var allLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
-  var allTokens = new Array();
-  var tLine = "";
-  var tChar = "";
-  var prevChar = "";
-  var tSpace = "";
-  var tChord = "";
-  var tFlavor = "";
-  var tAbstract = "";
-  
-  for(x = 0; x < allLines.length; x++) {
-    tLine = allLines[x].innerHTML;
-    allTokens.push("<c->");
-    y = 0;
-    
-    while(y < tLine.length) {
-      tChar = tLine.charAt(y);
-      if(tChar === " ") {
-        if(prevChar !== " " && y > 0) {
-          allTokens.push(tChord);
-          tChord = "";
-        }
-        tSpace += tChar;
-      } else {
-        if(prevChar === " " && y > 0) {
-          allTokens.push(tSpace);
-          tSpace = "";
-        }
-        tChord += tChar;
-      }
-
-      if(y === tLine.length - 1 && tChord !== "") {
-        allTokens.push(tChord);
-        tChord = "";
-      }
-  
-      prevChar = tChar;
-      y++;
-    }
-
-    allTokens.push("</c->");
-  }
-console.log(allTokens.toString());
-  // Re-populate chordMap with new key depending on transpose direction
+  // Populate chordMap with key = old note, and value = new note (in transposed key)
   if(isUp) {
     if(keyRow == 13) {
       newRow = 1;
@@ -166,10 +121,69 @@ console.log(allTokens.toString());
 
   for(x = 0; x < keyTable[keyRow].length; x++) {
     chordMap.set(keyTable[keyRow][x], keyTable[newRow][x]);
-console.log(keyTable[keyRow][x] + " : " + chordMap.get(keyTable[keyRow][x]));
   }
   
-  // Populate collection with correct chords  
+  // Retrieve HTMLCollection of <c-> tags
+  // Tokenize allLines into allTokens with 3 columns, 1=abstract (|#,<#,>#), 2=flavor, 3=preceding whitespace
+  var allLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
+  var allTokens = new Array();
+  var tLine = "";
+  var tChar = "";
+  var prevChar = "";
+  var tSpace = "";
+  var tChord = "";
+  var tFlavor = "";
+  var tAbstract = "";
+
+  // Iterate through each line of chords
+  for(x = 0; x < allLines.length; x++) {
+    tLine = allLines[x].innerHTML;
+    allTokens.push("<c->");
+    y = 0;
+
+    // Iterate through each character of the line
+    while(y < tLine.length) {
+      tChar = tLine.charAt(y);
+      
+      if(tChar === " ") { // tChar is a space
+        if(prevChar !== " " && y > 0) {
+          // Replace chord with transposed chord
+          if(tChord.length == 1) { // Single major chord
+            allTokens.push(chordMap.get(tChord));
+          } else { // Chord contains a flat, sharp, and/or flavor
+            // Check for flat or sharp
+            if(tChord.charAt(1) === "b" || tChord.charAt(1) === "#") {
+              allTokens.push(chordMap.get(tChord.substr(0, 2)));
+            } else { // Flavors detected
+              allTokens.push(chordMap.get(tChord.substr(0, 1)));
+            }
+          }
+          
+          tChord = "";
+        }
+        tSpace += tChar;
+      } else { // tChar is a chord
+        if(prevChar === " " && y > 0) {
+          allTokens.push(tSpace);
+          tSpace = "";
+        }
+        tChord += tChar;
+      }
+
+      // Accounts for the last chord in a line
+      if(y === tLine.length - 1 && tChord !== "") {
+        allTokens.push(tChord);
+        tChord = "";
+      }
+  
+      prevChar = tChar;
+      y++;
+    }
+
+    allTokens.push("</c->");
+  }
+console.log(allTokens.toString());
+  
   // Transpose, account for table index out-of-bounds, and write to collection
   // Rebuild chord lines, including whitespace
   // Rebuild entire chord file and replace id="ukulele-chords"
