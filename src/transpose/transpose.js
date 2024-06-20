@@ -210,7 +210,7 @@ console.log(allTokens.toString());
 
         // Write to newFile to replace ukulele-chords
         newFile += tLine + "</c->";
-        tokenIndext++;
+        tokenIndex++;
         tLine = "";
       } else {
         newFile += allLines[x];
