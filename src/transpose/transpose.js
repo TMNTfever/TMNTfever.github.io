@@ -193,10 +193,31 @@ function transpose(isUp) {
   }
 console.log(allTokens.toString());
   
-  // Replace <c-> lines ukulele-chords
+  // Replace <c-> lines in ukulele-chords
   var wholeFile = document.getElementById("ukulele-chords").innerHTML;
   var allLines = wholeFile.split(/\r?\n|\r|\n/g);
-console.log(allLines.toString());
+  var tLine = "";
+  var tokenIndex = 0;
+  var newFile = "";
+
+  for(x = 0; x < allLines.length; x++) {
+    if(allLines[x].length > 1) {
+      if(allLines[x].includes("<c->")) {
+        do {
+          tLine += allTokens[tokenIndex];
+          tokenIndex++;
+        } while(allTokens[tokenIndex] !== "</c->");
+
+        // Write to newFile to replace ukulele-chords
+        newFile += tLine + "\n";
+        tLine = "";
+      } else {
+        newFile += allLines[x];
+      }
+    } else {
+      newFile += "\n";
+  }
+console.log(newFile);
 }
 
 /*
