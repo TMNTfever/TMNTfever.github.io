@@ -192,14 +192,13 @@ function transpose(isUp) {
     allTokens.push("</c->");
   }
 console.log(allTokens.toString());
-  
   // Replace <c-> lines in ukulele-chords
   var wholeFile = document.getElementById("ukulele-chords").innerHTML;
   var allLines = wholeFile.split(/\r?\n|\r|\n/g);
   var tLine = "";
   var tokenIndex = 0;
   var newFile = "";
-
+console.log(allLines.toString());
   for(x = 0; x < allLines.length; x++) {
     if(allLines[x].length > 1) {
       if(allLines[x].includes("<c->")) {
@@ -220,7 +219,9 @@ console.log(allTokens.toString());
   }
 console.log(newFile)
   // Replace ukulele-chords with newFile
-  document.getElementById("ukulele-chords").innerHTML = newFile;
+  //document.getElementById("ukulele-chords").innerHTML = newFile;
+
+  // Find a way to replace the <k-> key
 }
 
 /*
