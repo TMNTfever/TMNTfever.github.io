@@ -222,7 +222,7 @@ console.log(allLines.toString());
     }
     newFile += "\n";
   }
-console.log(newFile)
+console.log(newFile);
   // Replace ukulele-chords with newFile
   document.getElementById("ukulele-chords").innerHTML = newFile;
 
