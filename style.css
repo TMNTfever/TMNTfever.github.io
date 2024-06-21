@@ -245,6 +245,10 @@ src:
   color: #7A9CAB;
 }
 
+#ukulele-chords k- {
+  font-weight: bold;
+}
+
 .focus {
   background: #121E23;
   border-width: 3px;
@@ -254,6 +258,13 @@ src:
   margin-left: -8px;
   padding: 5px;
   width: fit-content;
+}
+
+.button {
+  background-color: #FFCC66;
+  border: none;
+  color: #1C282D;
+  text-decoration: none;
 }
 
 /*---------------------------
