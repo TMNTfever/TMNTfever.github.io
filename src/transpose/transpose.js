@@ -117,7 +117,6 @@ function transpose(isUp) {
 
   for(x = 0; x < keyTable[keyRow].length; x++) {
     chordMap.set(keyTable[keyRow][x], keyTable[newRow][x]);
-console.log(keyTable[keyRow][x] + " : " + keyTable[newRow][x]);
   }
 
   // Retrieve HTMLCollection of <c-> tagged lines
@@ -198,7 +197,7 @@ console.log(keyTable[keyRow][x] + " : " + keyTable[newRow][x]);
 
     allTokens.push("</c->");
   }
-console.log(allTokens.toString());
+
   // Replace <c-> lines in ukulele-chords
   var wholeFile = document.getElementById("ukulele-chords").innerHTML;
   var allLines = wholeFile.split(/\r?\n|\r|\n/g);
@@ -230,8 +229,6 @@ console.log(allTokens.toString());
 
   // Replace ukulele-chords with newFile
   document.getElementById("ukulele-chords").innerHTML = newFile;
-
-  // Find a way to replace the <k-> key
 }
 
 /*
