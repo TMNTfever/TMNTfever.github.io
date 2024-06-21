@@ -132,8 +132,9 @@ function transpose(isUp) {
   // Iterate through each line of chords
   for(x = 0; x < chordLines.length; x++) {
     tLine = chordLines[x].innerHTML;
+    tLine = tLine.replace("&gt;", ">"); // Get rid of HTML placeholder for >
     allTokens.push("<c->");
-    y = 0;
+    var y = 0;
 
     // Iterate through each character of the line
     while(y < tLine.length) {
@@ -246,7 +247,7 @@ Date         Programmer    Change
 */
 function isSpecial(char) {
   switch(char){
-    case " ": case "-": case "/": case "|": case ">": case "&gt;": case "(": case ")":
+    case " ": case "-": case "/": case "|": case ">": case "(": case ")":
       return true;
     default:
       return false;
