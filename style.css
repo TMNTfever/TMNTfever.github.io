@@ -205,9 +205,9 @@ src:
 }
 
 #transposeButton {
-  background-color: #FFCC66;
+  background-color: #1C282D;
   border: none;
-  color: #1C282D;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -465,8 +465,8 @@ src:
 }
 
 @media print {
-  .body {background-color: FFFFFF;}
-  .focus {background-color: #EDEDED;}
+  .body {background-color: #FFFFFF;}
+  .focus {background-color: #EDEDED; border: none;}
   #ukulele-chords {color: #000000; background-color: #FFFFFF;}
   #ukulele-chords h2 {color: #FDCA64;}
   #ukulele-chords s- {color: #FDCA64;}
