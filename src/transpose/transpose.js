@@ -6,7 +6,7 @@ Called by: main/chords.html
 Comments:  N/A
 ---------------------------------------------------------------------------
 Date         Programmer    Change
-2024-06-17   JC Reyes      Written
+2024-06-21   JC Reyes      Initial version
 ============================================================================
 */
 var chordMap = undefined; // Maps the original-key to the new-key
@@ -52,7 +52,7 @@ Arguments: isUp - Boolean value that says whether user wants to transpose
 Comments:  N/A
 ---------------------------------------------------------------------------
 Date         Programmer    Change
-2024-06-17   JC Reyes      Written
+2024-06-21   JC Reyes      Initial version
 ============================================================================
 */
 function transpose(isUp) {
@@ -92,7 +92,7 @@ function transpose(isUp) {
     }
   }
   
-  // Key was invalid, could be a sharp/flat key that is unrepresented ****DO SOMETHING ABOUT IT???****
+  // Key was invalid, could be a sharp/flat key that is unrepresented
   if(keyRow == 0) {
     console.log("Invalid Key: " + songKey);
     return;
@@ -131,7 +131,7 @@ function transpose(isUp) {
   // Iterate through each line of chords
   for(x = 0; x < chordLines.length; x++) {
     tLine = chordLines[x].innerHTML;
-    tLine = tLine.replace("&gt;", ">"); // Get rid of HTML placeholder for >
+    tLine = tLine.replace("&gt;", ">"); // Get rid of HTML placeholder for '>'
     allTokens.push("<c->");
     var y = 0;
 
@@ -205,6 +205,7 @@ function transpose(isUp) {
   var tokenIndex = 0;
   var newFile = "";
 
+  // Iterate through every line in ukulele-chords
   for(x = 0; x < allLines.length; x++) {
     if(allLines[x].length > 1) {
       if(allLines[x].includes("<c->")) {
@@ -224,7 +225,11 @@ function transpose(isUp) {
         newFile += allLines[x];
       }
     }
-    newFile += "\n";
+
+    // Prevent excess newlines upon multiple calls
+    if(x == allLines.length - 1) {
+      newFile += "\n";
+    }
   }
 
   // Replace ukulele-chords with newFile
@@ -242,7 +247,7 @@ Arguments: char - the character that is being checked
 Comments:  N/A
 ---------------------------------------------------------------------------
 Date         Programmer    Change
-2024-06-20   JC reyes      Written
+2024-06-20   JC reyes      Initial version
 ============================================================================
 */
 function isSpecial(char) {
