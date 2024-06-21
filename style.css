@@ -196,11 +196,15 @@ src:
   border: none;
   width: 94%;
   padding: 8px;
-  color: #73A000 !important;
+  color: #73A000;
   font-size: 0.8rem;
 }
 
-.button {
+#song-nav a {
+  color: #73A000;
+}
+
+#transposeButton {
   background-color: #FFCC66;
   border: none;
   color: #1C282D;
