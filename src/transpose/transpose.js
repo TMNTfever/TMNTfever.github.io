@@ -227,7 +227,7 @@ function transpose(isUp) {
     }
 
     // Prevent excess newlines upon multiple calls
-    if(x == allLines.length - 1) {
+    if(x != allLines.length - 1) {
       newFile += "\n";
     }
   }
