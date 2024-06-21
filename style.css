@@ -208,9 +208,9 @@ src:
 #transposeButton {
   background-color: #1C282D;
   border: none;
+  padding: 4px;
   color: #FFFFFF;
   text-decoration: none;
-  width: 4px;
 }
 
 #ukulele-chords {
