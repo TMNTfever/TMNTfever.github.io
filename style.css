@@ -187,19 +187,16 @@ src:
   margin: auto;
 }
 
-#song-nav {
-  margin: auto;
-  border: none;
-  width: 94%;
-  padding: 8px;
-}
-
 /*---------------------------
 --- Chords
 ---------------------------*/
 
 #song-nav {
-  color: #73A000;
+  margin: auto;
+  border: none;
+  width: 94%;
+  padding: 8px;
+  color: #73A000 !important;
   font-size: 0.8rem;
 }
 
@@ -464,7 +461,8 @@ src:
 }
 
 @media print {
-  #ukulele-chords {color: #000000;}
+  .focus {background-color: #EDEDED;}
+  #ukulele-chords {color: #000000; background-color: #FFFFFF;}
   #ukulele-chords h2 {color: #FFCC66;}
   #ukulele-chords s- {color: #FFCC66;}
   #ukulele-chords r- {color: #D85B5F;}
