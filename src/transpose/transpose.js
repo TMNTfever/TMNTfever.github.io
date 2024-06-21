@@ -68,7 +68,6 @@ function transpose(isUp) {
     songKey = document.getElementById("ukulele-chords").getElementsByTagName("k-")[0].innerHTML;
   } catch(error) {
     console.log("Chord chart does not contain the <k-> tag.");
-    console.error(error);
     return;
   }
   
@@ -219,6 +218,9 @@ console.log(allTokens.toString());
         newFile += tLine + "</c->";
         tokenIndex++;
         tLine = "";
+      } else if(allLines[x].includes("<k->")) {
+        // Rewrite line with the key
+        newFile = newFile + "Transcribed Key: <k->" + chordMap.get(songKey) + "</k->";
       } else {
         newFile += allLines[x];
       }
