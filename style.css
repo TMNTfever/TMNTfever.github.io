@@ -198,6 +198,7 @@ src:
   padding: 8px;
   color: #73A000;
   font-size: 0.8rem;
+  table-layout: fixed;
 }
 
 #song-nav a {
