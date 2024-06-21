@@ -118,8 +118,9 @@ function transpose(isUp) {
 
   for(x = 0; x < keyTable[keyRow].length; x++) {
     chordMap.set(keyTable[keyRow][x], keyTable[newRow][x]);
+console.log(keyTable[keyRow][x] + " : " + keyTable[newRow][x]);
   }
-  
+
   // Retrieve HTMLCollection of <c-> tagged lines
   var chordLines = document.getElementById("ukulele-chords").getElementsByTagName("c-");
   var allTokens = new Array();
@@ -139,7 +140,7 @@ function transpose(isUp) {
     // Iterate through each character of the line
     while(y < tLine.length) {
       tChar = tLine.charAt(y);
-console.log("'" + tChar + "'");
+
       if(isSpecial(tChar)) { // tChar is a special character
         if(!isSpecial(prevChar) && y > 0) {
           // Replace chord with transposed chord
