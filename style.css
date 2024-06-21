@@ -465,10 +465,11 @@ src:
 }
 
 @media print {
+  .body {background-color: FFFFFF;}
   .focus {background-color: #EDEDED;}
   #ukulele-chords {color: #000000; background-color: #FFFFFF;}
-  #ukulele-chords h2 {color: #FFCC66;}
-  #ukulele-chords s- {color: #FFCC66;}
+  #ukulele-chords h2 {color: #FDCA64;}
+  #ukulele-chords s- {color: #FDCA64;}
   #ukulele-chords r- {color: #D85B5F;}
   #ukulele-chords c- {color: #000000;}
   #ukulele-chords l- {color: #333333;}
