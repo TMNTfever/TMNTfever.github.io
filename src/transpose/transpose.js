@@ -228,7 +228,14 @@ function transpose(isUp) {
         tLine = "";
       } else if(allLines[x].includes("<k->")) {
         // Rewrite line with the key
-        newFile = newFile + "Transcribed Key: <k->" + chordMap.get(songKey) + "</k->";
+        newFile = newFile + "Transcribed Key: <k->" + chordMap.get(songKey);
+
+        // Need to re-add an 'm' if it's a minor key
+        if(!isMaj) {
+          newFile += "m";
+        }
+        
+        newFile += "</k->";
       } else {
         newFile += allLines[x];
       }
