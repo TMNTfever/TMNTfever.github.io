@@ -64,18 +64,26 @@ function transpose(isUp) {
   var newRow = 0;
   chordMap = new Map();
 
+  // Retrieve the song's key through the <k-> tag
   try {
     songKey = document.getElementById("ukulele-chords").getElementsByTagName("k-")[0].innerHTML;
   } catch(error) {
     console.log("Chord chart does not contain the <k-> tag.");
     return;
   }
-  
+
+  // Check whether or not the song's key is minor or major
   if(songKey.includes("m")) {
     isMaj = false;
-    songKey = songKey.substring(0, str.length - 1);
+    songKey = songKey.substring(0, songKey.length - 1);
   } else {
     isMaj = true;
+  }
+
+  // Determine if the song has a key change
+  if(songKey.includes("to")) {
+    console.log("Transpose function does not currently work for songs with key changes.");
+    return;
   }
   
   // Assign keyTable to the major or minor table  
