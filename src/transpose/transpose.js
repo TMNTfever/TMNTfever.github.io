@@ -338,7 +338,7 @@ function transpose(isUp) {
         newFile += "</k->";
       } else if(allLines[x].includes("<f->")) {
         // Chord fingerings become obsolete after tranposing, so write message
-        newFile = newFile + allLines[x] + "\n" + "  Section deleted when transposing. Refresh page for original chord fingering.";
+        newFile = newFile + allLines[x] + "\n  Chords section is deleted when transposing." + "\n  Refresh page for original chord fingering.";
       } else if(allLines[x].substr(0,2) === "  "){
         // Chord fingerings become obsolete, so this section is deleted
         newFile = newFile.trim()
