@@ -213,6 +213,20 @@ src:
   text-decoration: none;
 }
 
+#setlist-nav {
+  margin: 2vi;
+}
+
+.setlistButton {
+  background-color: #FFCC66;
+  border: 0;
+  border-radius: 10px;
+  padding: 8px;
+  color: #000000 !important;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
 #ukulele-chords {
   white-space: pre;
   display: block;

@@ -41,6 +41,24 @@
       
       var songIdCap = songIdArr.join(" ");
       document.title = songIdCap + " - Ukulele Chords";
+	  
+      // Determine if song is part of Current Setlist
+      const setlist = ["cool-down", "she", "locked-out-of-heaven", "drop-baby-drop", "cant-help-falling-in-love", "got-my-mind-set-on-you", "suspicious-minds", "lonely-teardrops", "clocks-all-of-me-medley", "beggin", "feel-it-still", "short-court-style", "everywhere", "ride", "dance-monkey", "island-song", "this-boy", "misunderstanding", "your-love", "runaround-sue", "mr-blue-sky", "santeria", "i-love-you", "you-are-my-sensation", "love-me", "still-the-one", "thinking-out-loud", "girls-just-want-to-have-fun", "baby-hold-on", "what-i-like-about-you"];
+      slIndex = 0;
+      
+      while (slIndex < setlist.length - 1) { // Last song in setlist will not count
+        if (setlist[slIndex] == songID) {
+          // Show setlist-nav div
+          var setlistNavDiv = document.getElementById("setlist-nav");
+          setlistNavDiv.style.display = "block";
+          
+          // Add link to div
+          setlistNavDiv.innerHTML = '<a class="setlistButton" href="?' + setlist[slIndex + 1] + '">Next Setlist Song</a>';
+          break;
+        } else {
+          slIndex++;
+        }
+      }
     }
   </script>
 </head>
@@ -70,6 +88,8 @@
       </table>
       
       <div id="ukulele-chords"></div>
+	  
+	  <div id="setlist-nav" style="display: none;"></div>
     </div>
   </div>
   <!-- /#page-content-wrapper -->
