@@ -258,7 +258,7 @@ src:
   color: #FFCC66;
 }
 
-#ukulele-chords r- { /*Repeated Chorus or Section*/
+#ukulele-chords r- { /*Repeated Chorus or Refrain*/
   color: #D85B5F;
 }
 
@@ -274,7 +274,11 @@ src:
   color: #7A9CAB;
 }
 
-#ukulele-chords k- {
+#ukulele-chords b- { /*Bridge or Interlude*/
+  color: #73A000;
+}
+
+#ukulele-chords k- { /*Key*/
   font-weight: bold;
 }
 
