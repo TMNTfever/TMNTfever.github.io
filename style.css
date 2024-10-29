@@ -448,9 +448,8 @@ src:
   display: block;
   margin: auto;
   width: 92%;
-  height: 500px;
-  filter: invert(.8) saturate(0.75) hue-rotate(145deg) contrast(1.5);
-  border: 2px solid #D1DEF3;
+  border-top: 4px solid #FFFFFF;
+  border-bottom: 4px solid #FFFFFF
 }
 
 /*---------------------------
