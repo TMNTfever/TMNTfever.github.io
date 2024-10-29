@@ -454,6 +454,12 @@ src:
   border-right: 0px;
 }
 
+#sunset-blurb {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
 /*---------------------------
 --- Mobile Resolution Options
 ---------------------------*/
