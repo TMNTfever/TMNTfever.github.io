@@ -444,7 +444,7 @@ src:
   background-color: #FFFFFF;
 }
 
-#sunset-calendar {
+.sunset-calendar {
   display: block;
   margin: auto;
   width: 92%;
@@ -467,8 +467,8 @@ src:
   #toc_container {width: 98%}
   #ld-band {width: 98%;}
   #pg-sunset table {width: 98%;}
-  #sunset-calendar {width: 98%;}
-
+  
+  .sunset-calendar {width: 98%;}
   .stance {width: 20vw;}
   .sidebar {width: 0;}
   .pg {margin-left:0;}
