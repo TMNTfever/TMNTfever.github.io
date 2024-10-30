@@ -3,10 +3,8 @@
 ---------------------------*/
 
 @font-face {
-font-family: 'BebasNeue';
-src:
-  local('BebasNeue'),
-  url('BebasNeue.ttf');
+  font-family: 'BebasNeue';
+  src: local('BebasNeue'), url('BebasNeue.ttf');
 }
 
 /*---------------------------
@@ -484,11 +482,19 @@ src:
   .band-member {width: 90%;}
 }
 
+/*---------------------------
+--- Desktop Resolution Options
+---------------------------*/
+
 @media screen and (min-width: 750px) {
   #open-button {display:none;}
   #close-button {display:none;}
   #sidebar {width: 11rem;}
 }
+
+/*---------------------------
+--- Printing Options
+---------------------------*/
 
 @media print {
   .body {background-color: #FFFFFF;}
