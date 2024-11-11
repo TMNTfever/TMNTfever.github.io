@@ -462,7 +462,7 @@
 --- Mobile Resolution Options
 ---------------------------*/
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 750px, max-height: 400px) {
   #open-button {display:block;}
   #close-button {display:none;}
   #pg-ukulele table {width: 98%;}
@@ -486,7 +486,7 @@
 --- Desktop Resolution Options
 ---------------------------*/
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 750px, min-height: 400px) {
   #open-button {display:none;}
   #close-button {display:none;}
   #sidebar {width: 11rem;}
