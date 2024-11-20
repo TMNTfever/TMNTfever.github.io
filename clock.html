@@ -15,41 +15,9 @@
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script type="application/javascript">
     window.onload = function() {
+      let alarm = new Audio("assets/clock-alarm.mp3");
       // Load sidebar HTML into div
       $("#sidebar-wrapper").load("sidebar.html");
-    }
-    
-    let alarm = new Audio("assets/clock-alarm.mp3");
-
-    function startTime() {
-      const today = new Date();
-      let h = today.getHours();
-      let m = today.getMinutes();
-      let s = today.getSeconds();
-
-      // Ring alarm hourly
-      if (m == 0 && s == 0) {
-        ringAlarm();
-      }
-      
-      m = checkTime(m);
-      s = checkTime(s);
-      document.getElementById("clock-display").innerHTML =  h + ":" + m + ":" + s;
-      setTimeout(startTime, 1000);
-    }
-
-    function checkTime(i) {
-      if (i < 10) {i = "0" + i};  // Add zero in front of numbers < 10
-      return i;
-    }
-
-    function ringAlarm() {
-      alarm.play();
-    }
-
-    function stopAlarm() {
-      alarm.pause();
-      alarm.currentTime = 0;
     }
   </script>
 </head>
@@ -80,5 +48,37 @@
 <!-- /#wrapper -->
 
 <!-- Custom Scripts -->
+<script>
+  function startTime() {
+      const today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      let s = today.getSeconds();
+
+      // Ring alarm hourly
+      if (m == 0 && s == 0) {
+        ringAlarm();
+      }
+      
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById("clock-display").innerHTML =  h + ":" + m + ":" + s;
+      setTimeout(startTime, 1000);
+    }
+
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // Add zero in front of numbers < 10
+      return i;
+    }
+
+    function ringAlarm() {
+      alarm.play();
+    }
+
+    function stopAlarm() {
+      alarm.pause();
+      alarm.currentTime = 0;
+    }
+</script>
 </body>
 </html>
