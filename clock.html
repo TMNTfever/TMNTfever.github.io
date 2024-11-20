@@ -22,7 +22,7 @@
 </head>
 
 <!-- Body -->
-<body class="body" onload="startTime()">
+<body class="body">
 
 <!-- Wrapper -->
 <div id="wrapper" class="">
@@ -32,14 +32,14 @@
   <!-- Page Content -->
   <div id="pg" class="text-light">
     <!-- Clock Page -->
-    <div id="pg-clock" class="pg">
+    <div id="pg-clock" class="pg" style="text-align: center;">
       <header>
         <h1>CLOCK</h1>
       </header>
       
-      <center><p>It's not healthy to sit and work all day!<br>Enjoy hourly alarms for hourly breaks.</p></center>
-      <center><div id="clock-display"></div></center>
-      <center><button id="stop-alarm" onClick="stopAlarm()">Stop Alarm</button></center>
+      <p>It's not healthy to sit and work all day!<br>Enjoy hourly alarms for hourly breaks.</p>
+      <div id="clock-display" onload="startTime()"></div>
+      <button id="stop-alarm" onClick="stopAlarm()">Stop Alarm</button>
     </div>
   </div>
   <!-- /#page-content-wrapper -->
