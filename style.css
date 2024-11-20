@@ -365,6 +365,24 @@
 }
 
 /*---------------------------
+--- Clock
+---------------------------*/
+
+#pg-clock {
+  text-align: center;
+}
+
+.clock-display {
+  font-family: 'Courier New', monospace;
+  font-size: 2rem;
+  font-weight: bolder;
+  border: thick solid #FFCC66;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #000000;
+}
+
+/*---------------------------
 --- Resume
 ---------------------------*/
 
