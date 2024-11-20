@@ -38,7 +38,7 @@
       </header>
       
       <p>It's not healthy to sit and work all day!<br>Enjoy hourly alarms for hourly breaks.</p>
-      <div id="clock-display" onload="startTime()"></div>
+      <div id="clock-display"></div>
       <button id="stop-alarm" onClick="stopAlarm()">Stop Alarm</button>
     </div>
   </div>
@@ -49,6 +49,7 @@
 <!-- Custom Scripts -->
 <script type="application/javascript">
   var alarm = new Audio("assets/alarm.wav");
+  startTime();
   
   function startTime() {
     const today = new Date();
