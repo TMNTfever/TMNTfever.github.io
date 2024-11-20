@@ -37,7 +37,7 @@
         <h1>CLOCK</h1>
       </header>
       
-      <center></center><p>It's not healthy to sit and work all day!<br>Enjoy hourly alarms for hourly breaks.</p><center>
+      <center><p>It's not healthy to sit and work all day!<br>Enjoy hourly alarms for hourly breaks.</p></center>
       <center><div id="clock-display"></div></center>
       <center><button id="stop-alarm" onClick="stopAlarm()">Stop Alarm</button></center>
     </div>
@@ -48,38 +48,38 @@
 
 <!-- Custom Scripts -->
 <script type="application/javascript">
-  let alarm = new Audio("assets/clock-alarm.mp3");
+  var alarm = new Audio("assets/alarm.wav");
   
   function startTime() {
-      const today = new Date();
-      let h = today.getHours();
-      let m = today.getMinutes();
-      let s = today.getSeconds();
+    const today = new Date();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds();
 
-      // Ring alarm hourly
-      if (m == 0 && s == 0) {
-        ringAlarm();
-      }
-      
-      m = checkTime(m);
-      s = checkTime(s);
-      document.getElementById("clock-display").innerHTML =  h + ":" + m + ":" + s;
-      setTimeout(startTime, 1000);
+    // Ring alarm hourly
+    if (m == 0 && s == 0) {
+      ringAlarm();
     }
+    
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById("clock-display").innerHTML =  h + ":" + m + ":" + s;
+    setTimeout(startTime, 1000);
+  }
 
-    function checkTime(i) {
-      if (i < 10) {i = "0" + i};  // Add zero in front of numbers < 10
-      return i;
-    }
+  function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // Add zero in front of numbers < 10
+    return i;
+  }
 
-    function ringAlarm() {
-      alarm.play();
-    }
+  function ringAlarm() {
+    alarm.play();
+  }
 
-    function stopAlarm() {
-      alarm.pause();
-      alarm.currentTime = 0;
-    }
+  function stopAlarm() {
+    alarm.pause();
+    alarm.currentTime = 0;
+  }
 </script>
 </body>
 </html>
