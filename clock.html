@@ -37,9 +37,12 @@
         <h1>CLOCK</h1>
       </header>
       
-      <p>It's not healthy to sit and work all day!<br>Enjoy hourly alarms for hourly breaks.</p>
-      <div id="clock-display"></div>
-      <button id="stop-alarm" onClick="stopAlarm()">Stop Alarm</button>
+      <div style="text-align: center;">
+        <p>It's not healthy to sit and work all day.<br>Enjoy hourly alarms for hourly breaks.</p><br>
+        <div id="clock-display"></div><br>
+        <button id="stop-button" onClick="stopAlarm()" disabled>Stop Alarm</button><br>
+        <button id="test-button" onClick="testAlarm()">Test Alarm</button>
+      </div>
     </div>
   </div>
   <!-- /#page-content-wrapper -->
@@ -48,6 +51,8 @@
 
 <!-- Custom Scripts -->
 <script type="application/javascript">
+  const stopButton = document.getElementById("stop-button");
+  const testButton = document.getElementById("test-button");
   var alarm = new Audio("assets/alarm.wav");
   startTime();
   
@@ -58,7 +63,8 @@
     let s = today.getSeconds();
 
     // Ring alarm hourly
-    if (m == 0 && s == 0) {
+    if (m < 1 && s < 1) {
+      stopButton.disabled = false;
       ringAlarm();
     }
     
@@ -68,18 +74,29 @@
     setTimeout(startTime, 1000);
   }
 
+  // Add zero in front of numbers < 10
   function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // Add zero in front of numbers < 10
+    if (i < 10) {i = "0" + i};
     return i;
   }
 
+  // Play alarm sound
   function ringAlarm() {
     alarm.play();
   }
 
+  function testAlarm() {
+    alarm.play();
+    stopButton.disabled = false;
+    testButton.disabled = true;
+  }
+
+  // Stop alarm sound
   function stopAlarm() {
     alarm.pause();
     alarm.currentTime = 0;
+    stopButton.disabled = true;
+    testButton.disabled = false;
   }
 </script>
 </body>

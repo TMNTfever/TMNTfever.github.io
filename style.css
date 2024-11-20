@@ -366,21 +366,18 @@
 
 /*---------------------------
 --- Clock
----------------------------
-
-#pg-clock p, div, button {
-  text-align: center;
-}*/
+---------------------------*/
 
 #clock-display {
   font-family: 'Courier New', monospace;
   font-size: 2rem;
   font-weight: bolder;
+  text-align: center;
   border: thick solid #FFCC66;
   border-radius: 10px;
-  margin: 20px;
+  margin: auto;
   background-color: #000000;
-  width: 400px;
+  width: 200px;
 }
 
 /*---------------------------
