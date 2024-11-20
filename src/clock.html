@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A home for what I love.">
+  <meta name="author" content="J.C. Reyes">
+  <title>TMNTfever - Clock</title>
+  <link rel="icon" href="assets/icon-tmntfever.png">
+  <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="src/jquery/jquery.min.js"></script>
+  <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="application/javascript">
+    window.onload = function() {
+      // Load sidebar HTML into div
+      $("#sidebar-wrapper").load("sidebar.html");
+    }
+    
+    let alarm = new Audio("assets/clock-alarm.mp3");
+
+    function startTime() {
+      const today = new Date();
+      let h = today.getHours();
+      let m = today.getMinutes();
+      let s = today.getSeconds();
+
+      // Ring alarm hourly
+      if (m == 0 && s == 0) {
+        ringAlarm();
+      }
+      
+      m = checkTime(m);
+      s = checkTime(s);
+      document.getElementById("clock-display").innerHTML =  h + ":" + m + ":" + s;
+      setTimeout(startTime, 1000);
+    }
+
+    function checkTime(i) {
+      if (i < 10) {i = "0" + i};  // Add zero in front of numbers < 10
+      return i;
+    }
+
+    function ringAlarm() {
+      alarm.play();
+    }
+
+    function stopAlarm() {
+      alarm.pause();
+      alarm.currentTime = 0;
+    }
+  </script>
+</head>
+
+<!-- Body -->
+<body class="body" onload="startTime()">
+
+<!-- Wrapper -->
+<div id="wrapper" class="">
+  <!-- Sidebar Wrapper -->
+  <div id="sidebar-wrapper"></div>
+
+  <!-- Page Content -->
+  <div id="pg" class="text-light">
+    <!-- Clock Page -->
+    <div id="pg-clock" class="pg">
+      <p>It's not healthy to constantly sit and work. This clock rings hourly so you can take breaks.</p>
+      <div id="clock-display"></div>
+      <button id="stop-alarm" onClick="stopAlarm()">Stop Alarm</button>
+    </div>
+  </div>
+  <!-- /#page-content-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+<!-- Custom Scripts -->
+</body>
+</html>
