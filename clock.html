@@ -15,7 +15,6 @@
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script type="application/javascript">
     window.onload = function() {
-      let alarm = new Audio("assets/clock-alarm.mp3");
       // Load sidebar HTML into div
       $("#sidebar-wrapper").load("sidebar.html");
     }
@@ -48,7 +47,9 @@
 <!-- /#wrapper -->
 
 <!-- Custom Scripts -->
-<script>
+<script type="application/javascript">
+  let alarm = new Audio("assets/clock-alarm.mp3");
+  
   function startTime() {
       const today = new Date();
       let h = today.getHours();
