@@ -368,11 +368,11 @@
 --- Clock
 ---------------------------*/
 
-#pg-clock {
+#pg-clock p, div, button {
   text-align: center;
 }
 
-.clock-display {
+#clock-display {
   font-family: 'Courier New', monospace;
   font-size: 2rem;
   font-weight: bolder;
