@@ -1,4 +1,18 @@
 /*---------------------------
+--- Hex Color Values
+--- 223037 Light Slate (sidebar)
+--- 1C282D Slate (background)
+--- 121A1E Dark Slate (nth table row)
+--- 121E23 Darker Slate (focus)
+--- FFCC66 Light Goldenrod (main text)
+--- DDAA44 Goldenrod (hover text)
+--- 73A000 Green (song nav)
+--- D85B5F Red (chorus)
+--- DDDDDD Light Grey (lyrics)
+--- 7A9CAB Blue (chords)
+---------------------------*/
+
+/*---------------------------
 --- Global Variables
 ---------------------------*/
 
@@ -326,7 +340,6 @@
   margin: auto;
   width: 90%;
   height: 70vh;
-  /*old color #343A40*/
   background: #223037;
 }
 
@@ -336,9 +349,8 @@
 }
 
 #toc_container {
-  /*old color #343A40*/
   background: #223037 none repeat scroll 0 0;
-  border: 1px solid #ffffff;
+  border: 1px solid #FFFFFF;
   margin: auto;
   padding-top: 10px;
   padding-bottom: 10px;
