@@ -40,7 +40,7 @@
       <div style="text-align: center;">
         <p>It's not healthy to sit and work all day.<br>Enjoy hourly alarms for hourly breaks.</p><br>
         <div id="clock-display"></div><br>
-        <button id="test-button" onClick="testAlarm()">Test Alarm</button>
+        <button id="test-button" onClick="ringAlarm()">Test Alarm</button>
         <button id="stop-button" onClick="stopAlarm()" disabled>Stop Alarm</button>
       </div>
     </div>
@@ -65,8 +65,6 @@
 
     // Ring alarm hourly
     if (m < 1 && s < 1) {
-      stopButton.disabled = false;
-      clockBox.style.borderColor = "#D85B5F";
       ringAlarm();
     }
     
@@ -84,10 +82,6 @@
 
   // Play alarm sound
   function ringAlarm() {
-    alarm.play();
-  }
-
-  function testAlarm() {
     alarm.play();
     stopButton.disabled = false;
     testButton.disabled = true;
