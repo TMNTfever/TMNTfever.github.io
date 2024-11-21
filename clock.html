@@ -40,8 +40,8 @@
       <div style="text-align: center;">
         <p>It's not healthy to sit and work all day.<br>Enjoy hourly alarms for hourly breaks.</p><br>
         <div id="clock-display"></div><br>
-        <button id="stop-button" onClick="stopAlarm()" disabled>Stop Alarm</button><br>
         <button id="test-button" onClick="testAlarm()">Test Alarm</button>
+        <button id="stop-button" onClick="stopAlarm()" disabled>Stop Alarm</button>
       </div>
     </div>
   </div>
@@ -53,6 +53,7 @@
 <script type="application/javascript">
   const stopButton = document.getElementById("stop-button");
   const testButton = document.getElementById("test-button");
+  const clockBox = document.getElementById("clock-display");
   var alarm = new Audio("assets/alarm.wav");
   startTime();
   
@@ -65,6 +66,7 @@
     // Ring alarm hourly
     if (m < 1 && s < 1) {
       stopButton.disabled = false;
+      clockBox.style.borderColor = "#D85B5F";
       ringAlarm();
     }
     
@@ -89,6 +91,7 @@
     alarm.play();
     stopButton.disabled = false;
     testButton.disabled = true;
+    clockBox.style.borderColor = "#D85B5F";
   }
 
   // Stop alarm sound
@@ -97,6 +100,7 @@
     alarm.currentTime = 0;
     stopButton.disabled = true;
     testButton.disabled = false;
+    clockBox.style.borderColor = "#FFCC66";
   }
 </script>
 </body>
