@@ -487,6 +487,23 @@
 }
 
 /*---------------------------
+--- Dezi's Page
+---------------------------*/
+
+#pg-dezi h2 {  
+   color: #D85B5F;
+}
+
+#pg-dezi iframe {
+  display: block;
+  margin: auto;
+}
+
+#dezi-table > tbody tr:nth-child(odd) {
+  background-color: #121A1E;
+}
+
+/*---------------------------
 --- Mobile Resolution Options
 ---------------------------*/
 
