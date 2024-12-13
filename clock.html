@@ -64,18 +64,8 @@
     let s = today.getSeconds();
     let d = today.getDay();
 
-    // Ring alarm hourly
-    if (m < 1 && s < 1) {
-      ringAlarm();
-    }
-
-    // Ring alarm to leave work
-    if (d > 0 && d < 5 && h == 14 && m == 45 && s < 1) {
-      ringAlarm();
-    }
-    
-    // Ring alarm for leaving early on Fridays
-    if (d == 5 && h == 13 && m == 30 && s < 1) {
+    // Ring alarm hourly for breaks, at 2:45pm Mon-Thurs to leave work, and 1:30pm on Fri
+    if (m < 1 && s < 1) || (d > 0 && d < 5 && h == 14 && m == 45 && s < 1) || (d == 5 && h == 13 && m == 30 && s < 1) {
       ringAlarm();
     }
     
