@@ -335,6 +335,11 @@
   padding-top: 10px;
 }
 
+#pg-liondance span {
+  font-weight: bold;
+  color: #D85B5F;
+}
+
 #ld-band {
   display: block;
   margin: auto;
