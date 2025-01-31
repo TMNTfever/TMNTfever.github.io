@@ -556,3 +556,18 @@
   #ukulele-chords c- {color: #000000;}
   #ukulele-chords l- {color: #333333;}
 }
+
+/*---------------------------
+--- Data Detectors to prevent Google from adding links
+---------------------------*/
+
+*[x-apple-data-detectors], .x-gmail-data-detectors, .x-gmail-data-detectors *, .aBn {
+    border-bottom: 0 !important;
+    cursor: default !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+}
