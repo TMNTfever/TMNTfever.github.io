@@ -276,10 +276,10 @@
 
 #ukulele-chords c- { /*Chords*/
   color: #FFFFFF;
-  text-shadow: 2px 0px 0px black, 
-               -2px 0px 0px black, 
-               0px 2px 0px black, 
-               0px -2px 0px black;
+  text-shadow: 4px 0px 0px black, 
+               -4px 0px 0px black, 
+               0px 4px 0px black, 
+               0px -4px 0px black;
 }
 
 #ukulele-chords l- { /*Lyrics*/
