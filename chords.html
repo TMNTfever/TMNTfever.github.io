@@ -125,6 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
         clearInterval(scrollInterval);
         scrollInterval = null;
         scrollSpeed = 0;
+console.log("bottom reached - STOP");
         scrollButton.textContent = "Scroll";
         setTimeout(function(){
           clearInterval(scrollInterval);
@@ -142,13 +143,14 @@ document.addEventListener("DOMContentLoaded", function() {
       clearInterval(scrollInterval);
       scrollInterval = null;
       scrollSpeed = 0;
+console.log(scrollSpeed + " - STOP");
       scrollButton.textContent = "Scroll";
       setTimeout(function(){
         clearInterval(scrollInterval);
       },0);
     } else {
       scrollSpeed += 1;
-      console.log(scrollSpeed);
+console.log(scrollSpeed);
       startScrolling();
     }
   });
