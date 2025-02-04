@@ -118,6 +118,7 @@ function scrollButtonPressed() {
   if(scrollSpeed < 5) {
     clearInterval(scrollInterval);
     scrollSpeed += 1;
+    scrollButton.textContent = scrollSpeed;
     scrollInterval = setInterval(autoScroll, 100 - (scrollSpeed * 10));
   } else {
     stopScroll();
@@ -126,12 +127,16 @@ function scrollButtonPressed() {
 
 function autoScroll() {
   window.scrollBy(0, 1);
+  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+    stopScroll();
+  }
 }
 
 function stopScroll() {
   clearInterval(scrollInterval);
   scrollInterval = null;
   scrollSpeed = 0;
+  scrollButton.textContent = "Scroll";
 }
 	
 /**
