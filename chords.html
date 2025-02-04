@@ -99,7 +99,7 @@
       <div id="setlist-nav" style="display: none;"></div>
     </div>
 
-    <button id="scrollButton" onclick="scroll()">Scroll</button>
+    <button id="scrollButton" onclick="scrollButtonPressed()">Scroll</button>
   </div>
   <!-- /#page-content-wrapper -->
 </div>
@@ -113,7 +113,8 @@ function printDiv() {
 
 var scrollSpeed = 0;
 var scrollInterval;
-function scroll() {
+	
+function scrollButtonPressed() {
   if(scrollSpeed < 5) {
     clearInterval(scrollInterval);
     scrollInterval = setInterval(autoScroll, 100 - (scrollSpeed * 10));
