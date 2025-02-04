@@ -130,6 +130,7 @@ document.addEventListener("DOMContentLoaded", function() {
         scrollSpeed = 0;
 console.log("bottom reached - STOP");
         scrollButton.textContent = "Scroll";
+        setTimeout(startScrolling, 0);
         return;
       }
       window.scrollBy(0, 1);
@@ -145,6 +146,7 @@ console.log("bottom reached - STOP");
       scrollSpeed = 0;
 console.log(scrollSpeed + " - STOP");
       scrollButton.textContent = "Scroll";
+	    setTimeout(startScrolling, 0);
       return;
     } else {
       scrollSpeed += 1;
