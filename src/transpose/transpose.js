@@ -198,6 +198,7 @@ function transpose(isUp) {
   for(x = 0; x < chordLines.length; x++) {
     tLine = chordLines[x].innerHTML;
     tLine = cleanLine(tLine);
+    if chordLines[x].includes("-->") allTokens.push("-->");
     allTokens.push("<c->");
     var y = 0;
 
@@ -371,7 +372,7 @@ Date         Programmer    Change
 */
 function isSpecial(chara) {
   switch(chara){
-    case " ": case "-": case "|": case ">": case "(": case ")": case ":":
+    case " ": case "-": case "|": case ">": case "(": case ")": case ":": case "!":
       return true;
     default:
       return false;
