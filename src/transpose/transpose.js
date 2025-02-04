@@ -198,7 +198,7 @@ function transpose(isUp) {
   for(x = 0; x < chordLines.length; x++) {
     tLine = chordLines[x].innerHTML;
     tLine = cleanLine(tLine);
-    if chordLines[x].includes("-->") allTokens.push("-->");
+    if (chordLines[x].includes("-->")) allTokens.push("-->");
     allTokens.push("<c->");
     var y = 0;
 
