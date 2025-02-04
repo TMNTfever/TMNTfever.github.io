@@ -199,7 +199,6 @@ function transpose(isUp) {
     tLine = chordLines[x].innerHTML;
     tLine = cleanLine(tLine);
     if (tLine.includes("-->")) allTokens.push("-->"); // Account for comment closing bracket
-console.log(tLine);
     allTokens.push("<c->");
     var y = 0;
 
@@ -319,6 +318,11 @@ console.log(tLine);
   var tokenIndex = 0;
   var newFile = "";
 
+//DELETE THIS - CONSOLE LOG
+allTokens.forEach(function(tok) {
+  console.log(tok);
+});
+
   // Iterate through every line in ukulele-chords to find which lines to replace
   for(x = 0; x < allLines.length; x++) {
     if(allLines[x].length > 1) {
@@ -327,7 +331,7 @@ console.log(tLine);
           tLine += allTokens[tokenIndex];
           tokenIndex++;
         } while(allTokens[tokenIndex] !== "</c->");
-console.log(tLine);
+
         // Write to newFile to replace ukulele-chords
         newFile += tLine + "</c->";
         tokenIndex++;
