@@ -94,13 +94,12 @@
           <td align="right"><a href="javascript:void(0);" onclick="printDiv()">Print Page</a></td>
         </tr>
       </table>
-      
+
       <div id="ukulele-chords"></div>
-	  
-	  <div id="setlist-nav" style="display: none;"></div>
+      <div id="setlist-nav" style="display: none;"></div>
     </div>
-    
-    <button id="scrollButton">Scroll</button>
+
+    <button id="scrollButton" onclick="scroll()">Scroll</button>
   </div>
   <!-- /#page-content-wrapper -->
 </div>
@@ -112,6 +111,29 @@ function printDiv() {
   $("#ukulele-chords").printThis();
 }
 
+var scrollSpeed = 0;
+var scrollInterval;
+function scroll() {
+  if(scrollSpeed < 5) {
+    clearInterval(scrollInterval);
+    scrollInterval = setInterval(autoScroll, 100 - (scrollSpeed * 10));
+    scrollSpeed += 1;
+  } else {
+    stopScroll();
+  }
+}
+
+function autoScroll() {
+  window.scrollBy(0, 1);
+}
+
+function stopScroll() {
+  clearInverval(scrollInterval);
+  scrollInterval = null;
+  scrollSpeed = 0;
+}
+	
+/**
 var scrollSpeed = 0;
 var scrollInterval;
 document.addEventListener("DOMContentLoaded", function() {
@@ -155,6 +177,7 @@ console.log(scrollSpeed);
     }
   });
 });
+**/
 </script>
 </body>
 </html>
