@@ -194,17 +194,24 @@ function transpose(isUp) {
   var tChord = "";
   var tString = "";
 
-  // Iterate through each line of chords
+  // Iterate through each line of chords to transpose tokens
   for(x = 0; x < chordLines.length; x++) {
     tLine = chordLines[x].innerHTML;
     tLine = cleanLine(tLine);
     if (tLine.includes("-->")) allTokens.push("-->"); // Account for comment closing bracket
+console.log(tLine);
     allTokens.push("<c->");
     var y = 0;
 
     // Iterate through each character of the line
     while(y < tLine.length) {
       tChar = tLine.charAt(y);
+
+      // Account for comment closing bracket, skip those characters
+      while((tChar === "-") || (tChar === ">")) {
+        y++;
+        tChar = tLine.charAt(y);
+      }
 
       if(isSpecial(tChar)) { // tChar is a special character
         if(!isSpecial(prevChar) && y > 0) {
@@ -292,7 +299,7 @@ function transpose(isUp) {
             }
           }
           tChord = "";
-        } else if(tSpace !== "") { // Token is a special character
+        } else if(tSpace !== "") { // Token is a special character, reached closing tag
           allTokens.push(tSpace);
           tSpace = "";
         }
@@ -312,16 +319,15 @@ function transpose(isUp) {
   var tokenIndex = 0;
   var newFile = "";
 
-  // Iterate through every line in ukulele-chords
+  // Iterate through every line in ukulele-chords to find which lines to replace
   for(x = 0; x < allLines.length; x++) {
     if(allLines[x].length > 1) {
       if(allLines[x].includes("<c->")) {
         do {
           tLine += allTokens[tokenIndex];
-console.log(tLine);
           tokenIndex++;
         } while(allTokens[tokenIndex] !== "</c->");
-
+console.log(tLine);
         // Write to newFile to replace ukulele-chords
         newFile += tLine + "</c->";
         tokenIndex++;
