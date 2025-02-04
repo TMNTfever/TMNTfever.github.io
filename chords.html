@@ -113,19 +113,19 @@ function printDiv() {
 }
 
 var scrollSpeed = 0;
-var scrollInterval = null;
+var scrollInterval;
 document.addEventListener("DOMContentLoaded", function() {
   const scrollButton = document.getElementById("scrollButton");
 
   function startScrolling() {
     if (scrollInterval) {
-      clearInterval(scrollInterval);
-			scrollInterval = null;
+      while (scrollInterval) clearInterval(scrollInterval);
+      scrollInterval = null;
     }
-		
+
     scrollInverval = setInterval(function () {
       if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-        clearInterval(scrollInterval);
+        while (scrollInterval) clearInterval(scrollInterval);
         scrollInterval = null;
         scrollSpeed = 0;
 console.log("bottom reached - STOP");
@@ -140,7 +140,7 @@ console.log("bottom reached - STOP");
   
   scrollButton.addEventListener("click", function() {
     if (scrollSpeed == 5) {
-      clearInterval(scrollInterval);
+      while (scrollInterval) clearInterval(scrollInterval);
       scrollInterval = null;
       scrollSpeed = 0;
 console.log(scrollSpeed + " - STOP");
