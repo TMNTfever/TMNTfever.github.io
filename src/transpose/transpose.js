@@ -311,11 +311,6 @@ function transpose(isUp) {
   var tokenIndex = 0;
   var newFile = "";
 
-//DELETE THIS - CONSOLE LOG
-allTokens.forEach(function(tok) {
-  console.log(tok);
-});
-
   // Iterate through every line in ukulele-chords to find which lines to replace
   for(x = 0; x < allLines.length; x++) {
     if(allLines[x].length > 1) {
