@@ -197,8 +197,8 @@ function transpose(isUp) {
   // Iterate through each line of chords
   for(x = 0; x < chordLines.length; x++) {
     tLine = chordLines[x].innerHTML;
-    if (tLine.includes("-->")) allTokens.push("-->"); // Account for comment-close-bracket before clean
     tLine = cleanLine(tLine);
+    if (tLine.includes("-->")) allTokens.push("-->"); // Account for comment closing bracket
     allTokens.push("<c->");
     var y = 0;
 
@@ -318,6 +318,7 @@ function transpose(isUp) {
       if(allLines[x].includes("<c->")) {
         do {
           tLine += allTokens[tokenIndex];
+console.log(tLine);
           tokenIndex++;
         } while(allTokens[tokenIndex] !== "</c->");
 
