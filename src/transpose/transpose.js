@@ -198,19 +198,12 @@ function transpose(isUp) {
   for(x = 0; x < chordLines.length; x++) {
     tLine = chordLines[x].innerHTML;
     tLine = cleanLine(tLine);
-    if (tLine.includes("-->")) allTokens.push("-->"); // Account for comment closing bracket
     allTokens.push("<c->");
     var y = 0;
 
     // Iterate through each character of the line
     while(y < tLine.length) {
       tChar = tLine.charAt(y);
-
-      // Account for comment closing bracket, skip those characters
-      while((tChar === "-") || (tChar === ">")) {
-        y++;
-        tChar = tLine.charAt(y);
-      }
 
       if(isSpecial(tChar)) { // tChar is a special character
         if(!isSpecial(prevChar) && y > 0) {
@@ -383,7 +376,7 @@ Date         Programmer    Change
 */
 function isSpecial(chara) {
   switch(chara){
-    case " ": case "-": case "|": case ">": case "(": case ")": case ":": case "!":
+    case " ": case "-": case "|": case "<": case ">": case "(": case ")": case ":": case "!":
       return true;
     default:
       return false;
