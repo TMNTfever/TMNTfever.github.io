@@ -99,6 +99,8 @@
 	  
 	  <div id="setlist-nav" style="display: none;"></div>
     </div>
+    
+    <button id="scrollButton">Scroll</button>
   </div>
   <!-- /#page-content-wrapper -->
 </div>
@@ -109,6 +111,48 @@
 function printDiv() {
   $("#ukulele-chords").printThis();
 }
+
+var scrollSpeed = 0;
+var scrollInterval = null;
+document.addEventListener("DOMContentLoaded", function() {
+  const scrollButton = document.getElementById("scrollButton");
+
+  function startScrolling() {
+    if (scrollInterval) clearInterval(scrollInterval);
+    
+    scrollInverval = setInterval(function () {
+      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        clearInterval(scrollInterval);
+        scrollInterval = null;
+        scrollSpeed = 0;
+        scrollButton.textContent = "Scroll";
+        setTimeout(function(){
+          clearInterval(scrollInterval);
+        },0);
+      }
+      
+      window.scrollBy(0, 1);
+    }, (100 - (10 * scrollSpeed)));
+  
+    scrollButton.textContent = scrollSpeed;
+  }
+  
+  scrollButton.addEventListener("click", function() {
+    if (scrollSpeed == 5) {
+      clearInterval(scrollInterval);
+      scrollInterval = null;
+      scrollSpeed = 0;
+      scrollButton.textContent = "Scroll";
+      setTimeout(function(){
+        clearInterval(scrollInterval);
+      },0);
+    } else {
+      scrollSpeed += 1;
+      console.log(scrollSpeed);
+      startScrolling();
+    }
+  });
+});
 </script>
 </body>
 </html>
