@@ -117,8 +117,8 @@ var scrollInterval;
 function scrollButtonPressed() {
   if(scrollSpeed < 5) {
     clearInterval(scrollInterval);
-    scrollInterval = setInterval(autoScroll, 100 - (scrollSpeed * 10));
     scrollSpeed += 1;
+    scrollInterval = setInterval(autoScroll, 100 - (scrollSpeed * 10));
   } else {
     stopScroll();
   }
@@ -129,7 +129,7 @@ function autoScroll() {
 }
 
 function stopScroll() {
-  clearInverval(scrollInterval);
+  clearInterval(scrollInterval);
   scrollInterval = null;
   scrollSpeed = 0;
 }
