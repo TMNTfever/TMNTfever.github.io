@@ -115,6 +115,7 @@ var scrollSpeed = 0;
 var scrollInterval;
 	
 function scrollButtonPressed() {
+  expandAllDetails();
   if(scrollSpeed < 5) {
     clearInterval(scrollInterval);
     scrollSpeed += 1;
@@ -139,51 +140,10 @@ function stopScroll() {
   scrollButton.textContent = "Scroll";
 }
 	
-/**
-var scrollSpeed = 0;
-var scrollInterval;
-document.addEventListener("DOMContentLoaded", function() {
-  const scrollButton = document.getElementById("scrollButton");
-
-  function startScrolling() {
-    if (scrollInterval) {
-      while (scrollInterval) clearInterval(scrollInterval);
-      scrollInterval = null;
-    }
-
-    scrollInverval = setInterval(function () {
-      if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-        while (scrollInterval) clearInterval(scrollInterval);
-        scrollInterval = null;
-        scrollSpeed = 0;
-console.log("bottom reached - STOP");
-        scrollButton.textContent = "Scroll";
-        setTimeout(startScrolling, 0);
-        return;
-      }
-      window.scrollBy(0, 1);
-    }, (100 - (10 * scrollSpeed)));
-  
-    scrollButton.textContent = scrollSpeed;
-  }
-  
-  scrollButton.addEventListener("click", function() {
-    if (scrollSpeed == 5) {
-      while (scrollInterval) clearInterval(scrollInterval);
-      scrollInterval = null;
-      scrollSpeed = 0;
-console.log(scrollSpeed + " - STOP");
-      scrollButton.textContent = "Scroll";
-	    setTimeout(startScrolling, 0);
-      return;
-    } else {
-      scrollSpeed += 1;
-console.log(scrollSpeed);
-      startScrolling();
-    }
-  });
-});
-**/
+function expandAllDetails() {
+  const detailsElements = document.querySelectorAll('details');
+  detailsElements.forEach(detail => detail.setAttribute('open', ''));
+}
 </script>
 </body>
 </html>
