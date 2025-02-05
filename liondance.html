@@ -284,7 +284,14 @@
   <!-- /#page-content-wrapper -->
 </div>
 <!-- /#wrapper -->
+<button onclick="jumpToTop()" id="topButton" title="Jump to Top">⇧</button>
 
 <!-- Custom Scripts -->
+<script type="application/javascript">
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
 </body>
 </html>
