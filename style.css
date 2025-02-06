@@ -392,6 +392,12 @@ details > summary::-webkit-details-marker /* Safari */ {
   border: 1px solid #FFCC66;
 }
 
+.lion-dance-big-image {
+  margin: auto;
+  max-width: 90%;
+  border: 1px solid #FFCC66;
+}
+
 #toc_container {
   background: #223037 none repeat scroll 0 0;
   border: 1px solid #FFFFFF;
