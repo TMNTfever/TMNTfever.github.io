@@ -393,8 +393,9 @@ details > summary::-webkit-details-marker /* Safari */ {
 }
 
 .lion-dance-big-image {
+  display: block;
   margin: auto;
-  max-width: 90%;
+  max-width: 50%;
   border: 1px solid #FFCC66;
 }
 
