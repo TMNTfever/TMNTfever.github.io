@@ -399,6 +399,13 @@ details > summary::-webkit-details-marker /* Safari */ {
   border: 1px solid #FFCC66;
 }
 
+img-credit {
+  font-size: 0.7rem;
+  display: block;
+  margin: auto;
+  max-width: 50%;
+}
+
 #toc_container {
   background: #223037 none repeat scroll 0 0;
   border: 1px solid #FFFFFF;
