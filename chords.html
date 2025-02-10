@@ -97,9 +97,10 @@
 
       <div id="ukulele-chords"></div>
       <div id="setlist-nav" style="display: none;"></div>
+      <button id="viewButton" onclick="changeView()">Change View</button>
     </div>
 
-    <button id="scrollButton" onclick="scrollButtonPressed()">Scroll</button>
+    <button id="scrollButton" onclick="scrollButtonPressed()">↡</button>
   </div>
   <!-- /#page-content-wrapper -->
 </div>
@@ -128,7 +129,7 @@ function scrollButtonPressed() {
 
 function autoScroll() {
   window.scrollBy(0, 1);
-  if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+  if ((window.innerHeight + Math.floor(window.scrollY)) >= (document.body.offsetHeight - 1)) {
     stopScroll();
   }
 }
@@ -137,12 +138,54 @@ function stopScroll() {
   clearInterval(scrollInterval);
   scrollInterval = null;
   scrollSpeed = 0;
-  scrollButton.textContent = "Scroll";
+  scrollButton.textContent = "↡";
 }
 	
 function expandAllDetails() {
-  const detailsElements = document.querySelectorAll('details');
-  detailsElements.forEach(detail => detail.setAttribute('open', ''));
+  const detailsElements = document.querySelectorAll("details");
+  detailsElements.forEach(detail => detail.setAttribute("open", ""));
+}
+
+var viewMode = 1;
+
+function changeView() {
+  var lyricLines = document.querySelectorAll("l-");
+  var chordLines = document.querySelectorAll("c-");
+/*
+  // Using this function breaks the transpose function
+  // Make those buttons invisible
+  transposeButtons = document.querySelectorAll("transposeButton");
+  
+  for(z = 0; z < 2; z++) {
+    transposeButtons[z].style.display = "none";
+  }
+*/
+  // View mode is 1 (lyrics and chords)
+  if(viewMode == 1) {
+    viewMode = 2;
+    
+    // Make lyric lines invisible 
+    for(x = 0; x < lyricLines.length; x++) {
+      lyricLines[x].style.display = "none";
+    }
+    
+    // Change white-space of all chord lines from pre to pre-line
+    for(y = 0; y < chordLines.length; y++) {
+      chordLines[y].style.whiteSpace = "pre-line";
+    }
+  } else { // View mode is 2 (chords only)
+    viewMode = 1;
+    
+    // Make lyric lines visible 
+    for(x = 0; x < lyricLines.length; x++) {
+      lyricLines[x].style.display = "block";
+    }
+    
+    // Change white-space of all chord lines from pre to pre-line
+    for(y = 0; y < chordLines.length; y++) {
+      chordLines[y].style.whiteSpace = "pre";
+    }
+  }
 }
 </script>
 </body>

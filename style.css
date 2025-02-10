@@ -2,8 +2,8 @@
 --- Hex Color Values
 --- 223037 Light Slate (sidebar)
 --- 1C282D Slate (background)
---- 121A1E Dark Slate (nth table row)
---- 121E23 Darker Slate (focus)
+--- 121E23 Dark Slate (focus)
+--- 121A1E Darker Slate (song-info, nth table row)
 --- FFCC66 Light Goldenrod (main text)
 --- DDAA44 Goldenrod (hover text)
 --- 73A000 Green (song nav)
@@ -268,10 +268,12 @@
 
 #ukulele-chords s- { /*Section*/
   color: #FFCC66;
+  font-weight: bold;
 }
 
 #ukulele-chords r- { /*Repeated Chorus or Refrain*/
   color: #D85B5F;
+  font-weight: bold;
 }
 
 #ukulele-chords c- { /*Chords*/
@@ -288,14 +290,27 @@
 
 #ukulele-chords f- { /*Chord Fingering*/
   color: #7A9CAB;
+  font-weight: bold;
 }
 
 #ukulele-chords b- { /*Bridge or Interlude*/
   color: #73A000;
+  font-weight: bold;
 }
 
 #ukulele-chords k- { /*Key*/
   font-weight: bold;
+}
+
+.song-info {
+  background: #121A1E;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #121A1E;
+  border-radius: 10px;
+  margin-left: -8px;
+  padding: 5px;
+  width: fit-content;
 }
 
 .focus {
@@ -331,10 +346,8 @@ details > summary::-webkit-details-marker /* Safari */ {
   text-decoration: none;
 }
 
-#topButton {
-  position: fixed;
-  bottom: 5px;
-  right: 5px;
+#viewButton {
+  display: none;
   background-color: #FFCC66;
   border: 0;
   border-radius: 10px;
@@ -418,6 +431,19 @@ img-credit {
 .toc_title {
   font-weight: bold;
   text-align: center;
+}
+
+#topButton {
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  background-color: #FFCC66;
+  border: 0;
+  border-radius: 10px;
+  padding: 8px;
+  color: #000000 !important;
+  font-weight: bolder;
+  text-decoration: none;
 }
 
 /*---------------------------
@@ -601,6 +627,7 @@ img-credit {
 
 @media print {
   .body {background-color: #FFFFFF;}
+  .song-info {background-color: #DCDCDC; border:none;}
   .focus {background-color: #EDEDED; border: none;}
   #ukulele-chords {color: #000000; background-color: #FFFFFF;}
   #ukulele-chords h2 {color: #FDCA64;}
