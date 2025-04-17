@@ -121,7 +121,7 @@ function scrollButtonPressed() {
     clearInterval(scrollInterval);
     scrollSpeed += 1;
     scrollButton.textContent = scrollSpeed;
-    scrollInterval = setInterval(autoScroll, 100 - (scrollSpeed * 10));
+    scrollInterval = setInterval(autoScroll, 200 - (scrollSpeed * 20));
   } else {
     stopScroll();
   }
