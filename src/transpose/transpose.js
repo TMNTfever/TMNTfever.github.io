@@ -371,7 +371,7 @@ Date         Programmer    Change
 */
 function isSpecial(chara) {
   switch(chara){
-    case " ": case "-": case "|": case "<": case ">": case "(": case ")": case ":": case "!":
+    case " ": case "-": case "|": case "<": case ">": case "(": case ")": case ":": case "!": case "/":
       return true;
     default:
       return false;
