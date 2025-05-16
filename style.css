@@ -590,6 +590,10 @@ img-credit {
   margin: auto;
 }
 
+#pg-list details > table {
+  width: 100%;
+}
+
 /*---------------------------
 --- Dezi's Page
 ---------------------------*/
