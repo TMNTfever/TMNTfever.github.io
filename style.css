@@ -571,8 +571,19 @@ img-credit {
 }
 
 /*---------------------------
---- Sidebar 
+--- Setlist 
 ---------------------------*/
+
+#setlist-table {
+  margin: auto;
+  border: none;
+  width: 90%;
+}
+
+#setlist-table > tbody tr:nth-child(odd) {
+  /*old color 101418*/
+  background-color: #121A1E;
+}
 
 #pg-list details {
   width: 90%;
