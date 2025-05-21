@@ -594,6 +594,11 @@ img-credit {
   width: 100%;
 }
 
+#pg-list summary {
+  font-weight: bolder;
+  color: #73A000;
+}
+
 /*---------------------------
 --- Dezi's Page
 ---------------------------*/
