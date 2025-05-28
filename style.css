@@ -446,6 +446,23 @@ img-credit {
   text-decoration: none;
 }
 
+#pg-liondance midi-player {
+  height: 30px;
+  width: 100%;
+}
+
+#pg-liondance midi-player::part(control-panel) {
+  background: #223037;
+}
+
+#pg-liondance midi-player::part(play-button) {
+  color: #FFCC66;
+}
+
+#pg-liondance midi-player::part(time) {
+  color: #FFFFFF;
+}
+
 /*---------------------------
 --- Weather
 ---------------------------*/
