@@ -16,6 +16,7 @@
   <link href="style.css" rel="stylesheet">
   <script src="src/jquery/jquery.min.js"></script>
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/combine/npm/tone@14.7.58,npm/@magenta/music@1.23.1/es6/core.js,npm/focus-visible@5,npm/html-midi-player@1.5.0"></script>
   <script type="application/javascript">
     window.onload = function() {
       // Load sidebar HTML into div
@@ -176,22 +177,26 @@
       <iframe id="ld-band" src="assets/liondance-band.pdf"></iframe>
       <br>
       <table>
-        <tr><td><span>Heartbeat</span></td><td>Played throughout the performance and ties all the drum sequences together. The drum beat itself sounds like a heartbeat, while the cymbals chime on each quarter note, and the gong hits on every other quarter note. The lion is typically just sitting, standing, or walking around with the heartbeat.</td></tr>
-        <tr><td><span>Running</span></td><td>This is played continuously while the lion in doing something more exerting lion running, jumping, or stunting. It sounds like the middle of the Chrysanthemum beat, except without the pause and played continuously.</td></tr>
-        <tr><td><span>Drumroll</span></td><td>All instruments just play as fast as possible. It can slow down or speed up depending on what the lion is doing. This is usually played for anticipation of something cool, like a big stunt or a lettuce toss.</td></tr>
-        <tr><td><span>Chrysanthemum</span></td><td>This is an intro beat into different parts of the performance. The lion is usually dancing in place, bobbing left and right, and then hops when there's a rest on the 7th measure.</td></tr>
-        <tr><td><span>Middle Testing</span></td><td>Testing in general is the cat-like curiosity I was talking about. The lion extends the head in a circular motion around the object it's investigating, and then hops at the ends to show the dog-like excitement.</td></tr>
-        <tr><td><span>Investigative Step</span></td><td>The lion approaches and steps with every beat in the first several measures. Then hops in circular motion around the object before either laying down, sitting, or retreating.</td></tr>
-        <tr><td><span>Ending</span></td><td>Done at end of sequences to give the lion time to get ready for the next sequence. There are no specific movements to it.</td></tr>
-        <tr><td><span>Lower Testing</span></td><td>Three approaches which have three nods, alternating sides. And in between, there are hops. This is when the lion amping up in excitement for an object.</td></tr>
-        <tr><td><span>Forward Testing</span></td><td>The lion is now really excited for an object and about to pick it up. The head will extend over the object and shake side to side, then end with a hop.</td></tr>
-        <tr><td><span>Climbing the Mountain</span></td><td>This sequence is reserved for doing a long sequence of stunts. Nothing specific.</td></tr>
-        <tr><td><span>Lion Scratching</span></td><td>The lion approaches an object and will turn sideways and scratch its side and then leap away. This is done three times.</td></tr>
-        <tr><td><span>Jumping</span></td><td>This is three sets of Jump Kicks (see <a href="#ld8">Stunts</a>).</td></tr>
-        <tr><td><span>Half Testing</span></td><td>This is just an approach without the investigation. It's kind of like a tease.</td></tr>
-        <tr><td><span>Retreating</span></td><td>This is an old sequence that not many teams do anymore. The lion turns sideways three retreats away from an object.</td></tr>
-        <tr><td><span>Taunting</span></td><td>Exactly what the name implies. This can involve biting and kicks.</td></tr>
-        <tr><td><span>7 Stars</span></td><td>This is a Fut San style beat which involves three sets of Steal stances and blinks, followed by sweeping shakes, ending in a Hop. We used this as another test just to mix things up. You don't always do all the tests, just two or three.</td></tr>
+        <tr><td><span>Heartbeat</span></td><td>Played throughout the performance and ties all the drum sequences together. The drum beat itself sounds like a heartbeat, while the cymbals chime on each quarter note, and the gong hits on every other quarter note. The lion is typically just sitting, standing, or walking around with the heartbeat.</td><td><midi-player src="assets/ld-band/ld-band-heartbeat.mid"></midi-player></td></tr>
+        <tr><td><span>Running</span></td><td>This is played continuously while the lion in doing something more exerting lion running, jumping, or stunting. It sounds like the middle of the Chrysanthemum beat, except without the pause and played continuously.</td><td><midi-player src="assets/ld-band/ld-band-running.mid"></midi-player></td></tr>
+        <tr><td><span>Drumroll</span></td><td>All instruments just play as fast as possible. It can slow down or speed up depending on what the lion is doing. This is usually played for anticipation of something cool, like a big stunt or a lettuce toss.</td><td><midi-player src="assets/ld-band/ld-band-drumroll.mid"></midi-player></td></tr>
+        <tr><td><span>Short Bows</span></td><td>Defined in previous section (see <a href="#ld6">Movement & Sequences</a>).</td><td><midi-player src="assets/ld-band/ld-band-short-bows.mid"></midi-player></td></tr>
+        <tr><td><span>Medium Bows</span></td><td>Defined in previous section (see <a href="#ld6">Movement & Sequences</a>).</td><td><midi-player src="assets/ld-band/ld-band-medium-bows.mid"></midi-player></td></tr>
+        <tr><td><span>Long Bows</span></td><td>Defined in previous section (see <a href="#ld6">Movement & Sequences</a>).</td><td><midi-player src="assets/ld-band/ld-band-long-bows.mid"></midi-player></td></tr>
+        <tr><td><span>Bow Out</span></td><td>Done at the very end of the performance to show the dancers inside of the lion. Typically done after Short/Medium/Long Bows. There are 3 parts, the 1st part the performers get out of the lion standing side-by-side. The performers then bow in the 2nd part. And the 3rd part they get back in the lion to pose. The band also bows on the 2nd part, and poses on the 3rd part.</td><td><midi-player src="assets/ld-band/ld-band-bow-out.mid"></midi-player></td></tr>
+        <tr><td><span>Chrysanthemum</span></td><td>This is an intro beat into different parts of the performance. The lion is usually dancing in place, bobbing left and right, and then hops when there's a rest on the 7th measure.</td><td><midi-player src="assets/ld-band/ld-band-chrysanthemum.mid"></midi-player></td></tr>
+        <tr><td><span>Middle Testing</span></td><td>Testing in general is the cat-like curiosity I was talking about. The lion extends the head in a circular motion around the object it's investigating, and then hops at the ends to show the dog-like excitement.</td><td><midi-player src="assets/ld-band/ld-band-mid-test.mid"></midi-player></td></tr>
+        <tr><td><span>Investigative Step</span></td><td>The lion approaches and steps with every beat in the first several measures. Then hops in circular motion around the object before either laying down, sitting, or retreating.</td><td><midi-player src="assets/ld-band/ld-band-investigate.mid"></midi-player></td></tr>
+        <tr><td><span>Ending</span></td><td>Done at end of sequences to give the lion time to get ready for the next sequence. There are no specific movements to it.</td><td><midi-player src="assets/ld-band/ld-band-ending.mid"></midi-player></td></tr>
+        <tr><td><span>Lower Testing</span></td><td>Three approaches which have three nods, alternating sides. And in between, there are hops. This is when the lion amping up in excitement for an object.</td><td><midi-player src="assets/ld-band/ld-band-low-test.mid"></midi-player></td></tr>
+        <tr><td><span>Forward Testing</span></td><td>The lion is now really excited for an object and about to pick it up. The head will extend over the object and shake side to side, then end with a hop.</td><td><midi-player src="assets/ld-band/ld-band-forward-test.mid"></midi-player></td></tr>
+        <tr><td><span>Climbing the Mountain</span></td><td>This sequence is reserved for doing a long sequence of stunts. Nothing specific.</td><td><midi-player src="assets/ld-band/ld-band-climb-mountain.mid"></midi-player></td></tr>
+        <tr><td><span>Lion Scratching</span></td><td>The lion approaches an object and will turn sideways and scratch its side and then leap away. This is done three times.</td><td><midi-player src="assets/ld-band/ld-band-scratching.mid"></midi-player></td></tr>
+        <tr><td><span>Jumping</span></td><td>This is three sets of Jump Kicks (see <a href="#ld8">Stunts</a>).</td><td><midi-player src="assets/ld-band/ld-band-jumping.mid"></midi-player></td></tr>
+        <tr><td><span>Half Testing</span></td><td>This is just an approach without the investigation. It's kind of like a tease.</td><td><midi-player src="assets/ld-band/ld-band-half-test.mid"></midi-player></td></tr>
+        <tr><td><span>Retreating</span></td><td>This is a Fut San sequence that not many teams do anymore. The lion turns sideways three retreats away from an object.</td><td><midi-player src="assets/ld-band/ld-band-retreat.mid"></midi-player></td></tr>
+        <tr><td><span>Taunting</span></td><td>Exactly what the name implies. This can involve biting and kicks.</td><td><midi-player src="assets/ld-band/ld-band-taunting.mid"></midi-player></td></tr>
+        <tr><td><span>7 Stars</span></td><td>This is a Fut San sequence which involves three sets of Steal stances with blinks, followed by sweeping shakes, ending in a pop-up. We used this as another test just to mix things up. You don't always do all the tests, just two or three.</td><td><midi-player src="assets/ld-band/ld-band-7-stars.mid"></midi-player></td></tr>
       </table>
     
       <hr />
