@@ -446,6 +446,11 @@ img-credit {
   text-decoration: none;
 }
 
+#pg-liondance audio {
+  width: 120px;
+  height: 25px;
+}
+
 /*---------------------------
 --- Weather
 ---------------------------*/
