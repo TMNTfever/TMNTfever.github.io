@@ -451,6 +451,10 @@ img-credit {
   height: 25px;
 }
 
+#pg-liondance audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel {
+  background-color: #FFCC66;
+}
+
 /*---------------------------
 --- Weather
 ---------------------------*/
