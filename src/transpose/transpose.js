@@ -5,7 +5,7 @@ Desc:      Transposes a song's chords up or down in a Chords page.
 Author:    JC Reyes
 Called by: main/chords.html
 Created:   2024-06-21
-Modified:  2024-06-22
+Modified:  2024-05-17
 ===============================================================================
 */
 var chordMap = undefined; // Maps the original-key to the new-key
@@ -367,6 +367,8 @@ Comments:  N/A
 -------------------------------------------------------------------------------
 Date         Programmer    Change
 2024-06-20   JC reyes      Initial version
+2025-05-20   JC Reyes      Added "/" and "*" to the list, in support of slash-
+                           chord transposition.
 ===============================================================================
 */
 function isSpecial(chara) {
