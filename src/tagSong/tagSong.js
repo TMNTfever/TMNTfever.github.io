@@ -32,6 +32,7 @@ function tagSong(fileName) {
   var closeTag = "";
   var char0 = "";
   var char1 = "";
+  var temp = "";
 
   // Load .txt into div, and then into string variable
   $("#ukulele-chords").load(fileName);
@@ -46,14 +47,15 @@ function tagSong(fileName) {
   // Tag the rest of the info section
   // Iterate through each line, until you hit a '[' after [CHORDS]
   for (i = 1; lines.length; i++) {
-    char0 = lines[i].charAt(0);
+    temp = lines[i];
+    char0 = temp.charAt(0);
 
     // Transcribed Key is found
     if (char0 === 'T') {
-      lines[i] = lines[i].slice(0, 16) + "<k->" + lines[i].slice(16) + "</k->";
+      lines[i] = temp.slice(0, 16) + "<k->" + temp.slice(16) + "</k->";
     } // [CHORDS] section is found
     else if (char0 === '[') {
-      lines[i] = "<f->" + lines[i] + "</f->";
+      lines[i] = "<f->" + temp + "</f->";
       divOpen = true;
     } // End of [CHORDS] section is reached, next section started
     else if (char0 === '[' && divOpen) {
@@ -65,24 +67,25 @@ function tagSong(fileName) {
 
   // Iterate through the rest of the document
   for (i = lineCount; i < lineArr.length; i++) {
-    char0 = lines[i].charAt(0);
+    temp = lines[i];
+    char0 = temp.charAt(0);
     
     // Section found
     if (char0 === '[') {
       divOpen = true;
-      char5 = lines[i].charAt(5);
+      char5 = temp.charAt(5);
       
       switch(char5) {
         case 'O': case 'E': case 'C': // [intrO] [outrO] [versE] or [pre-Chorus]
-          lines[i] = "<s->" + lines[i];
+          lines[i] = "<s->" + temp;
           closeTag = "</s->";
           break;
         case 'U': case 'A': // [chorUs] or [refrAin]
-          lines[r] = "<f->" + lines[r];
+          lines[i] = "<f->" + temp;
           closeTag = "</f->";
           break;
         case 'G': case 'R': // [bridGe] or [inteRlude]
-          lines[i] = "<b->" + lines[i];
+          lines[i] = "<b->" + temp;
           closeTag = "</b->";
           break;
         default:
@@ -90,16 +93,16 @@ function tagSong(fileName) {
       }
       
       // Section has a description within parenthesis 
-      if (lines[i].contains("(")) {
-        var endBrackIndex = lines[i].indexOf(']');
-        lines[i] = lines[i].slice(0, endBrackIndex) + closeTag + lines[i].slice(endBrackIndex);
+      if (temp.contains("(")) {
+        var endBrackIndex = temp.indexOf(']');
+        lines[i] = temp.slice(0, endBrackIndex) + closeTag + temp.slice(endBrackIndex);
       } // Section does not have a description
       else {
         lines[i] += closeTag;
       }
     } // -RIFF- found
     else if (char0 === '-') {
-      lines[i] = "<s->" + lines[i] + "</s->";
+      lines[i] = "<s->" + temp + "</s->";
     } // End of section found
     else if (char0 === '[' && divOpen) {
       lines[i - 1] += "</div>";
@@ -111,11 +114,11 @@ function tagSong(fileName) {
     } // Chord or Lyric line found
     else {
       if (chordLine) {
-        lines[i] = "<c->" + lines[i] + "</c->";
+        lines[i] = "<c->" + temp + "</c->";
         chordLine = false;
       }
       else {
-        lines[i] = "<l->" + lines[i] + "</l->";
+        lines[i] = "<l->" + temp + "</l->";
       }
     }
   }
