@@ -30,8 +30,8 @@ function tagSong(fileName) {
   var chordLine = true;
   var taggedHtml = "";
   var closeTag = "";
-  var char0;
-  var char1;
+  var char0 = "";
+  var char1 = "";
 
   // Load .txt into div, and then into string variable
   $("#ukulele-chords").load(fileName);
@@ -66,11 +66,11 @@ function tagSong(fileName) {
   // Iterate through the rest of the document
   for (i = lineCount; i < lineArr.length; i++) {
     char0 = lines[i].charAt(0);
-    char5 = lines[i].charAt(5);
     
     // Section found
     if (char0 === '[') {
       divOpen = true;
+      char5 = lines[i].charAt(5);
       
       switch(char5) {
         case 'O': case 'E': case 'C': // [intrO] [outrO] [versE] or [pre-Chorus]
