@@ -35,12 +35,13 @@ function tagSong(fileName) {
   var temp = "";
 
   // Load .txt into div, and then into string variable
-  $("#ukulele-chords").load("../../" + fileName);
+  $("#ukulele-chords").load(fileName);
   allLines = document.getElementById("ukulele-chords").innerHTML;
+  console.log(fileName);
+  console.log(allLines);
 
   // Create an array of lines
   var lines = allLines.split("\n");
-  console.log(fileName);
   console.log(lines);
 
   // Add first-line tags
