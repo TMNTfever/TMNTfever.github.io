@@ -36,7 +36,7 @@ function tagSong(fileName) {
 
   // Load .txt into div, and then into string variable
   $("#ukulele-chords").load(fileName);
-  allLines = document.getElementById("ukulele-chords").innerHTML;
+  allLines = document.getElementById("ukulele-chords").textContent;
   console.log(fileName);
   console.log(allLines);
 
