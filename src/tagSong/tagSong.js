@@ -22,12 +22,12 @@ Date         Programmer    Change
 2024-06-16   JC Reyes      Initial version
 ===============================================================================
 */
-
 function tagSong(fileName) {
   var lineCount = 0;
   var divOpen = false;
   var detOpen = false;
   var chordLine = true;
+  var allLines = "";
   var taggedHtml = "";
   var closeTag = "";
   var char0 = "";
@@ -36,10 +36,11 @@ function tagSong(fileName) {
 
   // Load .txt into div, and then into string variable
   $("#ukulele-chords").load(fileName);
-  var allLines = document.getElementById("ukulele-chords").innerHTML;
+  allLines = document.getElementById("ukulele-chords").innerHTML;
 
   // Create an array of lines
   var lines = allLines.split("\n");
+  console.log(lines);
 
   // Add first-line tags
   lines[0] = "<div><div class=\"song-info\"><h2>" + lines[0] + "</h2>";
