@@ -23,33 +23,7 @@
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="src/printThis/printThis.js"></script>
   <script src="src/transpose/transpose.js"></script>
-  <script src="src/tagSong/tagSong.js"></script>
   <script type="application/javascript">
-    var chordsLoaded = false;
-  
-    if(!chordsLoaded) {
-      document.addEventListener("DOMContentLoaded", () => {
-        const target = document.getElementById("ukulele-chords");
-        if (!target) return;
-
-        const observer = new MutationObserver((mutationsList, observer) => {
-          for (const mutation of mutationsList) {
-            if (mutation.type === "childList" && target.innerText.trim() !== "") {
-              observer.disconnect();
-              chordsLoaded = true;
-              onChordsLoaded();
-            }
-          }
-        });
-      
-        observer.observe(target, { childList: true, subtree: true });
-      });
-      
-      function onChordsLoaded() {
-        tagSong();
-      }
-    }
-    
     window.onload = function() {
       var songID = document.location.href.split('?').pop();
       var firstChar = songID.charAt(0);
@@ -57,9 +31,9 @@
 
       // Determine subfolder based on first character of songID
       if (isNaN(firstChar)) { // Requires parenthesis around isNaN for some reason
-        query = query + firstChar + "/" + songID + ".txt";
+        query = query + firstChar + "/" + songID + ".html";
       } else {
-        query = query + "0-9/" + songID + ".txt";
+        query = query + "0-9/" + songID + ".html";
       }
 
       // Load HTML into divs
@@ -177,7 +151,15 @@ var viewMode = 1;
 function changeView() {
   var lyricLines = document.querySelectorAll("l-");
   var chordLines = document.querySelectorAll("c-");
-
+/*
+  // Using this function breaks the transpose function
+  // Make those buttons invisible
+  transposeButtons = document.querySelectorAll("transposeButton");
+  
+  for(z = 0; z < 2; z++) {
+    transposeButtons[z].style.display = "none";
+  }
+*/
   // View mode is 1 (lyrics and chords)
   if(viewMode == 1) {
     viewMode = 2;
