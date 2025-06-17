@@ -1,0 +1,77 @@
+After the Lovin'
+Artist: Engelbert Humperdinck
+Genre: Jazz
+Transcribed Key: C to D
+Original Key: C to D
+Starting Note: 3 4 5
+
+[CHORDS]
+  Am    2003      Dm    2210      As4   2200      F#7   3424
+  E+    1003      C#+   2110      E7    1202      Bm    4222
+  C     0003      Dm7   2213      Em7   4435      BmM7  3222
+  D7    2223      Dm6   2212      D     2225      Bm7   2222
+  FM7   5557      G     0232      DM7   2224      Bm6n5 4242
+  Dm7/C 5555      G7    0212      D6    2222      F#+   3221
+  F*    5553      C7    0001      Em/E  0432      GM7   0222
+  G*    4232      Em    0432      D#+   0332      BmM7  3222
+  A     2100      AmM7  1000      Em6   4434      G*    7775
+  F     2010      Am7   0000      B     4322      A*    6454
+  CM7   0002      Am6n5 2020      B7    2322      F#m7  6657
+  C6    0000      A7    0100      Bs4   4422
+
+[INTRO]
+  Am     E+     C      D7
+  1, 2 3 1, 2 3 1, 2 3 1
+      FM7  Dm7/C  F*    G*     A      F
+  2 3 3    2,     1    -7, -6 -3, -3 -4
+
+[VERSE 1]
+          C            CM7  C6        CM7            Dm          C#+              Dm7 Dm6
+  So I'll sing you to sleep after the lovin', with a song that I wrote just yesterday
+        Dm           C#+           G             G7           CM7 G7
+  And I hope you can hear what the words and the music has to say
+
+[VERSE 2]
+         C         CM7        C6           CM7              Dm     C#+              Dm7 Dm6
+  Its so hard to explain everything that I feeling, face to face, I just seem to go dry
+        Dm           C#+          G             G7                CM7 G7
+  But I love you so much that the sound of your voice can make me high
+
+[BRIDGE]
+F                    Em      Dm       G7         C  C7
+  Thanks for taking me, on a one-way trip to the sun
+Am               AmM7     Am7  Am6n5          Dm  G*        F   G7
+  And thanks for turning me (turning me) into someone, into someone
+
+[VERSE 3]
+       C            CM7  C6        CM7          Dm              C#+            Dm7 Dm6
+  So I sing you to sleep after the lovin, and I brush back the hair from your eyes
+          Dm            C#+       G            G7          A A7 As4 A
+  And the love on your face is so real that it makes wanna cry
+
+[CHORUS 1]
+        F                       E7              Am AmM7 Am7 Am6n5
+  And I know that my song isn't saying anything new
+         Dm        G      F             G7        C CM7 F G7
+  Oh but after the lovin', I'm still in love with you
+
+[VERSE 4]
+       D            DM7   D6        DM7          Em              D#+            Em7 Em6
+  So I sing you to sleep, after the lovin, and I brush back the hair from your eyes
+          Em            D#+       A            A7          B B7 Bs4 B
+  And the love on your face is so real that it makes wanna cry
+
+[CHORUS 2]
+        G                       F#7             Bm BmM7 Bm7 Bm6n5
+  And I know that my song isn't saying anything new
+         Em        A      G             A7        D DM7 Bm7 B7
+  Oh but after the lovin', I'm still in love with you, hmm hmmmm
+      Em        A      G             A7        Bm
+  But after the lovin', I'm still in love with you
+
+[OUTRO]
+  Bm     F#+    D      E7
+  1, 2 3 1, 2 3 1, 2 3 1
+      GM7  BmM7 G*   A*   F#m7  DM7
+  2 3 3    2,   1   -7    2    -7
+  

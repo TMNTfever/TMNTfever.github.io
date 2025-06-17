@@ -76,6 +76,12 @@ function tagSong() {
       chordLine = true;
       char5 = temp.charAt(5);
       
+      // Details tag is open
+      if (detOpen){
+        lines[i - 1] += "</details>";
+        detOpen = false;
+      }
+      
       // Div for "focus" is open
       if (divOpen){
         lines[i - 1] += "</div>";
@@ -100,10 +106,17 @@ function tagSong() {
           console.log("Invalid section name.");
       }
       
-      // Section has a description within parenthesis 
-      if (temp.includes('(')) {
+      // Section has a description within parenthesis, or a repeat
+      if (temp.includes('(') || temp.includes('x')) {
         var endBrackIndex = temp.indexOf(']') + 1;
-        lines[i] = openTag + temp.slice(0, endBrackIndex) + closeTag + temp.slice(endBrackIndex);
+        
+        if (temp.includes("Same")) {
+          lines[i] = openTag.slice(0, 19) + "<details><summary>" + openTag.slice(19) + temp.slice(0, endBrackIndex) + closeTag + temp.slice(endBrackIndex) + "</summary>";
+          detOpen = true;
+        }
+        else {
+          lines[i] = openTag + temp.slice(0, endBrackIndex) + closeTag + temp.slice(endBrackIndex);
+        }
       } // Section does not have a description
       else {
         lines[i] = openTag + temp + closeTag;
