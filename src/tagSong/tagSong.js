@@ -71,72 +71,74 @@ function tagSong() {
     temp = lines[i] || "";
     char0 = temp.charAt(0);
     
-    // Section found
-    if (char0 === '[') {
-      chordLine = true;
-      char5 = temp.charAt(5);
-      
-      // Details tag is open
-      if (detOpen){
-        lines[i - 1] += "</details>";
-        detOpen = false;
-      }
-      
-      // Div for "focus" is open
-      if (divOpen){
+    if (lines[i] !== "") {
+      // Section found
+      if (char0 === '[') {
+        chordLine = true;
+        char5 = temp.charAt(5);
+        
+        // Details tag is open
+        if (detOpen){
+          lines[i - 1] += "</details>";
+          detOpen = false;
+        }
+        
+        // Div for "focus" is open
+        if (divOpen){
+          lines[i - 1] += "</div>";
+          divOpen = false;
+        }
+        
+        switch(char5) {
+          case 'O': case 'E': case 'C': // [intrO] [outrO] [versE] or [pre-Chorus]
+            openTag = "<s->";
+            closeTag = "</s->";
+            break;
+          case 'U': case 'A': // [chorUs] or [refrAin]
+            divOpen = true;
+            openTag = "<div class=\"focus\"><r->";
+            closeTag = "</r->";
+            break;
+          case 'G': case 'R': // [bridGe] or [inteRlude]
+            openTag = "<b->";
+            closeTag = "</b->";
+            break;
+          default:
+            console.log("Invalid section name.");
+        }
+        
+        // Section has a description within parenthesis, or a repeat
+        if (temp.includes('(') || temp.includes('x')) {
+          var endBrackIndex = temp.indexOf(']') + 1;
+          
+          if (temp.includes("Same")) {
+            lines[i] = openTag.slice(0, 19) + "<details><summary>" + openTag.slice(19) + temp.slice(0, endBrackIndex) + closeTag + temp.slice(endBrackIndex) + "</summary>";
+            detOpen = true;
+          }
+          else {
+            lines[i] = openTag + temp.slice(0, endBrackIndex) + closeTag + temp.slice(endBrackIndex);
+          }
+        } // Section does not have a description
+        else {
+          lines[i] = openTag + temp + closeTag;
+        }
+      } // -RIFF- found
+      else if (char0 === '-') {
+        lines[i] = "<s->" + temp + "</s->";
+      } // EOF reached
+      else if (i == lines.length - 1 && divOpen) {
         lines[i - 1] += "</div>";
         divOpen = false;
-      }
-      
-      switch(char5) {
-        case 'O': case 'E': case 'C': // [intrO] [outrO] [versE] or [pre-Chorus]
-          openTag = "<s->";
-          closeTag = "</s->";
-          break;
-        case 'U': case 'A': // [chorUs] or [refrAin]
-          divOpen = true;
-          openTag = "<div class=\"focus\"><r->";
-          closeTag = "</r->";
-          break;
-        case 'G': case 'R': // [bridGe] or [inteRlude]
-          openTag = "<b->";
-          closeTag = "</b->";
-          break;
-        default:
-          console.log("Invalid section name.");
-      }
-      
-      // Section has a description within parenthesis, or a repeat
-      if (temp.includes('(') || temp.includes('x')) {
-        var endBrackIndex = temp.indexOf(']') + 1;
-        
-        if (temp.includes("Same")) {
-          lines[i] = openTag.slice(0, 19) + "<details><summary>" + openTag.slice(19) + temp.slice(0, endBrackIndex) + closeTag + temp.slice(endBrackIndex) + "</summary>";
-          detOpen = true;
+      } // Chord or Lyric line found
+      else {
+        if (chordLine) {
+          lines[i] = "<c->" + temp + "</c->";
+          chordLine = false;
         }
         else {
-          lines[i] = openTag + temp.slice(0, endBrackIndex) + closeTag + temp.slice(endBrackIndex);
+          lines[i] = "<l->" + temp + "</l->";
+          chordLine = true;
         }
-      } // Section does not have a description
-      else {
-        lines[i] = openTag + temp + closeTag;
-      }
-    } // -RIFF- found
-    else if (char0 === '-') {
-      lines[i] = "<s->" + temp + "</s->";
-    } // EOF reached
-    else if (i == lines.length - 1 && divOpen) {
-      lines[i - 1] += "</div>";
-      divOpen = false;
-    } // Chord or Lyric line found
-    else {
-      if (chordLine) {
-        lines[i] = "<c->" + temp + "</c->";
-        chordLine = false;
-      }
-      else {
-        lines[i] = "<l->" + temp + "</l->";
-        chordLine = true;
       }
     }
   }

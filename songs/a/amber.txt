@@ -1,0 +1,71 @@
+Amber
+Artist: 311
+Genre: Reggae
+Transcribed Key: C
+Original Key: C
+Starting Note: 5
+
+[CHORDS]
+  C   5433      Am 5453      Em 4432      Dm 2210      Dm7 5555      Em7 7777
+  Am7 0000      G  4232      F  5553      G7 7778      C/E 9787      CM7 0002
+
+[INTRO] x 4 (First 2 just ukie, last 2 with bass and drums)
+  C          Am          Em        Em
+  2/3 5 7 5, 5/6 8 10 8, 2/3 5 7 5, 5 7 5
+
+[VERSE 1] (For ease just pluck the chords)
+C Am      Em     Em                     C Am Em Em                    C    Am Em
+  --- Brainstorm, take me away from the norm, I've got to tell you something
+    Em          C Am                    Em          Em
+  This phenomenon, I had to put it in a song and it goes like
+
+[CHORUS 1]
+C    Am Em                         Em    C    Am Em                       Em      Dm
+  Whoa, amber is the color of your energy, whoa, shades of gold displayed naturally
+
+[VERSE 2]
+  Dm                           G      G    Dm
+  You want to know what brings me here, oh-oh
+      Dm                             G    G            (C)
+  You glide through my head blind to fear, and I know why
+
+[CHORUS 2]
+C    Am Em                         Em    C    Am Em                       Em
+  Whoa, amber is the color of your energy, whoa, shades of gold displayed naturally
+
+[INTERLUDE] (First line bass and drum only)
+  C  Am  Em  Em    C  Am  Em  Em
+  ------------------------------
+C       Am      Em  Em    C      Am      Em  Em
+  8 8 9 10 9 8 9 7, 2-2 1, 8 8 9 10 9 8 9 7, 7-9 7
+  F            G            Am            G  G7 (C/E)
+  6, 6 7 8 7 6 7, 7 8 9 8 7 8, 8 9 10 9 8 7, 11  10
+
+[CHORUS 3]
+C    Am Em                         Em    C    Am Em                       Em       C Dm7 Em7 C/E
+  Whoa, amber is the color of your energy, whoa, shades of gold displayed naturally
+
+[BRIDGE]
+Am7 Am7            Em   Em
+  --- You live too far away
+Am7    Am7                Em      G
+  Your voice rings like a bell anyway
+F  F                       Em        Em                  F
+  --- Don't give up your independence, cause it feels so right
+F                      Em   G                       (C)
+  Nothing good comes easily, sometimes you've got to fight
+
+[CHORUS 4]
+C    Am Em                         Em    C    Am Em                       Em     (Dm)
+  Whoa, amber is the color of your energy, whoa, shades of gold displayed naturally
+
+[VERSE 3]
+  Dm                          G           G     Dm
+  You launch a thousand ships in my heart, so easy
+Dm                      G                   (C)
+  Still it's fine from afar, and you know that
+ 
+[OUTRO] (After this, the song ends with just drums)
+C    Am     Em     Em                     C        Am Em   Em                  CM7
+  Whoa, brainstorm, take me away from the norm, whoa,  I've got to tell you somethin'
+
