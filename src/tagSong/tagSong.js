@@ -18,8 +18,9 @@ Calls:     N/A
 Arguments: fileName - The song file to be manipulated.
 Comments:  N/A
 -------------------------------------------------------------------------------
-Date         Programmer    Change
-2024-06-16   JC Reyes      Initial version
+Date        Programmer  Change
+2024-06-10  JC Reyes    Initial version.
+2024-06-16  JC Reyes    Added ability to add <detail> tags.
 ===============================================================================
 */
 function tagSong() {
@@ -111,8 +112,13 @@ function tagSong() {
         if (temp.includes('(') || temp.includes('x')) {
           var endBrackIndex = temp.indexOf(']') + 1;
           
-          if (temp.includes("Same")) {
+          // This section is a repeated chorus or refrain, so make it collapsible
+          if (temp.includes("Same") && closeTag === "</r->") {
             lines[i] = openTag.slice(0, 19) + "<details><summary>" + openTag.slice(19) + temp.slice(0, endBrackIndex) + closeTag + temp.slice(endBrackIndex) + "</summary>";
+            detOpen = true;
+          } // Repeated section is not a chorus or refrain
+          else if (temp.includes("Same") && closeTag !== "</r->"){
+            lines[i] = "<details><summary>" + openTag + temp.slice(0, endBrackIndex) + closeTag + temp.slice(endBrackIndex) + "</summary>";
             detOpen = true;
           }
           else {
@@ -129,7 +135,7 @@ function tagSong() {
       else if (i == lines.length - 1 && divOpen) {
         lines[i - 1] += "</div>";
         divOpen = false;
-      } // Chord or Lyric line found
+      } // Chord or Lyric line found (just alternates)
       else {
         if (chordLine) {
           lines[i] = "<c->" + temp + "</c->";

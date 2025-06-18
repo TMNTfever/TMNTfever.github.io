@@ -1,4 +1,4 @@
-Bakit Pa Badsfa
+Bakit Pa Ba
 Artist: Jay R
 Genre: Ballad
 Transcribed Key: C to C#
@@ -21,7 +21,7 @@ Starting Note: -5 5
     Dm7                    G  G7
   Noo'y di makitang mali ako
      C             CM7  C7           C6
-  Ngayo'y alam ko na, sayo'y nagkasala 
+  Ngayo'y alam ko na, sayo'y nagkasala
     Dm7                    G  G#o7
   Sana muli ako'y mapatawad pa
 
