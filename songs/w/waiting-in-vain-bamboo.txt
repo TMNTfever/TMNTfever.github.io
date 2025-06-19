@@ -70,9 +70,9 @@ AM7         DM7  GM7                    CM7
   GM7  CM7  GM7  CM7
   (Solo in G major, C major, or E blues)
 
-[BRIDGE 3] x 4
-  GM7                                                        CM7
-  I don't wanna, I don't wanna, I don't wanna, I don't wanna, I wanna fly, I wanna fly
+[BRIDGE 3] x 4 (Last repeat, say "I wanna fly")
+  GM7                                                         CM7
+  I don't wanna, I don't wanna, I don't wanna, I don't wanna, I don't wanna wait in vain
 
 [CHORUS 3]
   GM7                       CM7
