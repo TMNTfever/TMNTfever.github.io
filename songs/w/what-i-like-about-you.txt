@@ -1,5 +1,4 @@
 What I Like About You
-
 Artist: The Romantics
 Genre: Rock
 Transcribed Key: E
@@ -44,7 +43,7 @@ Starting Note: (Intro) 5 6 8, (Verse) 1 -b7 1
 [INTERLUDE 1]
   G  D  G  A  As4  B  Bs4  B
 
-[INTERLUDE 2] x 8
+[INTERLUDE 2] x 4
   E  A  D  A
 
 [VERSE 3]
