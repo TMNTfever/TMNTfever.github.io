@@ -1,0 +1,58 @@
+The Christmas Song
+Artist: Nat King Cole
+Genre: Jazz
+Transcribed Key: C
+Original Key: C
+Starting Note: 1 8
+
+[CHORDS]
+  CM7   0003      Fm    1013      G7    0212
+  Dm7   2213      Am7   0000      C7    0001
+  Em7   4435      B7    2322      A#    3211
+  Gm    0231      E     4442      A7    0100
+  F     2010      Fm4   1011      E7    1202
+
+[INTRO]
+  CM7  Dm7  Em7 Dm7 (x2)
+
+[VERSE 1]
+CM7         Dm7            Em7         Dm7
+  Chestnuts roasting on an open fire
+CM7          Gm              F      Fm
+  Jack Frost nipping at your nose
+CM7        Dm7          Em7       B7
+  Yuletide carols being sung by a choir
+      E             Fm4         G     G7
+  And folks dressed up like Eskimos
+
+[VERSE 2]
+            CM7     Dm7             Em7         Dm7
+  Everybody knows a turkey and some mistletoe
+CM7       Gm       F         Fm
+  Help to make the season bright
+CM7    Dm7             Em7        B7
+  Tiny tots with their eyes all a-glow
+               Dm7 F           CM7     C7
+  Will find it hard to sleep tonight
+
+[BRIDGE]
+                 Gm C7           Gm    C7
+  They know that San-ta's on his way
+              Gm               C7             Dm7
+  He's loaded lots of toys and goodies on his sleigh
+F            Fm            A#        D#    A#
+  And ev'ry mother's child is gonna spy
+            A7              E7          A7    G7
+  To see if reindeer really know how to fly
+
+[VERSE 3]
+      CM7    Dm7           Em7             Dm7
+  And so I'm offering this simple phrase
+     CM7       Gm            F     Fm
+  To kids from one to ninety-two
+    CM7              Dm7        Em7         B7
+  Although it's been said, many times, many ways
+        F        G   CM7   Dm7 Em7 Dm7
+  Merry Christmas to you
+        F        G   CM7   Em7 C CM7
+  Merry Christmas to you
