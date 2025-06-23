@@ -1,0 +1,71 @@
+Tears In Heaven
+Artist: Eric Clapton
+Genre: Ballad
+Transcribed Key: A
+Original Key: A
+Starting Note: 3 1 5
+
+[CHORDS]
+  A    2100      E    4442      F#m  2120      E7s4 2202      D    2220
+  E7   1202      C#m7 4444      C#7  1112      Em6  4434      F#7  3424
+  Bm7  2222      C    0003      Am7  0000      G    0232
+
+[INTRO]
+      A             E      F#m  D  E7 E  A
+  5h6 8, 10h11p10p8 12 12 10,   6  9  7  8
+
+[VERSE 1]
+A           E         F#m      A       D        A             E  C#m7|E
+  Would you know my name (/9 8 6p5 3 5 4), if I saw you in heaven
+A          E        F#m     A       D        A             E  C#m7|E
+  Would it be the same (6 7 8 7 6 5 4), if I saw you in heaven
+F#m             C#7 Em6         F#7           Bm7            E7s4         (A)
+  I must be strong,  and carry on, cause I know I don't belong, here in heaven
+
+[INTERLUDE 1]
+      A             E      F#m             D  E7 E A             (A)
+  5h6 8, 10h11p10p8 12 12 10, /9 8 6p5 3 5 4, 9  7 8, 1/2 3 4 3 2 1
+
+[VERSE 2]
+A           E         F#m      A       D        A             E  C#m7|E
+  Would you hold my hand (/9 8 6p5 3 5 4), if I saw you in heaven
+A           E          F#m     A       D        A             E  C#m7|E
+  Would you help me stand (6 7 8 7 6 5 4), if I saw you in heaven
+F#m              C#7 Em6                  F#7           Bm7               E7s4         (A)
+  I'll find my way,   through night and day, cause I know I just can't stay, here in heaven
+
+[INTERLUDE 2]
+      A             E      F#m             D  E7 E A
+  5h6 8, 10h11p10p8 12 12 10, /9 8 6p5 3 5 4, 9  7 8
+
+[BRIDGE]
+C          Bm7          Am7         D            G  Bm  Em  D|G
+  Time can bring you down, time can bend your knees
+C          Bm7            Am7         D           G  Bm7         E  C#m7|E (A)
+  Time can break your heart, have you begging please, begging please
+
+[INTERLUDE 3]
+  A             E        F#m         D                  E     C#m7|E
+  8, 10h11p10p8 12/13 12 10, 7/8\7 5 6, 11 11 10 9 8 10 9h10p9
+  A             E  F#m7 F#m         D                  E     C#m7|E (F#m)
+  8, 10h11p10p8 12 13   10, 7/8\7 5 6, 11 11 10 9 8 10 9h10p9
+
+[VERSE 3]
+F#m             C#7 Em6                  F#7          Bm7                 E7s4          (A)
+  Beyond the door,   there's peace I'm sure, and I know there'll be no more, tears in heaven
+
+[INTERLUDE 4]
+      A             E     F#m              D  E7 E A             (A)
+  5h6 8, 10h11p10p8 12 12 10, /9 8 6p5 3 5 4, 9  7 8, 1/2 3 4 3 2 1
+
+[VERSE 4] (Same as Verse 1)
+A           E         F#m      A       D        A             E  C#m7|E
+  Would you know my name (/9 8 6p5 3 5 4), if I saw you in heaven
+A          E        F#m     A       D        A             E  C#m7|E
+  Would it be the same (6 7 8 7 6 5 4), if I saw you in heaven
+F#m             C#7 Em6         F#7           Bm7            E7s4         (A)
+  I must be strong,  and carry on, cause I know I don't belong, here in heaven
+
+[OUTRO] (Same as Intro, except slowed cadence)
+      A             E      F#m  D  E7 E  A
+  5h6 8, 10h11p10p8 12 12 10,   6  9  7  8
