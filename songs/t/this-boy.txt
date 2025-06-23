@@ -1,0 +1,44 @@
+This Boy
+Artist: The Beatles
+Genre: Ballad
+Transcribed Key: D
+Original Key: D
+Starting Note: 3+5
+
+[CHORDS]
+  D     2220      Em    0432      G     0232
+  Ds2   2200      A     2100      E7    1202
+  Bm    4222      D7    2223      A7    0100
+
+[INTRO]
+  D  Ds2  D
+  D  Bm  Em  A
+  D  Bm  Em  A
+
+[VERSE 1]
+  D     Bm Em       A     D Bm Em             A           D  Bm
+  That boy  took my love away,  though he'll regret it someday
+  Em       A               D  Bm  Em  A
+  This boy wants you back again
+
+[VERSE 2]
+  D     Bm Em     A        D Bm Em             A        D  Bm
+  That boy  isn't good for you,  though he may want you too
+  Em       A               Em  D  D7
+  This boy wants you back again
+
+[CHORUS]
+          G                 F#7           Bm               D  D7
+  Oh, and this boy would be happy just to love you, but oh my
+  G                 E7     A7
+  That boy won't be happy 'til he's seen you cry oh
+
+[VERSE 3]
+  D     Bm Em        A        D Bm Em            A        D  Bm
+  This boy  wouldn't mind the pain, would always feel the same
+       Em       A              D  Bm  Em  A
+  'Til this boy gets you back again
+
+[OUTRO] x 3
+  D     Bm  Em  A
+  This boy, 8 7 6 7
