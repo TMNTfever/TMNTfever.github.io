@@ -1,0 +1,50 @@
+Truly
+Artist: Lionel Richie
+Genre: Ballad
+Transcribed Key: C
+Original Key: C#
+Starting Note: 3
+
+[CHORDS]
+  C5  578A      Cs7   577X      C     0003      Em7   0202      Gm6   0201
+  As4 2200      A     2100      Dm    2210      C#+   2110      F     2010
+  G   0232      FM7   5557      Em7*  4435      Dm7   2213      Gs4   0233
+  Gs2 0230      C*    5433      F6    5555      G7    0212      Am7   0453
+  Fm    1013
+
+[INTRO]
+  C5  Cs7  C5  Cs7
+
+[VERSE 1]
+  C                  Em7                    Gm6       As4 A
+  Girl, tell me only this, that I have your heart for al--ways
+      Dm                  C#+                  F                   C    G
+  And you want me by your side, whispering the words, "I'll always love you"
+
+[BRIDGE 1]
+         FM7 Em7*              FM7 Em7
+  And forever, I will be your lover
+                 FM7       Em7*          Dm7    Gs4 G Gs2 G
+  And I know if you really care, I will always be there
+
+[VERSE 2]
+  C                      Em7                    Gm6       As4  A
+  Now I need to tell you this, there's no other love like your love
+      Dm              C#+                         F                C        G
+  And I, as long as I live, I'll give you all the joy my heart and soul can give
+
+[BRIDGE 2]
+           FM7   Em7*                FM7     Em7
+  Let me hold you, I need to have you near me
+                  FM7       Em7*       Dm7               Gs4 G   Gs2   G
+  And I feel with you in my arms, this love will last forever, because I'm-
+
+[CHORUS]
+  C*  Em7*        F6                 G7
+  Truly, truly in love with you, girl
+      C*  Em7*        F6                  G7
+  I'm truly head over heels with your love
+    C*   Em7*       F6                     G7
+  I need you, and with your love I'm free
+      C*  Em7*        Am7    G F     Fm    C
+  And truly, you know you're alright, with me
