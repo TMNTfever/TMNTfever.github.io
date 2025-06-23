@@ -1,0 +1,74 @@
+Sail On
+Artist: The Commodores
+Genre: Soft Rock
+Transcribed Key: C
+Original Key: C
+Starting Note: 3 5
+
+[CHORDS]
+  C  0003      Dm  2210      F  2010      CM7  0002      C7  0001      G7  0212
+  G  0232      Em  0432      A# 3211      FM7  5557      Em7 4435      Dm7 2213
+
+[INTRO]
+  C               Dm              C      Dm     C
+  3 4 5, 4-3-2-1  4 5 6, 5-4-3-2  3 4 5, 6-5-4-3
+
+[VERSE 1]
+C                             Dm
+  Sail on, down the line 'bout a half a mile or so, and I
+F                                 C
+  Don't really wanna know where uh, where ya goin'
+C                             Dm
+  Maybe once or twice you see, that time after time I tried to
+F                            C               CM7  C7
+  Hold on to what we got, but now you're goin'
+
+[REFRAIN 1]
+F           G7               C                    CM7  C7
+  And I don't mind About the things you're gonna sail on
+F             G7              C  CM7  C7
+  I gave all my money and my time
+F                G7            Em         F         C G F  C|F
+  I know it's a shame, but I'm giving you back your name
+
+[CHORUS 1]
+        F       Em    Dm     F        Em      Dm
+  Guess I'll be on my way, I won't be back to stay
+    F          Em    Dm                      C    G
+  I guess I'll move along, I'm looking for a good time
+
+[INTERLUDE]
+  C               Dm              C      Dm     C
+  3 4 5, 4-3-2-1  4 5 6, 5-4-3-2  3 4 5, 6-5-4-3
+
+[VERSE 2]
+C                                Dm
+  Sail on down the line, ain't it funny how the time can go, all my
+F                                    C
+  Friends say they told me so, but it doesn't matter
+C                           Dm
+  It was plain to see that a small town boy like me just-a
+F                              C                CM7  C7
+  Wasn't your cup of tea, I was wishful thinking
+
+[REFRAIN 2]
+F               G7           C                  CM7  C7
+  I gave you my heart, and I tried to make you happy
+F                 G7            C
+  And you gave me nothing in return
+CM7   C7      F                G7             Em          F   C G F  C|F
+  You know it ain't so hard to say, would you please just go away
+
+[CHORUS 2]
+       F       Em    Dm           F        Em  Dm
+  I've thrown away the blues, I'm tired of being used 
+         F    Em   Dm                        C    G     A#   F  G
+  I want everyone to know, I'm looking for a good time, good time
+
+[OUTRO]
+       FM7     Em7   FM7               Em7     Dm7
+  Whoa sail on honey, good times never felt so good
+  FM7     Em7   FM7               Em7     Dm7
+  Sail on honey, good times never felt so good
+  FM7     Em7   FM7               Em7     Dm7  FM7
+  Sail on sugar, good times never felt so good
