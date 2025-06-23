@@ -1,0 +1,121 @@
+Rainbow
+Artist: South Border
+Genre: Pop, Boyband
+Transcribed Key: C to C#
+Original Key: F to F#
+Starting Note: 1 2 3
+
+[CHORDS]
+  C       0003        CM7     0002        C#M7    1113
+  Cs4     0013        E7s4    2202        D#m7    3324
+  Cm7     3333        E7      1202        E#m7    1313
+  Dm7     2213        D7s4    2233        E#7s4   3313
+  Em7     0202        D7      2223        E#7     2313
+  Am7     0000        Dm7b5   1213        D#7s4   3344
+  G#M7    1333        E       4442        F#M7    3524
+  Gm7     0211        Fm7     1313        D#7     3334
+  A#m7    1111        G#7s4   1324        D#m7b5  2324
+
+[VERSE 1]
+C                                  Cs4
+  Falling out falling in, nothings sure in this world, no no
+C                                  Cs4                   Cm7
+  Breaking down breaking in, never knowing what lies ahead
+         Dm7                    C       Dm7
+  We can really never tell at all no no no
+
+[VERSE 2]
+C                             Cs4
+  Say goodbye say hello, to a lover or friend, sometimes we
+C                                 Cs4                     Cm7
+  Never could understand why some things begin with just end
+         Dm7                    C        Dm7
+  We can really never have it all, no no no oh oh
+
+[REFRAIN 1]
+       Em7           Am7          G#M7
+  But oh, can't you see, that no matter what happens
+   Dm7                       Em7         Am7
+  Life goes on and on and so baby just smile
+            G#M7                        Gm7
+  Cause I'm always around you, and I'll make you see how beautiful
+       A#m7
+  Life is for you and me
+
+[CHORUS 1]
+         CM7                       Dm7
+  Take a little time baby, see the butterflies' colors
+         Em7                        E7s4       E7    Am7
+  Listen to the birds that sent to sing for me and you
+                D7s4        FM7               G7s4
+  Can you feel me, this is such a wonderful place to be
+       CM7                        Dm7
+  Even if there is pain now, everything will be alright
+         Em7                            E7s4         E7         Am7
+  For as long as the world still turns there will be night and day
+                D7s4           D7                      Dm7b5
+  Can you hear me, there's a rainbow always after the rain
+
+[INTERLUDE]
+CM7            Cs4
+  Oh oh, oh oh oh oh oh oh, yeah
+
+[VERSE 3]
+C                                  Cs4
+  Hitting high hitting low, win or lose you should go, yeah yeah
+C                                    Cs4                  Cm7
+  Getting warm getting cold, weather could be so good or bad
+           Dm7                        C         Dm7
+  But baby this is life so don't get mad, no no no
+
+[REFRAIN 2] (Same as Refrain 1, except the first word is "Cause" instead of "But)
+         Em7           Am7          G#M7
+  Cause oh, can't you see, that no matter what happens
+   Dm7                       Em7         Am7
+  Life goes on and on and so baby just smile
+            G#M7                        Gm7
+  Cause I'm always around you, and I'll make you see how beautiful
+       A#m7
+  Life is for you and me
+
+[CHORUS 2] (Same as Chorus 1)
+         CM7                       Dm7
+  Take a little time baby, see the butterflies' colors
+         Em7                        E7s4       E7    Am7
+  Listen to the birds that sent to sing for me and you
+                D7s4        FM7               G7s4
+  Can you feel me, this is such a wonderful place to be
+       CM7                        Dm7
+  Even if there is pain now, everything will be alright
+         Em7                            E7s4         E7         Am7
+  For as long as the world still turns there will be night and day
+                D7s4           D7                      Dm7b5
+  Can you hear me, there's a rainbow always after the rain
+
+[BRIDGE]
+E                               E7s4            E7           Am7
+  Life's full of challenges not all the time we get what we want
+               D7
+  But don't despair my dear, no no no
+E                                   E7s4                E7
+  You'll take each trial and you'll make it through the storm
+                  Am7              D7s4
+  Cause you're strong, my faith in you is clear
+       Fm7       Em7               Dm7
+  So I say once again this world's wonderful, yeah
+         Fm7       Em7             D#m7          G#7s4
+  Let us celebrate life that is so beautiful, so beautiful
+
+[CHORUS 3]
+         C#M7                       D#m7
+  Take a little time baby, see the butterflies' colors
+         E#m7                        E#7s4       E#7    A#m7
+  Listen to the birds that sent to sing for me and you
+                D#7s4        F#M7               G#7s4
+  Can you feel me, this is such a wonderful place to me
+       C#M7                        D#m7
+  Even if there is pain now, everything will be alright
+         E#m7                            E#7s4         E#7         A#m7
+  For as long as the world still turns there will be night and day
+                D#7s4           D#7                      D#m7b5
+  Can you hear me, there's a rainbow always after the rain
