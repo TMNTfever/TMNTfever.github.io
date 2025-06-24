@@ -1,0 +1,43 @@
+Mele Kalikimaka
+Artist: Bing Crosby
+Genre: Christmas, Hawaiian
+Transcribed Key: D
+Original Key: D
+Starting Note: 5
+
+[CHORDS]
+  D    2220      G    0232      F#   6669
+  Fo7  1212      B    4322      F#7  6667
+  A7   2434      B7   2322      D*   2225
+  Em7  0202      E7   4445      Bo7  4545
+  D7   2223
+
+[VERSE 1]
+  D                                                     Fo7           A7
+  Mele Kalikimaka is the thing to say, on a bright Hawaiian Christmas Day
+                                    Em7      A7                                 D
+  That's the island greeting that we send to you from the land where palm trees sway
+  D7                                  G
+  Here we know that Christmas will be green and bright
+      B               B7              E7       A7
+  The sun to shine by day and all the stars at night
+  D                       B7         Em7       A7           D   A7
+  Mele Kalikimaka is Hawaii's way to say Merry Christmas to you
+
+[INTERLUDE]
+  D                  F#   F#7    D*  Bo7     A7
+  5 5 5 5 5 6 5 b5 5 10 7 9, 6 7 8 7 8 8 7 8 7
+  A7                 Em7  A7            D
+  5 5 5 5 5 6 5 b5 5 11 8 10, 9 8 7 6 5 10
+
+[VERSE 2]
+  D7                                  G
+  Here we know that Christmas will be green and bright
+      B               B7              E7       A7
+  The sun to shine by day and all the stars at night
+  D                       B7         Em7       A7
+  Mele Kalikimaka is Hawaii's way to say Merry Christmas
+
+[OUTRO]
+    Em7                   A7           D  A7  D
+  A very very merry merry Christmas to you
