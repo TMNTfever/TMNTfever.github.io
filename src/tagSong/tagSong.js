@@ -130,7 +130,7 @@ function tagSong() {
         lines[i] = "<s->" + temp + "</s->";
       } // Song title in Medley found
       else if (char0 === '.') {
-        lines[i] = "<div class="song-info"><h2>" + temp.slice(1) + "</h2></div>";
+        lines[i] = "<div class=\"song-info\"><h2>" + temp.slice(1) + "</h2></div>";
       } // EOF reached
       else if ((i == lines.length - 1) && divOpen) {
         lines[i - 1] += "</div>";
