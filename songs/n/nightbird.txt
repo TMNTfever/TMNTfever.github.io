@@ -1,0 +1,60 @@
+Nightbird
+Artist: Kalapana
+Genre: Bossa Nova
+Transcribed Key: C
+Original Key: C
+Starting Note: 5 3
+
+[CHORDS]
+  Fa9  0010      Fm* X543      Am9 2032      G   777A      CM7 0002
+  Dm7  2213      G7  0212      F   2010      C   0003      F*  5553
+  CM7* 5432      D7  2223      GM7 0222
+
+[INTRO]
+          Fa9  Fm*     Am9        Fa9
+  1-2-4-5-6  8 b6  5-6-7-6-5  3-4-5-6-5
+          Fa9  Fm*     Am9                 G
+  1-2-4-5-6  8 b6  5-6-7-6-5  5 5-6-5-b5-5 12
+
+[VERSE 1]
+  CM7                    Dm7     G7               F      C
+  Fly on through the night wind, take a star to her for me
+  CM7                 Dm7     G7                 C  G7
+  Please, whisper I love her, tell her wait for me
+
+  CM7                Dm7     G7               F          C
+  Here it seems so cold now, how I miss her arms around me
+  CM7                 Dm7  G7                 C        C7
+  Soar, nightbird of love, make her wait for me, cause you have
+
+[CHORUS 1]
+  F*                   CM7*        F      G7     C  C7
+  Wings you know, I'll let you go, almost every night
+      F*             CM7*              D7                   G7
+  But loneliness can dull the shine of even the bright moonlight
+         F     Fm      C  C7
+  Nightbird, fly, fly on
+         F          Fm      C  G7
+  Nightbird, sing her my song
+
+[VERSE 2]
+  CM7            Dm7    G7                  F         C
+  Oh, before you leave, take this band of gold with you
+  CM7               Dm7    G7              C         C7
+  And if you can find her, tell her I am true, cause you have
+
+[CHORUS 2] (Same as Chorus 1)
+  F*                   CM7*        F      G7     C  C7
+  Wings you know, I'll let you go, almost every night
+      F*             CM7*              D7                   G7
+  But loneliness can dull the shine of even the bright moonlight
+         F     Fm      C  C7
+  Nightbird, fly, fly on
+         F          Fm      C  G7
+  Nightbird, sing her my song
+
+[OUTRO]
+         F     Fm      C  C7
+  Nightbird, fly, fly on
+         F     Fm      GM7
+  Nightbird, fly, fly on
