@@ -1,150 +1,137 @@
-Clocks / All of Me Medley
-Transcribed Key: D to G
-Original Key: D to G
-Links to single chord charts: Clocks / All of Me
+Build Me Up Buttercup / Let It Be
+Transcribed Key: G to A
+Original Key: G to A
+Links to single chord charts: Build Me Up Buttercup / Let It Be
 
-.Clocks
+.Build Me Up Buttercup
 
-[INTRO] x 4
-  D  Am  Am  Em
+[INTRO]
+  G B7 C D  G B7 C D
 
-[VERSE 1]
-  D                   Am              Am                    Em
-  Lights go out and I can't be saved, tides that I tried to swim against
-  D                Am            Am          Em
-  Brought me down upon my knees, oh I beg, I beg and plead - singing
-D                 Am             Am             Em
-  Come out of the things unsaid, shoot an apple off my head - and a
-D              Am              Am             Em
-  Trouble that can't be named, tigers waiting to be tamed - singing
-
-[CHORUS 1] (Riff 1)
-D   Am  Am  Em  D  Am  Am  Em
-  You..... are,  you..... are
-
-[INTERLUDE 1] x 2 (Riff 1)
-  D  Am  Am  Em/G
-
-[VERSE 2]
-  D         Am           Am                Em
-  Confusion never stops, closing walls and ticking clocks - gonna
-D               Am               Am                  Em
-  Come back and take you home, I could not stop that you now know - singing
-D           Am           Am                Em
-  Come out upon my seas, curse missed opportunities - am I
-D        Am              Am             Em
-  A part of the cure, or am I a part of the disease - singing
-
-[CHORUS 2] (Riff 1)
-D   Am  Am  Em  D  Am  Am  Em
-  You..... are,  you..... are
-
-[BRIDGE]
-FM7    FM7         C     G  FM7  FM7         C     G
-  And nothing else compares, oh nothing else compares
-FM7    FM7         C     G  F  FM7  F  FM7
-  And nothing else compares
-
-[INTERLUDE 2] x 2 (Riff 1)
-  D  Am  Am  Em/G
-
-[INTERLUDE 3] x 2 (Riff 2)
-  D  Am  Am  Em/G
-
-[OUTRO] x 4 (Riff 2, sing Chorus as descant on second half)
-  D     Am            Am        Em/G
-  Home, home, where I wanted to go
-
-[INTERLUDE 4] x 4 (Riff 2 first half, then Riff 1)
-  D  Am  Am  Em/G
-
-.All of Me
-
-[INTRO] x 2
-  Em  C  G  D
+[CHORUS 0] (Same as Chorus 1)
+             G                         B7
+  Why do you build me up (build me up) buttercup baby
+          C                             D
+  Just to let me down (let me down) and mess me around
+           G                           B7
+  And then worst of all (worst of all) you never call, baby
+           C                               D
+  When you say you will (say you will) but I love you still
+         G                          G7                 C                         Cm
+  I need you (I need you) more than anyone darlin, you know that I have from the start (ah ah ah)
+     G                         D                             C  Bm  Am  G  D
+  So build me up (build me up) buttercup, don't break my heart
 
 [VERSE 1]
-Em             C                     G
-  What would I do without your smart mouth
-             D                        Em
-  Drawing me in, and you kicking me out
-         C              G             D             Em
-  Got my head spinning, no kidding, I can't pin you down
-               C                     G
-  What's going on in that beautiful mind
-              D                 Em
-  I'm on your magical mystery ride
-          C               G                     D           Am
-  And I'm so dizzy, don't know what hit me, but I'll be alright
+          G         D              F            C               G           C
+  I'll be over at ten, you told me time and again, but you're late, I wait around'n then (badada)
+    G              D            F        C              G             C
+  I went to the door, I can't take any more, it's not you, you let me down again
 
-[REFRAIN 1] (Am 1-2-3-5 arpeggio)
-     Am            G         D              Am
-  My head's under water, but I'm breathing fine
-  Am                G              D
-  You're crazy and I'm out of my mind
+[REFRAIN]
+   C   G   Am               D           D   C   Bm                     E7
+  (Hey hey hey) Baby baby try to find, (hey hey hey) a little time and I'll make you happy
+   Am  Bm  C                            A7                          D   -
+  (Hey hey hey) I'll be home, I'll be beside the phone waiting for you, ooo-oo-ooo, ooo-oo-ooo
 
-[CHORUS 1] (G 5-3-1 arpeggio)
-        G               Em
-  Cause all of me loves all of you
-            Am                                  C              D
-  Love your curves and all your edges, all your perfect imperfections
-            G                       Em
-  Give your all to me, I'll give my all to you
-            Am                         C                 D
-  You're my end and my beginning, even when I lose I'm winning
-                   Em C   G  D
-  Cause I give you all of me
-                  Em C   G        D              D                Am
-  And you give me all of you, (1:oh) (2: give me all of you, oh oh yeah)
+[CHORUS 1]
+             G                         B7
+  Why do you build me up (build me up) buttercup baby
+          C                             D
+  Just to let me down (let me down) and mess me around
+           G                           B7
+  And then worst of all (worst of all) you never call, baby
+           C                               D
+  When you say you will (say you will) but I love you still
+         G                          G7                 C                         Cm
+  I need you (I need you) more than anyone darlin, you know that I have from the start (ah ah ah)
+     G                         D                             C  Bm  Am  G  D
+  So build me up (build me up) buttercup, don't break my heart
 
 [VERSE 2]
-Em         C                       G
-  How many times do I have to tell you
-                   D                         Em
-  Even when you're crying you're beautiful too
-               C             G           D                   Em
-  The world is beating you down, I'm around through every mood
-               C                 G
-  You're my downfall, you're my muse
-                D                        Em
-  My worst distraction, my rhythm and blues
-                C             G            D           Am
-  I can't stop singing, it's ringing, in my head for you
+     G         D         F            C        G                    C
+  To you I'm a toy but I could be the boy you adore, if you'd just let me know (badada)
+     G              D           F          C           G              C
+  Although you're untrue, I'm attracted to you all the more, why do I need you so
 
 [REFRAIN 2] (Same as Refrain 1)
-     Am            G         D              Am
-  My head's under water, but I'm breathing fine
-  Am                G              D
-  You're crazy and I'm out of my mind
+   C   G   Am               D           D   C   Bm                     E7
+  (Hey hey hey) Baby baby try to find, (hey hey hey) a little time and I'll make you happy
+   Am  Bm  C                            A7                          D   -
+  (Hey hey hey) I'll be home, I'll be beside the phone waiting for you, ooo-oo-ooo, ooo-oo-ooo
 
-[CHORUS 2] (Same as Chorus 1, except with 2nd ending)
-        G               Em
-  Cause all of me loves all of you
-            Am                                  C              D
-  Love your curves and all your edges, all your perfect imperfections
-            G                       Em
-  Give your all to me, I'll give my all to you
-            Am                         C                 D
-  You're my end and my beginning, even when I lose I'm winning
-                   Em C   G  D
-  Cause I give you all of me
-                  Em C   G            D              Am
-  And you give me all of you, give me all of you, oh yeah
+[CHORUS 2] (Same as Chorus 1, except replace walkdown with minor tonic)
+             G                         B7
+  Why do you build me up (build me up) buttercup baby
+          C                             D
+  Just to let me down (let me down) and mess me around
+           G                           B7
+  And then worst of all (worst of all) you never call, baby
+           C                               D
+  When you say you will (say you will) but I love you still
+         G                          G7                 C                         Cm
+  I need you (I need you) more than anyone darlin, you know that I have from the start (ah ah ah)
+     G                         D                             Em
+  So build me up (build me up) buttercup, don't break my heart
 
-[BRIDGE]
-  Am           G            D              Am
-  Cards on the table, we're both showing hearts
-  Am           G                D
-  Risking it all, though it's hard
+[OUTRO]
+         A                          A7                 D                         Dm
+  I need you (I need you) more than anyone darlin, you know that I have from the start
+     A                         E                             D  C#m  Bm  A
+  So build me up (build me up) buttercup, don't break my heart
 
-[CHORUS 3] (Same as Chorus 1, but repeat last two lines)
-        G               Em
-  Cause all of me loves all of you
-            Am                                  C              D
-  Love your curves and all your edges, all your perfect imperfections
-            G                       Em
-  Give your all to me, I'll give my all to you
-            Am                         C                 D
-  You're my end and my beginning, even when I lose I'm winning
-                   Em C   G  D                Em C   G         D
-  Cause I give you all of me, and you give me all of you, whoa-oh
+.Let It Be
+
+[INTRO]
+  D  C#m|Bm|A  G#o|F#m|E  D  A
+
+[VERSE 1]
+         A                E               F#m           D
+  When I find myself in times of trouble, Mother Mary comes to me
+  A                   E             D  C#m|Bm|A
+  Speaking words of wisdom, let it be
+      A               E              F#m                  D
+  And in my hour of darkness, she is standing right in front of me
+  A                   E             D  C#m|Bm|A
+  Speaking words of wisdom, let it be
+
+[CHORUS 1]
+          F#m        E          D          A
+  Let it be, let it be, let it be, let it be
+  A                  E             D  C#m|Bm|A
+  Whisper words of wisdom, let it be
+
+[VERSE 2]
+      A                  E            F#m             D
+  And when the broken hearted people, living in the world agree
+  A                 E              D  C#m|Bm|A
+  There will be an answer, let it be
+      A                    E              F#m                    D
+  But though they may be parted, there is still a chance that they will see
+  A                 E              D  C#m|Bm|A
+  There will be an answer, let it be
+
+[CHORUS 2] (Same as Chorus 1)
+          F#m        E          D          A
+  Let it be, let it be, let it be, let it be
+  A                  E             D  C#m|Bm|A
+  Whisper words of wisdom, let it be
+
+[INTERLUDE] x 2
+  A  E  F#m  D    A  E  D  C#m|Bm|A
+
+[VERSE 3]
+      A                    E             F#m                   D
+  And when the night is cloudy, there is still a light that shines on me
+  A                 E             D  C#m|Bm|A
+  Shine on till tomorrow, let it be
+    A                 E            F#m           D
+  I wake up to the sound of music, Mother Mary comes to me
+  A                   E             D  C#m|Bm|A
+  Speaking words of wisdom, let it be
+
+[CHORUS 3] (Same as Chorus 1)
+          F#m        E          D          A
+  Let it be, let it be, let it be, let it be
+  A                  E             D  C#m|Bm|A
+  Whisper words of wisdom, let it be
