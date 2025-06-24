@@ -5,7 +5,7 @@ Desc:      Applies desired tags for css styling. Converts .txt to .html.
 Author:    JC Reyes
 Called by: main/chords.html
 Created:   2025-06-10
-Modified:  2025-06-21
+Modified:  2025-06-24
 ===============================================================================
 */
 
@@ -24,6 +24,7 @@ Date        Programmer  Change
 2025-06-21  JC Reyes    Fixed logic on determining the end of a section. Used
                         to wait for another occurence of '[', but now looks for
                         an empty line.
+2025-06-24  JC Reyes    Added ability to tag medleys.
 ===============================================================================
 */
 function tagSong() {
@@ -61,8 +62,8 @@ function tagSong() {
     else if (char0 === '[' && !divOpen) {
       lines[i] = "<f->" + temp + "</f->";
       divOpen = true;
-    } // End of [CHORDS] section is reached, next section started
-    else if ((char0 === '[' || char0 === '-') && divOpen) {
+    } // End of [CHORDS] section is reached or Medley detected with '.', next section started
+    else if ((char0 === '[' || char0 === '-' || char0 === '.') && divOpen) {
       lines[i - 1] += "</div>";
       lineCount = i;
       divOpen = false;
@@ -127,6 +128,9 @@ function tagSong() {
       } // -RIFF- found
       else if (char0 === '-') {
         lines[i] = "<s->" + temp + "</s->";
+      } // Song title in Medley found
+      else if (char0 === '.') {
+        lines[i] = "<div class="song-info"><h2>" + temp.slice(1) + "</h2></div>";
       } // EOF reached
       else if ((i == lines.length - 1) && divOpen) {
         lines[i - 1] += "</div>";
