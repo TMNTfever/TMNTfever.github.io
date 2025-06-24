@@ -1,53 +1,68 @@
-More
-Artist: Bobby Darin
-Genre: Jazz
-Transcribed Key: G
-Original Key: G
-Starting Note: 5
+More Than Words
+Rendition Artist: Aloha Sex Juice
+Original Artist: Extreme
+Genre: Jawaiian, Soft Rock
+Transcribed Key: D
+Original Key: F#
+Starting Note: 3 5 5 3 6 5
 
 [CHORDS]
-  GM7   0222      G     0232
-  Em7   0202      GMb5  0132
-  Am7   0000      A7    0100
-  D7    2020      D#o7  2323
-  Em    0432      GM7*  7779
-  D#+   0332
+  D    2220      A    2100      D7   2223
+  Ga9  4230      Bm7  2222      Gm7  0211
+  Em7  0202      F#m  2424
+  G    0232      A7   0100
 
-[INTRO]
-  GM7  Em7  Am7  D7
+[INTRO] x 2
+  D  Ga9  Em7  Ga9  Em7  A
 
 [VERSE 1]
-  GM7            Em7              Am7        D7
-  More than the greatest love the world has known
-GM7            Em7        Am7            D7
-  This is the love that I give to you alone
-GM7              Em7           Am7     D7
-  More than the simple words I try to say
-GM7       Em7             Am7        D7
-  I only live to love you more each day
+D           Ga9          Em7                 G       A       D
+  Saying "I love you" is not the words I want to hear from you
+                  Ga9       Em7               G     A      Bm7
+  It's not that I want you, not to say, but if you only knew
+      Em    A               D       A       Bm7
+  How easy it would be to show me how you feel
 
-[CHORUS]
-  Em               D#+
-  More than you'll ever know
-      G                GMb5
-  My arms long they to hold you so
-     Am7          A7
-  My life will be in your keeping
-  D7                D#o7
-  Waking, sleeping, laughing, weeping
+[CHORUS 1]
+             Em7     A                D7            G
+  More than words is all you have to do to make it real
+           Gm7              D            Bm7           Em7   A      D
+  Then you wouldn't have to say that you love me, cause I'd already know
+                 A        Bm7       F#m     G
+  What would you do if my heart was torn in two
+                     D        Em7             A              D
+  More than words to show you feel, that your love for me is real
+                 A        Bm7        F#m   G
+  What would you say if I took those words away
+                    D           Em7           A              D
+  Then you couldn't make things new, just by saying "I love you"
+
+[INTERLUDE] x 2
+  D  Ga9    Em7       Ga9     Em7    A
+  -- La di da, da di da, di dai dai da
 
 [VERSE 2]
-GM7            Em7        Am7         D7
-  Longer than always is a long, long time
-GM7          Em7         Am7        D7
-  But far beyond forever you'll be mine
+D               Ga9      Em7              G        A    D
+  Now that I've tried to talk to you and make you understand
+          Ga9           Em7                 G          A        Bm7
+  All you have to do is close your eyes and just reach out your hand
+      Em        A                    D    A      Bm7
+  And touch me, hold me close don't ever let me go
 
-[OUTRO]
-Em          D#+           G
-  I know I never lived before
-          GMb5          Am7
-  And my heart is very sure
-A7        D7  D#o7
-  No one else
-          Em              D7  D#o7   GM7*
-  No one else could love you   more
+[CHORUS 2] (Same as Chorus 1, except say "show" instead of "real" in first line)
+             Em7     A                D7            G
+  More than words is all you have to do to make it show
+           Gm7              D            Bm7           Em7   A      D
+  Then you wouldn't have to say that you love me, cause I'd already know
+                 A        Bm7       F#m     G
+  What would you do if my heart was torn in two
+                     D        Em7             A              D
+  More than words to show you feel, that your love for me is real
+                 A        Bm7        F#m   G
+  What would you say if I took those words away
+                    D           Em7           A              D
+  Then you couldn't make things new, just by saying "I love you"
+
+[OUTRO] x 2
+  D  Ga9    Em7       Ga9     Em7    A              D
+  -- La di da, da di da, di dai dai da, more than words
