@@ -1,0 +1,39 @@
+Deck the Halls
+Genre: Christmas Carol
+Transcribed Key: C
+Starting Note: 5
+
+[CHORDS]
+  C   0003      F   2010
+  Am  2000      Em  0432
+  G   0232      Dm  2210
+
+[VERSE 1]
+  C                   Am        C      G           C      F  G  C
+  Deck the halls with boughs of holly, fa la la la la, la la la la
+  C              Am    C      G           C      F  G  C
+  Tis the season to be jolly, fa la la la la, la la la la
+  G              C            Em        F         G     C
+  Don we now our gay apparel, fa la la, la la la, la la la
+  C                Am        C      Dm          C      G     C
+  Sing the ancient Christmas carol, fa la la la la, la la la la
+
+[VERSE 2]
+  C               Am     C        G           C      F  G  C
+  See the blazing Yule before us, fa la la la la, la la la la
+  C                   Am       C       G           C      F  G  C
+  Strike the harp and join the chorus, fa la la la la, la la la la
+  G            C              Em        F         G     C
+  Follow me in merry measure, fa la la, la la la, la la la
+  C               Am       C         Dm          C      G     C
+  While I tell of Yuletide treasure, fa la la la la, la la la la
+
+[VERSE 3]
+  C             Am       C       G           C      F  G  C
+  Fast away the old year passes, fa la la la la, la la la la
+  C                Am       C       G           C      F  G  C
+  Hail the new, ye lads and lasses, fa la la la la, la la la la
+  G              C             Em        F         G     C
+  Sing we joyous all together, fa la la, la la la, la la la
+  C               Am       C        Dm          C      G     C
+  Heedless of the wind and weather, fa la la la la, la la la la
