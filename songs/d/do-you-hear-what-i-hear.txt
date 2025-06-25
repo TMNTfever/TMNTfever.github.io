@@ -1,0 +1,58 @@
+Do You Hear What I Hear
+Artist: Bing Crosby
+Genre: Christmas Carol
+Transcribed Key: C to C#
+Original Key: A to Bb
+Starting Note: 1 2 3
+
+[CHORDS]
+  C    0003      C#   1114
+  Gm7  0211      B    4322
+  Am   2000      A#m  3111
+  Em   0432      Fm   1013
+  F    2010      F#   3121
+  G    0232      G#   5343
+  E    4442
+
+[VERSE 1]
+           C                 Gm7    C
+  Said the night wind to the little lamb, do you see what I see
+  C                  Gm7    C
+  Way up in the sky, little lamb, do you see what I see
+    Am            Em                           F       G        E
+  A star, a star, dancing in the night, with a tail as big as a kite's
+         F       G        C
+  With a tail as big as a kite's
+
+[VERSE 2]
+           C                  Gm7      C
+  Said the little lamb to the shepherd boy, do you hear what I hear
+  C                        Gm7      C
+  Ringing through the sky, shepherd boy, do you hear what I hear
+    Am           Em                            F        G          E
+  A song, a song, high above the trees, with a voice as big as the sea  
+         F        G          C
+  With a voice as big as the sea
+
+[VERSE 3]
+           C                   Gm7    C
+  Said the shepherd boy to the mighty king, do you know what I know
+  C                    Gm7    C
+  In your palace warm, mighty king, do you know what I know
+    Am             Em                          F         G          E
+  A child, a child shivers in the cold, let us bring him silver and gold
+         F         G7         C
+  Let us bring him silver and gold
+
+[INTERLUDE]
+  C#  B  C#
+
+[VERSE 4]
+           C#                 B    C#
+  Said the king to the people everywhere, listen to what I say
+  C#                     B    C#
+  Pray for peace, people everywhere, isten to what I say
+    A#m             Fm                             F#       G#            F
+  A child, a child, sleeping in the night, he will bring us goodness and light
+          F#       G#           C#
+  He will bring us goodness and light
