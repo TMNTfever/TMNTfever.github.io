@@ -31,7 +31,7 @@ Starting Note: 5 5 6 6 6
            Dm7             G        C      Dm7             G        C
   He'll be coming down the chimney, down - coming down the chimney, down
 
-[CHORUS 1]
+[REFRAIN 1]
                F       C     F         C  F            C             F      C
   He'll have a big fat pack upon his back, and lots of goodies for you and me
              F          C         F       C     D7                         G
@@ -45,7 +45,7 @@ Starting Note: 5 5 6 6 6
            Dm7             G        C      Dm7             G        C
   He'll be coming down the chimney, down - coming down the chimney, down
 
-[CHORUS 2] (Same as Chorus 1)
+[REFRAIN 2] (Same as Refrain 1)
                F       C     F         C  F            C             F      C
   He'll have a big fat pack upon his back, and lots of goodies for you and me
              F          C         F       C     D7                         G
