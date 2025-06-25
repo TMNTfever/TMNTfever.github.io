@@ -7,10 +7,10 @@ Original Key: Bb
 Starting Note: -6 1 2
 
 [CHORDS]
-  Bb  2100      Gm  0231      Cm  0333      F  2010
+  Cm  0333      F  2010      Bb  2100      Gm  0231
 
 [INTRO]
-  Bb  Gm  Cm  F
+  Cm  F  Bb  Gm
 
 [VERSE 1]
             Cm              F               Bb       Gm
