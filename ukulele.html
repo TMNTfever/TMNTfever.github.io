@@ -19,6 +19,31 @@
   <script src="src/jquery/jquery.min.js"></script>
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script type="application/javascript">
+    var listLoaded = false;
+  
+    if(!listLoaded) {
+      document.addEventListener("DOMContentLoaded", () => {
+        const target = document.getElementById("ukulele-div");
+        if (!target) return;
+
+        const observer = new MutationObserver((mutationsList, observer) => {
+          for (const mutation of mutationsList) {
+            if (mutation.type === "childList" && target.innerText.trim() !== "") {
+              observer.disconnect();
+              listLoaded = true;
+              onListLoaded();
+            }
+          }
+        });
+      
+        observer.observe(target, { childList: true, subtree: true });
+      });
+      
+      function onListLoaded() {
+        createUkuleleTable();
+      }
+    }
+    
     window.onload = function() {
       // Load sidebar HTML into div
       $("#sidebar-wrapper").load("sidebar.html");
