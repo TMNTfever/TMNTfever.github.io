@@ -52,7 +52,7 @@ function createUkuleleTable() {
     for (j = 1; j < cols.length; j++) {
       // First element has a hyperlink
       if (j === 1) {
-        finalHtml += "<td><a href=\"chords.html?" + cols[0] + "\">" + cols[j] + "</td>";
+        finalHtml += "<td><a href=\"chords.html?" + cols[0] + "\">" + cols[j] + "</a></td>";
       } // Every other row is regular text
       else {
         finalHtml += "<td>" + cols[j] + "</td>";
