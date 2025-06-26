@@ -1,0 +1,48 @@
+If
+Artist: Bread
+Genre: Ballad
+Transcribed Key: A
+Original Key: G
+Starting Note: 3 4 5
+
+[CHORDS]
+  G     0232      Cm6   2333      Dm6   2212
+  GM7   0222      D7    2223      E7    1202
+  G7    0212      Em    0432      Am7   0000
+  C     0003      D#+   0332
+  Cm    0333      GMb5  0132
+
+[INTRO]
+  G  GM7  G7  C     Cm  G  Cm6  D7
+
+[VERSE 1]
+       G                 GM7                G7                 C
+  If a picture paints a thousand words then why can't I paint you?
+      Cm               G        Cm6              D7
+  The words will never show the you I've come to know
+       G                    GM7                G7             C
+  If a face could launch a thousand ships then where am I to go?
+           Cm              G           Cm6                D7
+  There's no one home but you, you're all that's left me to
+
+[CHORUS 1]
+      Em      D#+      G               GMb5
+  And when my love for life is running dry
+      Dm6      E7       Am7     D7
+  You come and pour yourself on me
+
+[VERSE 2]
+       G                 GM7           G7               C
+  If a man could be two places at one time I'd be with you
+     Cm           G     Cm6              D7
+  Tomorrow and today beside you all the way
+         G                    GM7               G7             C
+  If the world should stop revolving, spinning slowly down to die
+      Cm                  G       Cm6                D7
+  I'd spend the end with you and when the world was through
+
+[CHORUS 2]
+       Em     D#+     G                  GMb5
+  Then one by one the stars would all go out
+       Dm6     E7      Am7    D7   G  C  Cm6  G
+  Then you and I would simply fly away

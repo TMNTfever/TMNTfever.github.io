@@ -1,0 +1,60 @@
+Something Stupid
+Artist: Frank Sinatra, Nancy Sinatra
+Genre: Jazz
+Transcribed Key: F
+Original Key: E
+Starting Note: 3 5
+
+[CHORDS]
+  Gm7  0211      FM7  2410      G    0232
+  C7   0001      Bb   3211      G7   0212
+  F    2010      Db6  1111      C    0003
+  F6   2210      F7   2313      C+7  1001
+
+[INTRO]
+  Gm7  C7  Gm7  C7
+  F  F6  FM7  F6
+
+[VERSE 1]
+    F               F6             FM7                F6               Gm7           C7 Gm7 C7
+  I know I stand in line until you think you have the time to spend an evening with me
+      Gm7          C7               Gm7                 C7                  F             F6 FM7 F6
+  And if we go someplace to dance I know that there's a chance you won't be leaving with me
+
+[CHORUS 1]
+      F                         F7                            Bb           Db6
+  And afterwards we drop into a quiet little place and have a drink or two
+      Gm7           C7              Gm7              C7             F     F6 FM7 F6
+  And then I go and spoil it all by saying something stupid, like I love you
+
+[BRIDGE]
+        F                               F7                                    Bb           Db6
+  I can see it in your eyes that you despise The same old lines you heard the night before
+      G                                   G7                               C            C+7
+  And though it's just a line to you, for me it's true and never seemed so right before
+
+[VERSE 2]
+    F             F6               FM7             F6              Gm7            C7 Gm7 C7
+  I practice everyday to find some clever lines to say to make the meaning come true
+      Gm7               C7             Gm7          C7            F           F6 FM7 F6
+  But then I think I'll wait until the evening gets late and I'm alone with you
+
+[CHORUS 2]
+      F                                   F7                                  Bb              Db6
+  The time is right your perfume fills my head, the stars get red, and oh the night's so blue
+      Gm7           C7              Gm7              C7            F     F6 FM7 F6
+  And then I go and spoil it all by saying something stupid like I love you
+
+[INTERLUDE]
+  F  F6  FM7  F6  Gm7  C7  Gm7  C7
+  Gm7  C7  Gm7  C7  F  F6  FM7  F6
+
+[CHORUS 3]
+      F                                   F7                                  Bb              Db6
+  The time is right your perfume fills my head, the stars get red, and oh the night's so blue
+      Gm7           C7              Gm7              C7            F        Db6
+  And then I go and spoil it all by saying something stupid like I love you
+
+[OUTRO] x 3
+    F        Db6
+  I love you

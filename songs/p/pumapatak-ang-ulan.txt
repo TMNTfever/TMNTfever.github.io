@@ -1,0 +1,70 @@
+Pumapatak Ang Ulan
+Artist: Apo Hiking Society
+Genre: Pop, Folk
+Transcribed Key: D to E
+Original Key: D to E
+Starting Note: -5 -6 1 2
+
+[CHORDS]
+  F#m   2120      G     0232      G#m   4342
+  A     2100      E     4442      B     4322
+  Em7   0202      D6    2222      Am7   0453
+  A7    0100      G7    7778      C#7   1112
+  Gm7   0211      F#7   6667      EM7   4446
+  B7    2322      F7    5556
+  D7    2223      E7    4445
+
+[INTRO]
+  F#m  A  F#m  A
+
+[VERSE 1]
+        Em7      A7       Em7      A7       F#m  A  F#m  A
+  Pumapatak na naman ang ulan sa bubong ng bahay
+        Em7       A7     Em7   A7      F#m  A  F#m  A
+  Di maiwasan gumawa ng di inaasahang bagay
+
+[CHORUS 1]
+     Gm7              F#m                  A                B7
+  Laklak ng laklak ng beer na magdamagan, may kahirapan at di maiwasan
+    Em7       A7    Em7        A7       Em7     A7       F#m  A  F#m  A
+  Mabuti pa kaya matulog ka na lang at baka sumakit ang tiyan
+
+[VERSE 2]
+           Em7        A7    Em7        A7     Em7       A7     F#m  A  F#m  A
+  Ang araw ko'y nabubusisi ako ang nasisisi. Bakit ba sila ganyan
+           Em7           A7       Em7       A7      Em7    A7       F#m  A  F#m  A
+  Ang pera ko'y hindi magkasya hindi makapagsine at ayaw naman dagdagan
+
+[CHORUS 2]
+   Gm7                    F#m                A                 B7
+  Ubos na rin ang beer, kaya cape na lang, lahat sinusubukan kahit walang pulutan
+      Em7        A7    Em7        A7     Em7       A7       F#m  A  F#m  A
+  Ang buhay ng tamad walang hinaharap ni konting sarap man lang
+
+[BRIDGE]
+  D7                                 G
+  Radyo, TV, at mga lumang komiks, wala ng ibang mapaglibangan
+     E                          A7
+  At kung meron kang tatawagan, trenta centimos ika'y makakaltasan
+     D7  D6  G7  F#7  F7  E7  A7  B7
+  Ah ah...
+
+[VERSE 3]
+       F#m       B7      F#m       B7      G#m  B  G#m  B
+  Umiindak ang paa sa kumpas ng tugtuging bago
+              F#m       B7       F#m      B7       G#m  B  G#m  B
+  Hanggang kumpas ka na lang at di mo na alam ang tono
+
+[CHORUS 3]
+           Am7         G#m             B                 C#7
+  Sa paghinto ng ulan ano ang gagawin, wag ng isipin at walang babaguhin
+    F#m       B7     F#m         B7      F#m         B7    G#m  B  G#m  B
+  Mabuti pa kayang matulog ka na lang, matulog na ng mahimbing
+
+[OUTRO]
+        F#m7     B7       G#m  B  G#m  B
+  Pumapatak na naman ang ulan
+        F#m7     B7       G#m  B  G#m  B
+  Pumapatak na naman ang ulan
+        F#m7     B7       EM7
+  Pumapatak na naman ang ulan

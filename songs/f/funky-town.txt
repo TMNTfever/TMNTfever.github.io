@@ -1,0 +1,58 @@
+Funky Town
+Artist: Lipps, Inc.
+Genre: Funk, Pop
+Transcribed Key: C
+Original Key: C
+Starting Note: 1
+
+[CHORDS]
+  C  0003      G  0232      F  5553      Eb  3331
+
+[RIFF 1]
+  C
+  8 8 b7 8  5  5 8 11 10 8
+
+[RIFF 2]
+  G
+  5 5 4 5  2  2 5 8 7 5
+
+[INTRO]
+  C  R1  R1
+
+[VERSE 1]
+    C                                             R1
+  Gotta make a move to a town that's right for me
+     C                                                      R1
+  Town to keep me movin' keep me groovin' with some energy
+          G                                                         R2
+  Well, I talk about it, talk about it, talk about it, talk about it
+     G                                     R1
+  Talk about, talk about, talk about movin'
+
+[REFRAIN] x 3
+  R1             R1             R1
+  Gotta move on, gotta move on, gotta move on
+  G               -          -
+ (Bass walk-down, drum solo, bass enters)
+
+[CHORUS 1] x 4 (Last half is played, not sung)
+Cm7                   Cm7
+  Won't you take me to, Funkytown
+  5     7   5    7  5  7 8 7 10
+Cm7                   Cm7
+  Won't you take me to, Funkytown
+  5     7   5    7  5  7 8 8 3
+
+[BRIDGE] x 4
+  F F F F E F -
+  ----------- (Sax solo)
+
+[CHORUS 2] (Same as Chorus 1, except only first sung half)
+Cm7                   Cm7
+  Won't you take me to, Funkytown
+  5     7   5    7  5  7 8 7 10
+Cm7                   Cm7
+  Won't you take me to, Funkytown
+  5     7   5    7  5  7 8 8 3
+
+[REPEAT ENTIRE SONG]

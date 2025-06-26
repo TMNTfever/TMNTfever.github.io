@@ -1,0 +1,87 @@
+Bakit Pa Ba
+Artist: Jay R
+Genre: Ballad
+Transcribed Key: C to C#
+Original Key: F to F#
+Starting Note: -5 5
+
+[CHORDS]
+  C    0003      CM7  0002      Em7  0202      Fm   5543      E#7  2313
+  Dm7  2213      C7   0001      Fm7  1313      G#   5343      A#m7 1111
+  Emb6 4433      C6   0000      E7   1202      C#   1114      F#   3121
+  Gs4  0233      G7   0212      Am7  0000      D#m7 3324      D#7  3334
+  G    0232      G#o7 1212      F    2010      E#m7 1313      C#M7 1113
+
+[INTRO]
+  C  Dm7  Emb6  Fm     C  Dm7  Emb6  Gs4  G
+
+[VERSE 1]
+     C         CM7       C7          C6
+  Nagpapa-alam ka, dahil nasaktan kita
+    Dm7                    G  G7
+  Noo'y di makitang mali ako
+     C             CM7  C7           C6
+  Ngayo'y alam ko na, sayo'y nagkasala
+    Dm7                    G  G#o7
+  Sana muli ako'y mapatawad pa
+
+[REFRAIN 1]
+       Em7                         Dm7         Fm7
+  Araw araw kang lumuluha, sa akin ay nagmamakaawa
+    C           Am7         Dm7 G
+  Noo'y di marinig pagsamo mo, oh
+
+[CHORUS 1]
+  C         Dm7   Em7          E7                  Am7
+  Bakit pa ba nagawa, nasaktan ko ang isang tulad mo
+            G          F
+  Na labis na nagmamahal
+     C       Dm7         Em7        E7                    Am7
+  Hindi napansin na walang, katulad ang alay ng pag-ibig mo
+       D7   Dm7        G        C
+  Sa akin, ako sana muli ay patawarin
+
+[INTERLUDE 1]
+  Dm7  Emb6  Fm
+
+[VERSE 2]
+  C           CM7   C7              C6
+  Kay tagal akong bulag sa katulad mo
+    Dm7                         G  G7
+  Gayong wagas yaring pag-ibig mo
+   C           CM7   C7         C6
+  Iniwan pa kita bituing nag-iisa
+    Dm7                   G  G#o7
+  Bakit ba nagawa ito sa'yo
+
+[REFRAIN 2] (Same as Refrain 1)
+       Em7                         Dm7         Fm7
+  Araw araw kang lumuluha, sa akin ay nagmamakaawa
+    C           Am7         Dm7 G
+  Noo'y di marinig pagsamo mo, oh
+
+[CHORUS 2] (Same as Chorus 1)
+  C         Dm7   Em7          E7                  Am7
+  Bakit pa ba nagawa, nasaktan ko ang isang tulad mo
+            G          F
+  Na labis na nagmamahal
+     C       Dm7         Em7        E7                    Am7
+  Hindi napansin na walang, katulad ang alay ng pag-ibig mo
+       D7   Dm7        G        C
+  Sa akin, ako sana muli ay patawarin
+
+[INTERLUDE 2]
+  Dm7  Em7  E7  Am7  G  G#
+
+[CHORUS 3]
+  C#        D#m7  E#m7         E#7                 A#m7
+  Bakit pa ba nagawa, nasaktan ko ang isang tulad mo
+            G#         F#
+  Na labis na nagmamahal
+     C#      D#m7        E#m7       E#7                   A#m7
+  Hindi napansin na walang, katulad ang alay ng pag-ibig mo
+       D#7  D#m7       G#       C#
+  Sa akin, ako sana muli ay patawarin
+
+[OUTRO]
+  D#m7  E#m7  G#  C#M7

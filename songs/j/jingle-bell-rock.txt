@@ -1,0 +1,63 @@
+Jingle Bell Rock
+Artist: Bobby Helms
+Genre: Christmas, Rock
+Transcribed Key: C
+Original Key: D
+Starting Note: 1 1 1
+
+[CHORDS]
+  C/G   x787      C#o7  0101      F     2010      Fm6   1213
+  Em    x777      Dm7   2213      F#o7  2323      FM7   5557
+  C     0003      G7    0212      D     2220
+  CM7   0002      G+7   0312      D7    2223
+  C6    0000      C7    0001      A7    0100
+
+[INTRO]
+  C/G    Em     C/G
+  3 3 3, 3 3 3, 3 5 1 2 b3 2 1 -6 -5
+
+[VERSE 1]
+  C            CM7          C6                             C#o7      Dm7          G7
+  Jingle bell, jingle bell, jingle bell rock, jingle bells swing and jingle bells ring
+  Dm7         G7         Dm7        G7  Dm7                 G7  G+7
+  Snowing and blowing up bushels of fun, now the jingle hop has begun
+
+[VERSE 2]
+  C            CM7          C6                             C#o7     Dm7         G7
+  Jingle bell, jingle bell, jingle bell rock, jingle bells chime in jingle bell time
+  Dm7         G7          Dm7         G7     Dm7     G7     C   C7
+  Dancing and prancing in Jingle Bell Square, in the frosty air
+
+[CHORUS 1]
+         F                     F#o7           C               C7
+  What a bright time, it's the right time, to rock the night away
+         D              D7        G7      -            G7        G+7
+  Jingle bell time is a swell time, to go gliding in a one-horse sleigh
+  C        CM7           C6                                     A7
+  Giddy-up jingle horse, pick up your feet, jingle around the clock
+  F                     Fm6           D7          G7
+  Mix and mingle in the jingling beat, that's the jingle bell rock
+D7           G7          D7          G7          C
+  That's the jingle bell, that's the jingle bell rock
+
+[VERSE 3] (Same as Verse 2)
+  C            CM7          C6                             C#o7     Dm7         G7
+  Jingle bell, jingle bell, jingle bell rock, jingle bells chime in jingle bell time
+  Dm7         G7          Dm7         G7     Dm7     G7     C   C7
+  Dancing and prancing in Jingle Bell Square, in the frosty air
+
+[CHORUS 2] (Same as Chorus 1)
+         F                     F#o7           C               C7
+  What a bright time, it's the right time, to rock the night away
+         D              D7        G7      -            G7        G+7
+  Jingle bell time is a swell time, to go gliding in a one-horse sleigh
+  C        CM7           C6                                     A7
+  Giddy-up jingle horse, pick up your feet, jingle around the clock
+  F                     Fm6           D7          G7
+  Mix and mingle in the jingling beat, that's the jingle bell rock
+D7           G7          D7          G7          C
+  That's the jingle bell, that's the jingle bell rock
+
+[OUTRO]
+  C/G    Em     C/G     FM7
+  3 3 3, 3 3 3, 3 5 1 2 3

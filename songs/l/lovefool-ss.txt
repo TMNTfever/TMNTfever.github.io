@@ -1,0 +1,67 @@
+Lovefool
+Rendition Artist: Sunset Sound
+Original Artist: The Cardigans
+Genre: Pop
+Transcribed Key: Cm to C
+Original Key: Am to A
+Starting Note: 7
+
+[CHORDS]
+  Cm7 3333      Fm7 1313      Bb7 1211      EbM7 3335      Eb  3331
+  C   5433      F   5553      Em  4432      Dm   2210      G7  0212
+  CM7 0002      E7  1202      Fm  1013
+
+[INTRO]
+  Cm7  Cm7
+
+[VERSE 1]
+  Cm7               Fm7               Bb7            EbM7
+  Dear I feel we're facing a problem, you love me no longer I know and
+Cm7              Fm7                 Bb7            Eb
+  Maybe there is nothing that I can do, to make you do
+  Cm7                 Fm7               Bb7                 EbM7            Cm7
+  Mama tells me that I shouldn't bother, said I ought to stick to another girl
+                Fm7              Bb7               (Eb)
+  A girl that surely deserves me, but I think you do
+
+[REFRAIN 1] (Bass and drum only)
+Eb  E      F     Gb         G
+  --- So I cry I pray and I beg you
+
+[CHORUS 1]
+  C                 F                   Em               Dm       G7
+  Love me love me say that you love me, fool me fool me go on and fool me
+  C                    F                    Em                 Dm           G7
+  Love me love me pretend that you love me, leave me leave me, say that you need me
+CM7    F          Em          E7      F   G7
+  So I cry, and I pray, and I beg for you to
+  C                    F                    Em                 Dm           G
+  Love me love me say that you love me, Leave me leave me say that you need me
+  C       Fm         G7
+  I can't care 'bout anything but
+
+[VERSE 2]
+  Cm7           Fm7                   Bb7              EbM7
+  Lately I have desperately pondered, spent my nights awake and I wonder
+  Cm7               Fm7               Bb7            Eb
+  What I could have done in another way, to make you stay
+  Cm7             Fm7               Bb7            EbM7
+  Reason will not lead to solution, I will end up lost in confusion
+Cm7               Fm7                 Bb7               (Eb)
+  I don't care if you really care, as long as you don't go
+
+[REFRAIN 2] (Same as Refrain 1)
+Eb  E      F     Gb         G
+  --- So I cry I pray and I beg you
+
+[CHORUS 2] (Same as Chorus 1, except end with "[AM7] you")
+  C                 F                   Em               Dm       G7
+  Love me love me say that you love me, fool me fool me go on and fool me
+  C                    F                    Em                 Dm           G7
+  Love me love me pretend that you love me, leave me leave me, say that you need me
+CM7    F          Em          E7      F   G7
+  So I cry, and I pray, and I beg for you to
+  C                    F                    Em                 Dm           G
+  Love me love me say that you love me, Leave me leave me say that you need me
+  C       Fm         G7
+  I can't care 'bout anything but

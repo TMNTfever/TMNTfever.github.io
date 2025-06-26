@@ -1,0 +1,54 @@
+I Love You For Sentimental Reasons
+Artist: Nat King Cole
+Genre: Jazz, Ballad
+Transcribed Key: D
+Original Key: Db
+Starting Note: 6 3 5 5
+
+[CHORDS]
+  A9n1  0102      A13   0122      D#o7   2323
+  DM7   2224      D     2220      C#m7b5 0102
+  Bm7   2222      B7b9  2323      F#7b9  0101
+  Em7   0202      Em9   0222      E9     1222
+  A7    0100      Fo7   1212      D#9    0111
+
+[INTRO]
+  A9n1
+
+[CHORUS 1]
+    DM7    Bm7 Em7   A7          DM7   Bm7 Em7
+  I love you,   for sentimental reasons
+    A13           DM7    Bm7 Em7   A7           D  B7b9  Em9  A13
+  I hope you do believe me,   I've given you my heart
+
+[VERSE 1]
+    DM7    Bm7 Em7  A7             DM7        Bm7 Em7
+  I love you,   and you alone were meant for me
+         A13              DM7       Bm7 Em7
+  Please give your loving heart to me
+      A7              D  Em7  Fo7  D#o7
+  And say we'll never part
+
+[BRIDGE]
+    Em7         A7     DM7 D#o7 Em7           A7    DM7  Bm7
+  I think of you every morning,  dream of you every night
+  C#m7b5      F#7b9   Bm7       E9   D#9        A7
+  Darling I'm never lonely, whenever you are in sight
+
+[CHORUS 2]
+    DM7    Bm7 Em7   A7          DM7   Bm7 Em7
+  I love you,   for sentimental reasons
+    A13           DM7    Bm7 Em7   A7           D  Em7  Fo7  D#o7
+  I hope you do believe me,   I've given you my heart
+
+[INTERLUDE]
+  Em7  A7  DM7  D#o7
+  Em7  A7  DM7  D6
+  C#m7b5  F#7b9  Bm7
+  E9  D#9  A7
+
+[CHORUS 3]
+    DM7    Bm7 Em7   A7          DM7   Bm7 Em7
+  I love you,   for sentimental reasons
+    A13           DM7    Bm7 Em7   A7           D  A11  DM7
+  I hope you do believe me,   I've given you my heart

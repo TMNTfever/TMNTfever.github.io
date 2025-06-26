@@ -1,0 +1,89 @@
+Everything
+Artist: Michael Buble
+Genre: Pop
+Transcribed Key: D to E
+Original Key: D to E
+Starting Note: 3
+
+[CHORDS]
+  D  2220      D7  2020      Bm7 2222      G#   5343
+  E  4442      A   2100      Gm  0231      C#m7 4444
+  G  0232      F#  3121      B   4322      Am7  0453
+
+[INTRO] x 2
+  D  E  G  A  D
+
+[VERSE 1]
+                D                      E
+  You're a falling star, you're the getaway car
+              G          A              D
+  You're the line in the sand when I go too far
+                   D                E
+  You're the swimming pool, on an August day
+                 G       A          D
+  And you're the perfect thing to say
+
+               D                   E
+  And you play it coy, but it's kinda cute
+               G               A            D
+  Ah, when you smile at me you know exactly what you do
+             D                       E
+  Baby don't pretend, that you don't know it's true
+                G             A       D
+  Cause you can see it when I look at you
+
+[CHORUS 1]
+              G A     D                     G A    D
+  And in this crazy life, and through these crazy times
+       D7         G       F#      Bm7
+  It's you, it's you, you make me sing
+                E                   Gm              D
+  You're every line, you're every word, you're everything
+
+[VERSE 2]
+             D                  E
+  You're a carousel, you're a wishing well
+                G     A              D
+  And you light me up, when you ring my bell
+              D                   E
+  You're a mystery, you're from outerspace
+               G            A    D
+  You're every minute of my everyday
+
+              D                    E
+  And I can't believe, uh that I'm your man
+        G               A           D
+  And I get to kiss you baby just because I can
+           D                       E
+  Whatever comes our way, ah we'll see it through
+              G                A        D
+  And you know that's what our love can do
+
+[CHORUS 2] (Same as Chorus 1)
+              G A     D                     G A    D
+  And in this crazy life, and through these crazy times
+       D7         G       F#      Bm7
+  It's you, it's you, you make me sing
+                E                   Gm              D
+  You're every line, you're every word, you're everything
+
+[INTERLUDE] x 2
+  D  E  G  A  D
+
+[BRIDGE] x 2
+      D       E       G   A   D
+  So, La, La, La, La, La, La, La
+
+[CHORUS 3]
+              A B     E                     A B    E
+  And in this crazy life, and through these crazy times
+       E7         A       G#      C#m7
+  It's you, it's you, you make me sing
+                F#                  A               E
+  You're every line, you're every word, you're everything
+               F#                A                          E
+  You're every song, and I sing along, cause you're my everything
+
+[OUTRO] x 2
+      E       F#      A   B   E
+  So, La, La, La, La, La, La, La

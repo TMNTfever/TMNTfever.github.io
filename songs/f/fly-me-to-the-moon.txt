@@ -1,0 +1,54 @@
+Fly Me to the Moon
+Artist: Frank Sinatra
+Genre: Jazz
+Transcribed Key: C
+Original Key: C
+Starting Note: 1
+
+[CHORDS]
+  Am   2000      C7   0001      A7    0100      Do7  4242
+  Dm7  2213      F    2010      Eo7   0101      F#o7 2323
+  G7   0212      Dm6  2212      Em7b5 0201      Am7  0453
+  CM7  0002      E7   1202      Dm    2210      C6   0400
+
+[VERSE 1]
+  Am            Dm7          G7             CM7   C7
+  Fly me to the moon, let me play among the stars
+  F               Dm6               E7          Am  A7
+  Let me see what spring is like on Jupiter and Mars
+     Dm7        G7        CM7  Eo7
+  In other words, hold my hand
+     Dm7        G7           CM7  E7
+  In other words, baby kiss me
+
+[VERSE 2]
+  Am                 Dm7              G7           CM7  C7
+  Fill my heart with song, and let me sing forever more
+  F             Dm6             E7         Am   A7
+  You are all I long for, all I worship & adore
+     Dm7        G7          Em7b5  Eo7
+  In other words, please be true
+     Dm7        G7       CM7  E7
+  In other words, I love you
+
+[INTERLUDE]
+  Am      Dm       G7       CM7  C7
+  8 7 6 5 4, 5 6 8 7, 6 5 4 3
+  F        Do7     Do7       Am  A7
+  6 5 4 3, 2 3 4 6 b6, 4 3 2 1
+    Dm    G7   CM7  Eo7
+  1 2 6 6, 8 7 5
+    Dm   G7      CM7  E7
+  1 2 4 4, 6 5 4 3
+
+[VERSE 3]
+  Am                 Dm7              G7           CM7  C7
+  Fill my heart with song, and let me sing forever more
+  F             Dm6            E7         Am   A7
+  You are all I long for all I worship & adore
+     Dm7        G7          Em7b5  Eo7
+  In other words, please be true
+     Dm7        F#o7 Am7        F#o7
+  In other words, in other words
+  Dm7  G7       C6    C6    C6       C
+  I... love... (b3h3, b3h3, b3h3)... you

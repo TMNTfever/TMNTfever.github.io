@@ -1,0 +1,51 @@
+White Christmas
+Artist: Bing Crosby
+Genre: Christmas, Jazz
+Transcribed Key: A
+Original Key: A
+Starting Note: 3 4 3
+
+[CHORDS]
+  A    2100      Bm7  2222      A7   0100      D*   2225
+  D7   2223      Cm7  3333      F#   3121      D#   3336
+  Dm   2210      E    4442      B7   2322      E*   4447
+  Dm6  2212      D    2220      E7   1202
+  A#o7 0101      AM7  1100      A*   6454
+
+[INTRO]
+  A       D7        Dm Dm6
+  5 6 8 9 b10 9 8 6 b6 9
+
+[VERSE 1]
+  A   A#o7          Bm7   Cm7   E   D              Bm7            A
+  I’m dreaming of a white Christmas, just like the ones I used to know
+            AM7       A7           D        Dm6
+  Where the tree tops glisten, and children listen
+     A    F#                  B7   E7
+  To hear sleigh bells in the snow
+
+[VERSE 2]
+  A   A#o7          Bm7   Cm7   E   D           Bm7              A
+  I’m dreaming of a white Christmas, with every Christmas card I write
+           AM7     A7        D      Dm6
+  May your days be merry and bright
+          A   F#   B7      Bm7    A
+  And may all your Christmases be white
+
+[INTERLUDE]
+  A*            D*  D#  E* 
+  10 11 10 9 10 11  b12 12
+D       Bm7     A
+  6 7 8 9 8 7 6 5
+      A*             D   Dm
+  8 9 10 10 10 13 12 8 8 8 12
+     A*  D*        E  E7
+  11 10  11 10 9 8 9
+
+[VERSE 3] (Same as Verse 2)
+  A   A#o7          Bm7   Cm7   E   D           Bm7              A
+  I’m dreaming of a white Christmas, with every Christmas card I write
+           AM7     A7        D      Dm6
+  May your days be merry and bright
+          A   F#   B7      Bm7    A
+  And may all your Christmases be white

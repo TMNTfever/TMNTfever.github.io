@@ -1,0 +1,74 @@
+Clocks
+Artist: Coldplay
+Genre: Alternaive Rock, Indie
+Transcribed Key: D
+Original Key: Eb
+Starting Note: 1
+
+[CHORDS]
+  D  2220      Am  2000      Em  0432      FM7  2413      C  0003      G  0232
+
+-RIFF 1-
+  D                  Am
+  8 5 3  8 5 3  8 5, b7 5 2  b7 5 2  b7 5
+  Am                    Em
+  b7 5 2  b7 5 2  b7 5, 6 4 2  6 4 2  6 4
+
+-RIFF 2-
+  D                         Am
+  11 10 8  11 10 8  11 10,  11 10 b7  11 10 b7  11 10
+  Am                          Em
+  11 10 b7  11 10 b7  11 10,  11 10 6  11 10 6  11 10
+
+[INTRO] x 4
+  D  Am  Am  Em
+
+[VERSE 1]
+  D                   Am              Am                    Em
+  Lights go out and I can't be saved, tides that I tried to swim against
+  D                Am            Am          Em
+  Brought me down upon my knees, oh I beg, I beg and plead - singing
+D                 Am             Am             Em
+  Come out of the things unsaid, shoot an apple off my head - and a
+D              Am              Am             Em
+  Trouble that can't be named, tigers waiting to be tamed - singing
+
+[CHORUS 1] (Riff 1)
+D   Am  Am  Em  D  Am  Am  Em
+  You..... are,  you..... are
+
+[INTERLUDE 1] x 2 (Riff 1)
+  D  Am  Am  Em
+
+[VERSE 2]
+  D         Am           Am                Em
+  Confusion never stops, closing walls and ticking clocks - gonna
+D               Am               Am                  Em
+  Come back and take you home, I could not stop that you now know - singing
+D           Am           Am                Em
+  Come out upon my seas, curse missed opportunities - am I
+D        Am              Am             Em
+  A part of the cure, or am I a part of the disease - singing
+
+[CHORUS 2] (Riff 1)
+D   Am  Am  Em  D  Am  Am  Em
+  You..... are,  you..... are
+
+[BRIDGE]
+FM7    FM7         C     G  FM7  FM7         C     G
+  And nothing else compares, oh nothing else compares
+FM7    FM7         C     G  F  FM7  F  FM7
+  And nothing else compares
+
+[INTERLUDE 2] x 2 (Riff 1)
+  D  Am  Am  Em
+
+[INTERLUDE 3] x 2 (Riff 2)
+  D  Am  Am  Em
+
+[OUTRO] x 4 (Riff 2, sing Chorus as descant on second half)
+  D     Am            Am        Em
+  Home, home, where I wanted to go
+
+[INTERLUDE 4] x 4 (Riff 2 first half, then Riff 1)
+  D  Am  Am  Em
