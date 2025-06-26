@@ -34,7 +34,7 @@ function createUkuleleTable() {
 
   // Create table opening tags and header
   finalHtml += "<table id=\"ukulele-table\" class=\"sortTable\"><thead><tr>";
-  var cols = rows[0].split("|");
+  var cols = rows[0].split("\t");
 
   // Iterate through columns, skip column 0
   for (i = 1; i < cols.length; i++) {
@@ -45,7 +45,7 @@ function createUkuleleTable() {
 
   // Create the body of the table, iterate through rows
   for (i = 1; i < rows.length; i++) {
-    cols = rows[i].split("|");
+    cols = rows[i].split("\t");
     finalHtml += "<tr>";
 
     // Iterate through columns, skip column 0
