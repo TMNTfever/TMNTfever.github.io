@@ -58,12 +58,17 @@ function tagSong() {
     // Transcribed Key is found
     if (char0 === 'T') {
       lines[i] = temp.slice(0, 17) + "<k->" + temp.slice(17) + "</k->";
+    } // Medley detected, next section started
+    else if (char0 === '.') {
+      lines[i - 1] += "</div>";
+      lineCount = i;
+      break;
     } // [CHORDS] section is found
     else if (char0 === '[' && !divOpen) {
       lines[i] = "<f->" + temp + "</f->";
       divOpen = true;
-    } // End of [CHORDS] section is reached or Medley detected with '.', next section started
-    else if ((char0 === '[' || char0 === '-' || char0 === '.') && divOpen) {
+    } // End of [CHORDS] section is reached, next section started
+    else if ((char0 === '[' || char0 === '-') && divOpen) {
       lines[i - 1] += "</div>";
       lineCount = i;
       divOpen = false;
