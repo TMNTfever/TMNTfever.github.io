@@ -48,7 +48,7 @@
     window.onload = function() {
       // Load sidebar HTML into div
       $("#sidebar-wrapper").load("sidebar.html");
-      $.get("ukulele-list.csv", function(data) {$("#ukulele-div").text(data);});
+      $.get("ukulele-list.tsv", function(data) {$("#ukulele-div").text(data);});
     }
   </script>
   <!-- /#head-scripts -->
