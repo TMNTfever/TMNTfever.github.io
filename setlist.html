@@ -13,12 +13,39 @@
   <link href="style.css" rel="stylesheet">
   <script src="src/jquery/jquery.min.js"></script>
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="src/printThis/printThis.js"></script>
-  <script type="application/javascript">
-    window.onload = function() {
-      $("#sidebar-wrapper").load("sidebar.html");
-      $("#setlist").load("setlists/list-current.html");
+  <script src="src/createTable/createTable.js"></script>
+  <script type="application/javascript">    
+    function createAllTables() {
+      createTable("setlist-main-current", "setlist-table", true);
+      createTable("setlist-extra", "setlist-table", false);
+      createTable("setlist-learning", "setlist-table", false);
+      createTable("setlist-jc", "setlist-table", false);
+      createTable("setlist-luke", "setlist-table", false);
     }
+
+    window.onload = function () {
+      $("#sidebar-wrapper").load("sidebar.html");
+
+      const filesToLoad = [
+        { url: "setlists/list-main-current.tsv", divId: "setlist-main-current" },
+        { url: "setlists/list-extra.tsv",        divId: "setlist-extra" },
+        { url: "setlists/list-learning.tsv",     divId: "setlist-learning" },
+        { url: "setlists/list-jc.tsv",           divId: "setlist-jc" },
+        { url: "setlists/list-luke.tsv",         divId: "setlist-luke" },
+      ];
+
+      const loadPromises = filesToLoad.map(file =>
+        $.get(file.url).then(data => {
+          $(`#${file.divId}`).text(data);
+        })
+      );
+
+      Promise.all(loadPromises).then(() => {
+        createAllTables(); // all data is now loaded and inserted
+      }).catch(error => {
+        console.error("Error loading TSV files:", error);
+      });
+    };
   </script>
 </head>
 
@@ -37,17 +64,18 @@
       <header>
         <h1>SETLIST</h1>
       </header>
-      
-      <div id="setlist"></div>
+      <br>
+      <div id="setlist-main-current"></div><br>
+      <details><summary>Extra Songs</summary><div id="setlist-extra"></div></details><br>
+      <details><summary>Learning</summary><div id="setlist-learning"></div></details><br>
+      <details><summary>JC Songs</summary><div id="setlist-jc"></div></details><br>
+      <details><summary>Luke Songs</summary><div id="setlist-luke"></div></details><br>
     </div>
   </div>
   <!-- /#page-content-wrapper -->
 </div>
 <!-- /#wrapper -->
 <script type="application/javascript">
-function changeSetlist(setlistName) {
-  $("#setlist").load(setlistName);
-}
 </script>
 <!-- Custom Scripts -->
 </body>
