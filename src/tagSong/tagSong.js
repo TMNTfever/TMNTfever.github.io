@@ -40,6 +40,7 @@ function tagSong() {
   var char0 = "";
   var char1 = "";
   var temp = "";
+  var flexLine = "";
 
   // Load textContent into string variable
   let element = document.getElementById("ukulele-chords");
@@ -69,6 +70,7 @@ function tagSong() {
     else if (char0 === '[' && !fingOpen) {
       lines[i] = "<f->" + temp + "</f->";
       fingOpen = true;
+      // flexLine += "<div class=\"flexChords\">";
     }  // End of [CHORDS] section is reached, next section started
     else if ((char0 === '[' || char0 === '-') && fingOpen) {
       lines[i - 1] += "</div>";
@@ -81,15 +83,16 @@ function tagSong() {
       /*
       // Tag chord names and generate chord diagrams for fingerings, index 0 is skipped
       for (j = 1; j < fings.length; j++) {
-        // Even indeces are chord names
-        if (i % 2 == 0) {
-          lines[i] += "<c->" + fings[j] + "</c->";
-        } // Odd indeces are fingerings
+        // Odd indeces are chord names
+        if (i % 2 == 1) {
+          flexLine += "<c->" + fings[j] + "</c->";
+        } // Even indeces are fingerings
         else {
-          lines[i] += chordDiagram(fings[j]);
+          flexLine += chordDiagram(fings[j]);
         }
       }
       */
+      
       console.log(fings);
     }
   }
