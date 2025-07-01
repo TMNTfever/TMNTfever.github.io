@@ -5,7 +5,7 @@ Desc:      Applies desired tags for css styling. Converts .txt to .html.
 Author:    JC Reyes
 Called by: main/chords.html
 Created:   2025-06-10
-Modified:  2025-06-24
+Modified:  2025-07-01
 ===============================================================================
 */
 
@@ -14,7 +14,7 @@ Modified:  2025-06-24
 Program:   tagSong()
 Desc:      Main function to tag chord sheet.
 Called by: main/chords.html
-Calls:     N/A
+Calls:     chordDiagram()
 Arguments: fileName - The song file to be manipulated.
 Comments:  N/A
 -------------------------------------------------------------------------------
@@ -25,10 +25,12 @@ Date        Programmer  Change
                         to wait for another occurence of '[', but now looks for
                         an empty line.
 2025-06-24  JC Reyes    Added ability to tag medleys.
+2025-07-01  JC Reyes    Added ability to generate chord diagrams.
 ===============================================================================
 */
 function tagSong() {
   var lineCount = 0;
+  var fingOpen = false;
   var divOpen = false;
   var detOpen = false;
   var chordLine = true;
@@ -58,20 +60,36 @@ function tagSong() {
     // Transcribed Key is found
     if (char0 === 'T') {
       lines[i] = temp.slice(0, 17) + "<k->" + temp.slice(17) + "</k->";
-    } // Medley detected, next section started
+    } // Medley detected, [CHORDS] not expected, div ended
     else if (char0 === '.') {
       lines[i - 1] += "</div>";
       lineCount = i;
       break;
-    } // [CHORDS] section is found
-    else if (char0 === '[' && !divOpen) {
+    } // [CHORDS] section is found, aka "fingering" section
+    else if (char0 === '[' && !fingOpen) {
       lines[i] = "<f->" + temp + "</f->";
-      divOpen = true;
+      fingOpen = true;
+    } // Chord fingering lines found
+    else if (fingOpen && temp !== "") {
+      var fings = lines[i].split(/\s+/);
+      /*
+      // Tag chord names and generate chord diagrams for fingerings
+      for (j = 0; j < fings.length; j++) {
+        // Even indeces are chord names
+        if (i % 2 == 0) {
+          lines[i] += "<c->" + fings[j] + "</c->";
+        } // Odd indeces are fingerings
+        else {
+          lines[i] += chordDiagram(fings[j]);
+        }
+      }
+      */
+      console.log(fings);
     } // End of [CHORDS] section is reached, next section started
-    else if ((char0 === '[' || char0 === '-') && divOpen) {
+    else if ((char0 === '[' || char0 === '-') && fingOpen) {
       lines[i - 1] += "</div>";
       lineCount = i;
-      divOpen = false;
+      fingOpen = false;
       break;
     }
   }
@@ -177,4 +195,28 @@ function tagSong() {
 
   // Load taggedHtml to #ukulele-chords
   $("#ukulele-chords").html(taggedHtml);
+}
+
+/*
+===============================================================================
+Program:   chordDiagram()
+Desc:      .
+Called by: tagSong()
+Calls:     N/A
+Arguments: fingering - 4 character string that denotes a chord's fingering.
+Comments:  N/A
+Returns:   String of <img> tags that make up a full chord diagram
+-------------------------------------------------------------------------------
+Date        Programmer  Change
+2025-06-10  JC Reyes    Initial version.
+2025-06-16  JC Reyes    Added ability to add <detail> tags.
+2025-06-21  JC Reyes    Fixed logic on determining the end of a section. Used
+                        to wait for another occurence of '[', but now looks for
+                        an empty line.
+2025-06-24  JC Reyes    Added ability to tag medleys.
+===============================================================================
+*/
+function chordDiagram() {
+  var diagrams = "";
+  return diagrams;
 }
