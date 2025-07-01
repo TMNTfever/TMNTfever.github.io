@@ -69,12 +69,18 @@ function tagSong() {
     else if (char0 === '[' && !fingOpen) {
       lines[i] = "<f->" + temp + "</f->";
       fingOpen = true;
+    }  // End of [CHORDS] section is reached, next section started
+    else if ((char0 === '[' || char0 === '-') && fingOpen) {
+      lines[i - 1] += "</div>";
+      lineCount = i;
+      fingOpen = false;
+      break;
     } // Chord fingering lines found
     else if (fingOpen && temp !== "") {
       var fings = lines[i].split(/\s+/);
       /*
-      // Tag chord names and generate chord diagrams for fingerings
-      for (j = 0; j < fings.length; j++) {
+      // Tag chord names and generate chord diagrams for fingerings, index 0 is skipped
+      for (j = 1; j < fings.length; j++) {
         // Even indeces are chord names
         if (i % 2 == 0) {
           lines[i] += "<c->" + fings[j] + "</c->";
@@ -85,12 +91,6 @@ function tagSong() {
       }
       */
       console.log(fings);
-    } // End of [CHORDS] section is reached, next section started
-    else if ((char0 === '[' || char0 === '-') && fingOpen) {
-      lines[i - 1] += "</div>";
-      lineCount = i;
-      fingOpen = false;
-      break;
     }
   }
 
@@ -200,7 +200,8 @@ function tagSong() {
 /*
 ===============================================================================
 Program:   chordDiagram()
-Desc:      .
+Desc:      Replaces the simple 4-character fingering string, and replaces it
+           with fret diagrams.
 Called by: tagSong()
 Calls:     N/A
 Arguments: fingering - 4 character string that denotes a chord's fingering.
@@ -208,15 +209,10 @@ Comments:  N/A
 Returns:   String of <img> tags that make up a full chord diagram
 -------------------------------------------------------------------------------
 Date        Programmer  Change
-2025-06-10  JC Reyes    Initial version.
-2025-06-16  JC Reyes    Added ability to add <detail> tags.
-2025-06-21  JC Reyes    Fixed logic on determining the end of a section. Used
-                        to wait for another occurence of '[', but now looks for
-                        an empty line.
-2025-06-24  JC Reyes    Added ability to tag medleys.
+2025-07-01  JC Reyes    Initial version.
 ===============================================================================
 */
-function chordDiagram() {
+function chordDiagram(fingering) {
   var diagrams = "";
   return diagrams;
 }
