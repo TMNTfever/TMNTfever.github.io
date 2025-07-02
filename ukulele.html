@@ -76,10 +76,16 @@
     </div>
   </div>
   <!-- /#wrapper -->
+  <button onclick="jumpToTop()" id="topButton" title="Jump to Top">⤒</button>
 
   <!-- Body Scripts -->
   <script src="src/SortTable/scripts/searchTable.js"></script>
-  <script src="src/SortTable/scripts/sortTable.js"></script>
+  <script src="src/SortTable/scripts/sortTable.js"></script><script type="application/javascript">
+    function jumpToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
   <!-- /#body-scripts -->
 </body>
 </html>
