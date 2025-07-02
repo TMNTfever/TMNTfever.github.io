@@ -83,10 +83,12 @@
       
       function readFile() {
         jQuery.get("setlists/list-main-current.tsv", function(listText) {
-          var lines = listText.split("\n");
+          var rows = listText.split("\n");
 
-          for (i = 0; i < lines.length; i++) {
-            setlist.push(lines[0]);
+          // Add the first element of each row, which should be the song ID
+          for (i = 1; i < rows.length; i++) {
+            var cols = rows[i].split("\t");
+            setlist.push(cols[0]);
           }
         });
       }
