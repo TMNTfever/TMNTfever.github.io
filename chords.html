@@ -83,27 +83,27 @@
       
       jQuery.get("setlists/list-main-current.tsv", function(listText) {
         var rows = listText.split("\n");
-console.log(rows);
+
         // Add the first element of each row, which should be the song ID
         for (i = 1; i < rows.length; i++) {
           var cols = rows[i].split("\t");
           setlist.push(cols[0]);
         }
-      });
-console.log(setlist);
-      while (slIndex < setlist.length - 1) { // Last song in setlist will not count
-        if (setlist[slIndex] == songID) {
-          // Show setlist-nav div
-          var setlistNavDiv = document.getElementById("setlist-nav");
-          setlistNavDiv.style.display = "block";
-          
-          // Add link to div
-          setlistNavDiv.innerHTML = '<a class="setlistButton" href="?' + setlist[slIndex + 1] + '">Next Setlist Song</a>';
-          break;
-        } else {
-          slIndex++;
+
+        while (slIndex < setlist.length - 1) { // Last song in setlist will not count
+          if (setlist[slIndex] == songID) {
+            // Show setlist-nav div
+            var setlistNavDiv = document.getElementById("setlist-nav");
+            setlistNavDiv.style.display = "block";
+            
+            // Add link to div
+            setlistNavDiv.innerHTML = '<a class="setlistButton" href="?' + setlist[slIndex + 1] + '">Next Setlist Song</a>';
+            break;
+          } else {
+            slIndex++;
+          }
         }
-      }
+      });
     }
   </script>
 </head>
