@@ -87,7 +87,8 @@ DM7                 C#7               F#m7                 Em7    Aa9      DM7
   Just the two of us, building castles in the sky,  just the two of us, you and I
 
 [INTERLUDE] x 2 (Scat)
-  DM7  C#7  CM7  B7  A#M7  A7     DM7|DM7  GM7
+  DM7      C#7    CM7      B7     A#M7      A7       DM7|DM7  GM7
+  7 6 5 3  7 6 7  6 5 3 1  6 5 6  5 4 b3 1  5 4 5  4 3   5    9
 
 [VERSE 3]
 DM7             C#7            F#m7           Em7    Aa9       DM7
