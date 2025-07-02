@@ -8,10 +8,10 @@ Starting Note: 1
 [CHORDS]
   C  5433      E7 4445      G  4232      Am  5453      F  2010      C7 0001
 
-[INTRO}
+[INTRO]
   C  E7  Am  G
 
-VERSE 1
+[VERSE 1]
           C                          E7
   I don't practice Santeria, I ain't got no crystal ball
     Am                          G
