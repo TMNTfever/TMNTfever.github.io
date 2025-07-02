@@ -50,28 +50,30 @@ function createTable(divId, tableId, numbered) {
 
   // Create the body of the table, iterate through rows
   for (i = 1; i < rows.length; i++) {
-    cols = rows[i].split("\t");
-    finalHtml += "<tr>";
-    if (numbered) finalHtml += "<td>" + i + "</td>";
-
-    // Iterate through columns, skip column 0
-    for (j = 1; j < cols.length; j++) {      
-      // First element has a hyperlink
-      if (j === 1) {
-        // External link provided for chord sheet
-        if (cols[0].includes("http")) {
-          finalHtml += "<td><a href=\"" + cols[0] + "\">" + cols[j] + "</a></td>";
-        } // Internal link provided
+    if (rows[i] !== "") {
+      cols = rows[i].split("\t");
+      finalHtml += "<tr>";
+      if (numbered) finalHtml += "<td>" + i + "</td>";
+  
+      // Iterate through columns, skip column 0
+      for (j = 1; j < cols.length; j++) {      
+        // First element has a hyperlink
+        if (j === 1) {
+          // External link provided for chord sheet
+          if (cols[0].includes("http")) {
+            finalHtml += "<td><a href=\"" + cols[0] + "\">" + cols[j] + "</a></td>";
+          } // Internal link provided
+          else {
+            finalHtml += "<td><a href=\"chords.html?" + cols[0] + "\">" + cols[j] + "</a></td>";
+          }
+        } // Every other row is regular text
         else {
-          finalHtml += "<td><a href=\"chords.html?" + cols[0] + "\">" + cols[j] + "</a></td>";
+          finalHtml += "<td>" + cols[j] + "</td>";
         }
-      } // Every other row is regular text
-      else {
-        finalHtml += "<td>" + cols[j] + "</td>";
       }
+  
+      finalHtml += "</tr>";
     }
-
-    finalHtml += "</tr>";
   }
 
   // Add closing tags
