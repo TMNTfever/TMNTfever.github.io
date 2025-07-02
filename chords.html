@@ -56,7 +56,7 @@
       var query = "songs/";
 
       // Determine subfolder based on first character of songID
-      if (isNaN(firstChar)) { // Requires parenthesis around isNaN for some reason
+      if (isNaN(firstChar)) {
         query = query + firstChar + "/" + songID + ".txt";
       } else {
         query = query + "0-9/" + songID + ".txt";
@@ -77,20 +77,20 @@
       document.title = songIdCap + " - Ukulele Chords";
 
       // Determine if song is part of Current Setlist, if so, add "Next Song" button
-			slIndex = 0;
-			const setlist = [];
-			// const setlist = ["cool-down", "die-with-a-smile", "still-the-one", "drop-baby-drop", "you-are-my-sensation", "crazy", "build-me-up-buttercup", "island-song", "under-the-boardwalk", "stand-by-me", "runaround-sue", "my-girl", "dance-monkey", "misunderstanding", "lonely-teardrops", "stir-it-up", "santeria", "locked-out-of-heaven", "lovefool-ss", "everywhere", "medley-clocks-all-of-me", "your-love", "medley-do-for-love-two-of-us-my-boo", "girls-just-want-to-have-fun", "what-i-like-about-you", "why-kiki", "medley-brown-eyed-girl-first-cut", "i-hear-music", "say-a-little-prayer", "true-to-myself", "cant-help-falling-in-love", "love-me", "baby-hold-on"];
-			
-			function readFile() {
-				jQuery.get("setlists/list-main-current.tsv", function(listText)) {
-		  	  var lines = listText.split("\n");
+      slIndex = 0;
+      const setlist = [];
+      // const setlist = ["cool-down", "die-with-a-smile", "still-the-one", "drop-baby-drop", "you-are-my-sensation", "crazy", "build-me-up-buttercup", "island-song", "under-the-boardwalk", "stand-by-me", "runaround-sue", "my-girl", "dance-monkey", "misunderstanding", "lonely-teardrops", "stir-it-up", "santeria", "locked-out-of-heaven", "lovefool-ss", "everywhere", "medley-clocks-all-of-me", "your-love", "medley-do-for-love-two-of-us-my-boo", "girls-just-want-to-have-fun", "what-i-like-about-you", "why-kiki", "medley-brown-eyed-girl-first-cut", "i-hear-music", "say-a-little-prayer", "true-to-myself", "cant-help-falling-in-love", "love-me", "baby-hold-on"];
+      
+      function readFile() {
+        jQuery.get("setlists/list-main-current.tsv", function(listText) {
+          var lines = listText.split("\n");
 
-					for (i = 0; i < lines.length; i++) {
-						setlist.push(lines[0]);
-					}
-				});
-			}
-	    
+          for (i = 0; i < lines.length; i++) {
+            setlist.push(lines[0]);
+          }
+        });
+      }
+      
       while (slIndex < setlist.length - 1) { // Last song in setlist will not count
         if (setlist[slIndex] == songID) {
           // Show setlist-nav div
@@ -151,7 +151,7 @@ function printDiv() {
 
 var scrollSpeed = 0;
 var scrollInterval;
-	
+  
 function scrollButtonPressed() {
   expandAllDetails();
   if(scrollSpeed < 5) {
@@ -177,7 +177,7 @@ function stopScroll() {
   scrollSpeed = 0;
   scrollButton.textContent = " ↡ ";
 }
-	
+  
 function expandAllDetails() {
   const detailsElements = document.querySelectorAll("details");
   detailsElements.forEach(detail => detail.setAttribute("open", ""));
