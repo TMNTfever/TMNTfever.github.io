@@ -1,0 +1,76 @@
+I Swear
+Artist: All-4-One
+Genre: Ballad
+Transcribed Key: C to D
+Original Key: D to E
+Starting Note: 2 1
+
+[CHORDS]
+  C     0003      Am7 0453      Em7  0202      F  2010      G   0232      G/A  2232
+  Dm7/G 0210      D   2220      Dm7  2213      A  2100      Bm7 2222      F#m7 2424
+
+[INTRO]
+        C           Am7                      Em7  F | G
+  I swear by the moon and the stars in the sky
+        C            Am7                  Em7  G/A
+  I swear like the shadow that's by your side
+
+[VERSE 1]
+C             F/A      G/B       C                   F      G       Am7
+  I see the questions in your eyes, I know what's weighin' on your mind
+                   F              Dm7/G | G
+  But you can be sure I know my part
+           C           F/A        G/B         C                F         G      Am7
+  Cause I'll stand beside you through the years, you'll only cry those happy tears
+                   C/G           D/F#                     Dm7/G | G
+  And though I'll make mistakes, I'll never break your heart
+
+[CHORUS 1]
+        C           Am7                      Em7           F | G
+  I swear by the moon and the stars in the sky, I'll be there
+        C            Am7                   Em7         F | G
+  I swear like the shadow that's by your side, I'll be there
+      Dm7                   Dm7/G         G
+  For better or worse, 'til death do us part
+       Dm7                   Dm7/G        G       (C)
+  I'll love you with every beat of my heart, I swear
+
+[INTERLUDE 2]
+  C  Am7  Em7  Dm7/G | G
+
+[VERSE 2]
+C                F/A     G/B   C                      F          G         Am7
+  I'll give you everything I can, I'll build your dreams with these two hands
+                    F                Dm7/G | G
+  We'll hang some memories on the walls
+         C             F/A   G/B      C                      F      G        Am7
+  And when, just the two of us are there, you won't have to ask if I still care
+                 C/G                     D/F#              Dm7/G | G
+  Cause as the time turns the page, my love won't age at all
+
+[CHORUS 2] (Same as Chorus 1) 
+        C           Am7                      Em7           F | G
+  I swear by the moon and the stars in the sky, I'll be there
+        C            Am7                   Em7         F | G
+  I swear like the shadow that's by your side, I'll be there
+      Dm7                   Dm7/G         G
+  For better or worse, 'til death do us part
+       Dm7                   Dm7/G        G       (C)
+  I'll love you with every beat of my heart, I swear
+
+[INTERLUDE 2]
+  C  Am7  Em7  F  G  Em7  A
+
+[CHORUS 3]
+        D           Bm7                      F#m7          G | A
+  I swear by the moon and the stars in the sky, I'll be there
+        D            Bm7                   F#m7        G | A
+  I swear like the shadow that's by your side, I'll be there
+      Em7                   Em7/A         A
+  For better or worse, 'til death do us part
+       Em7                          Em7/G        A        D
+  I'll love you with every single beat of my heart, I swear
+
+[OUTRO]
+    Bm7       G|A     D
+  I swear, oh I - swear
