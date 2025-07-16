@@ -6,157 +6,82 @@ Original Key: G
 Starting Note: 1
 
 [CHORDS]
+  G   0232      D  2220      C   0003      Ca9  0203      Am  2000      F7  2313
+  D/B 4220      B7 2322      Em7 0202      Am7  0453      D7  2223      Dm6 2212
 
 [INTRO]
   G  D  C    G  D  Ca9
 
-[Verse 1]
+[VERSE 1]
+G                               D                       C
+  You taught me everything, and everything you’ve given me, I always keep it inside
+G                    D           C    C | D
+  You’re the driving force in my life, yeah
+G                          D                 C
+  There isn’t anything, or anyone that I can be, and it just wouldn’t feel right
+G                  D         C    C | D
+  If I didn’t have you by my side
 
+[PRE-CHORUS 1]
+           Am                       G                 D/F#
+  You were there for me to love and care for me, when skies were grey
+           Am                   G               D/F#
+  Whenever I was down, you were always there to comfort me
+             Am                        G                    D/F#
+  And no one else can be what you have been to me, you will always be
+            G              C          F7
+  You will always be the girl, in my life for all times
+
+[CHORUS 1]
+  G     G               D/B       B7
+  Mama, mama you know I love you, ooh you know I love you
+  Em7   G               G7          CM7    Am7               B7                Em7
+  Mama, mama you’re the queen of my heart, your love is like tears from the stars
+  G            G7          C     Am7                D7           G
+  Mama, I just want you to know, lovin' you is like food to my soul
+           D        C    C|D        G          D        C    
+  Yes it is, yes it is, oh yes it is, yes it is, yet it is
+
+[VERSE 2]
 G
-You taught me everything
-D
-And everything you’ve given me
-C
-I always keep it inside
-G                  D             C    C D
-You’re the driving force in my life, yeah
-G
-There isn’t anything
-D
-Or anyone I can be
-C
- And it just wouldn’t feel right
-G                D         C    C D
-If I didn’t have you by my side
-
-
-[Pre-Chorus]
-
-        Am                        G
-You were there for me to love and care for me
-     D
-When skies were grey
-         Am
-Whenever I was down
-         G             D
-You were always there to comfort me
-          Am                         G
-And no one else can be what you have been to me
-      D              G
-You’ll always be you always will be the girl
-      F
-In my life for all times
-
-
-[Chorus]
-
-G                      D
-Mama, mama you know I love you
-B
-Oh you know I love you
-Em                   G           C
-Mama, mama you’re the queen of my heart
-C               B
-Your love is like
-B              Em
-Tears from the stars
-G            G7          C
-Mama, I just want you to know
-Am7                            G
-Lovin’ you is like food to my soul
-
-            D           C
-Yes it is          Yes it is
-G           D           C
-Yes it it         Yes it is
-
-
-[Verse 2]
-
-G
-You’re always down for me
-D
-Have always been around for me
-C
-even when I was bad
+  You’re always down for me, had always been around for me, even when I bad
 G             D             C
-You showed me right from my wrong
-
-Yes you did
+  You showed me right from my wrong, yes you did
 G
-And you took up for me
-D
-When everyone was downin’ me
-C
-You always did understand
-G           D              C
-You gave me strength to go on
+  And you took up for me when everyone was downin’ me, you always did understand
+G             D              C
+  You gave me strength to go on, there was so -
 
+[PRE-CHORUS 2]
+  Am                  G               D/F#
+  Many times, looking back when I was so afraid
+               Am             G                D/F#
+  And then you come to me and say to me, I can face anything
+             Am                        G                   D/F#
+  And no one else can do what you have done for me, you’ll always be
+            G              C         F7
+  You will always be the girl in my life
 
-[Pre-Chorus]
+[CHORUS 2]
+  G     G               D/B       B7
+  Mama, mama you know I love you, ooh you know I love you
+  Em7   G               G7          CM7    Am7               B7                Em7
+  Mama, mama you’re the queen of my heart, your love is like tears from the stars
+  G            G7          C     Am7                B7           Em7
+  Mama, I just want you to know, lovin' you is like food to my soul
 
-             Am
-There was so many times
-        G                  D
-Looking back when I was so afraid
-Am
-And then you come to me
-G             D
-And say to me I can face anything
-Am
-And no one else can do
-G
-What you have done for me
-D
-You’ll always be
-D        G                        F
-You will always be the girl in my life
+[BRIDGE]
+  Dm6                          CM7  G/B                             Am7
+  Never gonna go a day without you, fills me up just thinking about you
+       D
+  I'll never go a day without my -
 
-
-[Chorus]
-
-(into soulpart)
-G                     D
-Mama, mama you know I love you
-B             B7
-Oh you know I love you
-Em                    G           C
-Mama, mama you’re the queen of my heart
-C            B
-Your love is like
-               Em
-Tears from the stars
-G                        C
-Mama, I just want you to know
-Am7                 B         Em
-Lovin’ you is like food to my soul  (into soulpart)
-
-Dm                           C
-Never gonna go a day without you
-G/B                         Am7
-Fills me up just thinking of you
-Am7             ( C )              G
-I'll never go a day without my mama
-
-
-[Chorus]
-
-G                      D
-Mama, mama you know I love you
-B
-Oh you know I love you
-Em                   G           C
-Mama, mama you’re the queen of my heart
-C               B
-Your love is like
-Em
-Tears from the stars
-G                         C
-Mama, I just want you to know
-Am7                            G
-Lovin’ you is like food to my soul
-
-            D           C
-Yes it is          Yes it is
-G           D           C
-Yes it it         Yes it is
+[CHORUS 3]
+  G     G               D/B       B7
+  Mama, mama you know I love you, ooh you know I love you
+  Em7   G               G7          CM7    Am7               B7                Em7
+  Mama, mama you’re the queen of my heart, your love is like tears from the stars
+  G            G7          C     Am7                D7
+  Mama, I just want you to know, lovin' you is like food to my -
+  -                             G  D  C   G  D  C                              G
+  Lovin' you is like food to my soul,  oh,  yeah, you are the food to my soul, yes you are
