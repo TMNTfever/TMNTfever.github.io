@@ -43,10 +43,10 @@
       function onListLoaded() {
         createTable("ukulele-div", "ukulele-table", false);
         
-        // After table is created, initialize sorting
-        const table = document.getElementById("ukulele-table");
-        if (table && typeof sortTable === "function") {
-          sortTable(table);
+        // After the table is created, attach sorting listeners
+        const table = document.getElementById("ukulele-table")
+        if (table && table.classList.contains("sortTable")) {
+          addSortListeners([table]) // re-run on the new table
         }
       }
     }
