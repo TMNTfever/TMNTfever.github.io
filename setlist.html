@@ -16,17 +16,24 @@
   <script src="src/createTable/createTable.js"></script>
   <script type="application/javascript">    
     function createAllTables() {
-      createTable("setlist-main-current", "setlist-table", true);
-      createTable("setlist-extra", "setlist-table", false);
-      createTable("setlist-learning", "setlist-table", false);
-      createTable("setlist-jc", "setlist-table", false);
-      createTable("setlist-luke", "setlist-table", false);
+      createTable("setlist-main-current", "table-main", true);
+      createTable("setlist-extra", "table-extra", false);
+      createTable("setlist-learning", "table-learn", false);
+      createTable("setlist-jc", "table-jc", false);
+      createTable("setlist-luke", "table-luke", false);
 
       // Enable sorting feature on tables
-      const table = document.getElementById("setlist-table");
-      if (table && table.classList.contains("sortTable")) {
-        addSortListeners([table]); // re-run on the new table
-      }
+      const tableMain = document.getElementById("table-main");
+      const tableExtra = document.getElementById("table-extra");
+      const tableLearn = document.getElementById("table-learn");
+      const tableJC = document.getElementById("table-jc");
+      const tableLuke = document.getElementById("table-luke");
+      
+      if (tableMain && tableMain.classList.contains("sortTable")) addSortListeners([tableMain]);
+      if (tableExtra && tableExtra.classList.contains("sortTable")) addSortListeners([tableExtra]);
+      if (tableLearn && tableLearn.classList.contains("sortTable")) addSortListeners([tableLearn]);
+      if (tableJC && tableJC.classList.contains("sortTable")) addSortListeners([tableJC]);
+      if (tableLuke && tableLuke.classList.contains("sortTable")) addSortListeners([tableLuke]);
     }
 
     window.onload = function () {
