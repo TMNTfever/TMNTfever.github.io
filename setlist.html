@@ -21,6 +21,20 @@
       createTable("setlist-learning", "setlist-table", false);
       createTable("setlist-jc", "setlist-table", false);
       createTable("setlist-luke", "setlist-table", false);
+
+      // After tables are created, attach sorting listeners
+      addSorting("setlist-main-current");
+      addSorting("setlist-extra");
+      addSorting("setlist-learning");
+      addSorting("setlist-jc");
+      addSorting("setlist-luke");
+    }
+
+    function addSorting(tableID) {
+      const table = document.getElementById(tableID);
+      if (table && table.classList.contains("sortTable")) {
+        addSortListeners([table]); // re-run on the new table
+      }
     }
 
     window.onload = function () {
