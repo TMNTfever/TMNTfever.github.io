@@ -22,10 +22,12 @@
       createTable("setlist-jc", "setlist-table", false);
       createTable("setlist-luke", "setlist-table", false);
 
+      // Enable sorting feature on tables
       const table = document.getElementById("setlist-table");
       if (table && table.classList.contains("sortTable")) {
         addSortListeners([table]); // re-run on the new table
       }
+    }
 
     window.onload = function () {
       $("#sidebar-wrapper").load("sidebar.html");
