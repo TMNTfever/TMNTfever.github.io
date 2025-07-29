@@ -3,7 +3,7 @@ Artist: Bob Dylan
 Genre: Reggae
 Transcribed Key: C
 Original Key: G
-Starting Note: ?
+Starting Note: 3
 
 [CHORDS]
   C  0003      G  0232      Dm  2210      F  2010
