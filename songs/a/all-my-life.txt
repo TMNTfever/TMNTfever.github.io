@@ -1,6 +1,6 @@
 All My Life
 Artist: K-Ci & JoJo
-Genre: R&B, Reggae
+Genre: R&B
 Transcribed Key: C
 Original Key: A
 Starting Note: 1
@@ -11,92 +11,78 @@ Starting Note: 1
   Bm  A  E    A  E/G#  F#m
 
 [VERSE 1]
-A                         F#m
-I will never find another lover sweeter than
-D                  E
-you, sweeter than you
-A                         F#m
-I will never find another lover more precious than
-D                       E
-you, more precious than you
-A
-Girl You are Close to me you're like my mother,
-F#m
-Close to me you're like my father,
-D
-Close to me you're like my sister,
-E
-Close to me you're like my brother
-F#m              Bm        D               E
-You are the only one my everything and for you this song I sing
+  A                         F#m                D                  E
+  I will never find another lover sweeter than you, sweeter than you
+  A                         F#m                      D                        E
+  I will never find another lover more precious than you, more precious than you
+                A                                  F#m
+  Girl you are, close to me you're like my mother, close to me you're like my father
+  D                                  E
+  Close to me you're like my sister, close to me you're like my brother
+F#m            Bm         D                  E
+  You are the only one my everything and for you this song I sing
 
 [CHORUS 1]
-Bm  A  E       A                     F#m
-All my life, I pray for someone like you,
-Bm A    E           A              F#m
-I thank God that I, that I finally found you
-Bm  A  E      C#m                   F#m
-All my life I pray for someone like you
-      D             E                 A   E/G#  F#m
-And I hope that you feel the same way too
-      D              E
-Yes, I pray that you do, love me too
+  Bm  A  E       A             E/G#    F#m
+  All my life, I pray for someone like you
+  Bm A       E        A       E/G#       F#m
+  I  thank God that I, that I finally found you
+  Bm  A  E      C#m                   F#m
+  All my life I pray for someone like you
+  F#m E D    E    F#m E        F#m  G   A   E/G#  F#m
+  And I hope that you feel the same way too
+  F#m E D    E    F#m E   F#m  G  A
+  Yes I pray that you do, love me too
 
-[INTERLUDE 1] x 2
-A - F#m - D - E
+[INTERLUDE 1] x 2 (Optional)
+  A  F#m  D  E
 
 [VERSE 2]
-       A                                     F#m
-Said I promised to never fall in love with a stranger,
-               D                        E
-You're all I'm thinking of I praise the Lord above,
-    A                F#m                  D
-For sending me your love, I cherish every hug,
-         E
-I REALLY LOVE YOU!!!
+         A                          F#m
+  Said I promise to never fall in love with a stranger
+D                           E
+  You're all I'm thinking of I praise the Lord above
+A                         F#m                  D         E
+  For sending me your love, I cherish every hug, I really love you
 
-[CHORUS 2]
-Bm  A  E       A                     F#m
-All my life, I pray for someone like you,
-Bm A    E           A              F#m
-I thank God that I, that I finally found you
-Bm  A  E      C#m                   F#m
-All my life I pray for someone like you
-      D             E                 A   E/G#  F#m
-And I hope that you feel the same way too
-      D              E
-Yes, I pray that you do, love me
+[CHORUS 2] (Same as Chorus 1, except cut off last word)
+  Bm  A  E/G#    A             E/G#    F#m
+  All my life, I pray for someone like you
+  Bm A       E/G#     A       E/G#       F#m
+  I  thank God that I, that I finally found you
+  Bm  A  E      C#m                   F#m
+  All my life I pray for someone like you
+  F#m E D    E    F#m E        F#m  G   A   E/G#  F#m
+  And I hope that you feel the same way too
+  F#m E D    E    F#m E   F#m  G
+  Yes I pray that you do, love me-
 
 [BRIDGE]
-       Bm                             E
-You're all that I've ever known, your smile on your face,
-A         E/G#     F#m
-    all I see is a glow,
-Bm             E          A              E/G#          F#m
-You turned my life around, You picked me up when I was down,
-Bm                               E
-You're all that I've ever known, when you smile your face glows,
-A             E/G#          F#m
-You picked me up when I was down
-Bm                               E
-You're all that I've ever known, when you smile your face glows,
-A             E/G#          F#m      D             E
-You picked me up when I was down & I hope that you feel the same way
+         Bm            E                      A         E/G#     F#m
+  You're all that I've ever known, when you smile, on your face all I see is a glow
+  Bm             E          A              E/G#          F#m
+  You turned my life around, You picked me up when I was down,
+  Bm                               E
+  You're all that I've ever known, when you smile your face glows,
+  A             E/G#          F#m
+  You picked me up when I was down
+  Bm                               E
+  You're all that I've ever known, when you smile your face glows,
+  A             E/G#          F#m      D             E
+  You picked me up when I was down & I hope that you feel the same way
 A     E/G#   F#m
 too,
       D             E                A   E/G#  F#m
 Yes I pray that you do love me too
 
 [CHORUS 3]
-Bm  A  E       A                     F#m
-All my life, I pray for someone like you,
-Bm A    E           A              F#m
-I thank God that I, that I finally found you
-  -
-All my life I pray for someone like you
-  -
-I hope that you feel the same way too
-  -
-Yes, I pray that you do, love me too
-  -
-All my life I pray for someone like you
+  Bm  A  E       A             E/G#    F#m
+  All my life, I pray for someone like you
+  Bm A       E        A       E/G#       F#m
+  I  thank God that I, that I finally found you
+  Bm  A  E      C#m                   F#m
+  All my life I pray for someone like you
+  F#m E D    E    F#m E        F#m  G   A   E/G#  F#m
+  And I hope that you feel the same way too
+  F#m E D    E    F#m E   F#m  G  A
+  Yes I pray that you do, love me too
