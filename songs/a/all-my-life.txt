@@ -31,8 +31,8 @@ F#m            Bm         D                  E
   All my life I pray for someone like you
   F#m E D    E    F#m E        F#m  G   A   E/G#  F#m
   And I hope that you feel the same way too
-  F#m E D    E    F#m E   F#m  G  A
-  Yes I pray that you do, love me too
+  F#m E D    E    F#m  E  F#m  G  A
+  Yes I pray that you, do love me too
 
 [INTERLUDE 1] x 2 (Optional)
   A  F#m  D  E
@@ -54,26 +54,24 @@ A                         F#m                  D         E
   All my life I pray for someone like you
   F#m E D    E    F#m E        F#m  G   A   E/G#  F#m
   And I hope that you feel the same way too
-  F#m E D    E    F#m E   F#m  G
-  Yes I pray that you do, love me-
+  F#m E D    E    F#m  E  F#m  G
+  Yes I pray that you, do love me-
 
 [BRIDGE]
          Bm            E                      A         E/G#     F#m
-  You're all that I've ever known, when you smile, on your face all I see is a glow
+  You're all that I've ever known, when you smile, on my face all you see is a glow
   Bm             E          A              E/G#          F#m
-  You turned my life around, You picked me up when I was down,
-  Bm                               E
-  You're all that I've ever known, when you smile your face glows,
+  You turned my life around, you picked me up when I was down
+         Bm                               E
+  You're all that I've ever known, when you smile my face glows
   A             E/G#          F#m
-  You picked me up when I was down
-  Bm                               E
-  You're all that I've ever known, when you smile your face glows,
-  A             E/G#          F#m      D             E
-  You picked me up when I was down & I hope that you feel the same way
-A     E/G#   F#m
-too,
-      D             E                A   E/G#  F#m
-Yes I pray that you do love me too
+  You picked me up when I was down, said
+         Bm                               E
+  You're all that I've ever known, when you smile my face glows
+  A             E/G#          F#m      D             E                 A   E/G#  F#m
+  You picked me up when I was down & I hope that you feel the same way too
+  F#m E D    E    F#m  E  F#m  G  A  E/G#  F#m
+  Yes I pray that you, do love me too
 
 [CHORUS 3]
   Bm  A  E       A             E/G#    F#m
@@ -84,5 +82,5 @@ Yes I pray that you do love me too
   All my life I pray for someone like you
   F#m E D    E    F#m E        F#m  G   A   E/G#  F#m
   And I hope that you feel the same way too
-  F#m E D    E    F#m E   F#m  G  A
-  Yes I pray that you do, love me too
+  F#m E D    E    F#m E   F#m  G    AM7
+  Yes I pray that you do, love me - too
