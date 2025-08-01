@@ -6,6 +6,8 @@ Original Key: A
 Starting Note: 1
 
 [CHORDS]
+  Bm  4222      A   2100      E  4442      F#m  2120      G  0232      D  2220
+  F#7 3424      AM7 2444
 
 [INTRO] x 2
   Bm  A  E    A  E/G#  F#m
@@ -27,7 +29,7 @@ F#m            Bm         D                  E
   All my life, I pray for someone like you
   Bm A       E        A       E/G#       F#m
   I  thank God that I, that I finally found you
-  Bm  A  E      C#m                   F#m
+  Bm  A  E      F#7                   F#m
   All my life I pray for someone like you
   F#m E D    E    F#m E        F#m  G   A   E/G#  F#m
   And I hope that you feel the same way too
@@ -50,7 +52,7 @@ A                         F#m                  D         E
   All my life, I pray for someone like you
   Bm A       E/G#     A       E/G#       F#m
   I  thank God that I, that I finally found you
-  Bm  A  E      C#m                   F#m
+  Bm  A  E      F#7                   F#m
   All my life I pray for someone like you
   F#m E D    E    F#m E        F#m  G   A   E/G#  F#m
   And I hope that you feel the same way too
@@ -58,27 +60,27 @@ A                         F#m                  D         E
   Yes I pray that you, do love me-
 
 [BRIDGE]
-         Bm            E                      A         E/G#     F#m
+         Bm            E                      A           E/G#         F#m
   You're all that I've ever known, when you smile, on my face all you see is a glow
-  Bm             E          A              E/G#          F#m
+      Bm                  E                 A               E/G#   F#m
   You turned my life around, you picked me up when I was down
-         Bm                               E
+         Bm                        E
   You're all that I've ever known, when you smile my face glows
-  A             E/G#          F#m
+A               E/G#          F#m
   You picked me up when I was down, said
-         Bm                               E
+         Bm                        E
   You're all that I've ever known, when you smile my face glows
-  A             E/G#          F#m      D             E                 A   E/G#  F#m
-  You picked me up when I was down & I hope that you feel the same way too
+A               E/G#          F#m        D    E    F#m E        F#m  G   A   E/G#  F#m
+  You picked me up when I was down and I hope that you feel the same way too
   F#m E D    E    F#m  E  F#m  G  A  E/G#  F#m
   Yes I pray that you, do love me too
 
-[CHORUS 3]
+[CHORUS 3] (Same as Chorus 1, but end with a cool chord)
   Bm  A  E       A             E/G#    F#m
   All my life, I pray for someone like you
   Bm A       E        A       E/G#       F#m
   I  thank God that I, that I finally found you
-  Bm  A  E      C#m                   F#m
+  Bm  A  E      F#7                   F#m
   All my life I pray for someone like you
   F#m E D    E    F#m E        F#m  G   A   E/G#  F#m
   And I hope that you feel the same way too
