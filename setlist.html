@@ -16,11 +16,11 @@
   <script src="src/createTable/createTable.js"></script>
   <script type="application/javascript">    
     function createAllTables() {
-      createTable("setlist-main-current", "table-main", true);
-      createTable("setlist-extra", "table-extra", false);
-      createTable("setlist-learning", "table-learn", false);
-      createTable("setlist-jc", "table-jc", false);
-      createTable("setlist-luke", "table-luke", false);
+      createTable("setlist-main-current", "setlist-table", true);
+      createTable("setlist-extra", "setlist-table", false);
+      createTable("setlist-learning", "setlist-table", false);
+      createTable("setlist-jc", "setlist-table", false);
+      createTable("setlist-luke", "setlist-table", false);
 
       // Enable sorting feature on tables
       const tableMain = document.getElementById("table-main");
@@ -54,7 +54,7 @@
       );
 
       Promise.all(loadPromises).then(() => {
-        createAllTables(); // all data is now loaded and inserted
+        createAllTables(); // All data is now loaded and inserted
       }).catch(error => {
         console.error("Error loading TSV files:", error);
       });
