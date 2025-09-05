@@ -116,7 +116,7 @@ function tagSong() {
             openTag = "<s->";
             closeTag = "</s->";
             break;
-          case 'U': case 'A': // [chorUs] or [refrAin]
+          case 'U': case 'A': case ']'// [chorUs] or [refrAin] or [riff]
             divOpen = true;
             openTag = "<div class=\"focus\"><r->";
             closeTag = "</r->";
@@ -151,9 +151,6 @@ function tagSong() {
         else {
           lines[i] = openTag + temp + closeTag;
         }
-      } // -RIFF- found
-      else if (char0 === '-') {
-        lines[i] = "<s->" + temp + "</s->";
       } // Song title in Medley found
       else if (char0 === '.') {
         lines[i] = "<div class=\"song-info\"><h2>" + temp.slice(1) + "</h2></div>";
