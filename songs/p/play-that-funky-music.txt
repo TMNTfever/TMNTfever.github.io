@@ -10,10 +10,10 @@ Starting Note: 5 5 1 2 2
   D5b   122x      E     4447      Em6   6777
   C#5b  011x      D     2225      Fm6   7888
 
--RIFF 1-
+[RIFF] 1
   Bm6  (D5b C#5b D5b)  C#m6 > Bm6  (D5b C#5b D5b)
 
--RIFF 2-
+[RIFF] 2
   Dm6  Em6 > Dm6
 
 [INTRO]
@@ -131,3 +131,4 @@ R1                           R1
   Play that funky music white boy
   -                                                       R1
   Lay down that boogie and play that funky music 'til you die
+
