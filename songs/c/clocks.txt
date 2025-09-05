@@ -8,13 +8,13 @@ Starting Note: 1
 [CHORDS]
   D  2220      Am  2000      Em  0432      FM7  2413      C  0003      G  0232
 
--RIFF 1-
+[RIFF] 1
   D                  Am
   8 5 3  8 5 3  8 5, b7 5 2  b7 5 2  b7 5
   Am                    Em
   b7 5 2  b7 5 2  b7 5, 6 4 2  6 4 2  6 4
 
--RIFF 2-
+[RIFF] 2
   D                         Am
   11 10 8  11 10 8  11 10,  11 10 b7  11 10 b7  11 10
   Am                          Em
