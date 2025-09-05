@@ -116,7 +116,7 @@ function tagSong() {
             openTag = "<s->";
             closeTag = "</s->";
             break;
-          case 'U': case 'A': case ']'// [chorUs] or [refrAin] or [riff]
+          case 'U': case 'A': case ']':// [chorUs] or [refrAin] or [riff]
             divOpen = true;
             openTag = "<div class=\"focus\"><r->";
             closeTag = "</r->";
