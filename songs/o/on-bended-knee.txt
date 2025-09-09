@@ -6,7 +6,14 @@ Original Key: Eb to E
 Starting Note: 1 4
 
 [CHORDS]
-  GM9  A  Bm7  F#m7  Em7  A7s4|A7s2
+  GM9  A  Bm7  F#m7  Em7  A7s4
+  A7s2  Ds4  D  AM7  A7  DM7 
+  C#7  G  F#7  G9  C#m7  Fo7
+  C#7#5  F#ma9  Fo7  D#m7b5  Bm9
+  D#  Bb  Fm7  Ab  EbM7  G7
+  Ab9  Dm7  Gm7  Cm7  Eb  E
+  B  EM7  G#7  A9  D#m7  G#m7
+  AM9  B7s4  B7s4  B7s2
 
 [INTRO]
       GM9  A  Bm7  F#m7  Em7    A7s4|A7s2
@@ -15,43 +22,43 @@ Starting Note: 1 4
   ---
 
 [VERSE 1]
-A              AM7                           A7                    DM7           D/E
+A              AM7                           A7                    DM7           /E
   Darlin' I, I can't explain, where did we lose our way, girl it's drivin' me insane
         A                 AM7                C#7
   And I know I just need one more chance, to prove my love to you
-         F#m7                  Bm7                     DM7             D/E
+         F#m7                  Bm7                     DM7             /E
   And if you come back to me, I'll guarantee, that I'll never let you go
 
 [CHORUS 1]
-         A              Em7      G/A   DM7      D/E
+         A              Em7      G/A   DM7      /E
   Can we go back to the days our love was strong
-          A             Em7     G/A     DM7    D/E
+          A             Em7     G/A     DM7    /E
   Can you tell me how a perfect love goes wrong
                A              F#7                 DM7              G9
   Can somebody tell me how to get things back the way they use to be
      C#m7      F#m7   Bm7      D/E              GM9  A  Bm7  F#m7  Em7
   Oh god give me a reason, I'm down on bended knee
-       A7s4        GM9 A  Bm7           F#m7    Em7    A7s4  |  A7s2     Ds4|D   D|C#m|Bm|A
+       A7s4        GM9 A  Bm7           F#m7    Em7    A7s4  |  A7s2     Ds4|D   /D /C# /B /A
   I'll never walk again until you come back to me, I'm down on bended knee
 
 [VERSE 2]
-A                 AM7                      A7                                DM7           D/E
+A                 AM7                      A7                                DM7           /E
   So many nights I dream of you, holding my pillow tight and I know, I don't need to be alone
          A          AM7     C#7
   When I open up my eyes to face reality
-        F#m7                   Bm7                      DM7                      D/E
+        F#m7                   Bm7                      DM7                      /E
   Every moment without you, it seems like eternity, I'm begging you, begging you come back to me
 
 [CHORUS 2] (Same as Chorus 1)
-         A              Em7      G/A   DM7      D/E
+         A              Em7      G/A   DM7      /E
   Can we go back to the days our love was strong
-          A             Em7     G/A     DM7    D/E
+          A             Em7     G/A     DM7    /E
   Can you tell me how a perfect love goes wrong
                A              F#7                 DM7              G9
   Can somebody tell me how to get things back the way they use to be
      C#m7      F#m7   Bm7      D/E              GM9  A  Bm7  F#m7  Em7
   Oh god give me a reason, I'm down on bended knee
-       A7s4        GM9 A  Bm7           F#m7    Em7    A7s4  |  A7s2     Ds4|D   D|C#m|Bm|A
+       A7s4        GM9 A  Bm7           F#m7    Em7    A7s4  |  A7s2     Ds4|D   /D /C# /B /A
   I'll never walk again until you come back to me, I'm down on bended knee
 
 [INTERLUDE]
@@ -69,13 +76,13 @@ A                 AM7
   I want a new life, and I want it with you, if you feel the same, don't ever let it go
 F#ma9                      Fo7                   F#m7/E                    D#m7b5
   You gotta believe in the spirit of love, it'll heal all things, it won't hurt anymore
-  DM7                    C#m7        F#m7     Bm9        D/E   D#/F
+  DM7                    C#m7        F#m7     Bm9        D/E   D#/F                   (Bb)
   No I don't believe our love's terminal, I'm down on my knees begging you please come home
 
 [CHORUS 3]
-         Bb             Fm7      Ab/Bb  EbM7     Eb/F
+         Bb             Fm7      Ab/Bb  EbM7     /F
   Can we go back to the days our love was strong
-          Bb            Fm7     Ab/Bb   EbM7    Eb/F
+          Bb            Fm7     Ab/Bb   EbM7    /F
   Can you tell me how a perfect love goes wrong
                Bb             G7                  EbM7             Ab9
   Can somebody tell me how to get things back the way they use to be
@@ -83,9 +90,9 @@ F#ma9                      Fo7                   F#m7/E                    D#m7b
   Oh god give me a reason, I'm down on bended, down on bended knee
 
 [CHORUS 4]
-         B              F#m7     A/B    EM7      E/F#
+         B              F#m7     A/B    EM7      /F#
   Can we go back to the days our love was strong
-          B             F#m7    A/B     EM7    E/F#
+          B             F#m7    A/B     EM7     /F#
   Can you tell me how a perfect love goes wrong
                B              G#7                 EM7              A9
   Can somebody tell me how to get things back the way they use to be
