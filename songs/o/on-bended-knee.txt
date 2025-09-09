@@ -1,16 +1,17 @@
 On Bended Knee
 Artist: Boyz II Men
 Genre: R&B, Ballad
-Transcribed Key: A to B
-Original Key: Eb to F
+Transcribed Key: A to Bb
+Original Key: Eb to E
 Starting Note: 1 4
 
 [CHORDS]
+  GM9  A  Bm7  F#m7  Em7  A7s4|A7s2
 
 [INTRO]
       GM9  A  Bm7  F#m7  Em7    A7s4|A7s2
   Huh-uh, uh -uh   uh    uh
-  GM7  A  Bm7  F#m7  Em7    A7s4|A7s2  Ds4|D    D|C#m|Bm|A
+  GM9  A  Bm7  F#m7  Em7    A7s4|A7s2  Ds4|D    /D /C# /B /A
   ---
 
 [VERSE 1]
@@ -66,14 +67,29 @@ A                 AM7
   I'm gonna swallow my pride, say I'm sorry, stop pointing fingers, the blame is on me
     F#m7                   F#m7/E                   DM7            Bm7        C#7#5
   I want a new life, and I want it with you, if you feel the same, don't ever let it go
-F#ma9                      Fo7                   F#m7/E                    Ebm7b5
+F#ma9                      Fo7                   F#m7/E                    D#m7b5
   You gotta believe in the spirit of love, it'll heal all things, it won't hurt anymore
-  DM7                    C#m7        F#m7     Bm9        D/E   Eb/F
+  DM7                    C#m7        F#m7     Bm9        D/E   D#/F
   No I don't believe our love's terminal, I'm down on my knees begging you please come home
 
-[CHORUS 3] x 2
+[CHORUS 3]
+         Bb             Fm7      Ab/Bb  EbM7     Eb/F
+  Can we go back to the days our love was strong
+          Bb            Fm7     Ab/Bb   EbM7    Eb/F
+  Can you tell me how a perfect love goes wrong
+               Bb             G7                  EbM7             Ab9
+  Can somebody tell me how to get things back the way they use to be
+     Dm7       Gm7   Cm7       Eb/F            E/F#          (B)
+  Oh god give me a reason, I'm down on bended, down on bended knee
 
-[OUTRO]
-I'll never walk again
-Till you come back to me
-I'm down on bended knees
+[CHORUS 4]
+         B              F#m7     A/B    EM7      E/F#
+  Can we go back to the days our love was strong
+          B             F#m7    A/B     EM7    E/F#
+  Can you tell me how a perfect love goes wrong
+               B              G#7                 EM7              A9
+  Can somebody tell me how to get things back the way they use to be
+     D#m7      G#m7  C#m7      E/F#              AM9  B  C#m7  G#m7  F#m7
+  Oh god give me a reason, I'm down on bended knee
+       B7s4        AM9 B  C#m7          G#m7    F#m7   B7s4  |  B7s2 E   B
+  I'll never walk again until you come back to me, I'm down on bended knee
