@@ -1,40 +1,61 @@
-Baby Hold On
-Artist: Eddie Money
-Genre: Classic Rock
-Transcribed Key: G
-Original Key: Ab
-Starting Note: 1 2 3 3
+Back 2 My Roots
+Artist: Rebel Souljahz
+Genre: Jawaiian, Reggae
+Transcribed Key: D
+Original Key: Eb
+Starting Note: 2 3 3
 
 [CHORDS]
-  G  Em  D
+  G  0232      Em  0432      D  2220
 
 [INTRO]
-  G  Em  D  Em
+  G  G  D  D
 
 [CHORUS 0]
-Take me back to my roots, if you mix it they will come oh yeah
-We'll drink it under the moon, we can mix it till the morning comes
+                     Em  G                          D        D
+  Take me back to my roots, if you mix it they will come, oh yeah
+                           Em  G                                D    D
+  We'll drink it under the moon, we can mix it till the morning comes
 
 [VERSE 1]
-Sitting here, in this circle, awaiting my turn
-Fill this cup to the rim, yes, thats it, another splash
-Gimme an extra dip from your Kumete, oh yeah
+G             G                  D
+  Sitting here, in this circle, awaiting my turn
+D                     G                  G
+  Fill this cup to the rim, yes, thats it, another splash
+          D                      D
+  Gimme an extra dip from your Kumete, oh yeah
 
-[CHORUS 1]
-Take me back to my roots, if you mix it they will come oh yeah
-We'll drink it under the moon, we can mix it till the morning comes
+[CHORUS 1] (Same as Chorus 0)
+                     Em  G                          D        D
+  Take me back to my roots, if you mix it they will come, oh yeah
+                           Em  G                                D    D
+  We'll drink it under the moon, we can mix it till the morning comes
 
 [VERSE 2]
-I left at 6 o'Clock, 7 o'clock, 8 o'clock, 9
-10 o'clock, 11 o'clock, 12 o'clock, I'm -
-Warming up to ya, wanna get to know ya
-It had to be fate, from the moment I saw ya
-Please, stir it for me if you would, cause you look so good
-You make it taste good, baby please if you could
+            G                                    G
+  I left at 6 o'Clock, 7 o'clock, 8 o'clock, 9 - 10 o'clock, 11 o'clock, 12 o'clock, I'm -
+  D                                          D
+  Warming up to ya, wanna get to know ya, it had to be fate, from the moment I saw ya
+  G       G                                  D
+  Please, stir it for me if you would, cause you look so good
+                          D
+  You make it taste good, baby please if you could
 
-[CHORUS 2] x 2
-Take me back to my roots, if you mix it they will come oh yeah
-We'll drink it under the moon, we can mix it till the morning comes
+[CHORUS 2] (Same as Chorus 0)
+                     Em  G                          D        D
+  Take me back to my roots, if you mix it they will come, oh yeah
+                           Em  G                                D    D
+  We'll drink it under the moon, we can mix it till the morning comes
+
+[INTERLUDE]
+  G  G  D  D
+
+[CHORUS 3] (Same as Chorus 0)
+                     Em  G                          D        D
+  Take me back to my roots, if you mix it they will come, oh yeah
+                           Em  G                                D    D
+  We'll drink it under the moon, we can mix it till the morning comes
 
 [OUTRO]
-Take me back to my roots
+                     Em
+  Take me back to my roots
