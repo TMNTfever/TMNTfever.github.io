@@ -6,7 +6,7 @@ Original Key: C
 Starting Note: 1
 
 [CHORDS]
-  C  0003      G  0232      F  5553      Eb  3331
+  C  0003      G  0232      Cm7 3333      F  5553
 
 [RIFF 1]
   C
@@ -56,3 +56,4 @@ Cm7                   Cm7
   5     7   5    7  5  7 8 8 3
 
 [REPEAT ENTIRE SONG]
+
