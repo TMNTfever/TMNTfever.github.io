@@ -98,16 +98,19 @@
       // Load textContent into string variable
       let element = document.getElementById("ukulele-div");
       let allText = element.textContent;
-    
+
       // Create an array of lines
       var rows = allText.split("\n");
 
       // Grab random row
       var randInt = Math.floor(Math.random() * rows.length);
-      var songId = rows[randInt].split("\t")[0];
-
+console.log("max: " + rows.length);
+console.log("rand: " + randInt);
+      var cols = rows[randInt].split("\t");
+      var songId = cols[0];
+console.log(songId);
       // Navigate to random song
-      window.location.href = "chords.html?" + songId;
+      //window.location.href = "chords.html?" + songId;
     }
   </script>
   <!-- /#body-scripts -->
