@@ -6,21 +6,23 @@ Original Key: F#
 Starting Note: 1 1
 
 [CHORDS]
-  C  0003      Dm  2210      Am  2000      F  2010      G  0232
+  CM7 0002      Dm7 2213      Am7 0000      FM7 2413
+  C   9787      Dm  7555      Am  5453      F   5553
+  C*  0003      Dm* 2210      Am* 2000      F*  2010      G  0232
 
 [INTRO]
-  C  Dm  Am  F
+  CM7  Dm7  Am7  FM7
 
 [VERSE 1]
-  C          Dm                       Am                                F
+  CM7        Dm7                      Am7                               FM7
   I know you wanted me to stay, but I can't ignore the crazy visions of me in LA and
-  C            Dm                             Am                                     F
+  CM7          Dm7                            Am7                                    FM7
   I heard that there's a special place, where boys and girls can be kings and queens every single day
 
 [REFRAIN 1]
-C                         Dm                    Am               F
+CM7                       Dm7                   Am7              FM7
   I'm having wicked dreams, of leaving Tennessee, oh Santa Monica, I swear it's calling me
-C                         Dm                        Am                      F
+CM7                       Dm7                       Am7                     FM7
   Won't make my mama proud, it's gonna cause a scene, she sees her baby girl, I know she's gonna scream
 
 [PRE-CHORUS 1]
@@ -30,52 +32,52 @@ C                         Dm                        Am                      F
   I'm just having fun, on the stage in my heels, it's where I belong down at the
 
 [CHORUS 1]
-  C                 Dm                             Am                F
+  C*                Dm*                            Am*               F*
   Pink Pony Club, I'm gonna keep on dancing at the Pink Pony Club, I'm gonna keep on dancing down in
-  C                  Dm                            Am                F
+  C*                 Dm*                           Am*               F*
   West Hollywood, I'm gonna keep on dancing at the Pink Pony Club, Pink Pony Club
 
 [VERSE 2]
-  C          Dm                     Am                           F
+  CM7        Dm7                    Am7                          FM7
   I'm up and jaws are on the floor, lovers in the bathroom and a line outside the door
-  C                  Dm                 Am                           F
+  CM7                Dm7                Am7                          FM7
   Black lights and a mirror disco ball, every night's another reason why I left it all
 
 [REFRAIN 2]
-C                         Dm                     Am               F
+CM7                       Dm7                    Am7              FM7
   I thank my wicked dreams, a year from Tennessee, oh Santa Monica, you've been too good to me
-C                         Dm                        Am                      F
+CM7                       Dm7                       Am7                     FM7
   Won't make my mama proud, it's gonna cause a scene, she sees her baby girl, I know she's gonna scream
 
-[PRE-CHORUS 1]
+[PRE-CHORUS 2] (Same as Pre-Chorus 1)
   C                    Dm                        Am                        F
   God, what have you done, you're a pink pony girl, and you dance at the club, oh mama
   C                 Dm                       Am                    F
   I'm just having fun, on the stage in my heels, it's where I belong down at the
 
-[CHORUS 2]
-  C                 Dm                             Am                F
+[CHORUS 2] (Same as Chorus 1)
+  C*                Dm*                            Am*               F*
   Pink Pony Club, I'm gonna keep on dancing at the Pink Pony Club, I'm gonna keep on dancing down in
-  C                  Dm                            Am                F
+  C*                 Dm*                           Am*               F*
   West Hollywood, I'm gonna keep on dancing at the Pink Pony Club, Pink Pony Club
 
 [INTERLUDE]
   C  Dm  Am  F
 
 [BRIDGE]
-  F                G                    Am                                 Dm
+  F*               G                    Am7                                 Dm7
   Don't think I've left you all behind, still love you and Tennessee you're always on my mind
-       F    G               Am                               Dm
+       F*   G               Am7                              Dm7
   And mama, every Saturday, I can hear your Southern drawl a thousand miles away, sayin'
 
-[PRE-CHORUS 1]
+[PRE-CHORUS 3] (Same as Pre-Chorus 1)
   C                    Dm                        Am                        F
   God, what have you done, you're a pink pony girl, and you dance at the club, oh mama
   C                 Dm                       Am                    F
   I'm just having fun, on the stage in my heels, it's where I belong down at the
 
-[CHORUS 3]
-  C                 Dm                             Am                F
+[CHORUS 3] (Same as Chorus 1)
+  C*                Dm*                            Am*               F*
   Pink Pony Club, I'm gonna keep on dancing at the Pink Pony Club, I'm gonna keep on dancing down in
-  C                  Dm                            Am                F
+  C*                 Dm*                           Am*               F*
   West Hollywood, I'm gonna keep on dancing at the Pink Pony Club, Pink Pony Club
