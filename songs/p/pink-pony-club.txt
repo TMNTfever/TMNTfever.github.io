@@ -6,9 +6,10 @@ Original Key: F#
 Starting Note: 1 1
 
 [CHORDS]
-  CM7 0002      Dm7 2213      Am7 0000      FM7 2413
-  C   9787      Dm  7555      Am  5453      F   5553
-  C*  0003      Dm* 2210      Am* 2000      F*  2010      G  0232
+  CM7 0002      Dm7 2213      Am7   0000      FM7  2413
+  C   9787      Dm  7555      Am    5453      F    5553
+  C*  0003      Dm* 2210      Am*   2000      F*   2010
+  G   0232      C6  9753      Dm9s4 9755      Am7* 9753      F6/9 A755
 
 [INTRO]
   CM7  Dm7  Am7  FM7
@@ -61,8 +62,8 @@ CM7                       Dm7                       Am7                     FM7
   C*                 Dm*                           Am*               F*
   West Hollywood, I'm gonna keep on dancing at the Pink Pony Club, Pink Pony Club
 
-[INTERLUDE]
-  C  Dm  Am  F
+[INTERLUDE] x 2 (Downward arpeggios)
+  C6  Fa9/D  Am7*  F6/9
 
 [BRIDGE]
   F*               G                    Am7                                 Dm7
@@ -81,3 +82,9 @@ CM7                       Dm7                       Am7                     FM7
   Pink Pony Club, I'm gonna keep on dancing at the Pink Pony Club, I'm gonna keep on dancing down in
   C*                 Dm*                           Am*               F*
   West Hollywood, I'm gonna keep on dancing at the Pink Pony Club, Pink Pony Club
+
+[INTERLUDE] x 2 (Downward arpeggios)
+  C6  Fa9/D  Am7*  F6/9
+
+[OUTRO]
+  CM7
