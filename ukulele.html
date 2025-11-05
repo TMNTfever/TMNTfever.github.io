@@ -95,22 +95,21 @@
     }
 
     function randomSong() {
-      // Load textContent into string variable
-      let element = document.getElementById("ukulele-div");
-      let allText = element.textContent;
+      // Scrape all URLs from page,
+      const allLinks = document.querySelectorAll('a');
+      const urls = [];
 
-      // Create an array of lines
-      var rows = allText.split("\n");
+      allLinks.forEach(link => {
+        urls.push(link.href);
+      });
 
-      // Grab random row
-      var randInt = Math.floor(Math.random() * rows.length);
-console.log("max: " + rows.length);
+      // Activate random link
+      var randInt = Math.floor(Math.random() * urls.length);
+console.log("max: " + urls.length);
 console.log("rand: " + randInt);
-      var cols = rows[randInt].split("\t");
-      var songId = cols[0];
-console.log(songId);
+console.log("url: " + urls[randInt]);
       // Navigate to random song
-      //window.location.href = "chords.html?" + songId;
+      window.location.href = urls[randInt];
     }
   </script>
   <!-- /#body-scripts -->
