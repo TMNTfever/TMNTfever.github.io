@@ -3,92 +3,67 @@ Artist: Peter Frampton, Big Mountain
 Genre: Classic Rock
 Transcribed Key: E
 Original Key: E
-Starting Note:
+Starting Note: 5
 
 [CHORDS]
+  E  4442      B  4322      C#m  4444      A  2100      D9  2423      F#m  2120
 
-[Intro]
-  Ohh baby I love your way, every day
-  E  B    F#m   A
-  Ohh baby I love your way, every day
+[VERSE 1]
+  E                 B/D#         C#m               A       D9
+  Shadows grow so long before my eyes, and they're moving across the page
+  E              B/D#          C#m  A                  D9
+  Suddenly the day turns into night, far away from the city
 
-[Verse 1]
-  E   B/D#  C#m
-  Shadows grow so long before my eyes
-  A   D9
-  And they're moving across the page
-  E   B/D#  C#m
-  Suddenly the day turns into night
-  A  D9
-  far away from the city
+[REFRAIN 1]
+      G#m       C#m              F#m        B
+  But don't hesitate, cause your love won't wait
 
-[Pre-chorus]
-  G#m  C#m
-  But don't hesitate
-  F#m   B
-  Cause your love won't wait
-
-[Chorus]
-  E  B    F#m   A
-  Ohh baby I love your way, every day
-  E  B    F#m   A
-  I wanna tell you I love your way..every day
-  E  B    F#m   A
+[CHORUS 1]
+E     B                  F#m        A
+  Ooh baby I love your way, every day
+E         B                      F#m        A
+  I wanna tell you I love your way, every day
+E         B                       F#m  A
   I wanna be with you night and day
 
-[Verse 2]
-  E   B/D#    C#m
-  Moon appears to shine and light the sky
-  A   D9
-  With the help from some firefly
-  E   B/D#  C#m
-  Wonder how they have the power to shine, shine, shine
-  A  D9
-  I can see them under the pine
+[INTERLUDE 1]
+  E  B/D#  C#m  A  D9
 
-[Pre-chorus]
-  G#m  C#m
-  But don't hesitate
-  F#m   B
-  Cause your love won't wait
+[VERSE 2]
+  E                  B/D#             C#m           A             D9
+  Moon appears to shine and light the sky, with the help from some firefly
+    E               B/D#                 C#m                     A        D9
+  I wonder how they have the power to shine, shine, shine, I can see them under the pine
 
-[Chorus]
-  E  B    F#m   A
-  Ohh baby I love your way, every day
-  E  B    F#m   A
-  I wanna tell you I love your way..every day
-  E  B    F#m   A
+[REFRAIN 2] (Same as Refrain 1)
+      G#m       C#m              F#m        B
+  But don't hesitate, cause your love won't wait
+
+[CHORUS 2] (Same as Chorus 1)
+E     B                  F#m        A
+  Ooh baby I love your way, every day
+E         B                      F#m        A
+  I wanna tell you I love your way, every day
+E         B                       F#m  A
   I wanna be with you night and day
 
-[Bridge]
-  E G#m C#m
-    Everyday yeah, yeah
-  A G#m F#m
-    I would love, I would love ya
-  E G#m C#m
-  I love your way (Oh baby please)
-  A G#m F#m
+[INTERLUDE 2]
+  E  B/D#  C#m  A  D9
 
-[Verse 3]
-  E   B/D#  C#m
-  I can see the sunset in your eyes
-  A   D9
-  Brown and grey and blue besides
-  E   B/D#  C#m
-  Clouds are stalking islands in the sun
-  A    D9
-  I wish I could buy one, out of season
+[VERSE 3]
+  E               B/D#         C#m             A        D9
+  I can see the sunset in your eyes, brown and grey and blue besides
+  E                  B/D#            C#m                 A               D9
+  Clouds are stalking islands in the sun, I wish I could buy one, out of season
 
-[Pre-chorus]
-  G#m  C#m
-  But don't hesitate
-  A   B    B   C
-  Cause your love won't wait
+[REFRAIN 3] (Same as Refrain 1)
+      G#m       C#m              F#m        B
+  But don't hesitate, cause your love won't wait
 
-[Chorus]
-  F  C    Gm   Bb
-  Ohh baby I love your way, every day
-  F  C    Gm   Bb
-  I wanna tell you I love you way..every day
-  F  C    Gm   Bb
+[CHORUS 3] x 2 (Same as Chorus 1)
+E     B                  F#m        A
+  Ooh baby I love your way, every day
+E         B                      F#m        A
+  I wanna tell you I love your way, every day
+E         B                       F#m  A
   I wanna be with you night and day
