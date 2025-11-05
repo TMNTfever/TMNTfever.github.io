@@ -82,6 +82,7 @@
     </div>
   </div>
   <!-- /#wrapper -->
+  <button onclick="randomSong()" id="randomButton" title="Choose a random song">?</button>
   <button onclick="jumpToTop()" id="topButton" title="Jump to Top">⤒</button>
 
   <!-- Body Scripts -->
@@ -91,6 +92,22 @@
     function jumpToTop() {
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+    function randomSong() {
+      // Load textContent into string variable
+      let element = document.getElementById(divId);
+      let allText = element.textContent;
+    
+      // Create an array of lines
+      var rows = allText.split("\n");
+
+      // Grab random row
+      var randInt = Math.floor(Math.random() * rows.length);
+      var songId = rows[randInt].split("\t")[0];
+
+      // Navigate to random song
+      window.location.href = "chords.html?" + songId;
     }
   </script>
   <!-- /#body-scripts -->
