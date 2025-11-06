@@ -89,13 +89,17 @@
   <script src="src/SortTable/scripts/searchTable.js"></script>
   <script src="src/SortTable/scripts/sortTable.js"></script>
   <script type="application/javascript">
+    /* Self-explanatory */
     function jumpToTop() {
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
 
+    /* Auto-navigates to a randomly chosen song on this page */
     function randomSong() {
-      // Scrape all URLs from page,
+      var isSong = false;
+      
+      // Scrape all URLs from page
       const allLinks = document.querySelectorAll('a');
       const urls = [];
 
@@ -103,12 +107,13 @@
         urls.push(link.href);
       });
 
-      // Activate random link
-      var randInt = Math.floor(Math.random() * urls.length);
-console.log("max: " + urls.length);
-console.log("rand: " + randInt);
-console.log("url: " + urls[randInt]);
-      // Navigate to random song
+      // Choose random URL, but only ones that are songs (contains '?')
+      while (isSong == false) {
+        var randInt = Math.floor(Math.random() * urls.length);
+        if (urls[randInt].includes("?")) isSong = true;
+      }
+
+      // Navigate to URL
       window.location.href = urls[randInt];
     }
   </script>
