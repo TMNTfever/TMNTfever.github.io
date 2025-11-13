@@ -40,7 +40,7 @@ Em Am            D     G      Em Am           D      G   Em Am
           D        G       Em      Am        D       G
   And it makes me feel so fine, I can't control my brain
 
-[BRIDGE 1]
+[BRIDGE 1] (Use distortion)
 D            G           D                  G
   We'll run away together, we'll spend some time forever
 C             Am          D
@@ -59,7 +59,7 @@ Em Am D G        Em Am D G
           D        G       Em      Am        D       G
   And it makes me feel so fine, I can't control my brain
 
-[BRIDGE 2] (Same as Bride 1)
+[BRIDGE 2] (Same as Bridge 1)
 D            G           D                  G
   We'll run away together, we'll spend some time forever
 C             Am          D
