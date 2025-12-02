@@ -10,16 +10,16 @@ Starting Note: 3 4 5
   Bb 3211      Am7 2433      Gm7 0211      BbM7 2211      Dm7 2213      
 
 [INTRO] x 2
-  F  Am  Gm  Gm | C 
+  F  Am  Gm  C 
 
 [VERSE 1]
-F                        Am         Gm  Gm | C
+F                        Am         Gm  C
   If you need someone to hold on to
-F               Am               Gm  Gm          C
-  I'll help you settle down easy    (settle down easy)
-F               Am             Gm  Gm | C
+F               Am              Gm  C
+  I'll help you settle down easy,  (settle down easy)
+F               Am             Gm  C
   And when your day is through
-F               Am               Gm  Gm | C
+F               Am               Gm  C
   I'll help you settle down easy
 
 [PRE-CHORUS 1] (Last chords are played with horns)
@@ -27,19 +27,19 @@ Dm                         Gm                              Dm  C  Am  Bb | C
   Nothing satisfies me, as much as when you're happy, it's true
 
 [CHORUS 1]
-F                         Am  Gm                         Gm | C
+F                         Am  Gm                         C
   Nobody does it like you do,  and I would only tell the truth
-               F                             Am                Gm                             Gm | C
+               F                             Am                Gm                             C
   You know I'm honest, you look beautiful in blue, but all the colors bring the beauty out in you
                   F        Am                    Gm                    Gm         C
   And when you're running, come run my way, I'll meet you halfway, and love you always
-      F     Am                         Gm                  Gm | C
+      F     Am                         Gm                  C
   Hey baby, I'll meet you there, ain't nothing compares to you
 
 [VERSE 2] (No uke, just horns, drums, and bass)
 -                      -            Am|Gm  -
   If you ever need the weight off you
--               -              Am7|Gm7  -            
+-               -              Am7|Gm7 -            
   I'll help you settle down easy      (settle down easy)
 -               -         Am|Gm  -
   And when our days are few
@@ -47,9 +47,9 @@ F                         Am  Gm                         Gm | C
   I'll help you settle down easy        
 
 [BRIDGE 1] x 2
-  F            C                Gm  Gm | C
+  F            Am               Gm  C
   La la la, it wasn't by chance
-F                  C                  Gm  Gm | C
+F                  Am                 Gm  C
   A reason that we both crossed paths
 
 [PRE-CHORUS 2] (Last chords are sung with la's)
@@ -57,27 +57,27 @@ Dm                         Gm                              Dm  C  Am7  Bb | C
   Nothing satisfies me, as much as when you're happy, it's true
 
 [CHORUS 2] (Same as Chorus 1)
-F                         Am  Gm                         Gm | C
+F                         Am  Gm                         C
   Nobody does it like you do,  and I would only tell the truth
-               F                             Am                Gm                             Gm | C
+               F                             Am                Gm                             C
   You know I'm honest, you look beautiful in blue, but all the colors bring the beauty out in you
                   F        Am                    Gm                    Gm         C
   And when you're running, come run my way, I'll meet you halfway, and love you always
-      F     Am                         Gm                  Gm | C
+      F     Am                         Gm                  C
   Hey baby, I'll meet you there, ain't nothing compares to you
 
 [BRIDGE 2] (Last line played with horns)
-BbM7                             Am7                            Dm  Dm7
+Gm7                              Am7                            BbM7
   There will be a time when I'll look into your eyes and say, I knew
-       Gm              Am           Bb                    C | F
+       Gm7             Am7          BbM7                   C | F
   That one day I would find you and instantly just fall into
 
 [CHORUS 3] x 2 (Same as Chorus 1, but chords cut out on second half of the last line)
-F                         Am  Gm                         Gm | C
+F                         Am  Gm                         C
   Nobody does it like you do,  and I would only tell the truth
-               F                             Am                Gm                             Gm | C
+               F                             Am                Gm                             C
   You know I'm honest, you look beautiful in blue, but all the colors bring the beauty out in you
                   F        Am                    Gm                    Gm         C
   And when you're running, come run my way, I'll meet you halfway, and love you always
-      F     Am                         Gm                  Gm | C
+      F     Am                         Gm                  C
   Hey baby, I'll meet you there, ain't nothing compares to you
