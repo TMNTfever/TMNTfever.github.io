@@ -6,13 +6,13 @@ Original Key: Eb
 Starting Note: 
 
 [CHORDS]
-  Em  0432      Am  2000      F  2010      C  0003
+  C  0003      Em  0432      Am  2000      F  2010
 
 [INTRO]
-  Em  Am  F  C    Em  Am  F  C
+  C  Em  Am  F
 
 [VERSE 1]
-                           Em                       Am
+C                          Em                       Am
   Tell me what you really like, baby I can take my time
                          F                          C
   We don't ever have to fight, just take it step-by-step
@@ -31,8 +31,8 @@ Starting Note:
                    Dm                     C
   We don't have to rush when you're alone with me
 
-[CHORUS 1]
-             Em                Am                     F                 C
+[CHORUS 1] x 2
+             G                 Am                     F                 C          -
   I feel it coming, I feel it coming babe, I feel it coming, I feel it coming babe
 
 [VERSE 2]
@@ -55,8 +55,8 @@ Starting Note:
                    Dm                     C
   We don't have to rush when you're alone with me
 
-[CHORUS 2] (Same as Chorus 1)
-             Em                Am                     F                 C
+[CHORUS 2] x 2 (Same as Chorus 1)
+             G                 Am                     F                 C
   I feel it coming, I feel it coming babe, I feel it coming, I feel it coming babe
 
 [PRE-CHORUS 3] (Same as Pre-Chorus 1, except with less instrumentation)
@@ -69,6 +69,9 @@ Starting Note:
                    Dm                     C
   We don't have to rush when you're alone with me
 
-[CHORUS 3] (Same as Chorus 1)
-             Em                Am                     F                 C
+[CHORUS 3] x 3 (Same as Chorus 1)
+             G                 Am                     F                 C
   I feel it coming, I feel it coming babe, I feel it coming, I feel it coming babe
+
+[OUTRO]
+  G  Am  F  C
