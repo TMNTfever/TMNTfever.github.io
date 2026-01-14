@@ -59,7 +59,7 @@ C                          Em                       Am
              G                 Am                     F                 C
   I feel it coming, I feel it coming babe, I feel it coming, I feel it coming babe
 
-[PRE-CHORUS 3] (Same as Pre-Chorus 1, except with less instrumentation)
+[PRE-CHORUS 3] (Same as Pre-Chorus 1, except with driving 1/8 bass and 1/4 bass drum, harmonies, no uke)
                         Am                Em
   You've been scared of love and what it did to you
                     Dm                      C
@@ -69,9 +69,6 @@ C                          Em                       Am
                    Dm                     C
   We don't have to rush when you're alone with me
 
-[CHORUS 3] x 3 (Same as Chorus 1)
+[CHORUS 3] x 4 (Same as Chorus 1, except with echos 3rd and 4th repeat)
              G                 Am                     F                 C
   I feel it coming, I feel it coming babe, I feel it coming, I feel it coming babe
-
-[OUTRO]
-  G  Am  F  C
