@@ -6,73 +6,56 @@ Original Key: F
 Starting Note: 1
 
 [CHORDS]
+  AM7  2444      F#7  3424      Bm7  2222      Do7  1212
+  E7   1202      F#M7 3524      A7   2434
 
-[Verse 1]
-Amaj7
-I used to think that I wasn't fine enough
-A7
-And I used to think that I wasn't wild enough
-Bm
-But I won't waste my time tryin' to figure out
-D
-Why you playing games, what's this all about
-Amaj7
-And I can't believe you're hurting me
-A7
-I met your girl, what a difference
-Bm
-What you see in her you ain't seen in me
-D
-But I guess it was all just make-believe
+[INTRO]
+  AM7  F#7  Bm7  Do7    AM7  Bm7 | E7
+
+[VERSE 1]
+    AM7                                            F#7
+  I used to think that I wasn't fine enough, and I used to think that I wasn't wild enough
+      Bm7                                         Do7
+  But I won't waste my time tryin' to figure out, why you playing games, what's this all about
+          AM7                               F#7
+  And I can't believe you're hurting me, I met your girl, what a difference
+             Bm7                                      Do7
+  What you see in her you ain't seen in me, but I guess it was all just make-believe, oh oh oh
+
+[CHORUS 1]
+  AM7         F#7                            Bm7                               Do7
+  Love, never knew what I was missing, but I knew once we started kissing, I found
+  AM7         F#7                            Bm7                               Do7  AM7
+  Love, never knew what I was missing, but I knew once we started kissing, I found - found you
+
+[VERSE 2]
+                   F#7                    B7                               Do7
+  Now you're gone, what am I gonna do, so empty my heart, my soul can't go on
+                AM7                      F#7
+  Go on without you, my rainy days fade away when you come around, please tell me
+  Bm7                  Do7
+  Baby, why go so far away, why you go
  
-[Chorus]
-    Amaj7
-Oh, love
-      A7
-Never knew what I was missing
-      Bm
-But I knew once we started kissin'
-  D
-I found...
-Amaj7
-Love
-      A7
-Never knew what I was missin'
-      Bm
-But I knew once we started kissin'
-  D                  Amaj7
-I found..... I found you.....
- 
-[Verse 2]
-Amaj7                            A7
-Now you're gone, what am I gonna do
-    Bm                              D
-So empty my heart, my soul can't go on
- 
-Go on without you....
-Amaj7              A7
-My rainy days fade away when you,
-                           Bm
-Come around please tell me baby
-                  D
-Why you go so far away
- 
-Why you go...
- 
-[Chorus]
-Amaj7
-Love
-      A7
-Never knew what I was missing
-      Bm
-But I knew once we started kissin'
-  D
-I found...
-Amaj7
-Love
-      A7
-Never knew what I was missin'
-      Bm
-But I knew once we started kissin'
-  D                  Amaj7
-I found..... I found you.....
+[CHORUS 2] (Same as Chorus 1, except end with 6M7)
+  AM7         F#7                            Bm7                               Do7
+  Love, never knew what I was missing, but I knew once we started kissing, I found
+  AM7         F#7                            Bm7                               Do7     F#M7
+  Love, never knew what I was missing, but I knew once we started kissing, I found - I found you
+
+[BRIDGE]
+                Bm7              F#M7               A7
+  Who would have known, I'd find you, ooh ooh ooh - ooh
+
+[VERSE 3] (Looks similar to Verse 2, but lyrics and chords are offset by half a measure)
+AM7                                F#7                    Bm7               Do7
+  Now you're gone, what am I gonna do, so empty my heart, my soul can't go on
+                     AM7             F#7                                                Bm7
+  Go on baby without you, rainy days fade away when you come around, say you're here to stay
+                                 Do7
+  With me babe, I don't want you to leave me, I need -
+
+[CHORUS 3] (Same as Chorus 1)
+  AM7         F#7                            Bm7                               Do7
+  Love, never knew what I was missing, but I knew once we started kissing, I found
+  AM7         F#7                            Bm7                               Do7     AM7
+  Love, never knew what I was missing, but I knew once we started kissing, I found - I found you
