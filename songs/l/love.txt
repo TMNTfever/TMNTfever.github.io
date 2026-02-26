@@ -6,8 +6,8 @@ Original Key: F
 Starting Note: 1
 
 [CHORDS]
-  AM7  2444      F#7  3424      Bm7  2222      Do7  1212
-  E7   1202      F#M7 3524      A7   2434
+  AM7  2444      F#7  3424      Bm7  2222      Do7  1212      E7   1202
+  D    2220      F#M7 3524      A7   2434      DM7  2224
 
 [INTRO]
   AM7  F#7  Bm7  Do7    AM7  Bm7 | E7
@@ -19,31 +19,31 @@ Starting Note: 1
   But I won't waste my time tryin' to figure out, why you playing games, what's this all about
           AM7                               F#7
   And I can't believe you're hurting me, I met your boy, what a difference
-             Bm7                                      Do7
+             Bm7                                      D                               /E
   What you see in him you ain't seen in me, but I guess it was all just make-believe, oh oh oh
 
 [CHORUS 1]
-  AM7         F#7                            Bm7                               Do7
+  AM7         F#7                            Bm7                               D  /E
   Love, never knew what I was missing, but I knew once we started kissing, I found
   AM7         F#7                            Bm7                               Do7  AM7
   Love, never knew what I was missing, but I knew once we started kissing, I found - found you
 
 [VERSE 2]
-                   F#7                    B7                               Do7
+                   F#7                    Bm7                              Do7
   Now you're gone, what am I gonna do, so empty my heart, my soul can't go on
                 AM7                      F#7
   Go on without you, my rainy days fade away when you come around, please tell me
-  Bm7                  Do7
+  Bm7                  D    /E
   Baby, why go so far away, why you go
  
 [CHORUS 2] (Same as Chorus 1, except end with VImaj7)
-  AM7         F#7                            Bm7                               Do7
+  AM7         F#7                            Bm7                               D  /E
   Love, never knew what I was missing, but I knew once we started kissing, I found
   AM7         F#7                            Bm7                               Do7     F#M7
   Love, never knew what I was missing, but I knew once we started kissing, I found - I found you
 
 [BRIDGE]
-                Bm7              F#M7               A7
+                 Bm7             F#M7               DM7
   Who would have known, I'd find you, ooh ooh ooh - ooh
 
 [VERSE 3] (Looks similar to Verse 2, but lyrics and chords are offset by half a measure)
@@ -51,11 +51,11 @@ AM7                                F#7                    Bm7               Do7
   Now you're gone, what am I gonna do, so empty my heart, my soul can't go on
                      AM7             F#7                                                Bm7
   Go on baby without you, rainy days fade away when you come around, say you're here to stay
-                                 Do7
-  With me babe, I don't want you to leave me, I need -
+                                  D         /E
+  With me babe, don't want you to leave me, I need -
 
 [CHORUS 3] (Same as Chorus 1)
-  AM7         F#7                            Bm7                               Do7
+  AM7         F#7                            Bm7                               D  /E
   Love, never knew what I was missing, but I knew once we started kissing, I found
   AM7         F#7                            Bm7                               Do7     AM7
   Love, never knew what I was missing, but I knew once we started kissing, I found - I found you
