@@ -67,7 +67,6 @@
     // Ring alarm hourly for breaks, at , and 1:30pm on Fri
     if ((m < 1 && s < 1) || // Hourly for breaks
         (d > 0 && d < 5 && h == 14 && m == 45 && s < 1) || // 2:45pm Mon-Thurs to leave work
-        (d == 1 && h == 13 && m == 45 && s < 1) || // 1:45pm Mon to leave work early Mondays for chiropractor
         (d == 5 && h == 13 && m == 30 && s < 1)) { // 1:45pm on Fri to leave work
       ringAlarm();
     }
