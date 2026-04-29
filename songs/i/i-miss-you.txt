@@ -3,33 +3,35 @@ Artist: Klymaxx
 Genre: R&B
 Transcribed Key: D
 Original Key: F
-Starting Note: ??????????????
+Starting Note: 3 5 5
 
 [CHORDS]
+  DM7 2224      Em7 0202      A#o  0101      Bm   4222      A   2100      E/G#  4222
+  G   0232      A7  0100      G/A  2232      F#m7 6600      Bm7 2222
 
 [INTRO] x 2
-  D  Em7  DM7  Em7/D
+  DM7  Em7  DM7  Em7
 
 [VERSE 1]
-  D                                Em7  DM7                      Em7
+  DM7                              Em7  DM7                      Em7
   Thought I heard your voice yesterday, when I turned around to say
-         A#o               Bm  A               E/Ab                 G           A7
-  That I loved you then I realized, and it was just my mind playing tricks on me
-           D                Em7    DM7                           Em7/D
+  /D /C# /B A#o      /E      Bm  A               E/G#                 G           A7
+  That   I loved you then I realized, and it was just my mind playing tricks on me
+           DM7              Em7    DM7                           Em7     /D /C# /B
   It seems colder lately at night, and I try to sleep with the lights on
-  A#o              Bm        A  E/Ab                    G                  G/A        A7
+  A#o     /E       Bm        A  E/G#                    G                  G/A        A7
   Every time the phone rings, I pray to God it's you, I just can't believe that we're through
 
 [CHORUS 1]
   D F#m7 Bm7          A            G                           A7
   I miss you (I miss you), there's no other way to say it, and I, I can't deny it
-  D F#m7 Bm7          A            G            A7              D  Em7  DM7  Em7
+  D F#m7 Bm7          A            G            A7              DM7  Em7  DM7  Em7
   I miss you (I miss you), it's so easy to see, I miss you and me
 
 [VERSE 2]
-  D                        Em7   DM7                         Em7/D
+  DM7                      Em7   DM7                         Em7
   Is it done and over this time, have we really changed our minds
-   A         A#o      Bm           A                E/Ab
+  /D /C# /B  A#o   /E Bm            A               E/G#
   About each other’s love, all the feelings that we used to share
       G                     G/A       A7
   I refuse to believe, that you don't care
@@ -37,25 +39,25 @@ Starting Note: ??????????????
 [CHORUS 2] (Same as Chorus 1, except don't say last phrase)
   D F#m7 Bm7          A            G                           A7
   I miss you (I miss you), there's no other way to say it, and I, I can't deny it
-  D F#m7 Bm7          A            G
+  D F#m7 Bm7          A            G           G/A
   I miss you (I miss you), it's so easy to see-
 
 [BRIDGE]
-              Bm          A       G    A  Bm                  A               G   A
-  I've got to gather my senses together,  I've been through worse kinds of weather
-           Bm      A           E/Ab                           G              A7
+              Bm          A       G    G/A  Bm                  A               G   G/A
+  I've got to gather my senses together,    I've been through worse kinds of weather
+          Bm      A           E/G#                           G  G/A          A7
   If it's over now, be strong, I can't believe that you're gone, I've got to carry on, but-
 
 [CHORUS 3]
-  D F#m7 Bm7          A            G                           A7
-  I miss you (I miss you), there's no other way to say it, and I, I can't deny it
+  D F#m7 Bm7          A         G                A7
+  I miss you (I miss you), it's driving me crazy, don't wanna live without you
   D F#m7 Bm7          A            G
   I miss you (I miss you), it's so easy to see
                 G/A                           A7
   That you're a part of me now, that you're a part of me now
   D F#m7 Bm7          A            G                           A7
   I miss you (I miss you), there's no other way to say it, and I, I can't deny it
-  D F#m7 Bm7          A            G            A7              D  Em7  DM7  Em7
+  D F#m7 Bm7          A            G            A7              DM7  Em7  DM7  Em7
   I miss you (I miss you), it's so easy to see, I miss you and me
 
 [OUTRO]
