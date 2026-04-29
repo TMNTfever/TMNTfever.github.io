@@ -6,14 +6,14 @@ Original Key: Eb to E
 Starting Note: 1 4
 
 [CHORDS]
-  GM9  A  Bm7  F#m7  Em7  A7s4
-  A7s2  Ds4  D  AM7  A7  DM7 
-  C#7  G  F#7  G9  C#m7  Fo7
-  C#7#5  F#ma9  Fo7  D#m7b5  Bm9
-  D#  Bb  Fm7  Ab  EbM7  G7
-  Ab9  Dm7  Gm7  Cm7  Eb  E
-  B  EM7  G#7  A9  D#m7  G#m7
-  AM9  B7s4  B7s4  B7s2
+  GM9   2222      A     2100      Bm7    2222      F#m7  2424      Em7  0202      A7s4  2200
+  A7s2  4430      Ds4   2230      D      2220      AM7   1100      A7   0100      DM7   2224
+  C#7   1112      G     0232      F#7    3424      G9    2232      C#m7 4444      Fo7   1212
+  C#7#5 2112      F#ma9 1120      D#m7b5 2324      Bm9   2224
+  D#    3331      Bb    3211      Fm7    1313      Ab    5343      EbM7 3335      G7    0212
+  Ab9   3343      Dm7   2213      Gm7    0211      Cm7   3333      Eb   3331      E     4442
+  B     4322      EM7   1302      G#7    1323      A9    2102      D#m7 3324      G#m7  1322
+  AM9   1102      B7s4  2422      B7s2   2122
 
 [INTRO]
       GM9  A  Bm7  F#m7  Em7    A7s4|A7s2
