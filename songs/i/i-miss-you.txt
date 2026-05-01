@@ -6,8 +6,8 @@ Original Key: F
 Starting Note: 3 5 5
 
 [CHORDS]
-  DM7 2224      Em7 0202      A#o  0101      Bm   4222      A   2100      E/G#  4222
-  G   0232      A7  0100      G/A  2232      F#m7 6600      Bm7 2222
+  DM7 2224      Em7 0202      A#o  0101      Bm  4222      A    2100      E/G# 4222
+  G   0232      A7  0100      G/A  2232      D   2220      F#m7 6600      Bm7  2222
 
 [INTRO] x 2
   DM7  Em7  DM7  Em7
