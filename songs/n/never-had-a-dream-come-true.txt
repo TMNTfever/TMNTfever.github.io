@@ -1,7 +1,7 @@
 Never Had A Dream Come True
 Artist: S Club 7
 Genre: Pop, Ballad, Girlband, Boyband
-Transcribed Key: F to F#
+Transcribed Key: A to Bb
 Original Key: F to F#
 Starting Note: 5 2
 
@@ -57,36 +57,28 @@ A                  Em7                  F#m      B7        A11
     D/E             E
   A part of me will always be
 
-[Bridge FIX THIS PART AND BEYOND, TRANSPOSE TO CORRECT KEY]
-Gm7                                          Dm
+[BRIDGE]
+Bm7                                        F#m
   You'll always be the dream that fills my head, yes you will, say you will, you know you will, oh baby
-Gm7                                    C11       A7/C#
+Bm7                                    D/E       C#7/F
   You'll always be the one I know I'll never forget
-             Gm7                 F/A
-  There's no use looking back or wondering
-          A7                    Dm7
-  Because love is a strange and funny thing
-     Gm7          F/A           C11
-  No matter how I try and try I just can't say goodbye
-           C#11
-  No no no no
+             Bm7                 A/C#               C#7                   F#m7
+  There's no use looking back or wondering, because love is a strange and funny thing
+     Bm7          A/C#           D/E                              Eb/F
+  No matter how I try and try, I just can't say goodbye, no no no no
 
-[Chorus]
-                 B     C#   D#m
-I've never had a dream come true
-                  B  C#11  F#
-Till the day that I  found you
-            C#m7           BM7        G#m7
-Even though I pretend that I've moved on
-       C#11         C#
-You'll always be my baby
-                  B     C# D#m
-I never found the words to say
-                 B       C#11      F#
-You're the one I think about  each day
-              C#m7              BM7      G#m7
-And I know no matter where life takes me to
-  C#11            C#
-A part of me will always be
-  G#m7            C#        B   C#    D#m    Badd9  C#  F#
-A part of me will always be    with you,                   ooh
+[CHORUS 3]
+                   Eb    F    Gm                      Eb Eb/F  Bb
+  I've never had a dream come true, till the day that I  found you
+              Fm7            EbM7       Cm7        Eb/F         F
+  Even though I pretend that I've moved on, you'll always be my baby
+                    Eb    F  Gm                    Eb      Eb/F     Bb
+  I never found the words to say, you're the one I think about each day
+                Fm7               EbM7     Cm7
+  And I know no matter where life takes me to
+    Eb/F            F
+  A part of me will always be
+
+[OUTRO]
+    Cm7             F        Eb | F | Gm    Eba9 | F | Bb
+  A part of me will always be, with you
