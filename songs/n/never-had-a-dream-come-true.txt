@@ -8,92 +8,75 @@ Starting Note: 5 2
 [CHORDS]
 
 [INTRO]
-          Bb  C  Dm         Bb  C  F
-  8 7 6 5 6  5  3,  8 7 6 5 6   5  3
-      Cm7  Bbmaj7  Gm7  Cs4  C
+          D  E  F#m         D  E  A
+  8 7 6 5 6  5  3,  8 7 6 5 6  5  3
+      Em7  DM7    Bm7  D/E  E
   Ooh ooh
 
-[Verse 1]
-F                 Cm7            Bbmaj7       F/A  Gm7  C11
-  Everybody's got something they had to leave be - hind
-Fadd2             Cm7                 Dm        G7        F11
+[VERSE 1]
+A                 Em7            DM7       A/C#   Bm7  D/E
+  Everybody's got something they had to leave behind
+Aa2               Em7                 F#m         B7      A11
   One regret from yesterday that just seems to grow with time
-           Bbmaj7              Dm9
-There's no use looking back or wondering
-       Bbmaj7          Dm9
-How it could be now or might have been
-   Gm7             F/A                C11             C
-Oh this I know but still I can't find ways to let you go
+             DM7                 F#m9              DM7             F#m9
+  There's no use looking back or wondering, how it could be now or might've been
+     Bm7             A/C#               D/E             E
+  Oh this I know but still I can't find ways to let you go
 
-[Chorus]
-                 Bb    C    Dm
-I've never had a dream come true
-                  Bb C11   F
-Till the day that I  found you
-            Cm7            Bbmaj7     Gm7
-Even though I pretend that I've moved on
-       C11          C
-You'll always be my baby
-                  Bb    C  Dm
-I never found the words to say
-                 Bb      C11      F
-You're the one I think about each day
-              Cm7               Bbmaj7   Gm7
-And I know no matter where life takes me to
-  C11             C         Bb  C     Dm    Bb    C11  C
-A part of me will always be    with you
+[CHORUS 1]
+                   D     E    F#m                     D D/E   A
+  I've never had a dream come true, till the day that I found you
+              Em7            DM7        Bm7        D/E          E
+  Even though I pretend that I've moved on, you'll always be my baby
+                    D     E  F#m                   D       D/E      A
+  I never found the words to say, you're the one I think about each day
+                Em7               DM7      Bm7
+  And I know no matter where life takes me to
+    D/E             E         D | E | F#m    D | D/E | E
+  A part of me will always be, with you
 
 [Verse 2]
-F                 Cm7         Bbmaj7         F/A  Gm7 C11
-  Somewhere in my memory I've lost all sense of  time
-F                  Cm7                Dm      G7        F11
-  and tomorrow can never be cos yesterday is all that fills my mind
-           Bbmaj7              Dm9
-There's no use looking back or wondering
-       Bbmaj7           Dm9
-How it should be now or might have been
-   Gm7             F/A                C11             C
-Oh this I know but still I can't find ways to let you go
+A                 Em7         DM7         A/C#   Bm7 D/E
+  Somewhere in my memory I've lost all sense of time
+A                  Em7                  F#m      B7        A11
+  And tomorrow can never be cause yesterday is all that fills my mind
+             DM7                 F#m9              DM7              F#m9
+  There's no use looking back or wondering, how it should be now or might've been
+     Bm7             A/C#               D/E             E
+  Oh this I know but still I can't find ways to let you go
 
-[Chorus]
-                 Bb    C    Dm
-I've never had a dream come true
-                  Bb C11   F
-Till the day that I  found you
-            Cm7            Bbmaj7     Gm7
-Even though I pretend that I've moved on
-       C11          C
-You'll always be my baby
-                  Bb    C  Dm
-I never found the words to say
-                 Bb      C11      F
-You're the one I think about each day
-              Cm7               Bbmaj7   Gm7
-And I know no matter where life takes me to
-  C11             C
-A part of me will always be
+[CHORUS 2] (Same as Chorus 1, but don't sing "with you")
+                   D     E    F#m                     D D/E   A
+  I've never had a dream come true, till the day that I found you
+              Em7            DM7        Bm7        D/E          E
+  Even though I pretend that I've moved on, you'll always be my baby
+                    D     E  F#m                   D       D/E      A
+  I never found the words to say, you're the one I think about each day
+                Em7               DM7      Bm7
+  And I know no matter where life takes me to
+    D/E             E
+  A part of me will always be
 
-[Bridge]
+[Bridge FIX THIS PART AND BEYOND, TRANSPOSE TO CORRECT KEY]
 Gm7                                          Dm
-    You'll always be the dream that fills my head
-Yes you will, say you will, you know you will
-        Gm7                                      C11        A7/C#
-Oh baby,    you'll always be the one I know I'll never forget
-           Gm7                 F/A
-There's no use looking back or wondering
-        A7                    Dm7
-Because love is a strange and funny thing
-   Gm7          F/A           C11
-No matter how I try and try I just can't say goodbye
-         C#11
-No no no no
+  You'll always be the dream that fills my head, yes you will, say you will, you know you will, oh baby
+Gm7                                    C11       A7/C#
+  You'll always be the one I know I'll never forget
+             Gm7                 F/A
+  There's no use looking back or wondering
+          A7                    Dm7
+  Because love is a strange and funny thing
+     Gm7          F/A           C11
+  No matter how I try and try I just can't say goodbye
+           C#11
+  No no no no
 
 [Chorus]
                  B     C#   D#m
 I've never had a dream come true
                   B  C#11  F#
 Till the day that I  found you
-            C#m7           Bmaj7      G#m7
+            C#m7           BM7        G#m7
 Even though I pretend that I've moved on
        C#11         C#
 You'll always be my baby
@@ -101,7 +84,7 @@ You'll always be my baby
 I never found the words to say
                  B       C#11      F#
 You're the one I think about  each day
-              C#m7              Bmaj7    G#m7
+              C#m7              BM7      G#m7
 And I know no matter where life takes me to
   C#11            C#
 A part of me will always be
