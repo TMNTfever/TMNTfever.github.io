@@ -6,11 +6,16 @@ Original Key: F to F#
 Starting Note: 5 2
 
 [CHORDS]
+  D    2220      E    4442      F#m  2120      A     2100      Em7 0202
+  DM7  2224      Bm7  2222      D/E  7657      A/C#  6454      Aa2 2102
+  B7   2322      A11  2204      F#m9 1420      C#7/F 1112
+  Eb/F 0566      Eb   3331      F    2010      Gm    0231      Bb  3211
+  Fm7  1313      EbM7 3335      Cm7  3333      Eba9  0566
 
 [INTRO]
           D  E  F#m         D  E  A
   8 7 6 5 6  5  3,  8 7 6 5 6  5  3
-      Em7  DM7    Bm7  D/E  E
+      Em7  DM7  Bm7  D/E  E
   Ooh ooh
 
 [VERSE 1]
@@ -38,7 +43,7 @@ Aa2               Em7                 F#m         B7      A11
 [Verse 2]
 A                 Em7         DM7         A/C#   Bm7 D/E
   Somewhere in my memory I've lost all sense of time
-A                  Em7                  F#m      B7        A11
+Aa2                Em7                  F#m      B7        A11
   And tomorrow can never be cause yesterday is all that fills my mind
              DM7                 F#m9              DM7              F#m9
   There's no use looking back or wondering, how it should be now or might've been
