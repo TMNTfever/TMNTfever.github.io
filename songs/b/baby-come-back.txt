@@ -1,7 +1,7 @@
 Baby Come Back
 Artist: Player
 Genre: Funk, Classic Rock
-Transcribed Key: G
+Transcribed Key: D
 Original Key: Eb
 Starting Note: -5 -5 -7 2 2
 
@@ -22,64 +22,68 @@ Starting Note: -5 -5 -7 2 2
   Doing anything just to get you off of my mind
                GM7                                      F#m7
   But when the morning comes, I'm right back where I started again
-  GM7                                      A/B   B
+  GM7                                       A/B  B
   Trying to forget you was just a waste of time
 
-[Chorus]
-          GM7               F#m7        Bm7
-Baby come back, any kind of fool could see
-          Em7          F#m7              Bm7  A/C#  Bm7  Em7
-There was something in everything about you
-          GM7                    F#m7    Bm7
-Baby come back, you can blame it all on me
-      Em7          F#m7                     Bm7  CM7
-I was wrong, and I just can't live without you
+[CHORUS 1]
+              GM7             F#m7       Bm7
+  Baby come back, any kind of fool could see
+            Em7          F#m7        Bm7    A/C#  D6  Em7
+  There was something in everything about you
+            GM7                    F#m7    Bm7
+  Baby come back, you can blame it all on me
+        Em7             F#m7           Bm7      CM7
+  I was wrong, and I just can't live without you
 
 [INTERLUDE]
-GM7    F#m7  GM7    F#m7
+  GM7  F#m7  GM7  F#m7
 
 [VERSE 2]
-GM7                             F#m7
-All day long, wearing a mask of false bravado
-GM7                                      F#m7
-Trying to keep up the smile that hides a tear
-           GM7                             F#m7
-But as the sun goes down, I get that empty feeling again
-GM7                             A    B
-How I wish to God that you were here
+  GM7                             F#m7
+  All day long, wearing a mask of false bravado
+GM7                                           F#m7
+  Trying to keep up the smile that hides a tear
+             GM7                             F#m7
+  But as the sun goes down, get that empty feeling again
+GM7                                 A/B  B
+  How I wish to God that you were here
 
-[Chorus]
-          GM7               F#m7        Bm7
-Baby come back, any kind of fool could see
-          Em7          F#m7              Bm7  C#  D  E
-There was something in everything about you
-          GM7                    F#m7    Bm7
-Baby come back, you can blame it all on me
-      Em7          F#m7                     Bm7  CM7    GM7    A
-I was wrong, and I just can't live without you
+[CHORUS 2] (Same as Chorus 1, but extra IVM7 and V at the end)
+              GM7             F#m7       Bm7
+  Baby come back, any kind of fool could see
+            Em7          F#m7        Bm7    A/C#  D6  Em7
+  There was something in everything about you
+            GM7                    F#m7    Bm7
+  Baby come back, you can blame it all on me
+        Em7             F#m7           Bm7      CM7  GM7  A
+  I was wrong, and I just can't live without you
 
-[Bridge]
-FM7                           CM7
-       Now that I put it all together
-FM7                                  CM7
-       Give me the chance to make you see
-FM7                            Em7          Am7
-       Have you used up all the love in your heart
-G                A               G                A
-Nothing left for me, ain't there nothing left for me
+[BRIDGE]
+FM7                        CM7
+  Now that I put it all together
+FM7                                CM7
+  Give me the chance to make you see
+FM7                        Em7          Am7
+  Have you used up all the love in your heart
+G/A                A               G/A                A
+  Nothing left for me, ain't there nothing left for me
 
-[Chorus]
-          GM7               F#m7        Bm7
-Baby come back, any kind of fool could see
-          Em7          F#m7              Bm7  C#  D  E
-There was something in everything about you
-          GM7                                 F#m7    Bm7
-Baby come back,(listen baby) you can blame it all on me
-      Em7          F#m7                Bm7
-I was wrong, and I just can't live without you
-      Em7          F#m7              Bm7  C#  D  E
-I was wrong, and I just can't live
-          GM7                        F#m7        Bm7
-Baby come back,(Oh baby) any kind of fool could see
-          Em7          F#m7              Bm7  C#  D  E  GM7
-There was something in everything about you
+[CHORUS 3] (Same as Chorus 1, but don't play last chord)
+              GM7             F#m7       Bm7
+  Baby come back, any kind of fool could see
+            Em7          F#m7        Bm7    A/C#  D6  Em7
+  There was something in everything about you
+            GM7                    F#m7    Bm7
+  Baby come back, you can blame it all on me
+        Em7             F#m7           Bm7
+  I was wrong, and I just can't live without you
+
+[OUTRO]
+        Em7          F#m7            Bm7  A/C#  D6  Em7
+  I was wrong, and I just can't live-
+              GM7             F#m7       Bm7
+  Baby come back, any kind of fool could see
+            Em7          F#m7        Bm7     CM7     
+  There was something in everything about you
+            Em7          F#m7      GM7
+  There was something in everything
