@@ -6,6 +6,8 @@ Original Key: A
 Starting Note: 1 1 1 2 3
 
 [CHORDS]
+  A   2100      F#m7 2424      DM7  2224      D6   2222     Bm7 2222
+  D/A 2220      GM7  0222      E/F# 1422      C#m7 4444
 
 [CHORUS 0]
                 A                              F#m7
@@ -14,9 +16,9 @@ Starting Note: 1 1 1 2 3
   Have you ever needed something so bad you can’t sleep at night
                 Bm7                                   D/A
   Have you ever tried to find the words but they don’t come out right
-           Gmaj7          Bm7/E
+           GM7            Bm7/E
   Have you ever, have you ever, have you ever
- 
+
 [VERSE 1]
 A                             E/F#            F#m7          DM7         D6
   Have you ever been in love, been in love so bad, you'd do anything to make them understand
@@ -26,7 +28,7 @@ Bm7                                     C#m7              F#m7
   Have you ever searched for words to get you in their heart
           GM7                            Bm7/E
   But you don’t know what to say and you don’t know where to start
- 
+
 [CHORUS 1] (Same as Chorus 0)
                 A                              F#m7
   Have you ever loved somebody so much it makes you cry
@@ -34,51 +36,53 @@ Bm7                                     C#m7              F#m7
   Have you ever needed something so bad you can’t sleep at night
                 Bm7                                   D/A
   Have you ever tried to find the words but they don’t come out right
-           Gmaj7          Bm7/E
-  Have you ever, have you ever, have you ever
- 
-[Verse 2]
-A                                  E/F#                F#m7
-Have you ever found the one you've dreamed of all your life
-                    DM7  
-You'd do just about anything to look into their eyes
-A                                E/F#             F#m7
-Have you finally found the one you've given your heart to 
-    DM7  
-Only to find that one won't give their heart to you
-Bm7                            C#m7                F#m7
-Have you ever closed your eyes and dreamed that they were there
-    GM7                            Bm7/E
-And all you can do is wait for the day when they will care
- 
-[Chorus]
-              A                          F#m7
-Have you ever loved somebody so much it makes you cry
-              DM7  
-Have you ever needed something so bad you can’t sleep at night
-              Bm7                                  D/A
-Have you ever tried to find the words but they don’t come out right
-                   GM7            Bm7/E
-Have you ever, have you ever,    have you ever
- 
-[Bridge]
-C#m7            F#m7
-What do I gotta do to get you in my arms baby
-C#m7            F#m7
-What do I gotta say to get to your heart
-Bm7                         D/A
-To make you understand how I need you next to me
-GM7                              Bm7/E
-Gotta get you in my world ‘cause baby I can't sleep
- 
-[Chorus]
-              A                          F#m7
-Have you ever loved somebody so much it makes you cry
-              DM7  
-Have you ever needed something so bad you can’t sleep at night
-              Bm7                                  D/A
-Have you ever tried to find the words but they don’t come out right
-                   GM7            Bm7/E
-Have you ever, have you ever,    have you ever
-        A
-oh, have you ever
+           GM7            Bm7/E
+  Have you ever, have you ever, ooohhhh
+
+[VERSE 2]
+A                                    E/F#                  F#m7
+  Have you ever found the one you've dreamed of all your life
+                      DM7         D6
+  You'd do just about anything to look into their eyes
+A                                       E/F#              F#m7
+  Have you finally found the one you've given your heart to 
+           DM7                D6
+  Only to find that one won't give their heart to you
+Bm7                                      C#m7                  F#m7
+  Have you ever closed your eyes and dreamed that they were there
+          GM7                        Bm7/E
+  And all you can do is wait for the day when they will care
+
+[CHORUS 2] (Same as Chorus 1, but a little more adlib)
+                A                              F#m7
+  Have you ever loved somebody so much it makes you cry
+                DM7                              D6
+  Have you ever needed something so bad you can’t sleep at night
+                Bm7                                   D/A
+  Have you ever tried to find the words but they don’t come out right
+           GM7            Bm7/E
+  Have you ever, have you ever ever ever ever
+
+[BRIDGE]
+C#m7               F#m7
+  What do I gotta do to get you in my arms baby
+C#m7               F#m7
+  What do I gotta say to get to your heart
+     Bm7                          D/A
+  To make you understand how I need you next to me
+  GM7                              Bm7/E
+  Gotta get you in my world, cause baby I can't sleep
+
+[CHORUS 3] (Same as Chorus 1, but way more adlib)
+                A                              F#m7
+  Have you ever loved somebody so much it makes you cry
+                DM7                              D6
+  Have you ever needed something so bad you can’t sleep at night
+                Bm7                                   D/A
+  Have you ever tried to find the words but they don’t come out right
+           GM7            Bm7/E
+  Have you ever, have you ever ever ever ever
+  
+[OUTRO]
+               A
+  Oh, have you ever

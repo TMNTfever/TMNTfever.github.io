@@ -348,6 +348,8 @@ details > summary::-webkit-details-marker /* Safari */ {
 
 #viewButton {
   display: none;
+  bottom: 5px;
+  right: 15px;
   background-color: #FFCC66;
   border: 0;
   border-radius: 10px;
