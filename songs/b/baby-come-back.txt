@@ -6,6 +6,8 @@ Original Key: Eb
 Starting Note: -5 -5 -7 2 2
 
 [CHORDS]
+  GM7  0222      F#m7  1313      D6  2222      A/B  4454      B   4322      Bm7  2222
+  Em7  0202      A/C#  2100      CM7 0001      FM7  2413      Am7 0000      G/A  2232
 
 [INTRO] (Bass and drums only on first line)
   GM7  F#m7  GM7  F#m7
