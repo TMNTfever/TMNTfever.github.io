@@ -6,6 +6,11 @@ Original Key: Bb to C
 Starting Note: 4
 
 [CHORDS]
+  Bbs2 3011      Gm7    0211      Ebs2 3322      Bb  3211      BbM7 3210      Fs4  3011
+  F    2010      Dm7    2213      Eb6  3333      Cm7 3333      Gm   0231      Dm/F 2210
+  Eo   0401      Cm7a11 3313      F6   2213      G6  0202
+  Em7  4435      Gs4    0233      G    0232      Am7 0453      Am   2000      Em/G 0432
+  F#o  2020      Dm7a11 0213      Fm   1013      Cs2 0035      Fs2  0013      C    0003
 
 [INTRO]
   Bbs2  Gm7  Ebs2  Bb | BbM7     Bbs2  Gm7  Ebs2  Fs4  F
@@ -21,13 +26,13 @@ Bbs2                        Gm7   Ebs2                 Bb |  F       Dm7
   And I know how lucky I am to have you
 
 [CHORUS 1]
-Dm7                  Eb               F                   F
+Dm7                  Eb6              Fs4                 F
   Cause I've seen rainbows that could take your breath away
 Dm7                  Gm7            Cm7         Fs4 | F
   The beauty of the setting sun, on any given day
-Dm7                       Eb          Gm      Dm/F    Eo
+Dm7                       Eb6         Gm      Dm/F    Eo
   And when it comes to shooting stars I have seen a few
-           Cm7a11    /Bb /Eb F                (Bbs2)
+           Cm7a11    /Bb /Eb Fs4              (Bbs2)
   But I've never seen anything as beautiful as you
 
 [INTERLUDE 1]
@@ -44,25 +49,25 @@ Bbs2                  Gm7   Ebs2                Bb |  F       Dm7
   But I never imagined just how beautiful you'd be
 
 [CHORUS 2] (Same as Chorus 1, except change "given" to "golden")
-Dm7                  Eb               F                   F
+Dm7                  Eb6              Fs4                 F
   Cause I've seen rainbows that could take your breath away
 Dm7                  Gm7            Cm7          Fs4 | F
   The beauty of the setting sun, on any golden day
-Dm7                       Eb          Gm      Dm/F    Eo
+Dm7                       Eb6         Gm      Dm/F    Eo
   And when it comes to shooting stars I have seen a few
-           Cm7a11    /Bb /Eb F                (Bbs2)
+           Cm7a11    /Bb /Eb Fs4              (Bbs2)
   But I've never seen anything as beautiful as you
 
 [INTERLUDE 2] (Into key change)
-  Bbs2  Gm7  Fs2       F             Bbs2  Ebs2  F    G
+  Bbs2  Gm7  Fs4       F             Bbs2  Ebs2  F    G
   .............. La la la, la la, la la, ....... ohh, ohh
 
 [CHORUS 3]
-Em7                  F                G                   G
+Em7                  F6               Gs4                 G
   Cause I've seen rainbows that could take your breath away
 Em7                  Am7            Dm7          Gs4 | G
   The beauty of the setting sun, on any golden day
-Em7                       F           Am      Em/G    F#o
+Em7                       F6          Am      Em/G    F#o
   And when it comes to shooting stars I have seen a few
            Dm7a11    /C  /F  G    Gs4     G
   But I've never seen anything as beautiful
