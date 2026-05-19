@@ -211,6 +211,10 @@
   padding: 10px;
 }
 
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 /*---------------------------
 --- Chords
 ---------------------------*/
