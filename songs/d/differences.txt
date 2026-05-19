@@ -6,6 +6,8 @@ Original Key: F#
 Starting Note: 3 5 2 3 1
 
 [CHORDS]
+  BbM7  3555      Am7 2433      Gm7 0211      Bb  3211      C 0003      Dm7 2213
+  Em7b5 0201      A7  0100      Dm9 7500      Cm7 3333      F 2010
 
 [INTRO] x 2
   BbM7 | Am7 | Gm7    Bb | C | Dm7
@@ -23,16 +25,12 @@ Starting Note: 3 5 2 3 1
 [VERSE 1]
             BbM7   Am7        Gm7           Bb          C        Dm7
   Girl, you open me, I'm wide open, and I'm doing things I never do
-        BbM7        Am7      Gm7             Bb          C        Dm7
+        BbM7        Am7      Gm7             Bb          C          Dm7
   But I feel so good, I feel so good, why it takes so long for me finding you
-        BbM7       Am7       Gm7
-This is my story     and I'm telling you
-         Bb        C               Dm7
-It's not fiction,    it's surely a fact
-        BbM7           Am7       Gm7
-Without you right here    having my back
-      Bb              C            Dm7
-I rea-lly don't know    just where I'd be at
+          BbM7    Am7       Gm7                   Bb     C               Dm7
+  This is my story, and I'm telling you, it's not fiction, it's surely a fact
+          BbM7          Am7     Gm7            Bb           C           Dm7
+  Without you right here having my back, I really don't know just where I'd be at
 
 [CHORUS 1] (Same as Chorus 0)
   BbM7     Am7      Gm7            Bb         C   Dm7
@@ -44,23 +42,15 @@ I rea-lly don't know    just where I'd be at
            BbM7   Am7   Gm7                Bb            C            Dm7
   Glad you came into my life, you blind me with your love, with you I have no sight
 
-[Verse 2]
-          BbM7       Am7         Gm7
-I analyzed myself, I was buckwild
-    Bb             C    Dm7
-Never thought about settling down
-          BbM7       Am7         Gm7
-But all the time I knew I was ready
-    Bb             C    Dm7
-But not with all my friends around
-          BbM7       Am7         Gm7
-But girl, I put you first now (I put you first now)
-    Bb             C    Dm7
-You made me, helped mold me (helped mold me, baby)
-          BbM7       Am7         Gm7
-Turned me into a man, I'm so responsible
-    Bb             C    Dm7
-And I owe it all to you
+[VERSE 2]
+       BbM7        Am7     Gm7             Bb           C         Dm7
+  I analyzed myself, I was buckwild, never thought about settling down
+              BbM7       Am7    Gm7        Bb          C            Dm7
+  But all the time I knew I was ready, but not with all my friends around
+      BbM7   Am7     Gm7            Bb     C        Dm7
+  But girl I put you first now, you made me, helped mold me
+            BbM7       Am7        Gm7             Bb        C   Dm7
+  Turned me into a man, I'm so responsible, and I owe it all to you
 
 [CHORUS 2] (Same as Chorus 0)
   BbM7     Am7      Gm7            Bb         C   Dm7
@@ -72,25 +62,17 @@ And I owe it all to you
            BbM7   Am7   Gm7                Bb            C            Dm7
   Glad you came into my life, you blind me with your love, with you I have no sight
 
-[Bridge]
- Em7b5     A7      Dm7                     Cm7
-(God  has  blessed  me) God has blessed me, baby
- F            BbM7
-     Girl, he was good to me when he sent you
-     Em7b5  A7    Dm7      Cm7
-(I'm so     ha  -  ppy)  I'm so happy,
- F      BbM7
-     I'm so happy, baby, oh, yes, baby
- Em7b5   A7  Dm7                            Cm7
-(Share   my   world) Come and share my world, baby
- F       BbM7
-     Oh...whoa...yeah, yeah
-      Em7b5   A7   Dm7                Gm7
-(I'm  so      in    love) I'm so in love
-    Am7           BbM7
-I'm addicted to your love
+[BRIDGE]
+   Em7b5 A7      Dm9                     Cm7 F            BbM7
+  (God's blessed me) God has blessed me baby, girl he was good to me when he sent you
+       Em7b5 A7 Dm9     Cm7   F         BbM7
+  (I'm so -  happy) I'm so happy, I'm so happy, baby, oh yes
+   Em7b5 A7 Dm9                            Cm7   F  BbM7
+  (Share my world) Come and share my world baby, oh whoa yeah yeah
+       Em7b5 A7 Dm9                 Gm7     Am7            BbM7
+  (I'm so -  in love) I'm so in love, I'm addicted to your love baby
 
-[CHORUS 3] (Same as Chorus 0)
+[CHORUS 3] x 2 (Same as Chorus 0)
   BbM7     Am7      Gm7            Bb         C   Dm7
   My whole life has changed, since you came in, I knew back then
       BbM7      Am7     Gm7      Bb        C    Dm7
