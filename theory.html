@@ -36,12 +36,13 @@
       <header>
         <h1>MUSIC THEORY</h1>
       </header>
-      
       <br>
-      <img id="theory-fingering" src="assets/theory-fingering.png"></img>
-      <br>
+      <img id="theory-fingering" src="assets/theory-fingering.png" onclick="document.getElementById('imagePopup').showModal()"></img>
+      <dialog id="imagePopup" style="border: none; border-radius: 8px; padding: 20px; max-width: 90vw; max-height: 90vh;">
+        <button onclick="document.getElementById('imagePopup').close()" style="position: absolute; top: 10px; right: 10px; cursor: pointer;">✕</button>
+        <img src="assets/theory-fingering.png" style="max-width: 100%; max-height: 80vh; display: block; margin-top: 20px;">
+      </dialog>
       <p>Download links: <a href="assets/theory-fingering.xlsx" download="Ukie-Cheat-Sheet.xlsx">.xlsx</a>, <a href="assets/theory-fingering.png" download="Ukie-Cheat-Sheet.xlsx">.png</a></p>
-      <br>
       <p>This is a cheat sheet for ukulele chords. The numbers represent the fret to hold, and the first number is the top string of the ukulele (G-string), and the last number is the bottom string (A-string). A '0' represents an open string, and an 'X' means that string should not be played.</p>
       <br>
     </div>
