@@ -215,6 +215,59 @@ dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+#pg-theory table {
+  border-collapse: collapse;
+  background-color: transparent; /* Middle defaults to transparent */
+}
+
+/* Default table styling */
+#pg-theory table td, table th {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Middle columns for base letters (3, 6, 9, 12, 15, 18, 21)*/
+#pg-theory table tr td:nth-child(3),
+table tr td:nth-child(6),
+table tr td:nth-child(9),
+table tr td:nth-child(12),
+table tr td:nth-child(15),
+table tr td:nth-child(18),
+table tr td:nth-child(21) {
+  background-color: #121A1E;
+  color: #ffffff; /* Added for text readability on dark background */
+}
+
+/* First and Last Columns */
+#pg-theory table tr td:first-child, table tr td:last-child {
+  background-color: #FFCC66;
+  color: #000000;
+}
+
+/* First and Last Rows (Overrides middle columns) */
+#pg-theory table tr:first-child td, table tr:last-child td {
+  background-color: #FFCC66;
+  color: #000000;
+}
+
+/* Top-Left Corner */
+#pg-theory table tr:first-child td:first-child {
+  background-color: #BF994D;
+}
+/* Top-Right Corner */
+#pg-theory table tr:first-child td:last-child {
+  background-color: #BF994D;
+}
+/* Bottom-Left Corner */
+#pg-theory table tr:last-child td:first-child {
+  background-color: #BF994D;
+}
+/* Bottom-Right Corner */
+#pg-theory table tr:last-child td:last-child {
+  background-color: #BF994D;
+}
+
 /*---------------------------
 --- Chords
 ---------------------------*/
