@@ -218,6 +218,7 @@ dialog::backdrop {
 table#chord-comp {
   width: 90%;
   margin: auto;
+  font-size: 0.9rem;
 }
 
 table#chord-comp > tbody tr:nth-child(odd) {
