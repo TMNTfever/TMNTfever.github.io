@@ -225,9 +225,10 @@ table#theory-fingering {
 }
 
 /* Default table styling */
-table#theory-fingering td, table th {
+table#theory-fingering td,
+table#theory-fingering th {
   padding: 2px;
-  border: 1px solid transparent;
+  border: 1px solid #000000;
 }
 
 /* Middle columns for base letters (3, 6, 9, 12, 15, 18, 21)*/
@@ -242,7 +243,8 @@ table#theory-fingering tr td:nth-child(21) {
 }
 
 /* First and last columns */
-table#theory-fingering tr td:first-child, table tr td:last-child {
+table#theory-fingering tr td:first-child,
+table#theory-fingering tr td:last-child {
   background-color: #FFCC66;
   color: #000000;
   font-weight: bold;
