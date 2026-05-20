@@ -217,6 +217,7 @@ dialog::backdrop {
 
 table#theory-fingering {
   width: 90%;
+  margin: auto;
   border-collapse: collapse;
   background-color: transparent;
   text-align: center;
@@ -226,7 +227,7 @@ table#theory-fingering {
 /* Default table styling */
 table#theory-fingering td, table th {
   padding: 2px;
-  border: 1px solid #ccc;
+  border: 1px solid transparent;
 }
 
 /* Middle columns for base letters (3, 6, 9, 12, 15, 18, 21)*/
@@ -237,36 +238,30 @@ table#theory-fingering tr td:nth-child(12),
 table#theory-fingering tr td:nth-child(15),
 table#theory-fingering tr td:nth-child(18),
 table#theory-fingering tr td:nth-child(21) {
-  background-color: #121A1E;
-  color: #ffffff; /* Added for text readability on dark background */
+  background-color: #223037;
 }
 
-/* First and Last Columns */
+/* First and last columns */
 table#theory-fingering tr td:first-child, table tr td:last-child {
   background-color: #FFCC66;
   color: #000000;
+  font-weight: bold;
 }
 
 /* First and Last Rows (Overrides middle columns) */
-table#theory-fingering tr:first-child td, table tr:last-child td {
+table#theory-fingering tr:first-child td:nth-child(n),
+table#theory-fingering tr:last-child td:nth-child(n) {
   background-color: #FFCC66;
   color: #000000;
+  font-weight: bold;
 }
 
-/* Top-Left Corner */
-table#theory-fingering tr:first-child td:first-child {
-  background-color: #BF994D;
-}
-/* Top-Right Corner */
-table#theory-fingering tr:first-child td:last-child {
-  background-color: #BF994D;
-}
-/* Bottom-Left Corner */
-table#theory-fingering tr:last-child td:first-child {
-  background-color: #BF994D;
-}
-/* Bottom-Right Corner */
-table#theory-fingering tr:last-child td:last-child {
+/* Four corners */
+table#theory-fingering tr:first-child td:first-child, /* Top-Left Corner */
+table#theory-fingering tr:first-child td:last-child, /* Top-Right Corner */
+table#theory-fingering tr:last-child td:first-child, /* Bottom-Left Corner */
+table#theory-fingering tr:last-child td:last-child /* Bottom-Right Corner */
+{
   background-color: #BF994D;
 }
 
