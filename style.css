@@ -215,6 +215,15 @@ dialog::backdrop {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+table#chord-comp {
+  width: 90%;
+  margin: auto;
+}
+
+table#chord-comp > tbody tr:nth-child(odd) {
+  background-color: #121A1E;
+}
+
 table#theory-fingering {
   width: 90%;
   margin: auto;
