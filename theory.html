@@ -38,14 +38,15 @@
       </header>
       <hr />
       <h3>Chord Composition</h3>
-      <table>
-        <tr><th>JC's Shorthand</th><th>Common</th><th>Jazz</th><th>Name</th><th>Composition</th><th>Comments</th></tr>
-        <tr><td></td><td></td><td></td><td>Major Triad</td><td>R — 3 — 5</td><td>-</td></tr>
+      <table id="chord-comp">
+        <tr><th>JC Notation</th><th>Common</th><th>Jazz</th><th>Name</th><th>Composition</th><th>Comments</th></tr>
+        <tr><td></td><td></td><td>△</td><td>Major Triad</td><td>R — 3 — 5</td><td>-</td></tr>
         <tr><td>5</td><td>(no3)</td><td>5</td><td>Power Chord, Dyad</td><td>R — 5</td><td>-</td></tr>
-        <tr><td>6</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>69</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>9</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        <tr><td>6</td><td>6</td><td>6</td><td>Sixth</td><td>R — 3 — 5 — 6</td><td>-</td></tr>
+        <tr><td>69</td><td>6/9</td><td>69</td><td>Six-Nine</td><td>R — 3 — 5 — 6 — 9</td><td>-</td></tr>
+        <tr><td>7</td><td>7</td><td>7</td><td>Dominant Seventh</td><td>R — 3 — 5 — ♭7</td><td>-</td></tr>
+        <tr><td>9</td><td>9</td><td>9</td><td>Dominant Ninth</td><td>R — 3 — 5 — ♭7 — 9</td><td>-</td>3rd or 5th commonly omitted</tr>
+        <tr><td>11</td><td>11</td><td>11</td><td>Eleventh</td><td>R — 3 — 5 — ♭7 — 9 — 11</td><td>3rd commonly omitted</td></tr>
         <tr><td>s2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>s4</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>7s2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
@@ -53,33 +54,36 @@
         <tr><td>7n5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>m</td><td>min</td><td>-</td><td>Minor Triad</td><td>R b3 5</td><td>-</td></tr>
         <tr><td>m6</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        <tr><td>m69</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>m7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>m7n5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>m7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        <tr><td>m9</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        <tr><td>m11</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>mM7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>M7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>M7s2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>M9</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        <tr><td>M11</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>7b5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>m7b5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>o</td><td>dim</td><td>°</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>o7</td><td>-</td><td>°7</td><td>Diminished Seventh</td><td>R — ♭3 — ♭5</td><td>-</td></tr>
         <tr><td>o7n3</td><td>dim7(no3)</td><td>°7no3</td><td>Diminished Seventh, No Third</td><td>R — ♭3 — ♭5 — ♭♭7</td><td>-</td></tr>
+        <tr><td>m7b5</td><td>min7b5</td><td>Ø</td><td>Half-Diminished</td><td>R — ♭3 — ♭5 — ♭7</td><td>-</td></tr>
         <tr><td>o7n5</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>+</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
         <tr><td>+7</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>a2</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>a4</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>a9</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>a11</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>ma4</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>ma9</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
-        <tr><td>ma11</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        <tr><td>a2, a9</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        <tr><td>a4, a11</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        <tr><td>ma2, ma9</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        <tr><td>ma4, ma11</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+        <tr><td>/</td><td>/</td><td>/</td><td>Slash Chord</td><td>B — R — ...</td><td>The note after the slash is the bass note.</td></tr>
       </table>
       
       <hr />
       <h3>Quick Chord Sheet</h3>
-      <p>This is a cheat sheet for the easiest ukulele chord fingerings. The numbers represent the fret to hold, with zero '0' being an open string. The first number is the top string of the ukulele (G-string), and the last number is the bottom string (A-string). An 'X' means that string should not be played.</p>
+      <p>This is a cheat sheet for the easiest ukulele chord fingerings. The numbers represent the fret to hold, with zero '0' being an open string. The first number is the top string of the ukulele (G-string), and the last number is the bottom string (A-string). An 'X' means that string should not be played.</p><br>
       <!-- This is an example of an img that can be displayed larger when clicked
       <img id="theory-fingering" src="assets/theory-fingering.png" onclick="document.getElementById('imagePopup').showModal()"></img>
       <dialog id="imagePopup" style="background-color: #000000; border: none; border-radius: 8px; padding: 20px; max-width: 90vw; max-height: 90vh;">
