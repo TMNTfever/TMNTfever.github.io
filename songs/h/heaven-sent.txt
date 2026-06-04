@@ -7,7 +7,7 @@ Original Key: G to A#
 Starting Note: -5 1 2 3
 
 [CHORDS]
-  G   0232      G+/B   4332      CM7 4433      Cm  3333      Bm7b5 4555      E7*   4445
+  G   0232      G+/B   4332      CM7 4433      Cm  3333      Bm7b5 2212      E7    1202
   Am7 0453      C/D    0203      D   2220      Em  0432      Cs2   0233      Bm7   2222
   Dm  2210      C6     0000      D7  2223      D/E 7600      A     2100      A+/C# 2110
   DM7 2224      C#m7b5 4434      F#7 3424      E6  4444
@@ -15,7 +15,7 @@ Starting Note: -5 1 2 3
 [CHORUS 0]
   G               G+/B          CM7                   Cm
   Heaven sent an angel to me, I'm in paradise, when I look in her eyes
-       Bm7b5                       E7*            Am7                      C/D
+       Bm7b5                       E7             Am7                      C/D
   At a time when my heart couldn't see, thank god heaven sent an angel to me
 
 [VERSE 1]
@@ -31,7 +31,7 @@ G                D      Em                  Cs2            Am7                  
 [CHORUS 1] (Same as Chorus 0)
   G               G+/B          CM7                   Cm
   Heaven sent an angel to me, I'm in paradise, when I look in her eyes
-       Bm7b5                       E7*            Am7                      C/D
+       Bm7b5                       E7             Am7                      C/D
   At a time when my heart couldn't see, thank god heaven sent an angel to me
 
 [VERSE 2]
@@ -47,7 +47,7 @@ G            D         Em              Cs2                  Am7                 
 [CHORUS 2] (Same as Chorus 0)
   G               G+/B          CM7                   Cm
   Heaven sent an angel to me, I'm in paradise, when I look in her eyes
-       Bm7b5                       E7*            Am7                      C/D
+       Bm7b5                       E7             Am7                      C/D
   At a time when my heart couldn't see, thank god heaven sent an angel to me
 
 [BRIDGE]
