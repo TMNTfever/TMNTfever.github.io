@@ -6,7 +6,7 @@ Original Key: Bb to C
 Starting Note: 4
 
 [CHORDS]
-  Bbs2 3011      Gm7    0211      Ebs2 3322      Bb  3211      BbM7 3210      Fs4  3011
+  Bbs2 3011      Gm7    0211      Ebs2 3311      Bb  3211      BbM7 3210      Fs4  3011
   F    2010      Dm7    2213      Eb6  3333      Cm7 3333      Gm   0231      Dm/F 2210
   Eo   0401      Cm7a11 3313      F6   2213      G6  0202
   Em7  4435      Gs4    0233      G    0232      Am7 0453      Am   2000      Em/G 0432
