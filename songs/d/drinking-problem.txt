@@ -4,13 +4,14 @@ Original Artist: Midland
 Genre: Jawaiian
 Transcribed Key: Bb
 Original Key: Bb
-Starting Note: -6 1 2
+Starting Note: 4 3 2
 
 [CHORDS]
   Cm  0333      F  2010      Bb  2100      Gm  0231
 
 [INTRO]
-  Cm  F  Bb  Gm
+  Cm      F    Bb      Gm
+  Ooh ooh ooh, ooh ooh ooh
 
 [VERSE 1]
             Cm              F               Bb       Gm
