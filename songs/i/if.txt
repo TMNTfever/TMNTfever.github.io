@@ -1,8 +1,8 @@
 If
 Artist: Bread
 Genre: Ballad
-Transcribed Key: A
-Original Key: G
+Transcribed Key: G
+Original Key: A
 Starting Note: 3 4 5
 
 [CHORDS]
