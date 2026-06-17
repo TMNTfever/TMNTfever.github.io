@@ -6,9 +6,13 @@ Original Key: C to F
 Starting Note: 3
 
 [CHORDS]
+  Am7 2433      Fm6  1213      Em7  0202      A7    0100      Bb6 0211      Dm7 2213
+  G7  0212      CM9  0202      Fm6  2123      Bm7b5 2212      E7  1202      FM7 5500
+  G9  2232      F6   2213      G6   0202      Em6   0102      C7  0001      Dm6 2212
+  Ab6 1313      G7s4 0213      Co/G 0313      D7    2223
 
 [INTRO]
-      Am7 | Fm6     Em7 | A7      Bb |  Am7     Dm7 | G7
+      Am7 | Fm6     Em7 | A7      Bb6 | Am7     Dm7 | G7
   3 4 5 4 3 2,  3 4 5 3 5 6,  3 4 5 4 3 2,  1 3 2,  1 -7
 
 [VERSE 1]
@@ -46,8 +50,8 @@ CM9                    Fm6           CM9                   Fm6
   My love light burns for her alone
           E7               Am7         G6        Em6
   But she couldn't see the flame, only myself to blame
-                C7 Bb6 Ab6           G7s4 G7
-  I should have known, I should have known
+                Bbo7 Bb6 Ab6           G7s4 Co/G
+  I should have known,   I should have known
 
 [VERSE 3]
 CM9            Fm6             CM9                 Fm6
@@ -56,5 +60,5 @@ CM9            Fm6             CM9                 Fm6
   Oh I guess I should have told her, I thought she knew
   FM7           Em7   Am7 FM7           Em7
   I thought she knew, oh  I thought she knew
-  Am7           FM7   Em7  Bb6 Am7 D7      Dm7  G7     CM9 Fm6 CM9
-  I thought she knew, woo, ooh I   thought that she knew,   knew
+  Am7           Bm7b5 Bo7 Bb6 Am7 D7      Dm7  G7     CM9 Fm6 CM9
+  I thought she knew,     ooh I   thought that she knew,   knew
