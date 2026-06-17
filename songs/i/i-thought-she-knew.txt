@@ -1,88 +1,60 @@
 I Thought She Knew
 Artist: *NSYNC
 Genre: Ballad
-Transcribed Key: C
-Original Key: C
+Transcribed Key: C to F
+Original Key: C to F
 Starting Note: 3
 
 [CHORDS]
 
 [INTRO]
-      Am7 | Fm      Em7 | A7      Bb |  Am7     Dm7 | G7
+      Am7 | Fm6     Em7 | A7      Bb |  Am7     Dm7 | G7
   3 4 5 4 3 2,  3 4 5 3 5 6,  3 4 5 4 3 2,  1 3 2,  1 -7
 
 [VERSE 1]
-CM9            Fm7             CM9                 Fm7
+CM9            Fm6             CM9                 Fm6
   She was my once in a lifetime, happy ending come true
-  Bm7        E7               Am7
-Oh I guess I should have told her
-              Fm7   F   G7
-I thought she knew
-C                      Fm
-    She said I took her for granted
-C                      Fm
-    Last thing I would do
-   Bm7        E7      Am
-Oh I'll never understand it
-                 F            G
-I thought she knew.............
-
+     Bm7b5     E7          Am7                     FM7  G9
+  Oh I guess I should have told her, I thought she knew
+CM9              Fm6             CM9                           Fm6
+  She said I took her for granted, it's the last thing I would do
+     Bm7b5      E7       Am7                    FM7  G9
+  Oh I'll never understand it, I thought she knew
 
 [CHORUS 1]
-              F
-I thought she knew
-                  Em7
-My world revolved around her
-        Am7   F              Em7
-My love light burned for her alone
-        Am7              Am
-But she couldn't see the flame
-     G         A
-Only myself to blame
-             C7   Bb
-I should have known
-Dm            G
-I should have known
-
+                   F6                   Em7
+  I thought she knew my world revolved around her
+  Am7              F6           Em7
+  My love light burned for her alone
+          E7               Am7         G6        Em6
+  But she couldn't see the flame, only myself to blame
+                C7 Bb6 Dm7           Dm6
+  I should have known, I should have known
 
 [VERSE 2]
-C                                Fm
-   A heart full of words left unspoken
-C                    Fm
-   Now that we're through
-            Bm7               E7      Am7
-I'd sell my soul to have this silence broken
-             F                        G
-Oh I thought she knew...I thought she knew
-
+CM9                    Fm6           CM9                   Fm6
+  A heart full of words left unspoken, now that we're through
+              Bm7b5             E7      Am7
+  I'd sell my soul to have this silence broken
+                 FM7                   G9
+  Oh I thought she knew, I thought she knew
 
 [CHORUS 2]
-              Fmaj7                  Em7    Am
-I thought she knew my world revolved around her
-              F             Em7
-My love light burns for her alone
-        E                F
-But she couldn't see the flame
-     D         A
-Only myself to blame
-              C7  Bb
-I should have known
-    Ab        Gm              G7
-I should have known............
+                   F6                   Em7
+  I thought she knew my world revolved around her
+  Am7             F6           Em7
+  My love light burns for her alone
+          E7               Am7         G6        Em6
+  But she couldn't see the flame, only myself to blame
+                C7 Bb6 Ab6           G7s4 G7
+  I should have known, I should have known
 
-
-[BRIDGE]
-C             Fm
-   She was my once in a lifetime
-C                    Fm
-   Happy ending come true
-C      Bm7             E7          Am
-Woah    I    guess I should have told her
-                   F           Em7
-That I thought she knew..........
-Am7           Fmaj7       Em7
-I thought she knew..........
-Am7                 F               G7
-I thought she knew (I thought she knew)
-Bb               Am7  Ab7            G7    C          Fm           C
-.............Woah I...thought...that she...knew.....................
+[VERSE 3]
+CM9            Fm6             CM9                 Fm6
+  She was my once in a lifetime, happy ending come true
+     Bm7b5     E7          Am7                     -
+  Oh I guess I should have told her, I thought she knew
+  FM7           Em7   Am7 FM7           Em7
+  I thought she knew, oh  I thought she knew
+  Am7           FM7   Em7  Bb6 Am7 D7      Dm7  G7     CM9 Fm6 CM9
+  I thought she knew, woo, ooh I   thought that she knew,   knew
