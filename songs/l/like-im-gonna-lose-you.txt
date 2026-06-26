@@ -1,111 +1,86 @@
 Like I'm Gonna Lose You
 Artist: Meghan Trainor, John Legend
 Genre: Ballad, Duet
-Transcribed Key: C
-Original Key: C
+Transcribed Key: F
+Original Key: F
 Starting Note: 5 5 6 1 1 6 5
 
-[VERSE 1]
-C
-  I found myself dreaming
-Em
-  In silver and gold
-Am
-  Like a scene from a movie
-     F     Em     Dm    G
-That every broken heart knows
-C
-  We were walking on moonlight
-Em
-  And you pulled me close
-Am
-  Split second and you disappeared
-         F     Em   Dm    G
-And then I was all alone
+[CHORDS]
+  F 2010      Am 2000      Dm 2210      Bb 3211      C 0003      Gm 0231
 
-[PRE-CHORUS 1]
-  C
-I woke up in tears with you by my side
-Em
-Breath of relief
-          Am
-And I realized
-              F          Em    Dm    G
-No, we're not promised tomorrow
+[VERSE 1]
+F                        Am
+  I found myself dreaming, in silver and gold
+Dm                                Bb           C 
+  Like a scene from a movie, that every broken heart knows
+F                             Am
+  We were walking on moonlight, and you pulled me close
+Dm                                           Bb         C
+  Split second and you disappeared, and then I was all alone
+
+[PRE-CHORUS 1] (Half-time)
+    F                                     Am                             Dm
+  I woke up in tears with you by my side, breath of relief, and I realized
+                Bb         Am    Gm  (C)
+  No, we're not promised tomorrow
 
 [CHORUS 1]
-             C                       Em
-So I'm gonna love you like I'm gonna lose you
-          Am                           F   G
-I'm gonna hold you like I'm saying goodbye
-               C
-Wherever we're standing
-                     Em
-I won't take you for granted
-                   Am                               F   G
-'Cause we'll never know when, when we'll run out of time
-             C                       Em
-So I'm gonna love you like I'm gonna lose you
-          Am                      F     G
-I'm gonna love you like I'm gonna lo-se you
+     C         F                        Am
+  So I'm gonna love you, like I'm gonna lose you
+            Dm                           Bb  C
+  I'm gonna hold you like I'm saying goodbye
+                 F                              Am
+  Wherever we're standing, I won't take you for granted
+                    Dm                               Bb  C
+  Cause we'll never know when, when we'll run out of time
+               F                       Am
+  So I'm gonna love you like I'm gonna lose you
+            Dm                      Bb   C
+  I'm gonna love you like I'm gonna lose you
 
 [VERSE 2]
-C
-  In the blink of an eye
-Em
-  Just a whisper of smoke
-Am
-  You could lose everything
-    F     Em     Dm    G
-The truth is you never know
-C
-  So I'll kiss you longer baby
-Em
-  Any chance that I get
-Am
-  And I'll make the most of the minutes
-    F         Em   Dm    G
-And love with no regrets
+F                       Am
+  In the blink of an eye, just a whisper of smoke
+Dm                               Bb           C
+  You could lose everything, the truth is you never know
+F                             Am
+  So I'll kiss you longer baby, any chance that I get
+Dm                                       Bb        C
+  And I'll make the most of the minutes, love with no regres
 
-[PRE-CHORUS 2]
-C
-Let's take our time to say what we want
-Em                                  Am
-Use what we got before it's all gone
-                     F          Em   Dm    G
-'Cause no, we're not promised tomorrow
+[PRE-CHORUS 2] (Half-time)
+  F                                        Am
+  Let's take our time to say what we want, use what we got before it's all gone
+Dm                    Bb         Am   Gm  (C)
+  Cause no, we're not promised tomorrow
 
-[CHORUS 2]
-             C                       Em
-So I'm gonna love you like I'm gonna lose you
-          Am                           F   G
-I'm gonna hold you like I'm saying goodbye
-               C
-Wherever we're standing
-                     Em
-I won't take you for granted
-                   Am                               F   G
-'Cause we'll never know when, when we'll run out of time
-             C                       Em
-So I'm gonna love you like I'm gonna lose you
-          Am                      F      G
-I'm gonna love you like I'm gonna lo-se you
+[CHORUS 2] (Same as Chorus 1)
+     C         F                        Am
+  So I'm gonna love you, like I'm gonna lose you
+            Dm                           Bb  C
+  I'm gonna hold you like I'm saying goodbye
+                 F                              Am
+  Wherever we're standing, I won't take you for granted
+                    Dm                               Bb  C
+  Cause we'll never know when, when we'll run out of time
+               F                       Am
+  So I'm gonna love you like I'm gonna lose you
+            Dm                      Bb   C
+  I'm gonna love you like I'm gonna lose you
 
 [INTERLUDE]
-  C  Em  Am  F C/E Dm G
+  F  Am  Dm  Bb | C
 
-[CHORUS 3]
-          C                       Em
-I'm gonna love you like I'm gonna lose you
-          Am                           F    G
-I'm gonna hold you like I'm saying goodbye
-               C
-Wherever we're standing
-                     Em
-I won't take you for granted
-                   Am                               F   G
-'Cause we'll never know when, when we'll run out of time
-             C                       Em
-So I'm gonna love you like I'm gonna lose you
-          Am                      F     G     C
-I'm gonna love you like I'm gonna lo-se you
+[CHORUS 3] (Same as Chorus 1)
+     C         F                        Am
+  So I'm gonna love you, like I'm gonna lose you
+            Dm                           Bb  C
+  I'm gonna hold you like I'm saying goodbye
+                 F                              Am
+  Wherever we're standing, I won't take you for granted
+                    Dm                               Bb  C
+  Cause we'll never know when, when we'll run out of time
+               F                       Am
+  So I'm gonna love you like I'm gonna lose you
+            Dm                      Bb   C
+  I'm gonna love you like I'm gonna lose you
