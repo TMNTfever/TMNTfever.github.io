@@ -3,7 +3,7 @@ Artist: MAGIC!
 Genre: Reggae
 Transcribed Key: A
 Original Key: C#
-Starting Note: 3 4 3 2 1
+Starting Note: 7 8 7 6 5
 
 [CHORDS]
   D  2220      E  4442      A  2100      F#m 2120
