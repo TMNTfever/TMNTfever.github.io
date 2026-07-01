@@ -3,7 +3,7 @@ Artist: The Weeknd, Natty Bong
 Genre: Folk Pop
 Transcribed Key: C
 Original Key: Eb
-Starting Note: 
+Starting Note: 3 3 3 3 3 5 7
 
 [CHORDS]
   C  0003      Em  0432      Am  2000      F  2010
