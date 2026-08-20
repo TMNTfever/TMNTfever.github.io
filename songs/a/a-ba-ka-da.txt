@@ -6,6 +6,7 @@ Original Key: C
 Starting Note: 6 7 8
 
 [CHORDS]
+  C  0003      G  0232      G7  0212      F  2010
 
 [INTRO]
   G7  C
