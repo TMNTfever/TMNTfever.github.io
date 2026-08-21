@@ -2,134 +2,96 @@
 Artist: Boyz II Men
 Genre: R&B, Ballad
 Transcribed Key: C
-Original Key: C
+Original Key: Db
 Starting Note: 5 7 8
 
 [CHORDS]
 
 [VERSE 1]
-  C         Am7              F       Em
-  I long for the warmth of days gone by
-    F            Em
-  when you were mine
-      Am7        Dm7
-  but now those days
-       F    G       C
-  are memories in time
-             Am7          F          Em
+C           Am7           F           Em F6              Em7
+  I long for the warmth of days gone by,  when you were mine
+       Am7        Dm7     F    G      C
+  But now those days are memories in time
+              Am7         F       Em
   Life's empty without you by my side
-  F             Em       Am7
-  My heart belongs to you
-      Dm7     F       G
-  No matter what I try
+F6             Em7      Am7    Dm7     F      G
+  My heart belongs to you, no matter what I try
 
 [PRE-CHORUS 1]
-                F                            Em Am7
+                 F                           Em7  Am7
   When I get the courage up to love somebody new
-                 F
-  It always falls apart 'cause they just
-                     Em Am7
-  Can't compare to you
-                F
-  You love won't release me
-                               Em
-  I'm bound under ball and chain
-       Am7          Dm7       F          G           F
+                  F                                      Em7  Am7
+  It always falls apart cause they just can't compare to you
+                F                                    Em7
+  You love won't release me I'm bound under ball and chain
+      Am7         Dm7       F          G      (F)
   Reminiscing our love as I watch four seasons change
 
 [CHORUS 1]
-  F
-   In comes the winter breeze
-         Em              Am7
-  That chills the air and drifts the snow
-  F                     Em           Am7
-   And I imagine kissing you under the mistletoe
-  F
-   When springtime makes its way here
-  Em             Am7            Dm7                 G
-  Lilac blooms reminds me of the scent of your perfume
-  F
-   When summer burns with heat
-    Em             Am7
-  I always get the hots for you
-  F                         Em             Am7
-   Go skinny dippin' in the ocean where we used to do
-  F                                 Em
-   When autumn sheds the leaves the trees are bare
-        Am7               Dm7                 G
-  When you're not here it doesn't feel the same
+F                                  Em7                Am7
+  In comes the winter breeze, that chills the air and drifts the snow
+F                       Em7           Am7
+  And I imagine kissing you under the mistletoe
+F                                     Em7            Am7            Dm7              G
+  When springtime makes its way here, lilac blooms remind me of the scent of your perfume
+F                                Em7            Am7
+  When summer burns with heat, I always get the hots for you
+F                          Em7            Am7
+  Go skinny dipping in the ocean where we used to do
+F                                  Em7                 Am7                 Dm7               G
+  When autumn sheds the leaves the trees are bare when you're not here, it doesn't feel the same
 
 [VERSE 2]
-  C        Am7             F                Em
-   Remember the nights when we closed our eyes
-  F                Em   Am7      Dm7                      G
-   And vowed that you and I would be in love for all time
+C         Am7             F                Em
+  Remember the nights when we closed our eyes
+F6               Em7      Am7    Dm7   F             F/G
+  And vowed that you and I would be in love for all time
 
 [PRE-CHORUS 2]
-                F                                   Em Am7
-  Anytime I think about these things is shared with you
-                    F                        Em Am7
-  I break down and cry 'cause I get so emotional
-              F                                 Em
+            F                                      Em7  Am7
+  Anytime I think about these things I shared with you
+                   F                        Em7  Am7
+  I break down and cry cause I get so emotional
+              F                                 Em7
   Until you release me I'm bound under ball and chain
-       Am7          Dm7       F          G           F
+      Am7         Dm7       F          G      (F)
   Reminiscing our love as I watch four seasons change
 
-[CHORUS 2]
-  F
-   In comes the winter breeze
-         Em              Am7
-  That chills the air and drifts the snow
-  F                     Em           Am7
-   And I imagine kissing you under the mistletoe
-  F
-   When springtime makes its way here
-  Em             Am7            Dm7                 G
-  Lilac blooms reminds me of the scent of your perfume
-  F
-   When summer burns with heat
-    Em             Am7
-  I always get the hots for you
-  F                         Em             Am7
-   Go skinny dippin' in the ocean where we used to do
-  F                                 Em
-   When autumn sheds the leaves the trees are bare
-        Am7               Dm7                 G
-  When you're not here it doesn't feel the same
+[CHORUS 2] (Same as Chorus 1)
+F                                  Em7                Am7
+  In comes the winter breeze, that chills the air and drifts the snow
+F                       Em7           Am7
+  And I imagine kissing you under the mistletoe
+F                                     Em7            Am7            Dm7              G
+  When springtime makes its way here, lilac blooms remind me of the scent of your perfume
+F                                Em7            Am7
+  When summer burns with heat, I always get the hots for you
+F                          Em7            Am7
+  Go skinny dipping in the ocean where we used to do
+F                                  Em7                 Am7                 Dm7               G
+  When autumn sheds the leaves the trees are bare when you're not here, it doesn't feel the same
 
 [BRIDGE]
-  F               E7
-   This loneliness
-                 C7
-  Has crushed my heart
-                D7
-  Please let me love again
-                    F                               Em Am7
-  'Cause I need your love to comfort me and ease my pain
-          Dm7                    F     G     F
+F              E7              C7                   D7
+  This loneliness has crush my heart, please let me love again
+                    F                              Em7  Am7
+  Cause I need your love to comfort me and ease my pain
+          Dm7                    F     G    (F)
   Or four seasons will bring the loneliness again
 
-[CHORUS 3]
-  F
-   In comes the winter breeze
-         Em              Am7
-  That chills the air and drifts the snow
-  F                     Em           Am7
-   And I imagine kissing you under the mistletoe
-  F
-   When springtime makes its way here
-  Em             Am7            Dm7                 G
-  Lilac blooms reminds me of the scent of your perfume
-  F
-   When summer burns with heat
-    Em             Am7
-  I always get the hots for you
-  F                         Em             Am7
-   Go skinny dippin' in the ocean where we used to do
-  F                                 Em
-   When autumn sheds the leaves the trees are bare
-        Am7               Dm7                 G
-  When you're not here it doesn't feel the same
+[CHORUS 3] (Same as Chorus 1)
+F                                  Em7                Am7
+  In comes the winter breeze, that chills the air and drifts the snow
+F                       Em7           Am7
+  And I imagine kissing you under the mistletoe
+F                                     Em7            Am7            Dm7              G
+  When springtime makes its way here, lilac blooms remind me of the scent of your perfume
+F                                Em7            Am7
+  When summer burns with heat, I always get the hots for you
+F                          Em7            Am7
+  Go skinny dipping in the ocean where we used to do
+F                                  Em7                 Am7                 Dm7               G
+  When autumn sheds the leaves the trees are bare when you're not here, it doesn't feel the same
 
 [OUTRO]
             C             F6         Em7  CM7
