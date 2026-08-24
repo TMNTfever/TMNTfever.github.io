@@ -6,6 +6,8 @@ Original Key: Db
 Starting Note: 5 7 8
 
 [CHORDS]
+  C   0003      Am7 0000      F  2010      Em 0432      F6 2213      Em7 0202
+  Dm7 2213      G   0232      E7 1202      C7 0001      D7 2223      CM7 0002
 
 [VERSE 1]
 C           Am7           F           Em F6              Em7
