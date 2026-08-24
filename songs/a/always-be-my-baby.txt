@@ -1,11 +1,14 @@
 Always Be My Baby
 Artist: Mariah Carey
 Genre: R&B, Pop
-Transcribed Key: E
+Transcribed Key: E to F
 Original Key: E
 Starting Note: 1 2 3 1
 
 [CHORDS]
+  E    4442      G#m7 1322      A    2100      B   4322      C#m7 4444
+  F#m7 2424      Bs4  4422      F#   3121      C   0003      F    2010
+  Am7  0453      Bb   3211      Dbm7 1102      Dm7 2213 
 
 [INTRO 1] x 2
   E   G#m7 | A   B | C#m7   G#m7 | A   B
@@ -40,7 +43,7 @@ C#m7                            G#m7 | A
                             B            (E)
    Ooh darling cause you'll always be my baby
 
-[POST-CHORUS 1]
+[INTERLUDE]
 E           G#m7 | A
   Do-do-doop,       do-do-doop do-doop da dum
 E            G#m7 | A      B
@@ -56,76 +59,46 @@ E               B/D# | C#m7               G#m7 | C#m/A
                                    F#m7     Bs4          B
   Cause y'know in your heart babe, our love will never end no
 
-[CHORUS 2] (Same as Chorus 1)
-E                             G#m | A                    B    |   Cm7
-  You'll always be a part of me,     I'm a part of you indefinitely
-C#m7                                   G#m | A
+[CHORUS 2] (Same as Chorus 1, except last chord is vi)
+E                             G#m7 | A                    B    |   Cm7
+  You'll always be a part of me,      I'm a part of you indefinitely
+C#m7                                   G#m7 | A
   Boy don't you know you can't escape me
                            B             E
   Ooh darling cause you'll always be my baby
-                   G#m | A                   B      |       Cm7
-  And we'll linger on,    time can't erase a feeling this strong
-C#m7                            G#m | A
+                   G#m7 | A                   B      |       Cm7
+  And we'll linger on,     time can't erase a feeling this strong
+C#m7                            G#m7 | A
    No way you're never gonna shake me
-                            B            (E)
+                            B            (C#m7)
    Ooh darling cause you'll always be my baby
 
-[Bridge]
-             F#
-I know that you'll be back boy
-A                                             Abm
-When your days and your nights get a little bit colder oooohhh
-C#m           F#
-  I know that, you'll be right back, babe
-A                                            B    Cdim
-Ooooh! baby believe me it's only a matter of time, of time!
+[BRIDGE]
+C#m7     G#m7 | F#        F# | G#m7 | A
+  I know that   you'll be back boy
+A                                             G#m7
+  When your days and your nights get a little bit colder, oh
+C#m7         F#          F#    |    G#m7 | A
+  I know that, you'll be right back baby
+                                            B     C
+  Oh baby believe me it's only a matter of time, time
 
-[Chorus]
-F                               Am  Bb                     C    C#m
-   You'll always be a part of me      I'm a part of you indefinitely
-Dm                                     Am
-    Boy don't you know you can't escape me
-Bb                          C            F
+[CHORUS 3] x 2
+F                             Am7 | Bb                   C    |   Dbm7
+  You'll always be a part of me,     I'm a part of you indefinitely
+Dm7                                    Am7 | Bb
+  Boy don't you know you can't escape me
+                           C             F
   Ooh darling cause you'll always be my baby
-                 Am  Bb
-And we'll linger on
-                   C            C3m
-Time can't erase a feeling this strong
-Dm                                  Am
+                   Am7 | Bb                  C      |       Dbm7
+  And we'll linger on,    time can't erase a feeling this strong
+Dm7                             Am7 | Bb
    No way you're never gonna shake me
-Bb                          C           F
-  Ooh darling cause you'll always be my baby
+                            C            (F)
+   Ooh darling cause you'll always be my baby
 
-[Chorus]
-F                               Am  Bb                     C    C#m
-   You'll always be a part of me      I'm a part of you indefinitely
-Dm                                     Am
-    Boy don't you know you can't escape me
-Bb                          C            F
-  Ooh darling cause you'll always be my baby
-                 Am  Bb
-And we'll linger on
-                   C            C3m
-Time can't erase a feeling this strong
-Dm                                  Am
-   No way you're never gonna shake me
-Bb                          C           F
-  Ooh darling cause you'll always be my baby
-
-[Outro]
-E            G#m
-  Do do doop (oh)
-A        B       C
-   Do do doop do doop da dum
-C#m
-     Do do doop dum
-A        B
-   Do do doop do-doop da dum
-E            G#m
-  Do do doop (oh)
-A        B       C
-   Do do doop do doop da dum
-C#m
-     Do do doop dum
-A        B
-   Do do doop do-doop da dum
+[OUTRO] x 2
+F           Am7 | Bb      C    |   Dbm7
+  Do-do-doop,       do-do-doop do-doop da dum
+Dm7          Am7 | Bb      C
+  Do-do-doop dum,    do-do-doop do-doop da dum
