@@ -1,12 +1,17 @@
 I Turn to You
 Artist: All-4-One, Christina Aguilera
 Genre: R&B, Ballad
-Transcribed Key: Bb
-Original Key: Bb
+Transcribed Key: Bb to C#
+Original Key: Bb to C#
 Starting Note: 1 -7 1
 
 [CHORDS]
-  ??????????????????
+  Cm7  3333      Eb   3331      Eb/F 0311      Bb   3211      Bbm7 1111      F   2010
+  Fs4  3011      Fs6  X213      Fm7  1313      Gbo7 2323      Gm7  0211      F7  2313
+  EbM7 1113      Dm7  2213      Ebm7 3324      AbM7 1333      Bbs4 2211      Bb7 1211
+  Eb6  3333      E6   4444
+  B    4322      C#m7 4444      EM7  1302      D#m7 3324      Em7  0202
+  C#   1114      F#M7 3524      G#   5343      F#m7 2424
 
 [INTRO]
   Cm7  Eb | Eb/F    Bb  Bbm7/Gb
