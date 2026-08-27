@@ -1,0 +1,75 @@
+A Ba Ka Da
+Artist: Florante
+Genre: Folk, Children
+Transcribed Key: C
+Original Key: C
+Starting Note: 6 7 8
+
+[CHORDS]
+  C  0003      G  0232      G7  0212      F  2010
+
+[INTRO]
+  G7  C
+
+[CHORUS 1]
+       C           G              G7                C      G
+  A Ba Ka Da, E Ga Ha I La, Ma Na Ng O Pa, Ra-Sa-Ta-U-Wa-Ya
+
+[VERSE 1]
+              C          G
+  A - Ang mag-aral ay gintong tunay
+             G7            C
+  Ba - Bagay na dapat pagsikapan
+           C            G
+  Ka - Karunungan ay kailangan lang
+              G7                   C | G7
+  Da - Dunong ay gamot sa kamangmangan
+
+[VERSE 2]
+           C           G7         C
+  E - Ewan ang sagot kapag hindi alam
+              F         G7         C
+  Ga - Gaga't gago ay yaong mga hangal
+           F          G7          C
+  Ha - Hahayaan bang ika'y magkagayon
+             G             G7       C
+  I - Iwasan mo habang may pagkakataon
+
+[VERSE 3]
+             C           G
+  La - Labis-labis ang mapapala
+            G7                   C
+  Ma - Magsikhay ka lang sa pag-aaral
+            C           G
+  Na - Nasa guro ang wastong landas
+                  G7                      C  |  G7
+  Nga - Ngayo'y sikapin mong ito ang mabagtas
+
+[VERSE 4]
+           C         G7         C
+  O - Oras na upang ikaw ay magising
+            F            G7        C
+  Pa - Pansinin mo ang dako na madilim
+             F        G7          C
+  Ra - Rehas ng mga tanong ay sagutin
+               G            G7          C  |  G7
+  Sa - Sabihin mong ikaw ay may alam na rin
+
+[VERSE 5]
+           C          G
+  Ta - Tatalino ang bawat isa
+         G7             C
+  U - Unawain lang at turuan
+           C         G
+  Wa - Wiwikain ang Abakada
+             G7                C  |  G7
+  Ya - Yaman at gabay sa kaunlaran
+
+[INTERLUDE]
+  C G7 C   F G7 C   F G7 C   G G7 C G7
+
+[OUTRO]
+       C           G              G7                C      G
+  A Ba Ka Da, E Ga Ha I La, Ma Na Ng O Pa, Ra-Sa-Ta-U-Wa-Ya
+       C           G              G7            F         C  G7  C
+  A Ba Ka Da, E Ga Ha I La, Ma Na Ng O Pa, Ra-Sa, Ta-U-Wa-Ya
