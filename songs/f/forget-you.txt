@@ -6,7 +6,8 @@ Original Key: C
 Starting Note: 1 3 5 6
 
 [CHORDS]
-  C D F Em Dm Am G
+  C 0003      D 2220      F  2010      Em 0432      Am 2000      Dm 2210
+  G 0232      E 4442      C7 3433      A7 2434      D* 2225      G7 0212
 
 [INTRO]
         C        D7     F      C
@@ -65,7 +66,7 @@ Starting Note: 1 3 5 6
 [BRIDGE]
       Em                        Am                      Dm              G
   Now baby, baby, baby, why you wanna wanna hurt me so bad (so bad, so bad, so bad)
-    Em                             Am                            D                   G
+    Em               E/G#          Am      G/B     C7      A7/C# D*                  G
   I tried to tell my mamma but she told me this is one for your dad (your dad, your dad, your dad)
               D        F        G      A     D               F                G    G7
   I was like, uh, why, uh, why, uh why lady, oh, I love you, oh, I still love you, oh
