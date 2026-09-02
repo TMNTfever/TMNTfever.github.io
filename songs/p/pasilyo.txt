@@ -1,13 +1,14 @@
 Pasilyo (Ikaw At Ikaw)
 Artist: Sunkissed Lola
-Genre: Reggae
+Genre: Indie Rock, Tagalog, Waltz
 Transcribed Key: D to Eb
 Original Key: D to Eb
 Starting Note: 7 8 7
 
 [CHORDS]
-  DM7  2224      D#o7 2323      Em7 0202      A7  0100      Bm7 2222      A 2100
-  EbM7 3335      Eo7  3434      Fm7 1313      Bb7 1211
+  DM7  2224      D#o7 2323      Em7 0202      A7   0100      Bm7 2222      A 2100
+  Em6  0102      B7   2322      AM7 2444      BbM7 3322
+  EbM7 3335      Eo7  3434      Fm7 1313      Bb7  1211
 
 [INTRO]
              DM7 - D#o7      Em7 - A7
@@ -30,38 +31,44 @@ Starting Note: 7 8 7
   Hahagkan na't 'di ka bibitawan, wala na kong mahihiling pa
 
 [CHORUS 1]
-           DM7 - D#o7 -       Em7 - A7 -       DM7 - D#o7 -       Em7 - A7
+   -       DM7 - D#o7 -       Em7 - A7 -       DM7 - D#o7 -       Em7 - A7
   Ikaw at ikaw -     ikaw at ikaw -   ikaw at ikaw -     ikaw at ikaw -
 
 [VERSE 2]
   DM7                   Bm7
   'Di maikukumpara araw araw 'kong dala dala
-      Em7         A               DM7
+     Em7          A               DM7
   Paboritong panalangin ko'y, makasama ka sa pagtanda
         Bm7                          Em7            A
   Ang hiling sa Diyos na may gawa, apelyido ko'y maging iyo
 
 [PRE-CHORUS 2]
-  DM7      -  Bm7               Em7                  A
+  DM7      -  Bm7               Em7                      A7
   Naglakad ka nang dahan dahan, sa pasilyo tungo sa 'kin at hinawakan
-  DM7        Bm7                  Em7               A
+  DM7      -     Bm7            Em7                 A7
   Mo ako't aking di napigilang, maluha nang mayakap na
 
 [CHORUS 2]
-           DM7 - D#o7 -       Em7 - A7 -       DM7 - D#o7 -       Em7 - A7
+   -       DM7 - D#o7 -       Em7 - A7 -       DM7 - D#o7 -       Em7 - A7
   Ikaw at ikaw -     ikaw at ikaw -   ikaw at ikaw -     ikaw at ikaw -
 
-[INTERLUDE]
-  DM7  Bm7  Em7  A    DM7  Bm7  Em7  A7  Bb7
+[INTERLUDE 1]
+        Em7    A7       DM7 | Em6 | Bm7 | (B7)
+  3 2 1 2, -6 -5, 5 4 5 3     2     1
+  B7    Em7       AM7            BbM7  CM7
+  6 5 4 3, 3 2 3 -7 -6 -5, 1 2 3 1, -5 1 2 b3 2, -7 2 b3 4
+
+[INTERLUDE 2] (Verse melody-based solo)
+  DM7  Bm7  Em7  A     DM7  Bm7  Em7  A7  Bb7
 
 [CHORUS 3]
-           EbM7 - Eo7 -       Fm7 - Bb7 -       EbM7 - Eo7 -       Fm7 - Bb7
+   -       EbM7 - Eo7 -       Fm7 - Bb7 -       EbM7 - Eo7 -       Fm7 - Bb7
   Ikaw at ikaw -     ikaw at ikaw -    ikaw at ikaw -     ikaw at ikaw -
 
-[OUTRO] (Overlap with Chorus)
+[OUTRO] (Overlap with Chorus lyrics)
   EbM7                        Eo7
   Palad ay basang-basa, ang dagitab ay damang-dama
-         Fm7           Bb7            EbM7             Eo7
-  Sa'king kalamnang punong puno, 'Di maikukumpara araw araw
-  
+         Fm7           Bb7        EbM7                 Eo7
+  Sa'king kalamnang punong puno, 'di maikukumpara araw araw
+                      Fm7          Bb7            -
   'Kong dala dala, paboritong panalangin ko'y, ikaw
