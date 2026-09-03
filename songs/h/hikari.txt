@@ -1,0 +1,72 @@
+Hikari
+Artist: Utada Hikaru
+Genre: JPop
+Transcribed Key: Eb
+Original Key: Eb
+Starting Note: 3 7 6 5 4 5
+
+[CHORDS]
+  EbM7 3335      Gm   3231      Cm 0333      Bb 3211      F 2010
+  Eb   3331      AbM7 1333      G7 0212      Ab 5343      G 0232
+
+[REFRAIN 0]
+EbM7              Gm              Cm              Bb
+  Donna toki datte, tada hitori de, unmei wasurete, ikite kita no ni
+  Gm            F                  Eb      F         -
+  Totsuzen no hikari no naka me ga sameru, mayonaka ni
+
+[VERSE 1]
+Cm        Cm Bb       Bm      Cm      Cm  Bb         Bb
+  Shizuka ni, deguchi ni tatte, kurayami ni, hikari wo ute
+AbM7                    G7                      Cm
+  Imadoki yakusoku nante, fuan ni saseru dake kana
+                 Cm                     Ab          G        Ab
+  Negai wo kuchi ni shitai dake sa kazoku ni mo shoukai suru yo
+    Bb   Gm    G
+  Kitto umaku iku yo
+
+[REFRAIN 1]
+EbM7              Gm              Cm              Bb
+  Donna toki datte, tada hitori de, unmei wasurete, ikite kita no ni
+  Gm           F                     Eb      F
+  Kimi to iu hikari ga watashi wo mitsukeru, mayonaka ni
+
+[INTERLUDE]
+  Bb  Bb
+
+[VERSE 2]
+Cm     Cm Bb     Bb       Cm    Cm  Bb       Bb
+  Urusai,  toori ni haitte, unmei, no kamen wo tore
+AbM7                       G7                      Cm
+  Sakiyomi no shisugi nante imi no nai koto wa yamete
+            Cm                          AbM7     G          Ab
+  Kyou wa oishii mono wo tabeyou yo, mirai wa zutto saki da yo
+     Bb      Gm    G
+  Boku ni mo wakaranai
+
+[REFRAIN 2]
+EbM7              Gm               Cm                     Bb
+  Kansei sasenaide, motto yokushite, wan shiin zutsu totte, ikeba ii kara
+  Gm           F                     Eb     F
+  Kimi to iu hikari ga watashi no shinario, utsushidasu
+
+[CHORUS 1]
+  EbM7    Gm             Cm       Bb
+  Motto hanasou yo mokuzen no ashita no koto mo
+    Gm             F                   Eb F
+  Terebi keshite watashi no koto dake wo, miteite yo
+
+[REFRAIN 3]
+EbM7                 Gm                 Cm                Bb
+  Donna ni yokuttatte, shinji kirenai ne, sonna toki datte, soba ni iru kara
+  Gm           F                     Eb      F
+  Kimi to iu hikari ga watashi wo mitsukeru, mayonaka ni
+
+[CHORUS 2] x 2 (Same as Chorus 1)
+  EbM7    Gm             Cm       Bb
+  Motto hanasou yo mokuzen no ashita no koto mo
+    Gm             F                   Eb F
+  Terebi keshite watashi no koto dake wo, miteite yo
+
+[OUTRO]
+   EbM7  Gm  Cm  Bb     Gm  F  Eb  F
