@@ -2,83 +2,83 @@ Poison
 Original Artist: Bell Biv Devoe
 Rendition Artist: Sunset Sound
 Genre: Reggae
-Transcribed Key: F#m
+Transcribed Key: Dm
 Original Key: F#m
-Starting Note: 3 5 5
+Starting Note: 8 5 7
 
 [CHORDS]
-  F#m7* 9999      F#m7 2424      Bm7 2222      DM7 2224      C#m7 4444      Em7 0202
+  Dm7* 5555    Dm7 2213    Gm7 0211    BbM7 3210    Am7 0453    Gm7* 3535    Cm7 3333
 
 [INTRO]
-            F#m7*    F#m7*    F#m7*
-  (Drum riff), (again), (again), (bass hit)
+            Dm7*   Dm7*   Dm7*   Dm7* 
+  (Drum riff), (2nd), (3rd), (4th), (bass kick)
 
 [VERSE 1]
-              F#m7        Bm7                           F#m7  Bm7
+              Dm7         Gm7                           Dm7   Gm7
   Girl I must warn you, I sense something strange in my mind
-               F#m7           Bm7                                F#m7  Bm7
+               Dm7            Gm7                                Dm7   Gm7
   Situation is serious, let's cure it cause we're running out of time
-             F#m7         Bm7                            F#m7  Bm7
+             Dm7          Gm7                            Dm7   Gm7
   It's oh so beautiful, relationships they seem from the start
-              F#m7         Bm7                           F#m7  Bm7
+              Dm7          Gm7                           Dm7   Gm7
   It's all so deadly, when love is not together from the heart
 
 [REFRAIN 1]
-DM7               C#m7          Bm7               F#m7  |  Em7      (DM7)
+BbM7              Am7           Gm7*              Dm7*  |  Cm7      (BbM7)
   It's drivin' me out of my mind, that's why it's hard for me to find
-DM7            C#m7          Bm7                   F#m7 -
+BbM7           Am7           Gm7*                  Dm7* -
   Can't get it out of my head, miss her, kiss her, love her
 
 [CHORUS 1]
-               F#m7    Bm7     F#m7            Bm7
+               Dm7     Gm7     Dm7             Gm7
   That girl is poison (poison! poison!), never trust a big butt and a smile
-               F#m7    Bm7                 F#m7*
-  That girl is poison (poison!), (drum riff), (bass hit)
+               Dm7     Gm7                 Dm7*   Dm7* 
+  That girl is poison (poison!), (drum riff), (2nd), (bass kick)
 
 [VERSE 2]
-                             F#m7       Bm7                        F#m7  Bm7
+                             Dm7        Gm7                        Dm7   Gm7
   If I were you, I'd take precaution, before I start to meet a fly girl
-                F#m7             Bm7                         F#m7  Bm7
+                Dm7              Gm7                         Dm7   Gm7
   Cause in some portions, you'll think she's the best in the world
-           F#m7        Bm7                         F#m7                 Bm7
+           Dm7         Gm7                         Dm7                  Gm7
   She's so fly, she'll drive you right out of your mind, steal your heart when you're blind
-    F#m7                        Bm7
+    Dm7                         Gm7
   Beware she's schemin', she'll make you think you're dreamin'
-F#m7                                 Bm7
+Dm7                                  Gm7
   You'll fall in love, and you'll be screaming "demon!"
 
 [VERSE 3]
-  DM7                             C#m7
+  BbM7                            Am7
   Poison, deadly, movin' in slow, lookin' for a mellow fellow like DeVoe-
-          Bm7                            F#m7           |          Em7
+          Gm7*                           Dm7*           |          Cm7
   Gettin' paid, laid, so better lay low, schemin' on house, money, and the whole show
-      DM7                                    C#m7
+      BbM7                                   Am7
   The low pro hoe, she'll be cut like an Afro, so what you're sayin' huh, she's a winner to you
-  Bm7                       F#m7 -
+  Gm7*                      Dm7* -
   But I know she's a loser, me and the crew used to knew her
 
 [BRIDGE]
-   F#m7    Bm7     F#m7    Bm7
+   Dm7     Gm7     Dm7     Gm7
   (Poison! Poison! Poison! Poison!)
-  F#m7    Bm7                 F#m7*    F#m7*
-  Poison (poison!), (drum riff), (again), (bass hit)
+  Dm7     Gm7                 Dm7*   Dm7* 
+  Poison (poison!), (drum riff), (2nd), (bass kick)
 
-[REFRAIN 2] (Sans drums)
-DM7               C#m7          Bm7               F#m7  |  Em7      (DM7)
+[REFRAIN 2] (Less drums)
+BbM7              Am7           Gm7*              Dm7*  |  Cm7      (BbM7)
   It's drivin' me out of my mind, that's why it's hard for me to find
-DM7            C#m7          Bm7                   F#m7 -
+BbM7           Am7           Gm7*                  Dm7* -
   Can't get it out of my head, miss her, kiss her, love her
 
 [CHORUS 2]
-               F#m7    Bm7     F#m7            Bm7
+               Dm7     Gm7     Dm7             Gm7
   That girl is poison (poison! poison!), never trust a big butt and a smile
-               F#m7    Bm7     F#m7            Bm7
+               Dm7     Gm7     Dm7             Gm7
   That girl is poison (poison! poison!), she's dangerous
-  F#m7    Bm7     F#m7       Bm7
+  Dm7     Gm7     Dm7        Gm7
   Poison (poison! poison!), oh yeah-
-               F#m7    Bm7                 F#m7*    F#m7*
-  That girl is poison (poison!), (drum riff), (again), (bass hit)
+               Dm7     Gm7                 Dm7*   Dm7* 
+  That girl is poison (poison!), (drum riff), (2nd), (bass kick)
 
 [OUTRO]
-     F#m7      BM7
+     Dm7        Dm7*
   Poison, uh-hoo
