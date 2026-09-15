@@ -1,122 +1,107 @@
 Let Me Love You
 Artist: Mario Barrett
 Genre: R&B
-Transcribed Key: Bb
-Original Key: Bb
-Starting Note: 1 1 -6
+Transcribed Key: Gm
+Original Key: Gm
+Starting Note: 3 3 1
+
+[CHORDS]
+  Cm7 3333    Gm7 0211    F6 2213    AbM7 1333    EbM7 3335    Gb 3121    DbM7 1113
 
 [INTRO]
-     Cm7       Gm7         F6         F
+     Cm7       Gm7         F6         F6
   Mm-mm ah, mm-mm yeah, mm-mmmm, yeah yeah yeah
-     Cm7       Gm7         F6        F
+     Cm7       Gm7         F6        F6
   Mm-mm ah, mm-mm yeah, mm-mmmm, yeah-y yeah
 
-[Verse 1]
- Cm
-Baby, I just don't get it
-Gm
-  Do you enjoy being hurt?
-F              Fsus2                 F
+[VERSE 1]
+Cm7                       Gm7
+  Baby I just don't get it, do you enjoy being hurt
+F6                         F6
   I know you smelled the perfume, the make-up on his shirt
-Cm
-You don't believe his stories
-Gm
-  You know that they're all lies
-F                     Fsus2                   F
+Cm7                            Gm7
+  You don't believe his stories, you know that they're all lies
+F6                           F6
   Bad as you are, you stick around and I just don't know why
- Cm
-If I was ya man (baby you)
-Gm
-  Never worry 'bout (what I do)
-F
-  I'd be coming home (back to you)
-Fsus2         F
-Every night, doin' you right
-Cm
-You're the type of woman (deserves good thangs)
-Gm
+
+[REFRAIN 1]
+  Cm7                         Gm7
+  If I was ya man (baby you), never worry 'bout (what I do)
+  F6                             F6
+  I'd be coming home back to you every night, doin' you right
+  Cm7
+  You're the type of woman (deserves good thangs)
+  Gm7
   Wrist full of diamonds (hand full of rings)
-F                                       Fsus2      F
-  Baby, you're a star (I just want to show you, you are)
+  F6                                 F6
+  Baby you're a star (I just want to show you, you are)
 
-[Chorus]
-                     Cm
-You should let me love you
-             Gm                   F            Fsus2     F
-Let me be the one to give you everything you want and need
-                      Cm
-Baby, good love and protection
-                Gm
-Make me your selection
-                   F     Fsus2      F
-Show you the way love's supposed to be
-                         Cm                 Gm             F     Fsus2    F
-Baby, you should let me love you, love you, love you, looove you..yeaaah
+[CHORUS 1]
+                    Cm7                     Gm7
+  You should let me love you, let me be the one to
+                F6                    F6
+  Give you everything you want and need
+                        Cm7                     Gm7
+  Baby good love and protection, make me your selection
+                   F6                  F6
+  Show you the way love's supposed to be
 
-[Verse 2]
- Cm
-Listen
- Cm
-Your true beauty's description looks so good that it hurts
-Gm
-You're a dime plus ninety-nine and it's a shame
-F              Fsus2               F
-Don't even know what you're worth
-Cm
-Everywhere you go they stop and stare
-Gm
-'Cause you're bad and it shows
-F                     Fsus2                   F
-From your head to your toes, out of control, baby you know
- Cm
-If I was ya man (baby you)
-Gm
-  Never worry 'bout (what I do)
-F
-  I'd be coming home (back to you)
-Fsus2         F
-Every night, doin' you right
-Cm
-You're the type of woman (deserves good thangs)
-Gm
+[POST-CHORUS]
+                          Cm7                 Gm7        F6         F6
+  Baby, you should let me love you, love you, love you, love you, yeah
+
+[VERSE 2]
+     Cm7                                Gm7
+  Listen, your true beauty's description looks so good that it hurts
+F6                                   F6
+  You're a dime plus ninety-nine and it's a shame, don't even know what you're worth
+Cm7                      Gm7
+  Everywhere you go they stop and stare, cause you're bad and it shows
+F6                             F6
+  From your head to your toes, out of control, baby you know
+
+[REFRAIN 2] (Same as Refrain 1)
+  Cm7                         Gm7
+  If I was ya man (baby you), never worry 'bout (what I do)
+  F6                             F6
+  I'd be coming home back to you every night, doin' you right
+  Cm7
+  You're the type of woman (deserves good thangs)
+  Gm7
   Wrist full of diamonds (hand full of rings)
-F                                       Fsus2     F
-  Baby, you're a star (I just want to show you,you are)
+  F6                                 F6
+  Baby you're a star (I just want to show you, you are)
 
-[Chorus]
-                     Cm
-You should let me love you
-             Gm                   F            Fsus2     F
-Let me be the one to give you everything you want and need
-                      Cm
-Baby, good love and protection
-                Gm
-Make me your selection
-                   F     Fsus2      F
-Show you the way love's supposed to be
-                         Cm     Gm     F  Fsus2  F
-Baby, you should let me ...
+[CHORUS 2] (Same as Chorus 1)
+                    Cm7                     Gm7
+  You should let me love you, let me be the one to
+                F6                    F6
+  Give you everything you want and need
+                        Cm7                     Gm7
+  Baby good love and protection, make me your selection
+                   F6                  F6
+  Show you the way love's supposed to be
 
-[Bridge]
-Cm7              Gm7
-You deserve better girl (you know you deserve better)
-Db                 G#
+[BRIDGE]
+                    AbM7          EbM7                              Gb
+  Baby you should be, you deserve better girl (you know you deserve better)
+                 DbM7
   We should be together girl (baby)
-   D#                  A#            Db
-With me and you it's whatever girl, hey!
-                          F
-So can we make this thing ours?
+AbM7                       EbM7         Gb                           F6
+  With me and you it's whatever girl, hey, so can we make this thing ours
 
-[Chorus]
-                     Cm
-You should let me love you
-             Gm                   F            Fsus2     F
-Let me be the one to give you everything you want and need
-                      Cm
-Baby, good love and protection
-                Gm
-Make me your selection
-                   F     Fsus2      F
-Show you the way love's supposed to be
-                         Cm                 Gm             F     Fsus2    F
-Baby, you should let me love you, love you, love you, looove you..yeaaah
+[CHORUS 3] (Same as Chorus 1)
+                    Cm7                     Gm7
+  You should let me love you, let me be the one to
+                F6                    F6
+  Give you everything you want and need
+                        Cm7                     Gm7
+  Baby good love and protection, make me your selection
+                   F6                  F6
+  Show you the way love's supposed to be
+
+[OUTRO]
+                          Cm7                 Gm7        F6         F6
+  Baby, you should let me love you, love you, love you, love you, yeah
+Cm7                       -
+  You're all I need, baby
