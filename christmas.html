@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Music chord charts made specifically for ukulele, but can be used for guitar, piano, or bass purposes. Lyrics and chords were personally extracted from each song, and I give credit to the recording artist(s). These are not sheet music, lead sheets, or tablature sheets; only chords. The transcribed song key is the key that I sing/play in. External use is permitted but with proper linkage/credit.">
+  <meta name="author" content="J.C. Reyes">
+  <meta property="og:title" content="TMNTfever - Christmas"> 
+  <meta property="og:description" content="A place for JC's chord sheets"> 
+  <meta property="og:image" content="assets/TMNTfever.png"> 
+  <meta property="og:url" content="https://tmntfever.github.io/christmas.html"> 
+  <title>TMNTfever - Christmas Chords</title>
+  <link rel="icon" href="assets/icon-tmntfever.png">
+  <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <!-- Head Scripts -->
+  <script src="src/jquery/jquery.min.js"></script>
+  <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="src/createTable/createTable.js"></script>
+  <script type="application/javascript">
+    var listLoaded = false;
+  
+    if(!listLoaded) {
+      document.addEventListener("DOMContentLoaded", () => {
+        const target = document.getElementById("ukulele-div");
+        if (!target) return;
+
+        const observer = new MutationObserver((mutationsList, observer) => {
+          for (const mutation of mutationsList) {
+            if (mutation.type === "childList" && target.innerText.trim() !== "") {
+              observer.disconnect();
+              listLoaded = true;
+              onListLoaded();
+            }
+          }
+        });
+      
+        observer.observe(target, { childList: true, subtree: true });
+      });
+      
+      function onListLoaded() {
+        createTable("ukulele-div", "ukulele-table", false);
+        
+        // After the table is created, attach sorting listeners
+        const table = document.getElementById("ukulele-table")
+        if (table && table.classList.contains("sortTable")) {
+          addSortListeners([table]) // re-run on the new table
+        }
+      }
+    }
+    
+    window.onload = function() {
+      // Load sidebar HTML into div
+      $("#sidebar-wrapper").load("sidebar.html");
+      $.get("christmas-list.tsv", function(data) {$("#ukulele-div").text(data);});
+    }
+  </script>
+  <!-- /#head-scripts -->
+</head>
+
+<!-- Body -->
+<body class="body">
+
+<!-- Wrapper -->
+<div id="wrapper" class="">
+  <!-- Sidebar Wrapper -->
+  <div id="sidebar-wrapper"></div>
+
+  <!-- Page Content -->
+  <div id="pg" class="text-light">
+    <!-- Christmas Page -->
+    <div id="pg-ukulele" class="pg">
+      <header>
+        <h1>CHRISTMAS</h1>
+      </header>
+      
+      <br><input id="search-bar" class="searchInput form-control" data-table-id="ukulele-table" type="search" placeholder="Search" aria-label="Search" aria-target="ukulele-table"><br>
+
+      <div id="ukulele-div"></div>
+    </div>
+  </div>
+  <!-- /#wrapper -->
+  <button onclick="randomSong()" id="randomButton" title="Choose a random song"> ? </button>
+  <button onclick="jumpToTop()" id="topButton" title="Jump to Top"> ⤒ </button>
+
+  <!-- Body Scripts -->
+  <script src="src/SortTable/scripts/searchTable.js"></script>
+  <script src="src/SortTable/scripts/sortTable.js"></script>
+  <script type="application/javascript">
+    /* Self-explanatory */
+    function jumpToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+    /* Auto-navigates to a randomly chosen song on this page */
+    function randomSong() {
+      var isSong = false;
+      
+      // Scrape all URLs from page
+      const allLinks = document.querySelectorAll('a');
+      const urls = [];
+
+      allLinks.forEach(link => {
+        urls.push(link.href);
+      });
+
+      // Choose random URL, but only ones that are songs (contains '?')
+      while (isSong == false) {
+        var randInt = Math.floor(Math.random() * urls.length);
+        if (urls[randInt].includes("?")) isSong = true;
+      }
+
+      // Navigate to URL
+      window.location.href = urls[randInt];
+    }
+  </script>
+  <!-- /#body-scripts -->
+</body>
+</html>
