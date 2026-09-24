@@ -26,6 +26,7 @@ Date        Programmer  Change
                         an empty line.
 2025-06-24  JC Reyes    Added ability to tag medleys.
 2025-07-01  JC Reyes    Added ability to generate chord diagrams.
+2026-09-24  JC Reyes    Removed the empty newline from expanded summary tags.
 ===============================================================================
 */
 function tagSong() {
@@ -187,7 +188,13 @@ function tagSong() {
 
   // Turn array into string
   for (i = 0; i < lines.length; i++) {
-    taggedHtml += (lines[i] + "\n");
+    // If the line contains the closing summary tag, do not add a newline
+    // This is because of the extra line for expanded <summary> tags
+    if (lines[i].includes("</summary>")) {
+      taggedHtml += lines[i];
+    } else {
+      taggedHtml += (lines[i] + "\n");
+    }
   }
 
   // When end of the document is reached, add closing </div>
