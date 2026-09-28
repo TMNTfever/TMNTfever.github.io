@@ -76,11 +76,11 @@
       var songIdCap = songIdArr.join(" ");
       document.title = songIdCap + " - Ukulele Chords";
 
-      // Determine if song is part of Current Setlist, if so, add "Next Song" button
+      // Determine if song is part of the Main Setlist, if so, add "Next Song" button
       slIndex = 0;
       const setlist = [];
       
-      jQuery.get("setlists/list-main-current.tsv", function(listText) {
+      jQuery.get("setlists/list-main.tsv", function(listText) {
         var rows = listText.split("\n");
 
         // Add the first element of each row, which should be the song ID
