@@ -315,14 +315,28 @@ function transpose(isUp) {
   for(x = 0; x < allLines.length; x++) {
     if(allLines[x].length > 1) {
       if(allLines[x].includes("<c->")) {
+        // Process and transpose the chord block as usual
         do {
           tLine += allTokens[tokenIndex];
           tokenIndex++;
         } while(allTokens[tokenIndex] !== "</c->");
-
-        // Write to newFile to replace ukulele-chords
-        newFile += tLine + "</c->";
+        
+        tLine += "</c->";
         tokenIndex++;
+
+        // Line also has <details>
+        if (allLines[x].includes("<details>")) {
+          // Extract everything from the beginning of the line up to the closing </summary>
+          var summaryEndIndex = allLines[x].indexOf("</summary>") + 10; // 10 is the length of "</summary>"
+          var headerPart = allLines[x].substring(0, summaryEndIndex);
+          
+          // Reconstruct the line preserving the header at the front
+          newFile += headerPart + tLine;
+        } else {
+          // No <details> tag
+          newFile += tLine;
+        }
+
         tLine = "";
       } else if(allLines[x].includes("<k->")) {
         // Rewrite line with the key accounting for key changes and minor keys
