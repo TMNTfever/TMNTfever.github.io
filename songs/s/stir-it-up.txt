@@ -8,7 +8,7 @@ Starting Note: 3
 [CHORDS]
   A  2100      D  2220      E  4442
 
--COUNTER MELODY- (Sung during verses behind melody)
+[COUNTER MELODY] (Sung during verses behind melody)
   A                 A               D E A   A     D   E
   Stir it, stir it, stir it together,    oo-oo-oo-ooh oooh
 
