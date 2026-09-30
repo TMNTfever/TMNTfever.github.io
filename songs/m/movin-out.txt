@@ -27,7 +27,7 @@ Starting Note: 3 3 3 3
   Who needs a house out in Hackensack, is that all you get for your money?
 
 [CHORUS 1]
-     Bb          /D          C /Bb  A               /C#      Dm
+     Bb          /D          C /Bb  A               /Db      Dm
   It seems such a waste of time, if that's what it's all about
  /C           Bb        /D         Em7 A        (Dm)
   Mama, if that's movin' up then I'm... movin' out
@@ -51,7 +51,7 @@ Dm        Gm7     C   C+/E  FM7
   And if he can't drive with a broken back, at least he can polish the fenders
 
 [CHORUS 2] (Same as Chorus 1)
-     Bb          /D          C /Bb  A               /C#      Dm
+     Bb          /D          C /Bb  A               /Db      Dm
   It seems such a waste of time, if that's what it's all about
  /C           Bb        /D         Em7 A        (Dm)
   Mama, if that's movin' up then I'm... movin' out
@@ -69,7 +69,7 @@ Dm        Gm7     C   C+/E  FM7
   You can pay Uncle Sam with the overtime, is that all you get for your money
 
 [CHORUS 3] (Same as Chorus 1)
-         Bb             /D         C /Bb       A                 /C#      Dm
+         Bb             /D         C /Bb       A                 /Db      Dm
   And if that's what you have in mind, yeah if that's what you're all about
 /C       Bb       /D          Em7 A        (Dm)
   Good luck movin' up cause I'm... movin' out
