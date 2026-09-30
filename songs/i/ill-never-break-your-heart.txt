@@ -1,8 +1,8 @@
 I'll Never Break Your Heart
 Artist: Backstreet Boys
 Genre: Boyband, Ballad
-Transcribed Key: Bb
-Original Key: Bb
+Transcribed Key: Bb to B
+Original Key: Bb to B
 Starting Note: 5 1
 
 [CHORDS]
@@ -20,7 +20,7 @@ Starting Note: 5 1
   Honey I knew that we would be together forever, uh   ooh
          Bb        Bb            Gm             Gm
   When I asked you out, you said no but I found out
-          Eb                   Eb                          F         Eb | D/F#
+          Eb                   Eb                          F         Eb | D/Gb
   Darling that you've been hurt, you felt that you'd never love again
 
 [REFRAIN 1]
@@ -42,7 +42,7 @@ Starting Note: 5 1
   Girl that's the way love goes, baby, baby
       Bb             Bb       Gm                Gm
   And I know you're afraid to let your feelings show
-      Eb      Eb                      F         Eb | D/F#
+      Eb      Eb                      F         Eb | D/Gb
   And I understand but girl it's time to let go
 
 [REFRAIN 2] (Same as Refrain 1, but with one extra line)
