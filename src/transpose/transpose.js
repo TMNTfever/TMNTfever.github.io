@@ -57,6 +57,9 @@ Date         Programmer    Change
                            songs that uses riffs on the chords line, and songs
                            songs have multiple (X) endings. Also added the
                            cleanLine() function.
+2026-09-30  JC Reyes       Changes in tagSong() caused error when rewriting
+                           lines after transposing chords. Fixed behavior
+                           by checking for <details> tag.
 ===============================================================================
 */
 function transpose(isUp) {
