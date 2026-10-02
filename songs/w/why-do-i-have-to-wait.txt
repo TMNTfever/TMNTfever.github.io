@@ -3,7 +3,7 @@ Artist: Ekolu
 Genre: Jawaiian
 Transcribed Key: E
 Original Key: E
-Starting Note:
+Starting Note: 3 3 3 3 5
 
 [CHORDS]
   E    4442      C#m7 4444      F#m7 2424      B    4322      A    2100
@@ -13,14 +13,10 @@ Starting Note:
   E  C#m7  F#m7  B
 
 [VERSE 1]
-  E                              C#m7
-  Loneliness, it sits outside my window
-  F#m7                            B
-  Waiting to come in to hinder my heart
-      E                              C#m7
-  The memories of you, I'll let them linger
-  F#m7                                 B
-  While you are away, my thoughts they wander
+  E                              C#m7    F#m7                            B
+  Loneliness, it sits outside my window, waiting to come in to hinder my heart
+      E                              C#m7    F#m7                                 B
+  The memories of you, I'll let them linger, while you are away, my thoughts they wander
 
 [CHORUS 1]
           E                                C#m7
@@ -36,14 +32,10 @@ Starting Note:
   E  C#m7  F#m7  B
 
 [VERSE 2]
-             E                               C#m7
-  If there's someone, you then girl don't mislead me
-  F#m7                            B
-  Tell me now and let my heart go gently
-          E                                  C#m7
-  I'll be thinking of you still from time to time
-  F#m7                          B
-  Seeking for a love I wish was mine
+             E                             C#m7     F#m7                            B
+  If there's someone else, please don't mislead me, tell me now and let my heart go gently
+          E                                  C#m7  F#m7                          B
+  I'll be thinking of you still from time to time, seeking for a love I wish was mine
 
 [CHORUS 2] (Same as Chorus 1)
           E                                C#m7
@@ -59,14 +51,10 @@ Starting Note:
   E  C#m7  F#m7  B
 
 [VERSE 3] (Same as Verse 2)
-             E                               C#m7
-  If there's someone, you then girl don't mislead me
-  F#m7                            B
-  Tell me now and let my heart go gently
-          E                                  C#m7
-  I'll be thinking of you still from time to time
-  F#m7                          B
-  Seeking for a love I wish was mine
+             E                             C#m7     F#m7                            B
+  If there's someone else, please don't mislead me, tell me now and let my heart go gently
+          E                                  C#m7  F#m7                          B
+  I'll be thinking of you still from time to time, seeking for a love I wish was mine
 
 [CHORUS 3] (Same as Chorus 1)
           E                                C#m7
