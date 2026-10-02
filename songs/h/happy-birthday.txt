@@ -5,6 +5,9 @@ Transcribed Key: G
 Original Key: F
 Starting Note: 5 5 6 5
 
+[CHORDS]
+  G 0232      D 2220      D7 2223      Bm7 2222      C6 0000
+
 [VERSE]
         G           D          D7          G
   Happy birthday to you, happy birthday to you
