@@ -60,6 +60,8 @@ Date         Programmer    Change
 2026-09-30  JC Reyes       Changes in tagSong() caused error when rewriting
                            lines after transposing chords. Fixed behavior
                            by checking for <details> tag.
+2026-09-30  JC Reyes       Last fix only accounted for <details> and not
+                           <details open>. Chaged checks to account for this.
 ===============================================================================
 */
 function transpose(isUp) {
@@ -317,8 +319,7 @@ function transpose(isUp) {
   // Iterate through every line in ukulele-chords to find which lines to replace
   for(x = 0; x < allLines.length; x++) {
     if(allLines[x].length > 1) {
-      if(allLines[x].includes("<c->")) {
-        // Process and transpose the chord block as usual
+       if(allLines[x].includes("<c->")) {
         do {
           tLine += allTokens[tokenIndex];
           tokenIndex++;
@@ -327,16 +328,20 @@ function transpose(isUp) {
         tLine += "</c->";
         tokenIndex++;
 
-        // Line also has <details>
-        if (allLines[x].includes("<details>")) {
-          // Extract everything from the beginning of the line up to the closing </summary>
-          var summaryEndIndex = allLines[x].indexOf("</summary>") + 10; // 10 is the length of "</summary>"
-          var headerPart = allLines[x].substring(0, summaryEndIndex);
+        // Line contains <details> or <details open>
+        if (allLines[x].includes("<details")) {
+          // Use regex to capture everything from the start up to </summary>
+          var match = allLines[x].match(/^.*?<\/summary>/);
           
-          // Reconstruct the line preserving the header at the front
-          newFile += headerPart + tLine;
+          if (match) {
+            var headerPart = match[0];
+            newFile += headerPart + tLine;
+          } else {
+            // Should never reach here, but adds line just in case
+            newFile += tLine;
+          }
         } else {
-          // No <details> tag
+          // Line does not contain <details>
           newFile += tLine;
         }
 
