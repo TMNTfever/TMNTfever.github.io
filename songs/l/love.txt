@@ -3,21 +3,21 @@ Original Artist: Keyshia Cole
 Genre: R&B
 Transcribed Key: A
 Original Key: F
-Starting Note: 1
+Starting Note: 5 5 6 8 9 9
 
 [CHORDS]
   AM7  2444      F#7  3424      Bm7  2222      Do7  1212      E7   1202
-  D    2220      F#M7 3524      A7   2434      DM7  2224
+  F#m7 2424      D    2220      F#M7 3524      DM7  2224
 
 [INTRO]
   AM7  F#7  Bm7  Do7    AM7  Bm7 | E7
 
 [VERSE 1]
-    AM7                                            F#7
+    AM7                                            F#m7
   I used to think that I wasn't fine enough, and I used to think that I wasn't wild enough
       Bm7                                         Do7
   But I won't waste my time tryin' to figure out, why you playing games, what's this all about
-          AM7                               F#7
+          AM7                               F#m7
   And I can't believe you're hurting me, I met your boy, what a difference
              Bm7                                      D                               /E
   What you see in him you ain't seen in me, but I guess it was all just make-believe, oh oh oh
@@ -29,9 +29,9 @@ Starting Note: 1
   Love, never knew what I was missing, but I knew once we started kissing, I found - found you
 
 [VERSE 2]
-                   F#7                    Bm7                              Do7
+                   F#m7                   Bm7                              Do7
   Now you're gone, what am I gonna do, so empty my heart, my soul can't go on
-                AM7                      F#7
+                AM7                      F#m7
   Go on without you, my rainy days fade away when you come around, please tell me
   Bm7                  D    /E
   Baby, why go so far away, why you go
