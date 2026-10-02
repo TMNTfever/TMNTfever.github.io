@@ -12,7 +12,7 @@ Starting Note: -6 1 3 2 1
 [INTRO]
 F#m  D  A   F#m  D  A
   ... Yeah
- 
+
 [VERSE 1]
          F#m D A        F#m  D A        F#m     D A    F#m       E    A
   You are my fire, the one desire, believe when I say, I want it that way
@@ -24,23 +24,23 @@ F#m  D  A   F#m  D  A
   Tell me why, ain't nothing but a heartache, tell me why, ain't nothing but a mistake
           D                  E        A    F#m       E    A
   Tell me why, I never wanna hear you say, I want it that way
- 
+
 [VERSE 2]
       F#m   D A         F#m  D A           F#m     D   A         F#m       E    A
   Am I your fire, your one desire, yes I know it's too late, but I want it that way
- 
+
 [CHORUS 2] (Same as Chorus 1)
           D                        E    F#m           D                        E  F#m
   Tell me why, ain't nothing but a heartache, tell me why, ain't nothing but a mistake
           D                  E        A    F#m       E    A
   Tell me why, I never wanna hear you say, I want it that way
- 
+
 [BRIDGE 1]
   F#m                        A/E                   D                    Bm   E
   Now I can see that we're falling apart, from the way that it used to be, yeah
      F#m                   A/E                    D                    A  E
   No matter the distance I want you to know, that deep down inside of me
- 
+
 [BRIDGE 2]
          D   E F#m      D    E F#m        D                 A         F#m
   You are my fire, the one desire, you are, you are, you are, you are
@@ -52,7 +52,7 @@ E -                    (E)
   Ain't nothing but a heartache, ain't nothing but a mistake
   E             F#       B  G#m         F#   B
   I never wanna hear you say, I want it that way
- 
+
 [CHORUS 4] x 2
           E                        F#   G#m           E                        F# G#m
   Tell me why, ain't nothing but a heartache, tell me why, ain't nothing but a mistake
