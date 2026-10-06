@@ -9,65 +9,54 @@ Starting Note: 2 3 5 3 2 1
   BbM7 2211      Am7  0000      Gm7  0211      F 2010
   Dm7  2213      Cs4  0013      G/B  4232
 
-[VERSE 1]
-BbM7           Am7              Gm7        F
-It's amazing how you knock me off my feet
-BbM7           Am7              Gm7        F
-Every time you come around me I get weak (oh, yeah)
-BbM7           Am7              Gm7        F
-Nobody ever made me feel this way (oh)
-BbM7           Am7              Gm7        F
-You kiss my lips and then you take my breath away, so I wanna know
+[INTRO] x 2 (Charleston rhythm)
+  BbM7 | Am7   Gm7 | F
 
-[CHORUS 1]
+[VERSE 1] (Charleston rhythm on verses)
 BbM7           Am7              Gm7        F
-I wanna know what turns you on (I'd like to know
-BbM7           Am7              Gm7        F
-So I can be all that and more (I'd to know
-BbM7           Am7              Gm7        F
-I'd like to know what makes you cry (So)
-       Dm           Cs4             G/B       G/B
-So I can be the one who always makes you smile
+  It's amazing how you knock me off my feet
+BbM7             Am7                  Gm7   F
+  Every time you come around me I get weak (oh, yeah)
+BbM7     Am7                    Gm7  F
+  Nobody ever made me feel this way (oh)
+BbM7                   Am7                      Gm7  F
+  You kiss my lips and then you take my breath away, so I wanna know
+
+[CHORUS 1] (Straight rhythm on choruses)
+BbM7         Am7               Gm7 F
+  I wanna know what turns you on
+BbM7        Am7              Gm7 F
+  So I can be all that and more
+BbM7             Am7                Gm7 F
+  I'd like to know what makes you cry
+           Dm              Cs4                G/B  G/B
+  So I can be the one who always makes you smile
 
 [VERSE 2]
 BbM7           Am7              Gm7        F
 Girl he never understood what you were worth (Mm, no)
 BbM7           Am7              Gm7        F
-And he never took the time to make it work (You deserve more love than that
-girl)(No)
+And he never took the time to make it work (You deserve more love than that girl)(No)
 BbM7           Am7              Gm7        F
 Baby I'm the kind of man to show concern (Yes I do)
 BbM7           Am7              Gm7        F
-Anyway that I can please you let me learn
-So, I wanna know
+Anyway that I can please you let me learn, so
 
-[CHORUS 2]
-BbM7           Am7              Gm7        F
-I wanna know what turns you on (I'd like to know)
-BbM7           Am7              Gm7        F
-So I can be all that and more (I'd to know)
-BbM7           Am7              Gm7        F
-I'd like to know what makes you cry (So)
-       Dm           Cs4               G/B       G/B
-So I can be the one who always makes you smile
+[CHORUS 2] (Same as Chorus 1, with adlibs)
+BbM7         Am7               Gm7 F
+  I wanna know what turns you on   (I wanna know)
+BbM7        Am7              Gm7 F
+  So I can be all that and more  (I'd like to know)
+BbM7             Am7                Gm7 F
+  I'd like to know what makes you cry   (so)
+           Dm              Cs4                G/B  G/B
+  So I can be the one who always makes you smile
 
-[BRIDGE 1]
-BbM7                Am7
-Tell me what I got to do to please you
-Gm7                F
-Baby anything you say I'll do
-BbM7                Am7
-Cause I only wanna make you happy
-Gm7                F
-From the bottom of my heart it's true
-BbM7                Am7
-Tell me what I got to do to please you
-Gm7                F
-Baby anything you say I'll do
-BbM7                Am7
-Cause I only wanna make you happy
-Gm7                F
-From the bottom of my heart it's true
+[BRIDGE 1] x 2
+          BbM7                Am7              Gm7                   F
+  Tell me what I got to do to please you, baby anything you say I'll do
+          BbM7                Am7             Gm7                     F
+  Cause I only wanna make you happy, from the bottom of my heart it's true
 
 [VERSE 3]
 BbM7           Am7              Gm7        F
@@ -77,40 +66,36 @@ I do believe that theres a love you wanna share
 I'll take good care of you lady have no fear
 So I wanna know
 
-[CHORUS 3]
-BbM7           Am7              Gm7        F
-I wanna know what turns you on (I wanna know)
-BbM7           Am7              Gm7        F
-So I can be all that and more (I'd like to know)
-BbM7           Am7              Gm7        F
-I'd like to know what makes you cry (Ohhh, yeah)
-       Dm           Cs4               G/B       G/B
-So I can be the one who always makes you smile (Oh tell me tell me)
+[CHORUS 3] (Same as Chorus 2, except with more adlibs)
+BbM7         Am7               Gm7 F
+  I wanna know what turns you on   (I wanna know)
+BbM7        Am7              Gm7 F
+  So I can be all that and more  (And I'd like to know)
+BbM7             Am7                Gm7 F
+  I'd like to know what makes you cry   (ohhh yeah)
+           Dm              Cs4                G/B    G/B
+  So I can be the one who always makes you smile (oh tell me tell me)
 
-[BRIDGE 2]
-BbM7                Am7
-Tell me what I got to do to please you
-Gm7                F
-Baby anything you say I'll do
-BbM7                Am7
-Cause I only wanna make you happy
-Gm7                F
-From the bottom of my heart it's true
-BbM7                Am7
-Tell me what I got to do to please you
-Gm7                F
-Baby anything you say I'll do
-BbM7                Am7
-Cause I only wanna make you happy
-Gm7                 F
-From the bottom of my heart it's true, yeah yeah yeah yeah
+[BRIDGE 2] x 2 (Same as Bridge 1)
+          BbM7                Am7              Gm7                   F
+  Tell me what I got to do to please you, baby anything you say I'll do
+          BbM7                Am7             Gm7                     F
+  Cause I only wanna make you happy, from the bottom of my heart it's true
 
-[CHORUS 4] x 2
-BbM7           Am7              Gm7        F
-I wanna know what turns you on (I wanna know)
-BbM7           Am7              Gm7        F
-So I can be all that and more (And I'd to know)
-BbM7           Am7              Gm7        F
-I'd like to know what makes you cry (Ohhh, yeah)
-       Dm           Cm7b5            G/B       G/B
-So I can be the one who always makes you smile (Oh tell me girl)
+[CHORUS 4] (Same as Chorus 3, except twice and with even more adlibs)
+BbM7         Am7               Gm7 F
+  I wanna know what turns you on   (I'd like to know, I'd like to know, yeah)
+BbM7        Am7              Gm7 F
+  So I can be all that and more  (I wanna know)
+BbM7             Am7                Gm7 F
+  I'd like to know what makes you cry   (so yeah)
+           Dm              Cs4                G/B    G/B
+  So I can be the one who always makes you smile (I'd like to know, I wanna know)
+BbM7         Am7               Gm7 F
+  I wanna know what turns you on   (tell me girl)
+BbM7        Am7              Gm7 F
+  So I can be all that and more  (I wanna know)
+BbM7             Am7                Gm7 F
+  I'd like to know what makes you cry   (so)
+           Dm              Cs4                G/B    G/B
+  So I can be the one who always makes you smile
