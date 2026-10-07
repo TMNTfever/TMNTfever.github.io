@@ -7,7 +7,7 @@ Starting Note: 3 4 5
 
 [CHORDS]
   F  2010      Am  1000      Gm  0231      C    0003      Dm  2210
-  Bb 3211      Am7 2433      Gm7 0211      BbM7 2211      Dm7 2213      
+  Bb 3211      Am7 2433      Gm7 0211      BbM7 3210      Dm7 2213      
 
 [INTRO] x 2
   F  Am  Gm  C 
@@ -23,7 +23,7 @@ F               Am               Gm  C
   I'll help you settle down easy
 
 [PRE-CHORUS 1] (Last chords are played with horns)
-Dm                         Gm                              Dm  C  Am  Bb | C
+  Dm                       Gm                              Dm  C  Bb | C
   Nothing satisfies me, as much as when you're happy, it's true
 
 [CHORUS 1]
@@ -31,7 +31,7 @@ F                         Am  Gm                         C
   Nobody does it like you do,  and I would only tell the truth
                F                             Am                Gm                             C
   You know I'm honest, you look beautiful in blue, but all the colors bring the beauty out in you
-                  F        Am                    Gm                    Gm         C
+                  F        Am                    Gm                    C
   And when you're running, come run my way, I'll meet you halfway, and love you always
       F     Am                         Gm                  C
   Hey baby, I'll meet you there, ain't nothing compares to you
@@ -53,7 +53,7 @@ F                  Am                 Gm  C
   A reason that we both crossed paths
 
 [PRE-CHORUS 2] (Last chords are sung with la's)
-Dm                         Gm                              Dm  C  Am7  Bb | C
+  Dm                       Gm                              Dm  C  Bb | C
   Nothing satisfies me, as much as when you're happy, it's true
 
 [CHORUS 2] (Same as Chorus 1)
@@ -61,13 +61,13 @@ F                         Am  Gm                         C
   Nobody does it like you do,  and I would only tell the truth
                F                             Am                Gm                             C
   You know I'm honest, you look beautiful in blue, but all the colors bring the beauty out in you
-                  F        Am                    Gm                    Gm         C
+                  F        Am                    Gm                    C
   And when you're running, come run my way, I'll meet you halfway, and love you always
       F     Am                         Gm                  C
   Hey baby, I'll meet you there, ain't nothing compares to you
 
 [BRIDGE 2] (Last line played with horns)
-Gm7                              Am7                            BbM7
+  Gm7                            Am7                            BbM7
   There will be a time when I'll look into your eyes and say, I knew
        Gm7             Am7          BbM7                   C | F
   That one day I would find you and instantly just fall into
@@ -77,7 +77,7 @@ F                         Am  Gm                         C
   Nobody does it like you do,  and I would only tell the truth
                F                             Am                Gm                             C
   You know I'm honest, you look beautiful in blue, but all the colors bring the beauty out in you
-                  F        Am                    Gm                    Gm         C
+                  F        Am                    Gm                    C
   And when you're running, come run my way, I'll meet you halfway, and love you always
       F     Am                         Gm                  C
   Hey baby, I'll meet you there, ain't nothing compares to you
