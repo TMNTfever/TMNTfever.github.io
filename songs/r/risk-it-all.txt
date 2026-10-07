@@ -1,0 +1,69 @@
+Risk It All
+Artist: Bruno Mars
+Genre: Bolero, Latin, R&B, Ballad
+Transcribed Key: D to Bb
+Original Key: D to Bb
+Starting Note: 5 8 7 8
+
+[CHORDS]
+  Em7  4435      A7s4   2435      A7   2434      DM7  2224      B7s4 2422      B7     2322
+  G    97XX      F#m    76XX      Em   64XX      Bm   42XX      F#m7 2424      F#m7b5 2423
+  Gm6  0201      C#m7b5 0102      D#o7 2323      D7s4 2233      D7   2223      Eo7    3434
+  F#o7 2323      Gm7    0211      C7   0003      Am7  0453      BbM7 3555      EbM7   3335
+
+[INTRO]
+Em7             A7s4 A7   DM7             B7s4 B7   
+  2-3-4-3-2-3-4      2 2,   3-4-5-4-3-4-5      3 3
+Em7         A7s4 G F#m Em Bm A7
+  2-4-4-4-4-4    4 3   2  1  -7
+
+[VERSE 1] (Play as soft ballad)
+               Em7                A7s4|A7                  DM7            B7s4|B7
+  For just the chance to win your heart, you could set the bar beyond the stars
+          Em7       A7           /G     F#m7  F#m7b5/C  B7
+  I'll do anything, anything you ask me to
+
+[CHORUS 1]
+                   Em7                     Gm6
+  Say you want the moon, watch me learn to fly
+                              F#m7                B7s4
+  Ain't no mountain you could point to I wouldn't climb
+       B7              Em7           G F#m   Em Bm    A7              /D  DM7 DM7 -
+  It's crazy, but it's true, there's nothing I  won't do, I'd risk it all for you
+
+[VERSE 2] (Start Latin rhythm)
+               Em7               A7s4|A7                 DM7                 B7s4|B7
+  To hold your hand and call you mine, I'm tryna be your man 'til the end of time
+              Em7       A7           /G     F#m7  F#m7b5/C  B7
+  Oh, I'll do anything, anything you ask me to
+
+[CHORUS 2]
+          C#m7b5 D#o7       Em7                     Gm6
+  I would run     through a fire just to be by your side
+                         F#m7                 B7s4  
+  If your heart's on the line, you could take mine
+       B7              Em7           G F#m   Em Bm    A7
+  It's crazy, but it's true, there's nothing I  won't do
+              /D  DM7 DM7  D7s4 D7 Eo7 F#o7
+  I'd risk it all for you
+
+[BRIDGE]
+          Gm7                         C7             Am7                  BbM7  
+  I would swim across the sea just to show you, sacrifice my life just to hold you
+             EbM7                          A7              DM7  -
+  I could go on and on to prove that you belong here in my arms
+
+[INTERLUDE] (Solo in Ionian or Dorian)
+  Em7  A7s4|A7    DM7  B7s4|B7    Em7  A7  A7/G  F#m7  F#m7b5/C  B7
+
+[CHORUS 3]
+   C#m7b5 D#o7     Em7                     Gm6
+  Say you want the moon, watch me learn to fly
+                              F#m7                B7s4
+  Ain't no mountain you could point to I wouldn't climb
+       B7              Em7           G F#m   Em Bm    A7              F#m7b5 C   B7
+  It's crazy, but it's true, there's nothing I  won't do, I'd risk it all    for you
+       C#m7b5 D#o7     Em7           G F#m   Em Bm    A7
+  It's crazy, but it's true, there's nothing I  won't do, I'd risk it all for you
+                   DM7
+  3-4-5-4-3-4-5  5-7-8-7-8-7
