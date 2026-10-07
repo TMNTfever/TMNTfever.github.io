@@ -9,20 +9,20 @@ Starting Note: 2 3 5 3 2 1
   BbM7 2211      Am7  0000      Gm7  0211      F 2010
   Dm7  2213      Cs4  0013      G/B  4232
 
-[INTRO] x 2 (Charleston rhythm)
+[INTRO] x 2
   BbM7 | Am7   Gm7 | F
 
 [VERSE 1] (Charleston rhythm on verses)
-BbM7           Am7              Gm7        F
+BbM7                   Am7             Gm7  F
   It's amazing how you knock me off my feet
-BbM7             Am7                  Gm7   F
+BbM7                   Am7            Gm7   F
   Every time you come around me I get weak (oh, yeah)
-BbM7     Am7                    Gm7  F
+BbM7          Am7               Gm7  F
   Nobody ever made me feel this way (oh)
-BbM7                   Am7                      Gm7  F
+BbM7                            Am7             Gm7  F
   You kiss my lips and then you take my breath away, so I wanna know
 
-[CHORUS 1] (Straight rhythm on choruses)
+[CHORUS 1]
 BbM7         Am7               Gm7 F
   I wanna know what turns you on
 BbM7        Am7              Gm7 F
@@ -33,14 +33,14 @@ BbM7             Am7                Gm7 F
   So I can be the one who always makes you smile
 
 [VERSE 2]
-BbM7           Am7              Gm7        F
-Girl he never understood what you were worth (Mm, no)
-BbM7           Am7              Gm7        F
-And he never took the time to make it work (You deserve more love than that girl)(No)
-BbM7           Am7              Gm7        F
-Baby I'm the kind of man to show concern (Yes I do)
-BbM7           Am7              Gm7        F
-Anyway that I can please you let me learn, so
+BbM7                 Am7                 Gm7    F
+  Girl he never understood what you were worth (mm, no)
+BbM7                    Am7             Gm7            F
+  And he never took the time to make it work (you deserve more love than that girl)
+BbM7                   Am7            Gm7  F
+  Baby I'm the kind of man to show concern (yes I do)
+BbM7                Am7               Gm7    F
+  Anyway that I can please you let me learn, so
 
 [CHORUS 2] (Same as Chorus 1, with adlibs)
 BbM7         Am7               Gm7 F
@@ -59,12 +59,14 @@ BbM7             Am7                Gm7 F
   Cause I only wanna make you happy, from the bottom of my heart it's true
 
 [VERSE 3]
-BbM7           Am7              Gm7        F
-I wish that I could take a journey through your mind (All right)
-And find emotions you always try to hide babe (Oh)
-I do believe that theres a love you wanna share
-I'll take good care of you lady have no fear
-So I wanna know
+BbM7                         Am7               Gm7     F
+  I wish that I could take a journey through your mind (all right)
+BbM7                    Am7           Gm7       F
+  And find emotions you always try to hide babe (oh)
+BbM7                         Am7            Gm7   F
+  I do believe that theres a love you wanna share
+BbM7                         Am7          Gm7   F
+  I'll take good care of you lady have no fear, so I wanna know
 
 [CHORUS 3] (Same as Chorus 2, except with more adlibs)
 BbM7         Am7               Gm7 F
