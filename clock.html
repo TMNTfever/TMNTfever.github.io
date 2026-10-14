@@ -71,10 +71,15 @@
       ringAlarm();
       message.textContent = "Time to go home.";
     } // 10:00am and 1:30pm Mon-Fri stretch break
-    else if ((d > 0 && d < 6 && h == 9 && m == 30 && s < 0) || 
-             (d > 0 && d < 6 && h == 13 && m == 30 && s < 0)) {
+    else if ((h == 9 && m == 30 && s < 1) || 
+             (h == 13 && m == 30 && s < 1)) {
       ringAlarm();
       message.textContent = "Break time, Habibi.";
+    } // 8:00am breakfast and 12:00pm lunch
+    else if ((h == 8 && m == 0 && s < 1) ||
+             (h == 12 && m == 00 && s < 1)) {
+      ringAlarm();
+      message.textContent = "Just eat it.";
     } /*// Hourly alarm
     else if (m < 1 && s < 1) {
       ringAlarm();
