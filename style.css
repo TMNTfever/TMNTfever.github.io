@@ -113,13 +113,6 @@
   color: #1C282D;
 }
 
-.pg h2 {
-  margin-left: 5%;
-  font-family: serif;
-  color: #FFFFFF;
-  font-size: 3rem;
-}
-
 .pg h3 {
   margin-left: 5%;
   color: #FFCC66;
@@ -594,6 +587,13 @@ img-credit {
   margin: auto;
   border: 2px solid #FFFFFF;
   max-width: 200px;
+}
+
+#pg-resume h2 {
+  margin-left: 5%;
+  font-family: serif;
+  color: #FFFFFF;
+  font-size: 3rem;
 }
 
 /*---------------------------
