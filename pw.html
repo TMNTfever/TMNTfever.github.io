@@ -17,11 +17,11 @@
   <link href="style.css" rel="stylesheet">
   <script src="src/jquery/jquery.min.js"></script>
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="src/createTable/createTable.js"></script>
   <script type="application/javascript">
     window.onload = function() {
       // Load sidebar HTML into div
       $("#sidebar-wrapper").load("sidebar.html");
-      // Load passwords
     }
   </script>
 </head>
@@ -40,10 +40,11 @@
     <div id="pg-login" name="login" class="pg">
       <h3>Enter Master Password</h3>
       <input type="password" id="master-pw" class="form-control" placeholder="Password">
-      <button class="btn btn-primary" type="button" id="btn-login">Unlock</button>
+      <button class="btn btn-primary mt-2" type="button" id="btn-login">Unlock</button>
+      <div id="login-error" class="text-danger mt-2" style="display: none;">Incorrect Password</div>
     </div>
     
-    <!-- Password Page (Hidden by default) -->
+    <!-- Password Page -->
     <div id="pg-pw" class="pg" style="display: none;">
       <header>
         <h1>PASSWORDS</h1>
@@ -58,34 +59,48 @@
 <!-- Custom Scripts -->
 <script>
   $(document).ready(function() {
-    // 1. Define your master password and TSV path
-    const MASTER_PASSWORD = ""; 
-    const TSV_FILE_PATH = "tokens.tsv"; // Make sure this file exists in your repository
-
-    // 2. Listen for the login button click
+    
+    // Listen for the login button click
     $('#btn-login').click(function() {
       checkPassword();
     });
 
-    // Also allow pressing 'Enter' in the input box
+    // Also allow pressing 'Enter' button in the input box
     $('#master-pw').keypress(function(e) {
       if (e.which == 13) {
         checkPassword();
       }
     });
 
-    function checkPassword() {
-      const enteredPw = $('#master-pw').val();
+    async function checkPassword() {
+      const enteredPw = $('#master-pw').val().trim();
+      if (!enteredPw) return;
 
-      if (enteredPw === MASTER_PASSWORD) {
-        // Hide login, show password page
-        $('#pg-login').hide();
-        $('#pg-pw').show();
-        
-        // Load and parse the TSV file
-        loadTsvData();
-      } else {
-        // Show error message
+      try {
+        // SHA-256 hash user input
+        const msgUint8 = new TextEncoder().encode(enteredPw);
+        const hashBuffer = await crypto.subtle.digest('SHA-256', msgUint8);
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+
+        // Get passwords file
+        $.ajax({
+          url: `assets/${hashHex}`,
+          dataType: 'text',
+          success: function(data) {
+            $('#pg-login').hide();
+            $('#pg-pw').show();
+            $('#login-error').hide();
+            $('#pw-div').text(data);
+            createTable("pw-div", "token-table", false);
+          },
+          error: function(xhr) {
+            // If the server throws a 404 (Not Found), the token file does not exist
+            $('#login-error').fadeIn();
+          }
+        });
+      } catch (err) {
+        console.error("Crypto function failed:", err);
         $('#login-error').fadeIn();
       }
     }
