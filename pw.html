@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The keys to the castle">
+  <meta name="author" content="J.C. Reyes">
+  <meta property="og:title" content="TMNTfever - Passwords"> 
+  <meta property="og:description" content="The keys to the castle"> 
+  <meta property="og:image" content="assets/TMNTfever.png"> 
+  <meta property="og:url" content="https://tmntfever.github.io/pw.html"> 
+  <title>TMNTfever</title>
+  <link rel="icon" href="assets/icon-tmntfever.png">
+  <link href="src/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="src/jquery/jquery.min.js"></script>
+  <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="application/javascript">
+    window.onload = function() {
+      // Load sidebar HTML into div
+      $("#sidebar-wrapper").load("sidebar.html");
+      // Load passwords
+    }
+  </script>
+</head>
+
+<!-- Body -->
+<body class="body">
+
+<!-- Wrapper -->
+<div id="wrapper" class="">
+  <!-- Sidebar -->
+  <div id="sidebar-wrapper"></div>
+
+  <!-- Page Content -->
+  <div id="pg" class="text-light">
+    <!-- Login Page -->
+    <div id="pg-login" name="login" class="pg">
+      <h3>Enter Master Password</h3>
+      <input type="password" id="master-pw" class="form-control" placeholder="Password">
+      <button class="btn btn-primary" type="button" id="btn-login">Unlock</button>
+    </div>
+    
+    <!-- Password Page (Hidden by default) -->
+    <div id="pg-pw" class="pg" style="display: none;">
+      <header>
+        <h1>PASSWORDS</h1>
+      </header>
+      
+      <div id="pw-div"></div>
+    </div>
+  <!-- /#page-content-wrapper -->
+</div>
+<!-- /#wrapper -->
+
+<!-- Custom Scripts -->
+<script>
+  $(document).ready(function() {
+    // 1. Define your master password and TSV path
+    const MASTER_PASSWORD = ""; 
+    const TSV_FILE_PATH = "tokens.tsv"; // Make sure this file exists in your repository
+
+    // 2. Listen for the login button click
+    $('#btn-login').click(function() {
+      checkPassword();
+    });
+
+    // Also allow pressing 'Enter' in the input box
+    $('#master-pw').keypress(function(e) {
+      if (e.which == 13) {
+        checkPassword();
+      }
+    });
+
+    function checkPassword() {
+      const enteredPw = $('#master-pw').val();
+
+      if (enteredPw === MASTER_PASSWORD) {
+        // Hide login, show password page
+        $('#pg-login').hide();
+        $('#pg-pw').show();
+        
+        // Load and parse the TSV file
+        loadTsvData();
+      } else {
+        // Show error message
+        $('#login-error').fadeIn();
+      }
+    }
+  });
+</script>
+
+</body>
+</html>
