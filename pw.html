@@ -18,6 +18,8 @@
   <script src="src/jquery/jquery.min.js"></script>
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="src/createTable/createTable.js"></script>
+  <script src="src/SortTable/scripts/searchTable.js"></script>
+  <script src="src/SortTable/scripts/sortTable.js"></script>
   <script type="application/javascript">
     window.onload = function() {
       // Load sidebar HTML into div
@@ -38,6 +40,10 @@
   <div id="pg" class="text-light">
     <!-- Login Page -->
     <div id="pg-login" name="login" class="pg">
+      <header>
+        <h1>PASSWORDS</h1>
+      </header>
+      
       <h3>Enter Master Password</h3>
       <input type="password" id="master-pw" class="form-control" placeholder="Password">
       <button class="btn btn-primary mt-2" type="button" id="btn-login">Unlock</button>
@@ -49,6 +55,8 @@
       <header>
         <h1>PASSWORDS</h1>
       </header>
+
+      <br><input id="search-bar" class="searchInput form-control" data-table-id="pw-table" type="search" placeholder="Search" aria-label="Search" aria-target="pw-table"><br>
       
       <div id="pw-div"></div>
     </div>
@@ -92,7 +100,13 @@
             $('#pg-pw').show();
             $('#login-error').hide();
             $('#pw-div').text(data);
-            createTable("pw-div", "token-table", false);
+            createTable("pw-div", "pw-table", false, true);
+
+            // After the table is created, attach sorting listeners
+            const table = document.getElementById("pw-table")
+            if (table && table.classList.contains("sortTable")) {
+              addSortListeners([table]);
+            }
           },
           error: function(xhr) {
             // If the server throws a 404 (Not Found), the token file does not exist
