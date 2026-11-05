@@ -709,6 +709,17 @@ img-credit {
 }
 
 /*---------------------------
+--- Password Page
+---------------------------*/
+
+#pw-table {
+  margin: auto;
+  border: none;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+/*---------------------------
 --- Dezi's Page
 ---------------------------*/
 
@@ -734,6 +745,7 @@ img-credit {
   #close-button {display:none;}
   #pg-ukulele table {width: 98%;}
   #pg-liondance table {width: 98%;}
+  #pg-pw table {width: 98%;}
   #pg-list table {width: 98%;}
   #pg-list details {width: 98%;}
   #song-nav {width: 100%;}
