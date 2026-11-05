@@ -21,7 +21,8 @@
   <script src="src/createTable/createTable.js"></script>
   <script type="application/javascript">
     var listLoaded = false;
-  
+
+    // Populate ukulele-div with raw .tsv text
     if(!listLoaded) {
       document.addEventListener("DOMContentLoaded", () => {
         const target = document.getElementById("ukulele-div");
@@ -39,14 +40,15 @@
       
         observer.observe(target, { childList: true, subtree: true });
       });
-      
+
+      // Create table out of raw .tsv text
       function onListLoaded() {
         createTable("ukulele-div", "ukulele-table", false);
         
         // After the table is created, attach sorting listeners
         const table = document.getElementById("ukulele-table")
         if (table && table.classList.contains("sortTable")) {
-          addSortListeners([table]) // re-run on the new table
+          addSortListeners([table]);
         }
       }
     }
