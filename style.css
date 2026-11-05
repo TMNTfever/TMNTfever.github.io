@@ -718,8 +718,13 @@ img-credit {
   margin-bottom: 100px;
 }
 
-#pg-pw input, button {
+#pg-pw button {
   margin-left: 5%;
+}
+
+#master-pw {
+  margin-left: 5%;
+  width: 30ch;
 }
 
 /*---------------------------
@@ -749,6 +754,7 @@ img-credit {
   #pg-ukulele table {width: 98%;}
   #pg-liondance table {width: 98%;}
   #pg-pw table, input, button {margin-left: 0%;}
+  #master-pw {margin-left: 0%;}
   #pg-list table {width: 98%;}
   #pg-list details {width: 98%;}
   #pg-resume h2 {margin-left: 0%;}
