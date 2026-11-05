@@ -718,7 +718,7 @@ img-credit {
   margin-bottom: 100px;
 }
 
-#pg-pw button {
+#pg-login button {
   margin-left: 5%;
 }
 
@@ -753,7 +753,8 @@ img-credit {
   #close-button {display:none;}
   #pg-ukulele table {width: 98%;}
   #pg-liondance table {width: 98%;}
-  #pg-pw table, input, button {margin-left: 0%;}
+  #pg-pw table {margin-left: 0%;}
+  #pg-login button {margin-left: 0%;}
   #master-pw {margin-left: 0%;}
   #pg-list table {width: 98%;}
   #pg-list details {width: 98%;}
