@@ -118,6 +118,11 @@
   color: #FFCC66;
 }
 
+.pg h4 {
+  margin-left: 5%;
+  color: #FFFFFF;
+}
+
 .pg p, ul {
   width: 90%;
   margin: auto;
@@ -771,8 +776,7 @@ img-credit {
   .sidebar {width: 0;}
   .pg {margin-left:0;}
   .pg p, ul {width: 98%;}
-  .pg h2 {margin-left: 0px;}
-  .pg h3 {margin-left: 0px;}
+  .pg h2, h3, h4 {margin-left: 0px;}
   .band-member {width: 90%;}
 }
 
