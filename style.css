@@ -712,11 +712,14 @@ img-credit {
 --- Password Page
 ---------------------------*/
 
-#pw-table {
-  margin: auto;
+#pg-pw table {
   border: none;
-  width: 90%;
+  margin-left: 5%;
   margin-bottom: 100px;
+}
+
+#pg-pw input, button {
+  margin-left: 5%;
 }
 
 /*---------------------------
@@ -745,7 +748,7 @@ img-credit {
   #close-button {display:none;}
   #pg-ukulele table {width: 98%;}
   #pg-liondance table {width: 98%;}
-  #pg-pw table {width: 98%;}
+  #pg-pw table, input, button {margin-left: 0%;}
   #pg-list table {width: 98%;}
   #pg-list details {width: 98%;}
   #pg-resume h2 {margin-left: 0%;}
