@@ -66,7 +66,6 @@
 
 <!-- Body Scripts -->
 <script src="src/SortTable/scripts/searchTable.js"></script>
-<script src="src/SortTable/scripts/sortTable.js"></script>
 <script>
   $(document).ready(function() {
     
@@ -103,12 +102,6 @@
             $('#login-error').hide();
             $('#pw-div').text(data);
             createTable("pw-div", "pw-table", false, true);
-
-            // After the table is created, attach sorting listeners
-            const table = document.getElementById("pw-table")
-            if (table && table.classList.contains("sortTable")) {
-              addSortListeners([table]);
-            }
           },
           error: function(xhr) {
             // If the server throws a 404 (Not Found), the token file does not exist
