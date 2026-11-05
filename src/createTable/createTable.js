@@ -3,9 +3,9 @@
 File:      createTable.js
 Desc:      Generates an HTML table from csv.
 Author:    JC Reyes
-Called by: main/ukulele.html, main/setlist.html
+Called by: main/ukulele.html, main/setlist.html, main/pw.html
 Created:   2025-06-26
-Modified:  2025-06-27
+Modified:  2026-11-05
 ===============================================================================
 */
 
@@ -24,10 +24,13 @@ Date        Programmer  Change
 2025-06-26  JC Reyes    Initial version.
 2025-06-27  JC Reyes    Made the function abstract and added arguments so that
                         it can generate different tables.
+2026-11-06  JC Reyes    Added argument 'basic', which populates the entire
+                        table, not ignoring columns, and without hyperlinks.
 ===============================================================================
 */
-function createTable(divId, tableId, numbered) {
+function createTable(divId, tableId, numbered, basic) {
   var finalHtml = "";
+  var iStart = basic ? 0 : 1;
   
   // Load textContent into string variable
   let element = document.getElementById(divId);
@@ -41,8 +44,8 @@ function createTable(divId, tableId, numbered) {
   var cols = rows[0].split("\t");
   if (numbered) finalHtml += "<th>#</th>";
 
-  // Iterate through columns, skip column 0
-  for (i = 1; i < cols.length; i++) {
+  // Iterate through column headers, skip column 0 if not a basic table
+  for (i = iStart; i < cols.length; i++) {
     finalHtml += ("<th>" + cols[i] + "</th>");
   }
 
@@ -55,10 +58,10 @@ function createTable(divId, tableId, numbered) {
       finalHtml += "<tr>";
       if (numbered) finalHtml += "<td>" + i + "</td>";
   
-      // Iterate through columns, skip column 0
-      for (j = 1; j < cols.length; j++) {      
+      // Iterate through columns, skip column 0 if not a basic table
+      for (j = iStart; j < cols.length; j++) {      
         // First element has a hyperlink
-        if (j === 1) {
+        if (j === 1 && !basic) {
           // External link provided for chord sheet
           if (cols[0].includes("http")) {
             finalHtml += "<td><a href=\"" + cols[0] + "\">" + cols[j] + "</a></td>";
@@ -82,3 +85,5 @@ function createTable(divId, tableId, numbered) {
   // Load HTML into div
   $("#" + divId).html(finalHtml);
 }
+
+
