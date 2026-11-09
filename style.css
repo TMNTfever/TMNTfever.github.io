@@ -717,10 +717,14 @@ img-credit {
 --- Password Page
 ---------------------------*/
 
-#pg-pw table {
+#pw-table {
   border: none;
   margin-left: 5%;
   margin-bottom: 100px;
+}
+
+#pw-table > tbody tr:nth-child(odd) {
+  background-color: #121A1E;
 }
 
 #pg-login button {
