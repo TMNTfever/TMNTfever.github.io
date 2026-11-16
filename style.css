@@ -160,6 +160,9 @@ h4 {
 }
 
 .coa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   margin: auto;
   max-width: 350px;
 }
