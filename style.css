@@ -484,16 +484,16 @@ details > summary::-webkit-details-marker /* Safari */ {
 --- 321 FGC
 ---------------------------*/
 
-#pg-contact a {
+#pg-321fgc a {
   color: #FFFFFF;
   text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #pg-321fgc table {
-  margin: auto;
-  border: none;
-  width: 90%;
-  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*---------------------------
