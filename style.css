@@ -163,6 +163,38 @@ h4 {
   max-width: 350px;
 }
 
+.coa-wrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.coa-wrapper .coa {
+  transition: opacity 0.4s ease;
+}
+
+.coa-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+.coa-wrapper.active .coa {
+  opacity: 0.2;
+}
+
+.coa-wrapper.active .coa-overlay {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+
 /*---------------------------
 --- Home
 ---------------------------*/
