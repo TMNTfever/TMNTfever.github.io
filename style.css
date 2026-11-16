@@ -164,8 +164,9 @@ h4 {
 }
 
 .coa-wrapper {
-  position: relative;
-  display: inline-block;
+  margin: auto;
+  position: absolute;
+  display: block;
   cursor: pointer;
 }
 
