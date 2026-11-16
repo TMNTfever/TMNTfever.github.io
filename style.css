@@ -29,7 +29,7 @@
   position: absolute;
   right: 0.3rem;
   top: 0.3rem;
-  z-index: 9;
+  z-index: 101;
   display: none;
 }
 
@@ -46,6 +46,7 @@
   width: 11rem;
   position: fixed;
   top: 0;
+  z-index: 100;
 }
 
 .sidebar .sidebar-heading {
