@@ -150,7 +150,7 @@ h4 {
 }
 
 /*---------------------------
---- Open
+--- Index / Home / Open
 ---------------------------*/
 
 #pg-open {
@@ -168,7 +168,9 @@ h4 {
 }
 
 .coa-wrapper {
-  margin: auto;
+  height: 100%;
+  margin-left: auto;
+  maring-right: auto;
   position: absolute;
   display: block;
   cursor: pointer;
@@ -180,8 +182,8 @@ h4 {
 
 .coa-overlay {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  margin-left: auto;
+  maring-right: auto;
   transform: translate(-50%, -50%);
   width: 85%;
   text-align: center;
@@ -198,7 +200,6 @@ h4 {
   opacity: 1;
   pointer-events: auto;
 }
-
 
 /*---------------------------
 --- Home
