@@ -19,9 +19,8 @@
   <script src="src/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script type="application/javascript">
     window.onload = function() {
-      // Load sidebar HTML into div
-      $("#sidebar-wrapper").load("sidebar.html");
-      closeNav();
+      // Load sidebar HTML into div, then run closeNav() in the callback
+      $("#sidebar-wrapper").load("sidebar.html", function() {closeNav();});
     }
   </script>
 </head>
