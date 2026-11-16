@@ -480,6 +480,17 @@ details > summary::-webkit-details-marker /* Safari */ {
 }
 
 /*---------------------------
+--- Ukulele
+---------------------------*/
+
+#pg-321fgc table {
+  margin: auto;
+  border: none;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+/*---------------------------
 --- Fightstick
 ---------------------------*/
 
@@ -799,6 +810,7 @@ img-credit {
   #close-button {display:none;}
   #pg-ukulele table {width: 98%;}
   #pg-liondance table {width: 98%;}
+  #pg-321fgc table {width: 98%;}
   #pg-pw table {margin-left: 1%;}
   #pg-login button {margin-left: 1%;}
   #master-pw {margin-left: 1%;}
@@ -815,7 +827,7 @@ img-credit {
   #chord-comp {width: 98%;}
   .stance {width: 20vw;}
   .sidebar {width: 0;}
-  .pg {margin-left:0;}
+  .pg {margin-left: 1p%;}
   .pg p, ul {width: 98%;}
   h2, h3, h4 {margin-left: 1%;}
   .band-member {width: 90%;}
