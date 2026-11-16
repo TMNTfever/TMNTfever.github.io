@@ -32,12 +32,14 @@
 <script>
 function openNav() {
   document.getElementById("sidebar").style.width = "11rem";
+  document.getElementById("pg").style.marginLeft = "11rem";
   document.getElementById("close-button").style.display = "block";
   document.getElementById("open-button").style.display = "none";
 }
 
 function closeNav() {
   document.getElementById("sidebar").style.width = "0";
+  document.getElementById("pg").style.marginLeft = "0";
   document.getElementById("close-button").style.display = "none";
   document.getElementById("open-button").style.display = "block";
 }
