@@ -38,7 +38,7 @@
       </header>
       <br>
       <h3>Circle of Fifths</h3>
-      <img class="circle5" src="assets/circle5-inner.png" alt="Circle of Fifths" draggable="false">
+      <img id="circle5" src="assets/circle5-inner.png" alt="Circle of Fifths" draggable="false">
       <hr />
       <h3>Chord Composition</h3>
       <table id="chord-comp">
@@ -134,7 +134,7 @@
 
 <!-- Custom Scripts -->
 <script>
-  const wheel = document.getElementById('wheel');
+  const wheel = document.getElementById('circle5');
   let isDragging = false;
   let startAngle = 0;
   let currentRotation = 0;
