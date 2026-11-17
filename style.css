@@ -202,61 +202,36 @@ h4 {
   pointer-events: auto;
 }
 
-.carousel-wrapper {
-  position: relative;
-  max-width: 700px;
-  width: 90%;
-}
-
-.carousel {
-  display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-  scrollbar-width: none; /* Firefox */
-}
-
-.carousel::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, Edge */
-}
-
-.slide {
-  flex: 0 0 100%;
+.marquee-container {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  scroll-snap-align: start;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
+.marquee-text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll-left 60s linear infinite;
 }
 
-.carousel-nav {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 14px;
+/* Pause animation when hovering */
+.marquee-container:hover .marquee-text {
+  animation-play-state: paused;
 }
 
-.carousel-nav a {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #bbb;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+/* Respect user accessibility settings */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-text {
+    animation: none;
+    padding-left: 0;
+  }
 }
 
-.carousel-nav a:hover,
-.carousel-nav a:focus {
-  background-color: #333;
-  transform: scale(1.2);
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
 }
-
 /*---------------------------
 --- Ukulele
 ---------------------------*/
