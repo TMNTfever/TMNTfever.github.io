@@ -162,7 +162,7 @@ h4 {
 .coa {
   display: block;
   margin: auto;
-  max-width: 350px;
+  max-width: 450px;
 }
 
 .coa-wrapper {
@@ -183,7 +183,7 @@ h4 {
   left: 0;
   right: 0;
   width: 100%;
-  max-width: 450px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
