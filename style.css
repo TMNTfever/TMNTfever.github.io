@@ -150,25 +150,21 @@ h4 {
 }
 
 /*---------------------------
---- Index / Home / Open
+--- Index / Home
 ---------------------------*/
 
-#pg-open {
-  display: flex;
+#pg-home {
+  display: block;
   height: 96vh;
   width: auto;
 }
 
 .coa {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: auto;
+  margin-left: 50%;
   max-width: 350px;
 }
 
 .coa-wrapper {
-  height: 100%;
   margin-left: auto;
   maring-right: auto;
   position: absolute;
@@ -181,15 +177,15 @@ h4 {
 }
 
 .coa-overlay {
-  position: absolute;
-  margin-left: auto;
-  maring-right: auto;
-  transform: translate(-50%, -50%);
-  width: 85%;
+  display: block;
+  margin-left: 50%;
+  margin-top: -500px;
+  width: 350px;
   text-align: center;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.4s ease;
+  z-index: 50;
 }
 
 .coa-wrapper.active .coa {
@@ -199,14 +195,6 @@ h4 {
 .coa-wrapper.active .coa-overlay {
   opacity: 1;
   pointer-events: auto;
-}
-
-/*---------------------------
---- Home
----------------------------*/
-
-#pg-home {
-  display: none;
 }
 
 .profile {
@@ -816,7 +804,6 @@ img-credit {
   #close-button {display:none;}
   #pg-ukulele table {width: 98%;}
   #pg-liondance table {width: 98%;}
-  #pg-321fgc table {width: 98%;}
   #pg-pw table {margin-left: 1%;}
   #pg-login button {margin-left: 1%;}
   #master-pw {margin-left: 1%;}
@@ -833,7 +820,7 @@ img-credit {
   #chord-comp {width: 98%;}
   .stance {width: 20vw;}
   .sidebar {width: 0;}
-  .pg {margin-left: 1p%;}
+  .pg {margin-left: 0;}
   .pg p, ul {width: 98%;}
   h2, h3, h4 {margin-left: 1%;}
   .band-member {width: 90%;}
