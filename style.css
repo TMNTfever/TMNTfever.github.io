@@ -263,17 +263,31 @@ h4 {
 --- Theory
 ---------------------------*/
 
-#circle5 {
+.circle5-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+#circle5base {
+  display: block;
   width: 90%;
-  max-width: 600px;
+  margin: auto;
+}
+
+#circle5spin {
+  position: absolute;
+  width: 90%;
+  margin: auto;
+  max-width: 500px;
   border-radius: 50%;
   cursor: grab;
   user-select: none;
   touch-action: none;
   -webkit-user-drag: none;
+  z-index: 2;
 }
 
-#circle5:active {
+#circle5spin:active {
   cursor: grabbing;
 }
 
