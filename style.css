@@ -202,43 +202,6 @@ h4 {
   pointer-events: auto;
 }
 
-.profile {
-  display: block;
-  margin: auto;
-  border: 2px solid #FFFFFF;
-  width: 90%;
-  max-width: 400px;
-}
-
-/*---------------------------
---- Ukulele
----------------------------*/
-
-#pg-ukulele th, td {
-  padding: 0.3rem;
-}
-
-#ukulele-table {
-  margin: auto;
-  border: none;
-  width: 90%;
-  margin-bottom: 100px;
-}
-
-#ukulele-table > tbody tr:nth-child(odd) {
-  /*old color 101418*/
-  background-color: #121A1E;
-}
-
-#search-bar {
-  width: 90%;
-  margin: auto;
-}
-
-/*---------------------------
---- Theory
----------------------------*/
-
 .carousel-wrapper {
   position: relative;
   max-width: 700px;
@@ -292,6 +255,43 @@ h4 {
 .carousel-nav a:focus {
   background-color: #333;
   transform: scale(1.2);
+}
+
+/*---------------------------
+--- Ukulele
+---------------------------*/
+
+#pg-ukulele th, td {
+  padding: 0.3rem;
+}
+
+#ukulele-table {
+  margin: auto;
+  border: none;
+  width: 90%;
+  margin-bottom: 100px;
+}
+
+#ukulele-table > tbody tr:nth-child(odd) {
+  /*old color 101418*/
+  background-color: #121A1E;
+}
+
+#search-bar {
+  width: 90%;
+  margin: auto;
+}
+
+/*---------------------------
+--- Theory
+---------------------------*/
+
+#pg-theory img {
+  display: block;
+  margin: auto;
+  width: 90%;
+  max-width: 600px;
+  padding: 10px;
 }
 
 dialog::backdrop {
