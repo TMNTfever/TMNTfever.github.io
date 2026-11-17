@@ -239,12 +239,59 @@ h4 {
 --- Theory
 ---------------------------*/
 
-#pg-theory img {
-  display: block;
-  margin: auto;
+.carousel-wrapper {
+  position: relative;
+  max-width: 700px;
   width: 90%;
-  max-width: 600px;
-  padding: 10px;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  scrollbar-width: none; /* Firefox */
+}
+
+.carousel::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+.slide {
+  flex: 0 0 100%;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  scroll-snap-align: start;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.carousel-nav a {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #bbb;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.carousel-nav a:hover,
+.carousel-nav a:focus {
+  background-color: #333;
+  transform: scale(1.2);
 }
 
 dialog::backdrop {
