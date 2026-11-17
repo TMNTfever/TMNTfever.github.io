@@ -160,15 +160,15 @@ h4 {
 }
 
 .coa {
-  margin-left: 50%;
+  display: block;
+  margin: auto;
   max-width: 350px;
 }
 
 .coa-wrapper {
-  margin-left: auto;
-  maring-right: auto;
-  position: absolute;
   display: block;
+  width: 90%;
+  margin: auto;
   cursor: pointer;
 }
 
@@ -178,9 +178,10 @@ h4 {
 
 .coa-overlay {
   display: block;
-  margin-left: 50%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: -500px;
-  width: 350px;
+  max-width: 450px;
   text-align: center;
   opacity: 0;
   pointer-events: none;
@@ -771,6 +772,9 @@ img-credit {
 
 #pg-login button {
   margin-left: 5%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 20ch;
 }
 
 #master-pw {
