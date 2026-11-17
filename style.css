@@ -179,11 +179,13 @@ h4 {
 
 .coa-overlay {
   position: absolute;
-  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  max-width: 450px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -500px;
-  max-width: 450px;
   text-align: center;
   opacity: 0;
   pointer-events: none;
