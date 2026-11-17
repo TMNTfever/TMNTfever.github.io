@@ -262,12 +262,18 @@ h4 {
 --- Theory
 ---------------------------*/
 
-#pg-theory img {
-  display: block;
-  margin: auto;
+#circle5 {
   width: 90%;
   max-width: 600px;
-  padding: 10px;
+  border-radius: 50%;
+  cursor: grab;
+  user-select: none;
+  touch-action: none;
+  -webkit-user-drag: none;
+}
+
+#circle5:active {
+  cursor: grabbing;
 }
 
 dialog::backdrop {
