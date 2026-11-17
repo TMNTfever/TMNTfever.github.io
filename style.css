@@ -163,6 +163,7 @@ h4 {
   display: block;
   margin: auto;
   max-width: 450px;
+  max-height: 90vh;
 }
 
 .coa-wrapper {
@@ -186,7 +187,7 @@ h4 {
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
+  text-align: left;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.4s ease;
@@ -205,35 +206,48 @@ h4 {
 .marquee-wrapper {
   height: 200px;
   max-width: 400px;
+  margin: 0 auto;
   overflow: hidden;
-  white-space: nowrap;
   box-sizing: border-box;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  height: 100%;
+  animation: scroll-left 45s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
 
 .marquee-item {
   height: 100%;
-  display: inline-block;
-  padding-left: 100%;
-  animation: scroll-left 60s linear infinite;
+  flex-shrink: 0;
+  margin-right: 10px;
 }
 
-/* Pause animation when hovering */
-.marquee-wrapper:hover .marquee-item {
+.marquee-item img {
+  height: 100%;
+  width: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.marquee-wrapper:hover .marquee-track {
   animation-play-state: paused;
 }
 
-/* Respect user accessibility settings */
 @media (prefers-reduced-motion: reduce) {
-  .marquee-item {
+  .marquee-track {
     animation: none;
     padding-left: 0;
   }
 }
 
-@keyframes scroll-left {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-100%); }
-}
 /*---------------------------
 --- Ukulele
 ---------------------------*/
