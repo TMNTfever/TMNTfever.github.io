@@ -166,6 +166,7 @@ h4 {
 }
 
 .coa-wrapper {
+  position: relative;
   display: block;
   width: 90%;
   margin: auto;
@@ -177,6 +178,7 @@ h4 {
 }
 
 .coa-overlay {
+  position: absolute;
   display: block;
   margin-left: auto;
   margin-right: auto;
