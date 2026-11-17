@@ -36,6 +36,8 @@
       <header>
         <h1>MUSIC THEORY</h1>
       </header>
+      <h3>Circle of Fifths</h3>
+      <img class="circle5" src="assets/circle5-inner.png" alt="Rotatable Wheel" draggable="false">
       <hr />
       <h3>Chord Composition</h3>
       <table id="chord-comp">
@@ -130,5 +132,42 @@
 <!-- /#wrapper -->
 
 <!-- Custom Scripts -->
+<script>
+  const wheel = document.getElementById('wheel');
+  let isDragging = false;
+  let startAngle = 0;
+  let currentRotation = 0;
+
+  // Helper: Get angle in degrees from the center of the wheel to the pointer
+  function getAngle(clientX, clientY) {
+    const rect = wheel.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    
+    // atan2 returns radians; convert to degrees
+    return Math.atan2(clientY - centerY, clientX - centerX) * (180 / Math.PI);
+  }
+
+  // 1. User presses down (mouse or finger)
+  wheel.addEventListener('pointerdown', (e) => {
+    isDragging = true;
+    wheel.setPointerCapture(e.pointerId); // Keeps tracking even if finger leaves the image
+    startAngle = getAngle(e.clientX, e.clientY) - currentRotation;
+  });
+
+  // 2. User drags around
+  wheel.addEventListener('pointermove', (e) => {
+    if (!isDragging) return;
+    const angle = getAngle(e.clientX, e.clientY);
+    currentRotation = angle - startAngle;
+    wheel.style.transform = `rotate(${currentRotation}deg)`;
+  });
+
+  // 3. User lets go
+  wheel.addEventListener('pointerup', (e) => {
+    isDragging = false;
+    wheel.releasePointerCapture(e.pointerId);
+  });
+</script>
 </body>
 </html>
