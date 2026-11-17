@@ -202,8 +202,9 @@ h4 {
   pointer-events: auto;
 }
 
-.marquee-container {
-  width: 100%;
+.marquee-wrapper {
+  height: 200px;
+  max-width: 400px;
   overflow: hidden;
   white-space: nowrap;
   box-sizing: border-box;
@@ -216,7 +217,7 @@ h4 {
 }
 
 /* Pause animation when hovering */
-.marquee-container:hover .marquee-text {
+.marquee-wrapper:hover .marquee-text {
   animation-play-state: paused;
 }
 
