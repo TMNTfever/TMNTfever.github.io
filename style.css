@@ -840,6 +840,13 @@ img-credit {
   background-color: #121A1E;
 }
 
+.login-wrapper {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
 #pg-login button {
   margin-left: 5%;
   margin-top: 5px;
