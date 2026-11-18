@@ -858,13 +858,15 @@ img-credit {
   margin: auto;
 }
 
-#pg-login button {
+#master-pw {
+  display: block;
   margin: auto;
   width: 20ch;
   text-align: center;
 }
 
-#master-pw {
+#pg-login button {
+  display: block;
   margin: auto;
   width: 20ch;
   text-align: center;
