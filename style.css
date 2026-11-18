@@ -215,7 +215,7 @@ h4 {
   display: flex;
   width: max-content;
   height: 100%;
-  animation: scroll-left 45s linear infinite;
+  animation: scroll-left 60s linear infinite;
 }
 
 @keyframes scroll-left {
@@ -285,14 +285,21 @@ h4 {
 #circle5base {
   display: block;
   width: 90%;
+  max-width: 600px;
+  max-height: 90vh;
   margin: auto;
 }
 
 #circle5spin {
   position: absolute;
   width: 90%;
-  margin: auto;
-  max-width: 500px;
+  max-width: 600px;
+  max-height: 90vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50%;
   cursor: grab;
   user-select: none;
