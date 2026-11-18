@@ -852,11 +852,13 @@ img-credit {
   margin-top: 5px;
   margin-bottom: 5px;
   width: 20ch;
+  text-align: center;
 }
 
 #master-pw {
   margin-left: 5%;
   width: 20ch;
+  text-align: center;
 }
 
 /*---------------------------
