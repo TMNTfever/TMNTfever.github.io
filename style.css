@@ -543,6 +543,17 @@ details > summary::-webkit-details-marker /* Safari */ {
 --- 321 FGC
 ---------------------------*/
 
+#startgg-iframe {
+  display: block;
+  height: 600px;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
 #pg-321fgc a {
   color: #FFFFFF;
   text-decoration: none;
