@@ -848,15 +848,11 @@ img-credit {
 }
 
 #pg-login button {
-  margin-left: 5%;
-  margin-top: 5px;
-  margin-bottom: 5px;
   width: 20ch;
   text-align: center;
 }
 
 #master-pw {
-  margin-left: 5%;
   width: 20ch;
   text-align: center;
 }
@@ -888,7 +884,6 @@ img-credit {
   #pg-ukulele table {width: 98%;}
   #pg-liondance table {width: 98%;}
   #pg-pw table {margin-left: 1%;}
-  #pg-login button {margin-left: 1%;}
   #master-pw {margin-left: 1%;}
   #pg-list table {width: 98%;}
   #pg-list details {width: 98%;}
