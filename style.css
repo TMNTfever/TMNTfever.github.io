@@ -279,7 +279,7 @@ h4 {
 
 .circle5-wrapper {
   position: relative;
-  display: inline-block;
+  display: block;
   margin: auto;
 }
 
