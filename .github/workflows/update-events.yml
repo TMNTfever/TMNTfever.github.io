@@ -1,0 +1,32 @@
+name: Update start.gg Events
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # Runs daily at 6:00 AM UTC
+  workflow_dispatch:    # Adds a manual "Run workflow" button in GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-events:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch start.gg data
+        env:
+          TOKEN: ${{ secrets.STARTGG_TOKEN }}
+        run: |
+          curl -s -X POST https://start.gg \
+            -H "Content-Type: application/json" \
+            -H "Authorization: Bearer $TOKEN" \
+            -d '{"query":"{ tournament(slug: \"321fight\") { events { name slug } } }"}' \
+            -o events.json
+
+      - name: Commit updated events.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@://github.com"
+          git add events.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update start.gg events" && git push)
