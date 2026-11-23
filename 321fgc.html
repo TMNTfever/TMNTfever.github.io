@@ -37,7 +37,7 @@
         <h1>321 FGC</h1>
       </header>
       <br>
-      <iframe id="startgg-iframe" src="https://www.start.gg/321fight"></iframe>
+      <ul id="events"></ul>
       <br>
       <table>        
         <tr><td><img width=40 src="assets/contact-discord.png" alt="Discord"></td><td><a href="https://discord.gg/TWrp5Gzffe">discord.gg/TWrp5Gzffe</a></td></tr>
@@ -56,18 +56,12 @@
 
 <!-- Custom Scripts -->
 <script>
-  fetch('https://microlink.io')
-    .then(res => res.json())
-    .then(json => {
-      const data = json.data;
-      if (data.image && data.image.url) {
-        const img = document.getElementById('startgg-img');
-        img.src = data.image.url;
-        img.style.display = 'block';
-      }
-      if (data.title) document.getElementById('startgg-title').textContent = data.title;
-      if (data.description) document.getElementById('startgg-desc').textContent = data.description;
-    });
+fetch('./events.json')
+  .then(r => r.json())
+  .then(({ data }) => {
+    document.getElementById('events').innerHTML = data.tournament.events
+      .map(e => `<li><a href="https://start.gg{e.slug}">${e.name}</a></li>`).join('');
+  });
 </script>
 </body>
 </html>
