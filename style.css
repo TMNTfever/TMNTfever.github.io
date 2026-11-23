@@ -205,7 +205,7 @@ h4 {
 
 .marquee-wrapper {
   height: 200px;
-  max-width: 400px;
+  width: 360px;
   margin: 0 auto;
   overflow: hidden;
   box-sizing: border-box;
