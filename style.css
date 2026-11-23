@@ -99,6 +99,7 @@
 .pg {
   display: block;
   width: 100%;
+  max-width: calc(100vw - 12rem);
   margin-left: 11rem;
 }
 
