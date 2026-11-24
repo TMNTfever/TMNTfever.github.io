@@ -912,7 +912,7 @@ img-credit {
   #chord-comp {width: 98%;}
   .stance {width: 20vw;}
   .sidebar {width: 0;}
-  .pg {width:98vw;}
+  .pg {margin-left: 0; width: 98%;}
   .pg p, ul {width: 98%;}
   .band-member {width: 90%;}
   h2, h3, h4 {margin-left: 1%;}
