@@ -99,12 +99,17 @@
 .pg {
   display: block;
   width: 100%;
-  max-width: calc(100vw - 12rem);
-  margin-left: 11rem;
+  margin: 0 auto;
 }
 
 .pg header {
   background-image: linear-gradient(to right, #FFCC66, transparent);
+}
+
+#pg {
+  width: 100%;
+  padding-left: 11rem; /* Offsets the sidebar's width */
+  box-sizing: border-box;
 }
 
 h1 {
@@ -894,6 +899,7 @@ img-credit {
 ---------------------------*/
 
 @media screen and (max-width: 975px) {
+  #pg {padding-left: 0;}
   #open-button {display:block;}
   #close-button {display:none;}
   #pg-ukulele table {width: 98%;}
@@ -912,7 +918,7 @@ img-credit {
   #chord-comp {width: 98%;}
   .stance {width: 20vw;}
   .sidebar {width: 0;}
-  .pg {margin-left: 0; width: 98%;}
+  .pg {width: 98%; max-width: 100%; margin: 0 auto;}
   .pg p, ul {width: 98%;}
   .band-member {width: 90%;}
   h2, h3, h4 {margin-left: 1%;}
