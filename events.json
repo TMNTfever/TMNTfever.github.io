@@ -1,7 +1,1 @@
-<html>
-<head><title>301 Moved Permanently</title></head>
-<body>
-<center><h1>301 Moved Permanently</h1></center>
-<hr><center>cloudflare</center>
-</body>
-</html>
+{"data":{"tournament":{"events":[{"name":"Tekken 8 Singles","slug":"tournament\/3-2-1-fight-40-5-11-21-26\/event\/tekken-8-singles"},{"name":"Avatar Legends","slug":"tournament\/3-2-1-fight-40-5-11-21-26\/event\/avatar-legends"},{"name":"SF6 Singles","slug":"tournament\/3-2-1-fight-40-5-11-21-26\/event\/sf6-singles"}]}},"extensions":{"cacheControl":{"version":1,"hints":[{"path":["tournament"],"maxAge":300,"scope":"PRIVATE"}]},"queryComplexity":4},"actionRecords":[]}
