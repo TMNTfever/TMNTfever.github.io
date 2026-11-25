@@ -18,8 +18,9 @@ jobs:
         env:
           TOKEN: ${{ secrets.STARTGG_TOKEN }}
         run: |
-          curl -s -X POST https://start.gg \
+          curl -s -L --post301 -X POST https://api.start.gg/gql/alpha \
             -H "Content-Type: application/json" \
+            -H "Accept: application/json" \
             -H "Authorization: Bearer $TOKEN" \
             -d '{"query":"{ tournament(slug: \"321fight\") { events { name slug } } }"}' \
             -o events.json
