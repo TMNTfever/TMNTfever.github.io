@@ -167,7 +167,8 @@ h4 {
 .coa {
   display: block;
   margin: auto;
-  max-width: 430px; /* This is the max width of iPhone 15 Pro Max */
+  object-fit: contain;
+  max-width: min(90vw, 500px);
   max-height: 90vh;
 }
 
